@@ -1,0 +1,16 @@
+{
+  "name": "Daily Intel",
+  "short_name": "Daily Intel",
+  "description": "A chartered accountant's morning brief, ranked by what it changes for you.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FCFCFB",
+  "theme_color": "#F2D3C6",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "./icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

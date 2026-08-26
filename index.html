@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Daily Intel</title>
+<meta name="description" content="A chartered accountant's morning brief, ranked by what it changes for you.">
+<meta name="theme-color" content="#F2D3C6">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Daily Intel">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+<link rel="icon" href="./icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* Financial newspapers print on pink stock — FT, Economic Times, Business
+     Standard. The masthead borrows that paper; the body stays cool and quiet
+     so the only saturated colour on the page is priority itself. */
+  --newsprint:#F2D3C6;
+  --newsprint-ink:#7A3B28;
+  --paper:#FCFCFB;
+  --ink:#16191C;
+  --ink-mid:#3D4248;
+  --ink-soft:#5C6268;
+  --ink-faint:#8A8F96;
+  --rule:#E7E5E1;
+  --rule-soft:#F0EEEA;
+
+  --p-critical:#B3261E;
+  --p-high:#A85B0A;
+  --p-mid:#41607D;
+  --p-low:#8A8F96;
+
+  --display:"Newsreader",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+
+  --pad:20px;
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--body);font-size:16px;line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  padding-bottom:env(safe-area-inset-bottom);
+}
+.wrap{max-width:620px;margin:0 auto}
+
+/* ── masthead ─────────────────────────────────────────────── */
+.masthead{
+  background:var(--newsprint);
+  padding:calc(22px + env(safe-area-inset-top)) var(--pad) 20px;
+}
+.eyebrow{
+  font-family:var(--mono);font-size:10.5px;font-weight:600;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--newsprint-ink);
+}
+.masthead h1{
+  margin:9px 0 0;font-family:var(--display);font-size:29px;font-weight:600;
+  line-height:1.12;letter-spacing:-.014em;color:var(--ink);
+}
+.tally{
+  margin-top:8px;font-family:var(--mono);font-size:11.5px;font-weight:500;
+  color:var(--newsprint-ink);letter-spacing:.02em;
+}
+.tally b{font-weight:600}
+
+.notice{
+  background:#FFF8E6;border-bottom:1px solid #F0E2BC;
+  padding:11px var(--pad);font-size:13px;line-height:1.5;color:#6B5410;
+}
+.notice.err{background:#FDF1F0;border-color:#F2D2CF;color:#8C2F26}
+
+/* ── five minutes ─────────────────────────────────────────── */
+.five{padding:26px var(--pad) 4px}
+.five h2{
+  margin:0;font-family:var(--mono);font-size:10.5px;font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);
+}
+.five ol{margin:15px 0 0;padding:0;list-style:none;counter-reset:f}
+.five li{
+  counter-increment:f;position:relative;padding-left:27px;
+  margin-bottom:13px;font-size:15.5px;line-height:1.55;color:var(--ink);
+}
+.five li::before{
+  content:counter(f);position:absolute;left:0;top:2px;
+  font-family:var(--mono);font-size:11px;font-weight:600;color:var(--ink-faint);
+}
+
+/* ── bucket labels ────────────────────────────────────────── */
+.bucket{
+  margin:34px 0 2px;padding:0 var(--pad);
+  font-family:var(--mono);font-size:10.5px;font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);
+}
+
+/* ── items · the priority rail is the whole idea ──────────── */
+.item{
+  display:grid;grid-template-columns:26px 1fr;gap:0 13px;
+  padding:16px var(--pad);border-top:1px solid var(--rule-soft);
+  cursor:pointer;position:relative;
+  transition:background .16s ease;
+}
+.item:hover{background:#F8F7F4}
+.item:focus-visible{outline:2px solid var(--p-mid);outline-offset:-2px}
+.score{
+  font-family:var(--mono);font-weight:600;font-size:14px;
+  line-height:1.5;text-align:right;color:var(--tone);padding-top:2px;
+}
+.body{
+  border-left:var(--rail) solid var(--tone);padding-left:13px;min-width:0;
+}
+.head{
+  font-family:var(--display);font-size:var(--hsize);font-weight:600;
+  line-height:1.3;letter-spacing:-.01em;color:var(--ink);
+}
+.why{margin-top:7px;font-size:14.5px;line-height:1.6;color:var(--ink-soft)}
+.why b{color:var(--ink);font-weight:600}
+
+/* priority tiers: rail thickness, colour and headline size all scale together,
+   so the page's visual weight is literally the ranking */
+.item[data-t="critical"]{--tone:var(--p-critical);--rail:5px;--hsize:19.5px}
+.item[data-t="high"]    {--tone:var(--p-high);    --rail:4px;--hsize:18px}
+.item[data-t="mid"]     {--tone:var(--p-mid);     --rail:3px;--hsize:16.5px}
+.item[data-t="low"]     {--tone:var(--p-low);     --rail:2px;--hsize:15.5px}
+.item[data-t="low"] .head{font-weight:500;color:var(--ink-mid)}
+.item[data-t="low"] .why{font-size:14px}
+
+.flag{
+  display:inline-block;vertical-align:2px;margin-right:7px;
+  font-family:var(--mono);font-size:9.5px;font-weight:600;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--p-mid);
+  border:1px solid currentColor;border-radius:2px;padding:1px 4px;
+}
+
+/* ── expanded detail ──────────────────────────────────────── */
+.detail{grid-column:2;display:none;padding-left:13px;border-left:var(--rail) solid var(--rule)}
+.item[aria-expanded="true"] .detail{display:block;animation:reveal .22s ease}
+@keyframes reveal{from{opacity:0;transform:translateY(-3px)}to{opacity:1;transform:none}}
+.detail p{margin:13px 0 0;font-size:14.5px;line-height:1.65;color:var(--ink-mid)}
+.action{
+  margin-top:13px;padding:10px 12px;background:#FDF1F0;border-radius:3px;
+  font-size:14px;line-height:1.55;color:#8C2F26;
+}
+.action b{
+  display:block;font-family:var(--mono);font-size:9.5px;font-weight:600;
+  letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px;
+}
+.meta{
+  margin-top:13px;display:flex;flex-wrap:wrap;gap:6px 12px;align-items:baseline;
+  font-family:var(--mono);font-size:11px;color:var(--ink-faint);
+}
+.meta a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule)}
+.meta a:hover{border-color:var(--ink)}
+.chip{border:1px solid var(--rule);border-radius:2px;padding:1px 5px}
+
+/* ── quieted tail ─────────────────────────────────────────── */
+.quiet-toggle{
+  width:100%;margin-top:22px;padding:14px var(--pad);background:none;
+  border:0;border-top:1px solid var(--rule);text-align:left;cursor:pointer;
+  font-family:var(--mono);font-size:11px;font-weight:500;
+  letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);
+}
+.quiet-toggle:hover{color:var(--ink)}
+#quiet[hidden]{display:none}
+
+/* ── markets + footer ─────────────────────────────────────── */
+.markets{
+  margin-top:30px;padding:16px var(--pad);border-top:1px solid var(--rule);
+  display:flex;flex-wrap:wrap;gap:7px 18px;
+  font-family:var(--mono);font-size:11.5px;color:var(--ink-soft);
+}
+.markets span{white-space:nowrap}
+.markets i{font-style:normal;font-weight:600}
+.up{color:#1F6B4A}.down{color:var(--p-critical)}
+
+footer{
+  padding:20px var(--pad) 40px;font-family:var(--mono);
+  font-size:10.5px;line-height:1.75;color:var(--ink-faint);
+}
+footer button{
+  margin-top:10px;background:none;border:1px solid var(--rule);border-radius:2px;
+  padding:6px 10px;font-family:var(--mono);font-size:10.5px;color:var(--ink-soft);
+  cursor:pointer;
+}
+footer button:hover{border-color:var(--ink-faint);color:var(--ink)}
+
+.skel{padding:26px var(--pad)}
+.skel div{height:13px;background:var(--rule-soft);border-radius:2px;margin-bottom:11px}
+.skel div:nth-child(2){width:82%}.skel div:nth-child(3){width:61%}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <div class="eyebrow">Daily Intel</div>
+    <h1 id="date">Loading today's brief</h1>
+    <div class="tally" id="tally">&nbsp;</div>
+  </header>
+  <div id="notices"></div>
+  <main id="main">
+    <div class="skel"><div></div><div></div><div></div></div>
+  </main>
+</div>
+
+<script>
+const BUCKETS = {
+  must_know:"What you need to know today",
+  ca_work:"What could affect your CA work",
+  india_economy:"India · economy and business",
+  global:"Global developments that reach India",
+  markets:"Market context",
+  watchlist:"Worth monitoring, not yet urgent"
+};
+const tierOf = p => p >= 9 ? "critical" : p >= 7 ? "high" : p >= 5 ? "mid" : "low";
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function notice(text, kind) {
+  document.getElementById("notices").insertAdjacentHTML("beforeend",
+    `<div class="notice ${kind === "err" ? "err" : ""}">${text}</div>`);
+}
+
+function itemHTML(it) {
+  const t = tierOf(it.priority);
+  const flag = it.is_update ? '<span class="flag">Update</span>' : "";
+  const action = it.action
+    ? `<div class="action"><b>Action</b>${esc(it.action)}</div>` : "";
+  const also = (it.also_reported_by || []).length
+    ? `<span class="chip">also: ${esc(it.also_reported_by.join(", "))}</span>` : "";
+  const conf = it.confidence === "low"
+    ? '<span class="chip">low confidence</span>' : "";
+  return `
+  <div class="item" data-t="${t}" role="button" tabindex="0" aria-expanded="false">
+    <div class="score">${it.priority}</div>
+    <div class="body">
+      <div class="head">${flag}${esc(it.headline)}</div>
+      <div class="why"><b>Why it matters to you.</b> ${esc(it.why_it_matters)}</div>
+    </div>
+    <div class="detail">
+      <p>${esc(it.what_happened)}</p>
+      ${action}
+      <div class="meta">
+        <a href="${esc(it.source.url)}" target="_blank" rel="noopener">${esc(it.source.name)} &rarr;</a>
+        <span class="chip">${esc(it.source.tier)}</span>${also}${conf}
+      </div>
+    </div>
+  </div>`;
+}
+
+function render(d) {
+  const dt = new Date(d.generated_at || d.date);
+  const wd = dt.toLocaleDateString("en-GB", { weekday: "long" });
+  const rest = dt.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+  document.getElementById("date").textContent = `${wd}, ${rest}`;
+
+  const s = d.stats || {};
+  document.getElementById("tally").innerHTML =
+    `<b>${s.items ?? 0}</b> items &middot; <b>${s.actions ?? 0}</b> need action &middot; ` +
+    `${s.candidates ?? 0} considered`;
+
+  // A digest dated before today means the scheduled run has not landed yet.
+  const today = new Date().toISOString().slice(0, 10);
+  if (d.date && d.date < today)
+    notice(`This is the brief from <b>${esc(d.date)}</b>. Today's run hasn't published yet.`);
+  if (d.sample)
+    notice("Sample data, so you can see the layout. Your first real brief arrives at 9:00 AM once the workflow runs.");
+  if (d.scoring === "heuristic")
+    notice("Ranked by keyword rules, not by the model — add <code>ANTHROPIC_API_KEY</code> to get the written analysis.");
+
+  const loud = (d.items || []).filter(i => i.priority >= 5);
+  const quiet = (d.items || []).filter(i => i.priority < 5);
+
+  let html = "";
+  if (d.five_minutes?.length) {
+    html += `<section class="five"><h2>Today in five minutes</h2><ol>` +
+      d.five_minutes.map(x => `<li>${esc(x)}</li>`).join("") + `</ol></section>`;
+  }
+
+  let seen = null;
+  for (const it of loud) {
+    if (it.bucket !== seen) { seen = it.bucket; html += `<div class="bucket">${esc(BUCKETS[it.bucket] || it.bucket)}</div>`; }
+    html += itemHTML(it);
+  }
+
+  if (quiet.length) {
+    html += `<button class="quiet-toggle" id="qt" aria-expanded="false" aria-controls="quiet">
+      + ${quiet.length} lower-relevance ${quiet.length === 1 ? "item" : "items"}, probably not worth your time today
+    </button><div id="quiet" hidden>${quiet.map(itemHTML).join("")}</div>`;
+  }
+
+  if (!(d.items || []).length) {
+    html += `<section class="five"><h2>Nothing today</h2>
+      <p style="font-size:15px;color:var(--ink-soft);margin-top:12px">
+      Nothing crossed the relevance bar in the last 26 hours. That is a real result, not a failure.
+      </p></section>`;
+  }
+
+  if (d.markets?.length) {
+    html += `<div class="markets">` + d.markets.map(m =>
+      `<span>${esc(m.label)} <i>${esc(m.value)}</i>
+       <i class="${m.change >= 0 ? "up" : "down"}">${m.change >= 0 ? "+" : ""}${m.change.toFixed(2)}%</i></span>`
+    ).join("") + `</div>`;
+  }
+
+  html += `<footer>
+    Built from ${s.sources_ok ?? 0} sources${s.sources_failed ? `, ${s.sources_failed} unavailable` : ""} &middot;
+    ranking by ${esc(d.scoring || "heuristic")}<br>
+    Relevance here is a machine judgement. Verify anything you act on against the original circular.
+    <br><button id="refresh">Check for a newer brief</button>
+  </footer>`;
+
+  document.getElementById("main").innerHTML = html;
+
+  document.querySelectorAll(".item").forEach(el => {
+    const toggle = () => el.setAttribute("aria-expanded", el.getAttribute("aria-expanded") !== "true");
+    el.addEventListener("click", e => { if (e.target.tagName !== "A") toggle(); });
+    el.addEventListener("keydown", e => {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(); }
+    });
+  });
+  const qt = document.getElementById("qt");
+  if (qt) qt.addEventListener("click", () => {
+    const box = document.getElementById("quiet");
+    const open = !box.hidden;
+    box.hidden = open;
+    qt.setAttribute("aria-expanded", String(!open));
+    qt.textContent = open
+      ? `+ ${quiet.length} lower-relevance ${quiet.length === 1 ? "item" : "items"}, probably not worth your time today`
+      : "− Hide lower-relevance items";
+  });
+  document.getElementById("refresh")?.addEventListener("click", () => load(true));
+}
+
+async function load(bust) {
+  try {
+    const r = await fetch(`./data/today.json${bust ? "?t=" + Date.now() : ""}`, { cache: bust ? "reload" : "default" });
+    if (!r.ok) throw new Error(r.status);
+    const d = await r.json();
+    document.getElementById("notices").innerHTML = "";
+    render(d);
+    localStorage.setItem("dfi:last", JSON.stringify(d));
+  } catch (err) {
+    const cached = localStorage.getItem("dfi:last");
+    if (cached) { render(JSON.parse(cached)); notice("You're offline. Showing the last brief that reached this device.", "err"); }
+    else {
+      document.getElementById("main").innerHTML = "";
+      document.getElementById("date").textContent = "No brief yet";
+      notice("Couldn't load <code>data/today.json</code>. Run the collector once, or trigger the workflow from the Actions tab.", "err");
+    }
+  }
+}
+
+load();
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js").catch(() => {});
+</script>
+</body>
+</html>
