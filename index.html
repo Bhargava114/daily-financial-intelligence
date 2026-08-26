@@ -273,7 +273,7 @@ function render(d) {
   if (d.sample)
     notice("Sample data, so you can see the layout. Your first real brief arrives at 9:00 AM once the workflow runs.");
   if (d.scoring === "heuristic")
-    notice("Ranked by keyword rules, not by the model — add <code>ANTHROPIC_API_KEY</code> to get the written analysis.");
+    notice("Ranked by keyword rules, not by the model — add <code>GEMINI_API_KEY</code> (free) or <code>ANTHROPIC_API_KEY</code> to get the written analysis.");
 
   const loud = (d.items || []).filter(i => i.priority >= 5);
   const quiet = (d.items || []).filter(i => i.priority < 5);
