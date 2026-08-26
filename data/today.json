@@ -1,13 +1,13 @@
 {
   "date": "2026-08-27",
-  "generated_at": "2026-08-27T00:17:56.108526+05:30",
+  "generated_at": "2026-08-27T00:42:50.035416+05:30",
   "scoring": "heuristic",
   "stats": {
     "items": 14,
     "actions": 0,
-    "candidates": 170,
-    "sources_ok": 16,
-    "sources_failed": 17
+    "candidates": 186,
+    "sources_ok": 17,
+    "sources_failed": 16
   },
   "five_minutes": [
     "SEBI Order for Compliance – Release Order for Recovery Certificate No. RC 5196 of 2022 against Tanna Tusharbhai Hiralal in the matter of Excel Castronics Limited.",
@@ -65,7 +65,7 @@
         "name": "RBI Notifications",
         "tier": "primary",
         "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13690&Mode=0",
-        "published": "2026-08-26T18:47:10.079401+00:00"
+        "published": "2026-08-26T19:12:22.697021+00:00"
       },
       "also_reported_by": [
         "RBI Notifications"
@@ -92,7 +92,7 @@
         "name": "SEBI",
         "tier": "primary",
         "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/release-order-archit-jindal-defaulter-pan-agnpj5775g-in-the-matter-of-focus-industrial-resources-limited-under-certificate-no-3875-of-2021_104022.html",
-        "published": "2026-08-26T18:47:09.354136+00:00"
+        "published": "2026-08-26T19:12:22.284651+00:00"
       },
       "also_reported_by": [
         "SEBI"
@@ -119,7 +119,7 @@
         "name": "RBI Notifications",
         "tier": "primary",
         "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13684&Mode=0",
-        "published": "2026-08-26T18:47:10.080152+00:00"
+        "published": "2026-08-26T19:12:22.697698+00:00"
       },
       "also_reported_by": [
         "RBI Notifications"
@@ -146,7 +146,7 @@
         "name": "SEBI",
         "tier": "primary",
         "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/completion-of-recovery-certificate-no-rc6746-of-2023-in-respect-of-ankit-modi-pan-aenpm9852p-in-the-matter-of-illiquid-stock-options_103996.html",
-        "published": "2026-08-26T18:47:09.354654+00:00"
+        "published": "2026-08-26T19:12:22.285124+00:00"
       },
       "also_reported_by": [
         "SEBI"
@@ -173,7 +173,7 @@
         "name": "RBI",
         "tier": "primary",
         "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63443",
-        "published": "2026-08-26T18:47:09.862326+00:00"
+        "published": "2026-08-26T19:12:23.303370+00:00"
       },
       "also_reported_by": [
         "RBI"
@@ -200,7 +200,7 @@
         "name": "RBI",
         "tier": "primary",
         "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63445",
-        "published": "2026-08-26T18:47:09.861700+00:00"
+        "published": "2026-08-26T19:12:23.302774+00:00"
       },
       "also_reported_by": [
         "RBI"
@@ -227,7 +227,7 @@
         "name": "RBI",
         "tier": "primary",
         "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63436",
-        "published": "2026-08-26T18:47:09.863409+00:00"
+        "published": "2026-08-26T19:12:23.304361+00:00"
       },
       "also_reported_by": []
     },
@@ -252,7 +252,7 @@
         "name": "SEBI",
         "tier": "primary",
         "url": "https://www.sebi.gov.in/otherentry//_103995.html",
-        "published": "2026-08-26T18:47:09.354679+00:00"
+        "published": "2026-08-26T19:12:22.285146+00:00"
       },
       "also_reported_by": []
     },
@@ -277,7 +277,7 @@
         "name": "SEBI",
         "tier": "primary",
         "url": "https://www.sebi.gov.in/otherentry//_103997.html",
-        "published": "2026-08-26T18:47:09.354621+00:00"
+        "published": "2026-08-26T19:12:22.285096+00:00"
       },
       "also_reported_by": []
     },
@@ -302,7 +302,7 @@
         "name": "SEBI",
         "tier": "primary",
         "url": "https://www.sebi.gov.in/otherentry//_103999.html",
-        "published": "2026-08-26T18:47:09.354570+00:00"
+        "published": "2026-08-26T19:12:22.285051+00:00"
       },
       "also_reported_by": []
     },
@@ -327,7 +327,7 @@
         "name": "SEBI",
         "tier": "primary",
         "url": "https://www.sebi.gov.in/enforcement/orders/aug-2026/appeal-no-7005-of-2026-filed-by-gnaneeswar-adhi_104001.html",
-        "published": "2026-08-26T18:47:09.354521+00:00"
+        "published": "2026-08-26T19:12:22.285008+00:00"
       },
       "also_reported_by": []
     },
@@ -352,7 +352,7 @@
         "name": "SEBI",
         "tier": "primary",
         "url": "https://www.sebi.gov.in/enforcement/orders/aug-2026/appeal-no-7006-of-2026-filed-by-shekhar-santani_104003.html",
-        "published": "2026-08-26T18:47:09.354468+00:00"
+        "published": "2026-08-26T19:12:22.284965+00:00"
       },
       "also_reported_by": []
     },
@@ -377,7 +377,7 @@
         "name": "SEBI",
         "tier": "primary",
         "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/sebi-order-for-compliance-release-order-for-recovery-certificate-no-rc-5196-of-2022-against-tanna-tusharbhai-hiralal-in-the-matter-of-excel-castronics-limited-_104026.html",
-        "published": "2026-08-26T18:47:09.353937+00:00"
+        "published": "2026-08-26T19:12:22.284463+00:00"
       },
       "also_reported_by": [
         "SEBI"
