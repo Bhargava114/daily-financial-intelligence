@@ -21,7 +21,15 @@ Setup is in **[QUICK_START.md](QUICK_START.md)**.
 09:00 IST  GitHub Pages serves it; the PWA on your phone picks it up
 ```
 
-There is no server and no database. The whole thing is a scheduled script that writes a JSON file, and a static page that reads it. Nothing to maintain, nothing to pay for except a few cents a day of model usage.
+There is no server and no database. The whole thing is scheduled scripts that write JSON files, and a static page that reads them. Nothing to maintain; model usage is free on Gemini's tier or a few cents a day on Anthropic's API (set `GEMINI_API_KEY` or `ANTHROPIC_API_KEY` as a secret — Anthropic wins if both exist).
+
+Three layers of personalisation sit on top:
+
+**Profile.** `collector/profile.yaml` is a hand-written description of what matters to you — priorities, sectors, themes, a watchlist, an ignore list. The analyst reads it before ranking every morning. Edit it on GitHub with the pencil icon; it takes effect the next run. Interests yes, actual holdings and client names no — this text travels to the model provider.
+
+**Likes.** Tap "♡ interesting" on stories in the app, then the "teach my profile" button. It opens a pre-filled GitHub issue; submitting it wakes a workflow that distils your likes into short interest phrases in `collector/learned.yaml` (a rolling window of 15) and closes the issue. Only issues opened by the repository owner are obeyed. Your hand-written profile.yaml is never machine-edited.
+
+**Continuity.** Each morning's prompt carries yesterday's top items, so continuing stories are written as movement ("firmed further") and flagged UPDATE, and unmoved stories aren't resurfaced. On Saturdays a separate workflow reads the week's archive and writes a synthesis — what changed, building threads, next week's watch list — shown as a card in the app for six days and emailed.
 
 ## What each piece is
 
@@ -32,6 +40,11 @@ There is no server and no database. The whole thing is a scheduled script that w
 | `collector/sources.yaml` | Every source, its trust weight and its CA bias. **This is the file to edit.** |
 | `collector/run.py` | Fetch, dedupe, score, diff, write, email |
 | `.github/workflows/daily.yml` | The 9 AM schedule |
+| `.github/workflows/weekly.yml` | Saturday ~9 AM: the weekly synthesis |
+| `.github/workflows/learn.yml` | Wakes when you submit likes; updates learned.yaml |
+| `.github/workflows/source-check.yml` | Manual button: tests every source, prints a table |
+| `collector/profile.yaml` | Your interests — the analyst reads this every run |
+| `collector/weekly.py` / `learn.py` | The weekly writer and the likes distiller |
 | `data/today.json` | What the app reads |
 
 ## Sources, and the four that aren't here

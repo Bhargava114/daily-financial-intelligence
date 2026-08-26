@@ -1,6 +1,7 @@
-// Shell is cache-first so the app opens instantly and works on the train.
-// The digest is network-first so you never read yesterday's brief by accident.
-const SHELL = "dfi-shell-v1";
+// v2 — the shell now updates itself: serve from cache instantly, but refetch
+// in the background so the next open gets the newest version. v1 served the
+// shell cache-first forever, which froze index.html updates.
+const SHELL = "dfi-shell-v4";
 const DATA  = "dfi-data-v1";
 const ASSETS = [
   "./", "./index.html", "./manifest.webmanifest",
@@ -24,6 +25,7 @@ self.addEventListener("fetch", e => {
   if (request.method !== "GET") return;
   const url = new URL(request.url);
 
+  // digest: network first, cached copy only when offline
   if (url.pathname.endsWith("/data/today.json")) {
     e.respondWith(
       fetch(request)
@@ -33,13 +35,16 @@ self.addEventListener("fetch", e => {
     return;
   }
 
+  // shell + fonts: stale-while-revalidate — instant open, silent background update
   if (url.origin === location.origin || url.hostname.endsWith("gstatic.com") || url.hostname.endsWith("googleapis.com")) {
     e.respondWith(
-      caches.match(request).then(hit => hit || fetch(request).then(r => {
-        const copy = r.clone();
-        caches.open(SHELL).then(c => c.put(request, copy));
-        return r;
-      }).catch(() => hit))
+      caches.match(request).then(hit => {
+        const refresh = fetch(request).then(r => {
+          if (r && r.ok) { const copy = r.clone(); caches.open(SHELL).then(c => c.put(request, copy)); }
+          return r;
+        }).catch(() => hit);
+        return hit || refresh;
+      })
     );
   }
 });

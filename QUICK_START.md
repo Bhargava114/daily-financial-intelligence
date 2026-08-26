@@ -48,7 +48,10 @@ You'll get a **Daily Intel** icon that opens with no browser chrome, and the las
 
 The brief is only as good as the analysis layer. Without a key it falls back to keyword scoring, which ranks stories but can't write "why this matters to you."
 
-Get a key at **console.anthropic.com** → API Keys, then in your repo:
+Two options — either works, the robot prefers Anthropic if both exist:
+
+- **Free:** aistudio.google.com → Get API key → add it as a secret named `GEMINI_API_KEY`
+- **Paid (a few cents/day):** console.anthropic.com → API Keys, then:
 
 **Settings → Secrets and variables → Actions → New repository secret**
 

@@ -191,6 +191,28 @@ footer button{
 }
 footer button:hover{border-color:var(--ink-faint);color:var(--ink)}
 
+.like{
+  background:none;border:1px solid var(--rule);border-radius:2px;cursor:pointer;
+  font-family:var(--mono);font-size:11px;color:var(--ink-faint);padding:1px 6px;
+}
+.like[aria-pressed="true"]{color:var(--p-critical);border-color:var(--p-critical)}
+.teach{
+  display:block;margin:10px 0 0;background:none;border:1px solid var(--p-critical);
+  border-radius:2px;padding:7px 11px;font-family:var(--mono);font-size:11px;
+  color:var(--p-critical);cursor:pointer;
+}
+.week{
+  margin:26px var(--pad) 0;border:1px solid var(--rule);border-radius:3px;
+  background:#F8F6F3;cursor:pointer;padding:14px 16px;
+}
+.week .eyebrow{color:var(--ink-faint)}
+.week h3{margin:8px 0 0;font-family:var(--display);font-size:17.5px;font-weight:600;line-height:1.35;color:var(--ink)}
+.week .wbody{display:none;margin-top:6px}
+.week[aria-expanded="true"] .wbody{display:block;animation:reveal .22s ease}
+.week .wbody p{margin:12px 0 0;font-size:14.5px;line-height:1.65;color:var(--ink-mid)}
+.week .wlabel{margin:18px 0 2px;font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-faint)}
+.week ol{margin:8px 0 0;padding-left:19px}
+.week li{margin-bottom:7px;font-size:14.5px;line-height:1.55;color:var(--ink)}
 .skel{padding:26px var(--pad)}
 .skel div{height:13px;background:var(--rule-soft);border-radius:2px;margin-bottom:11px}
 .skel div:nth-child(2){width:82%}.skel div:nth-child(3){width:61%}
@@ -250,6 +272,8 @@ function itemHTML(it) {
       <div class="meta">
         <a href="${esc(it.source.url)}" target="_blank" rel="noopener">${esc(it.source.name)} &rarr;</a>
         <span class="chip">${esc(it.source.tier)}</span>${also}${conf}
+        <button class="like" data-id="${esc(it.id)}" data-headline="${esc(it.headline)}"
+          aria-pressed="false" title="Mark as interesting — teaches your profile">&#9825; interesting</button>
       </div>
     </div>
   </div>`;
@@ -319,6 +343,34 @@ function render(d) {
 
   document.getElementById("main").innerHTML = html;
 
+  // weekly review card — shows for six days after each Saturday edition
+  fetch("./data/weekly.json").then(r => r.ok ? r.json() : null).then(w => {
+    if (!w || !w.title) return;
+    const age = (Date.now() - new Date(w.date)) / 864e5;
+    if (age > 6) return;
+    const wesc = s => esc(s);
+    const threads = (w.threads || []).map(th =>
+      `<p><b>${wesc(th.name)}.</b> ${wesc(th.note)}</p>`).join("");
+    const nxt = (w.next_week || []).map(x => `<li>${wesc(x)}</li>`).join("");
+    const el = document.createElement("section");
+    el.className = "week"; el.setAttribute("role", "button");
+    el.setAttribute("tabindex", "0"); el.setAttribute("aria-expanded", "false");
+    el.innerHTML = `
+      <div class="eyebrow">The week &middot; ${wesc(new Date(w.date).toLocaleDateString("en-GB",{day:"numeric",month:"short"}))} &middot; tap to read</div>
+      <h3>${wesc(w.title)}</h3>
+      <div class="wbody">
+        <div class="wlabel">What changed</div>
+        ${(w.changed || []).map(x => `<p>${wesc(x)}</p>`).join("")}
+        ${threads ? '<div class="wlabel">Building threads</div>' + threads : ""}
+        ${nxt ? '<div class="wlabel">Next week</div><ol>' + nxt + "</ol>" : ""}
+      </div>`;
+    const five = document.querySelector(".five");
+    (five ? five.after(el) : document.getElementById("main").prepend(el));
+    const flip = () => el.setAttribute("aria-expanded", el.getAttribute("aria-expanded") !== "true");
+    el.addEventListener("click", flip);
+    el.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); flip(); } });
+  }).catch(() => {});
+
   document.querySelectorAll(".item").forEach(el => {
     const toggle = () => el.setAttribute("aria-expanded", el.getAttribute("aria-expanded") !== "true");
     el.addEventListener("click", e => { if (e.target.tagName !== "A") toggle(); });
@@ -337,6 +389,44 @@ function render(d) {
       : "− Hide lower-relevance items";
   });
   document.getElementById("refresh")?.addEventListener("click", () => load(true));
+
+  // ---- likes → profile ----
+  const likes = JSON.parse(localStorage.getItem("dfi:likes") || "{}");
+  const paintTeach = () => {
+    const n = Object.keys(likes).length;
+    let btn = document.getElementById("teach");
+    if (!n) { btn?.remove(); return; }
+    if (!btn) {
+      btn = document.createElement("button");
+      btn.id = "teach"; btn.className = "teach";
+      document.querySelector("footer").prepend(btn);
+      btn.addEventListener("click", () => {
+        const owner = location.hostname.split(".")[0];
+        const repo = location.pathname.split("/").filter(Boolean)[0];
+        if (!repo) { alert("Open the app from its github.io address to use this."); return; }
+        const body = "Liked stories (leave this list as is and press Submit):\n\n" +
+          Object.values(likes).map(h => "- " + h).join("\n");
+        window.open(`https://github.com/${owner}/${repo}/issues/new?title=${encodeURIComponent("profile: likes")}&body=${encodeURIComponent(body)}`, "_blank");
+        localStorage.removeItem("dfi:likes");
+        Object.keys(likes).forEach(k => delete likes[k]);
+        paintTeach();
+      });
+    }
+    btn.textContent = `\u2665 ${n} marked \u00b7 teach my profile`;
+  };
+  document.querySelectorAll(".like").forEach(el => {
+    if (likes[el.dataset.id]) el.setAttribute("aria-pressed", "true"), el.innerHTML = "&#9829; interesting";
+    el.addEventListener("click", e => {
+      e.stopPropagation();
+      const on = el.getAttribute("aria-pressed") !== "true";
+      el.setAttribute("aria-pressed", String(on));
+      el.innerHTML = (on ? "&#9829;" : "&#9825;") + " interesting";
+      if (on) likes[el.dataset.id] = el.dataset.headline; else delete likes[el.dataset.id];
+      localStorage.setItem("dfi:likes", JSON.stringify(likes));
+      paintTeach();
+    });
+  });
+  paintTeach();
 }
 
 async function load(bust) {
