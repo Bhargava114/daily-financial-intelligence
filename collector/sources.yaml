@@ -13,6 +13,7 @@ sources:
 
   # ─────────────────────────── India · primary ───────────────────────────
   - id: rbi_press
+    expect_blocked: true   # blocks or times out from cloud runners; kept in case that changes
     name: RBI
     tier: primary
     weight: 10
@@ -24,6 +25,7 @@ sources:
       - https://www.rbi.org.in/pressreleases_rss.xml
 
   - id: rbi_notifications
+    expect_blocked: true   # blocks or times out from cloud runners; kept in case that changes
     name: RBI Notifications
     tier: primary
     weight: 10
@@ -47,6 +49,7 @@ sources:
   # GST Council long before those departments update their own sites. It is the single
   # highest-value Indian feed for a CA and was missing from the original plan.
   - id: pib_finance
+    expect_blocked: true   # blocks or times out from cloud runners; kept in case that changes
     name: PIB · Ministry of Finance
     tier: primary
     weight: 9
@@ -56,6 +59,7 @@ sources:
       - "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"
 
   - id: pib_all
+    expect_blocked: true   # blocks or times out from cloud runners; kept in case that changes
     name: PIB
     tier: primary
     weight: 8
@@ -66,6 +70,7 @@ sources:
 
   # ── html-scraped: these regulators publish no feed. selector-based, best effort. ──
   - id: cbdt
+    expect_blocked: true   # blocks or times out from cloud runners; kept in case that changes
     name: CBDT / Income Tax
     tier: primary
     weight: 10
@@ -78,6 +83,7 @@ sources:
       link: "a"
 
   - id: cbic_gst
+    expect_blocked: true   # blocks or times out from cloud runners; kept in case that changes
     name: CBIC · GST
     tier: primary
     weight: 10
@@ -90,6 +96,7 @@ sources:
       link: "a"
 
   - id: mca
+    expect_blocked: true   # blocks or times out from cloud runners; kept in case that changes
     name: MCA
     tier: primary
     weight: 9
@@ -102,6 +109,7 @@ sources:
       link: "a"
 
   - id: icai
+    expect_blocked: true   # blocks or times out from cloud runners; kept in case that changes
     name: ICAI
     tier: primary
     weight: 9
@@ -114,6 +122,7 @@ sources:
       link: "a"
 
   - id: ibbi
+    expect_blocked: true   # blocks or times out from cloud runners; kept in case that changes
     name: IBBI
     tier: primary
     weight: 8
@@ -151,6 +160,7 @@ sources:
     urls: ["https://economictimes.indiatimes.com/wealth/tax/rssfeeds/62154117.cms"]
 
   - id: bs_economy
+    expect_blocked: true   # blocks or times out from cloud runners; kept in case that changes
     name: Business Standard · Economy
     tier: paper
     weight: 5
@@ -161,6 +171,7 @@ sources:
       - "https://www.business-standard.com/rss/latest.rss"
 
   - id: bs_finance
+    expect_blocked: true   # blocks or times out from cloud runners; kept in case that changes
     name: Business Standard · Finance
     tier: paper
     weight: 5
@@ -263,16 +274,6 @@ sources:
       - "https://www.worldbank.org/en/news/all.rss"
       - "https://www.worldbank.org/en/news/all?format=rss"
 
-  - id: oecd
-    name: OECD
-    tier: primary
-    weight: 7
-    ca_bias: 1
-    region: global
-    urls:
-      - "https://www.oecd.org/en/latest.xml"
-      - "https://www.oecd.org/newsroom/index.xml"
-
   - id: sec
     name: SEC
     tier: primary
@@ -280,16 +281,6 @@ sources:
     ca_bias: 1
     region: global
     urls: ["https://www.sec.gov/news/pressreleases.rss"]
-
-  - id: ifrs
-    name: IFRS Foundation
-    tier: primary
-    weight: 9
-    ca_bias: 2
-    region: global
-    urls:
-      - "https://www.ifrs.org/news-and-events/rss/"
-      - "https://www.ifrs.org/news-and-events/rss-feeds/"
 
   # ─────────────────────────── Global · press ───────────────────────────
   # Reuters, FT, WSJ and Bloomberg are deliberately absent — see README.
@@ -334,6 +325,7 @@ sources:
       - "https://www.boj.or.jp/en/rss/release.xml"
 
   - id: us_treasury
+    expect_blocked: true   # blocks or times out from cloud runners; kept in case that changes
     name: US Treasury
     tier: primary
     weight: 8
@@ -344,6 +336,7 @@ sources:
       - "https://home.treasury.gov/news/press-releases/rss.xml"
 
   - id: bls
+    expect_blocked: true   # blocks or times out from cloud runners; kept in case that changes
     name: US BLS (jobs, CPI)
     tier: data
     weight: 9
@@ -352,6 +345,7 @@ sources:
     urls:
       - "https://www.bls.gov/feed/news_release.rss"
       - "https://www.bls.gov/feed/bls_latest.rss"
+      - "https://www.bls.gov/feeds/news_release.rss"
 
   - id: bea
     name: US BEA (GDP, PCE)
@@ -398,15 +392,6 @@ sources:
     region: global
     urls:
       - "https://blogs.cfainstitute.org/investor/feed/"
-
-  - id: imf_blog
-    name: IMF Blog
-    tier: primary
-    weight: 7
-    ca_bias: 0
-    region: global
-    urls:
-      - "https://www.imf.org/en/Blogs/rss"
 
   - id: wto
     name: WTO

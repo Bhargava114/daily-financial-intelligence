@@ -188,7 +188,7 @@ def collect(conf: dict, offline: bool) -> tuple[list[dict], dict]:
         return items, {"ok": len({i["source_id"] for i in items}), "failed": 0, "offline": True}
 
     session = requests.Session()
-    items, ok, failed = [], 0, 0
+    items, ok, failed, blocked = [], 0, 0, 0
     log("fetching sources")
     with ThreadPoolExecutor(max_workers=10) as pool:
         jobs = {}
@@ -204,10 +204,12 @@ def collect(conf: dict, offline: bool) -> tuple[list[dict], dict]:
             if got:
                 ok += 1
                 items.extend(got)
+            elif src.get("expect_blocked"):
+                blocked += 1
             else:
                 failed += 1
-    log(f"  {len(items)} raw items · {ok} sources ok · {failed} unavailable")
-    return items, {"ok": ok, "failed": failed, "offline": False}
+    log(f"  {len(items)} raw items · {ok} sources ok · {failed} unavailable · {blocked} known-blocked")
+    return items, {"ok": ok, "failed": failed, "blocked": blocked, "offline": False}
 
 
 def market_strip(conf: dict, offline: bool) -> list[dict]:
@@ -606,6 +608,7 @@ def build(clusters: list[dict], markets: list[dict], stats: dict, use_ai: bool) 
             "candidates": len(clusters),
             "sources_ok": stats["ok"],
             "sources_failed": stats["failed"],
+            "sources_blocked": stats.get("blocked", 0),
         },
         "five_minutes": five,
         "markets": markets,
@@ -739,11 +742,12 @@ def audit(conf: dict) -> int:
             ok += 1
             print(f"{src['id']:<18} {'OK':<12} {len(got)} items · {where[:52]}")
         else:
-            print(f"{src['id']:<18} {'DEAD':<12} {where[:58]}")
+            tag = "BLOCKED*" if src.get("expect_blocked") else "DEAD"
+            print(f"{src['id']:<18} {tag:<12} {where[:58]}")
     m = market_strip(conf, offline=False)
     print("-" * 78)
     print(f"markets strip: {'OK, ' + str(len(m)) + ' instruments' if m else 'DEAD'}")
-    print(f"{ok}/{len(conf['sources'])} sources alive from this runner")
+    print(f"{ok}/{len(conf['sources'])} sources alive from this runner · BLOCKED* = expected, still tried daily")
     return 0
 
 
