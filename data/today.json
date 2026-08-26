@@ -1,20 +1,20 @@
 {
   "date": "2026-08-26",
-  "generated_at": "2026-08-26T22:59:35.334582+05:30",
+  "generated_at": "2026-08-26T23:55:51.143249+05:30",
   "scoring": "heuristic",
   "stats": {
-    "items": 11,
+    "items": 14,
     "actions": 0,
-    "candidates": 11,
-    "sources_ok": 12,
-    "sources_failed": 0
+    "candidates": 189,
+    "sources_ok": 17,
+    "sources_failed": 16
   },
   "five_minutes": [
-    "SAMPLE — CBDT issues a circular clarifying the treatment of a disputed deduction",
-    "SAMPLE — Reserve Bank keeps the policy repo rate unchanged and shifts its stated liquidity stance",
-    "SAMPLE — SEBI tightens a disclosure requirement applying to listed entities",
-    "SAMPLE — GST Council recommends a rate change and a new return filing timeline",
-    "SAMPLE — ICAI releases an exposure draft affecting revenue recognition guidance"
+    "SEBI Order for Compliance Notice of Attachment Demat Account and Mutual Fund Folio(s) for Recovery Certificate No.8932 of 2025 against M/s. Jay Energy and S. Energies Limited in the matter of Jay Energy and S. Energies Limited",
+    "SEBI Order for Compliance – Release Order for Recovery Certificate No. RC 5196 of 2022 against Tanna Tusharbhai Hiralal in the matter of Excel Castronics Limited.",
+    "Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
+    "Release Order – Archit Jindal [Defaulter] PAN: AGNPJ5775G in the matter of Focus Industrial Resources Limited: under Certificate No. 3875 of 2021",
+    "Reserve Bank of India (Rural Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026"
   ],
   "markets": [],
   "buckets": [
@@ -45,10 +45,145 @@
   ],
   "items": [
     {
-      "id": "9da036d10167",
+      "id": "e1a911a667df",
       "bucket": "must_know",
-      "headline": "SAMPLE — Reserve Bank keeps the policy repo rate unchanged and shifts its stated liquidity stance",
-      "what_happened": "Placeholder record used to exercise the pipeline offline. Real content replaces this on the first live run.",
+      "headline": "Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
+      "what_happened": "RBI/2026-27/248 DOR.SOG(SPE).REC.214/13.03.00/2026-27 August 25, 2026 Reserve Bank of India (Rural Co-operative Banks &ndash; Interest Rate on Deposits) Second Amendment Directions, 2026 Please refer to the Reserve Bank of India (Rural Co-operative Banks &ndash; Interest Rate on Deposits) Directions, 2025 (hereinafter referred to as &lsquo;Directions&rsquo;), dated November 28, 2025 (Updated as on June 17, 2026), wherein temporary withdrawal of the interest rate ceiling on fresh FCNR(B) deposits of 3-5 year tenors and restriction on interest rates on NRE deposits of 3 year and above tenors, in",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 8,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13690&Mode=0",
+        "published": "2026-08-26T18:25:47.583399+00:00"
+      },
+      "also_reported_by": [
+        "RBI Notifications"
+      ]
+    },
+    {
+      "id": "6428ebbf6deb",
+      "bucket": "must_know",
+      "headline": "Release Order – Archit Jindal [Defaulter] PAN: AGNPJ5775G in the matter of Focus Industrial Resources Limited: under Certificate No. 3875 of 2021",
+      "what_happened": "Release Order – Archit Jindal [Defaulter] PAN: AGNPJ5775G in the matter of Focus Industrial Resources Limited: under Certificate No. 3875 of 2021",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 8,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/release-order-archit-jindal-defaulter-pan-agnpj5775g-in-the-matter-of-focus-industrial-resources-limited-under-certificate-no-3875-of-2021_104022.html",
+        "published": "2026-08-26T18:25:46.937286+00:00"
+      },
+      "also_reported_by": [
+        "SEBI"
+      ]
+    },
+    {
+      "id": "34e6c2731e00",
+      "bucket": "must_know",
+      "headline": "Reserve Bank of India (Rural Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026",
+      "what_happened": "RBI/2026-27/242 DOR.RET.REC.209/12.01.001/2026-27 August 25, 2026 Reserve Bank of India (Rural Co-operative Banks &ndash; Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026 Please refer to the Reserve Bank of India (Rural Co-operative Banks &ndash; Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (updated as on June 19, 2026) wherein exemption from CRR and SLR maintenance have been provided to fresh FCNR(B) deposits of minimum tenor of three years and maximum tenor of five years and fresh Non-Resident (External) Rupee (NRE) term deposits of te",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 8,
+        "business": 6,
+        "market": 6,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13684&Mode=0",
+        "published": "2026-08-26T18:25:47.583905+00:00"
+      },
+      "also_reported_by": [
+        "RBI Notifications"
+      ]
+    },
+    {
+      "id": "c68709037014",
+      "bucket": "must_know",
+      "headline": "Completion of Recovery Certificate No. RC6746 of 2023 in respect of Ankit Modi (PAN: AENPM9852P) in the matter of Illiquid Stock Options",
+      "what_happened": "Completion of Recovery Certificate No. RC6746 of 2023 in respect of Ankit Modi (PAN: AENPM9852P) in the matter of Illiquid Stock Options",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 8,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/completion-of-recovery-certificate-no-rc6746-of-2023-in-respect-of-ankit-modi-pan-aenpm9852p-in-the-matter-of-illiquid-stock-options_103996.html",
+        "published": "2026-08-26T18:25:46.937660+00:00"
+      },
+      "also_reported_by": [
+        "SEBI"
+      ]
+    },
+    {
+      "id": "712b90fafb1e",
+      "bucket": "must_know",
+      "headline": "State Government Securities - Full Auction Result",
+      "what_happened": "The result of the auction of State Government Securities held on August 25, 2026 , is as under: (Amount in &#8377; Crore) &nbsp; ANDHRA PRADESH SGS 2039 ANDHRA PRADESH SGS 2051 GUJARAT SGS 2036 GUJARAT SGS 2041 Notified Amount 1000 1600 1000 1000 Tenor Re-issue of 7.56% ANDHRA SGS 2039 issued on 01-JUL-2026 Re-issue of 7.68% ANDHRA SGS 2051 issued on 29-JUL-2026 10 -Years 15 -Years Competitive Bids Received &nbsp; &nbsp; &nbsp; &nbsp; (i) No. 81 35 87 70 (ii) Amount 2055.500 4963 5290 4000 Cut-off Yield (%) 7.6695 7.6891 7.47 7.59 Cut off Price (&#8377;) 99.10 99.89 100 100 Competitive Bids Ac",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 8,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63443",
+        "published": "2026-08-26T18:25:48.465039+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "beba7249eeef",
+      "bucket": "must_know",
+      "headline": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on August 27, 2026",
+      "what_happened": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Thursday, August 27, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 2,00,000 1 9:30 AM to 10:00 AM August 28, 2026 (Friday) 2. The operational guidelines for the auction as given in the Reserve Bank&rsquo;s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deputy General Manager (Communications)&nbsp;&nbsp;&nbsp",
       "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
       "action": null,
       "priority": 8,
@@ -64,21 +199,50 @@
       "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/",
-        "published": "2026-08-26T02:40:00+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63445",
+        "published": "2026-08-26T18:25:48.464594+00:00"
       },
-      "also_reported_by": []
+      "also_reported_by": [
+        "RBI"
+      ]
     },
     {
-      "id": "07d5c65b9a76",
-      "bucket": "ca_work",
-      "headline": "SAMPLE — CBDT issues a circular clarifying the treatment of a disputed deduction",
-      "what_happened": "Placeholder record. The live collector fills this from the CBDT communications listing.",
+      "id": "7d43c9af5a1d",
+      "bucket": "must_know",
+      "headline": "RBI Bulletin – August 2026",
+      "what_happened": "Today, the Reserve Bank released the August 2026 issue of its monthly Bulletin. The Bulletin includes bi-monthly monetary policy statement (August 03-05, 2026), six speeches, one article and current statistics. The article is on the State of the Economy. State of the Economy The global economy is confronting a fragile geopolitical environment and continuing trade-related uncertainties. Nevertheless, the domestic economy has demonstrated notable resilience to the ongoing global headwinds, characterised by buoyant domestic demand, and rising manufacturing and services activity. The south-west mo",
       "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
       "action": null,
       "priority": 8,
       "scores": {
-        "ca": 10,
+        "ca": 8,
+        "business": 6,
+        "market": 6,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63444",
+        "published": "2026-08-26T18:25:48.464670+00:00"
+      },
+      "also_reported_by": [
+        "BusinessLine"
+      ]
+    },
+    {
+      "id": "bf2b77c9d227",
+      "bucket": "must_know",
+      "headline": "All-India House Price Index for Q1:2026-27",
+      "what_happened": "The Reserve Bank of India (RBI) compiles the House Price Index (HPI) on a quarterly basis using transaction-level data received from the registration authorities. Today, the RBI released 1 the HPI for Q1:2026-27 with base year as 2022-23, covering eighteen major cities 2 . Highlights: The All India HPI increased by 1.1 per cent and stood at 117.5 in Q1:2026-27 compared to previous quarter, primarily driven by an increase in the index for cities such as Chandigarh, Lucknow, and Thiruvananthapuram ( Chart 1 ). The HPI registered an annual growth of 3.6 per cent in Q1:2026-27, same as in Q1 of pr",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 8,
         "business": 3,
         "market": 3,
         "global": 5
@@ -87,21 +251,96 @@
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "CBDT / Income Tax",
+        "name": "RBI",
         "tier": "primary",
-        "url": "https://incometaxindia.gov.in/",
-        "published": "2026-08-26T03:10:00+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63436",
+        "published": "2026-08-26T18:25:48.465871+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "ed736b52b13f",
-      "bucket": "ca_work",
-      "headline": "SAMPLE — SEBI tightens a disclosure requirement applying to listed entities",
-      "what_happened": "Placeholder record for the SEBI circular feed.",
+      "id": "ab784b786f2e",
+      "bucket": "must_know",
+      "headline": "Appeal No. 7002 of 2026 filed by Yogesh Dhondiram Patil",
+      "what_happened": "Appeal No. 7002 of 2026 filed by Yogesh Dhondiram Patil",
       "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
       "action": null,
       "priority": 8,
+      "scores": {
+        "ca": 8,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/otherentry//_103995.html",
+        "published": "2026-08-26T18:25:46.937677+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "fd6401adcfff",
+      "bucket": "must_know",
+      "headline": "Appeal No. 7003 of 2026 filed by Sopan Ashok Kajale",
+      "what_happened": "Appeal No. 7003 of 2026 filed by Sopan Ashok Kajale",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 8,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/otherentry//_103997.html",
+        "published": "2026-08-26T18:25:46.937638+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "5630f4bf25ec",
+      "bucket": "must_know",
+      "headline": "Appeal No. 7004 of 2026 filed by yash kumar",
+      "what_happened": "Appeal No. 7004 of 2026 filed by yash kumar",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 8,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/otherentry//_103999.html",
+        "published": "2026-08-26T18:25:46.937604+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "2c3ed6d68f05",
+      "bucket": "ca_work",
+      "headline": "SEBI Order for Compliance Notice of Attachment Demat Account and Mutual Fund Folio(s) for Recovery Certificate No.8932 of 2025 against M/s. Jay Energy and S. Energies Limited in the matter of Jay Energy and S. Energies Limited",
+      "what_happened": "SEBI Order for Compliance Notice of Attachment Demat Account and Mutual Fund Folio(s) for Recovery Certificate No.8932 of 2025 against M/s. Jay Energy and S. Energies Limited in the matter of Jay Energy and S. Energies Limited",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 9,
       "scores": {
         "ca": 10,
         "business": 3,
@@ -114,19 +353,21 @@
       "source": {
         "name": "SEBI",
         "tier": "primary",
-        "url": "https://www.sebi.gov.in/",
-        "published": "2026-08-26T05:20:00+00:00"
+        "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/sebi-order-for-compliance-notice-of-attachment-demat-account-and-mutual-fund-folio-s-for-recovery-certificate-no-8932-of-2025-against-m-s-jay-energy-and-s-energies-limited-in-the-matter-of-jay-ener-_104025.html",
+        "published": "2026-08-26T18:25:46.937213+00:00"
       },
-      "also_reported_by": []
+      "also_reported_by": [
+        "SEBI"
+      ]
     },
     {
-      "id": "473ae3813e7e",
+      "id": "8bcc846d79ea",
       "bucket": "ca_work",
-      "headline": "SAMPLE — GST Council recommends a rate change and a new return filing timeline",
-      "what_happened": "Placeholder record covering the PIB Finance Ministry feed, which carries GST Council outcomes.",
+      "headline": "SEBI Order for Compliance – Release Order for Recovery Certificate No. RC 5196 of 2022 against Tanna Tusharbhai Hiralal in the matter of Excel Castronics Limited.",
+      "what_happened": "SEBI Order for Compliance – Release Order for Recovery Certificate No. RC 5196 of 2022 against Tanna Tusharbhai Hiralal in the matter of Excel Castronics Limited.",
       "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
       "action": null,
-      "priority": 8,
+      "priority": 9,
       "scores": {
         "ca": 10,
         "business": 3,
@@ -137,152 +378,27 @@
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "PIB · Ministry of Finance",
+        "name": "SEBI",
         "tier": "primary",
-        "url": "https://pib.gov.in/",
-        "published": "2026-08-26T04:05:00+00:00"
+        "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/sebi-order-for-compliance-release-order-for-recovery-certificate-no-rc-5196-of-2022-against-tanna-tusharbhai-hiralal-in-the-matter-of-excel-castronics-limited-_104026.html",
+        "published": "2026-08-26T18:25:46.937128+00:00"
       },
-      "also_reported_by": []
+      "also_reported_by": [
+        "SEBI"
+      ]
     },
     {
-      "id": "8158eba11e7f",
-      "bucket": "ca_work",
-      "headline": "SAMPLE — ICAI releases an exposure draft affecting revenue recognition guidance",
-      "what_happened": "Placeholder record for the ICAI announcements page.",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 10,
-        "business": 3,
-        "market": 3,
-        "global": 5
-      },
-      "confidence": "low",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "ICAI",
-        "tier": "primary",
-        "url": "https://www.icai.org/",
-        "published": "2026-08-26T03:55:00+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "71909b12ae40",
-      "bucket": "ca_work",
-      "headline": "SAMPLE — IFRS Foundation publishes an amendment to a reporting standard",
-      "what_happened": "Placeholder record for the IFRS news feed.",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 10,
-        "business": 3,
-        "market": 3,
-        "global": 5
-      },
-      "confidence": "low",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "IFRS Foundation",
-        "tier": "primary",
-        "url": "https://www.ifrs.org/",
-        "published": "2026-08-25T20:10:00+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "a3261869ff66",
-      "bucket": "ca_work",
-      "headline": "SAMPLE — MCA notifies an amendment to filing requirements under the Companies Act",
-      "what_happened": "Placeholder record for the MCA notifications listing.",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 10,
-        "business": 3,
-        "market": 3,
-        "global": 5
-      },
-      "confidence": "low",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "MCA",
-        "tier": "primary",
-        "url": "https://www.mca.gov.in/",
-        "published": "2026-08-26T04:30:00+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "78269ebbc53e",
-      "bucket": "india_economy",
-      "headline": "SAMPLE — MoSPI releases monthly inflation data slightly above consensus",
-      "what_happened": "Placeholder record for official statistics carried via PIB.",
+      "id": "3e48c0e2a002",
+      "bucket": "watchlist",
+      "headline": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+      "what_happened": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
       "action": null,
       "priority": 6,
       "scores": {
-        "ca": 6,
-        "business": 6,
-        "market": 6,
-        "global": 5
-      },
-      "confidence": "low",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "PIB",
-        "tier": "primary",
-        "url": "https://pib.gov.in/",
-        "published": "2026-08-26T06:00:00+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "e3833add665c",
-      "bucket": "india_economy",
-      "headline": "SAMPLE — Brent crude rises sharply on supply disruption, pressuring importer margins",
-      "what_happened": "Placeholder record for the Mint markets feed.",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 5,
-      "scores": {
         "ca": 4,
-        "business": 6,
-        "market": 6,
-        "global": 5
-      },
-      "confidence": "low",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Mint · Markets",
-        "tier": "paper",
-        "url": "https://www.livemint.com/",
-        "published": "2026-08-26T01:15:00+00:00"
-      },
-      "also_reported_by": [
-        "Economic Times"
-      ]
-    },
-    {
-      "id": "f9ca82392713",
-      "bucket": "global",
-      "headline": "SAMPLE — Federal Reserve minutes show officials more divided on the pace of easing",
-      "what_happened": "Placeholder record for the Fed monetary press feed.",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 7,
-      "scores": {
-        "ca": 4,
-        "business": 6,
-        "market": 6,
+        "business": 3,
+        "market": 3,
         "global": 5
       },
       "confidence": "low",
@@ -291,36 +407,12 @@
       "source": {
         "name": "Federal Reserve",
         "tier": "primary",
-        "url": "https://www.federalreserve.gov/",
-        "published": "2026-08-25T22:00:00+00:00"
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
+        "published": "2026-08-25T18:00:00+00:00"
       },
-      "also_reported_by": []
-    },
-    {
-      "id": "2361a83f79a4",
-      "bucket": "watchlist",
-      "headline": "SAMPLE — European Central Bank signals a slower path on rate reductions",
-      "what_happened": "Placeholder record for the ECB press feed.",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 4,
-        "business": 3,
-        "market": 3,
-        "global": 5
-      },
-      "confidence": "low",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "ECB",
-        "tier": "primary",
-        "url": "https://www.ecb.europa.eu/",
-        "published": "2026-08-25T21:30:00+00:00"
-      },
-      "also_reported_by": []
+      "also_reported_by": [
+        "Federal Reserve · All"
+      ]
     }
-  ],
-  "sample": true
+  ]
 }
