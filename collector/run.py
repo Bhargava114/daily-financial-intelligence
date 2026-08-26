@@ -414,11 +414,21 @@ def load_profile() -> str:
         except Exception:  # noqa: BLE001
             continue
         for k, v in data.items():
+            if k == "theses":
+                continue  # rendered separately, with their own verdict task
             if isinstance(v, list):
                 lines.append(f"{k}: " + "; ".join(str(x) for x in v))
             else:
                 lines.append(f"{k}: {str(v).strip()}")
     return "\n".join(lines)
+
+
+def load_theses() -> list[str]:
+    try:
+        data = yaml.safe_load(PROFILE.read_text()) or {}
+        return [str(x)[:200] for x in (data.get("theses") or [])][:6]
+    except Exception:  # noqa: BLE001
+        return []
 
 
 PROMPT = """You are the analyst behind the morning brief of an India-based investment professional. He is a CFA first: global macro, markets, portfolio implications. He is also a chartered accountant, so material Indian tax/audit/regulatory changes still matter, but as a secondary lens.
@@ -452,10 +462,15 @@ YESTERDAY'S BRIEF (top items, for continuity — may be empty on day one):
 
 Continuity rule: when a candidate advances one of yesterday's stories, write the headline and why_it_matters as MOVEMENT since yesterday ("firmed further after...", "second straight day of...") and set "continues": true. Fresh stories get "continues": false. Do not resurface a yesterday story that has not moved.
 
+HIS ACTIVE THESES:
+{theses}
+
+For each thesis, return a daily verdict in "theses": does TODAY'S news (the candidates below only — never outside knowledge or invented facts) support it, challenge it, cut both ways, or say nothing? Verdicts: "supports", "challenges", "mixed", "no_signal". The note is one concrete sentence citing today's evidence; for no_signal leave the note empty. Challenging his view when the evidence does is the most valuable thing you can do — do not flatter the thesis.
+
 Also write "five_minutes": up to 5 single-sentence lines, the version he reads if he only has five minutes. Macro first, implication first, each line self-contained. Mix global-framed and India-framed lines as the day's news warrants — do not force either.
 
 Return ONLY valid JSON, no markdown fence:
-{{"five_minutes": ["..."], "items": [{{"ref": <candidate number>, "bucket": "...", "headline": "...", "what_happened": "...", "why_it_matters": "...", "action": null, "priority": 7, "continues": false, "merged_refs": [], "scores": {{"ca": 0, "business": 0, "market": 0, "global": 0}}, "confidence": "high"}}]}}
+{{"five_minutes": ["..."], "theses": [{{"thesis": "...", "verdict": "no_signal", "note": ""}}], "items": [{{"ref": <candidate number>, "bucket": "...", "headline": "...", "what_happened": "...", "why_it_matters": "...", "action": null, "priority": 7, "continues": false, "merged_refs": [], "scores": {{"ca": 0, "business": 0, "market": 0, "global": 0}}, "confidence": "high"}}]}}
 
 CANDIDATES:
 {candidates}"""
@@ -585,7 +600,11 @@ def ai_score(items: list[dict], n: int) -> dict | None:
             f"[{i}] ({it['source']}, {it['tier']}) {it['title']}\n"
             f"    {it.get('summary', '')[:320]}{extra}"
         )
-    prompt = PROMPT.format(n=n, candidates="\n".join(lines), profile=load_profile() or "(no profile file yet — use the defaults above)", yesterday=yesterday_context() or "(none)")
+    theses = load_theses()
+    prompt = PROMPT.format(n=n, candidates="\n".join(lines),
+                           profile=load_profile() or "(no profile file yet — use the defaults above)",
+                           yesterday=yesterday_context() or "(none)",
+                           theses="\n".join(f"{i+1}. {x}" for i, x in enumerate(theses)) or "(none declared)")
 
     name, text = call_model(prompt)
     if not text:
@@ -638,9 +657,15 @@ def build(clusters: list[dict], markets: list[dict], stats: dict, use_ai: bool) 
     ranked = sorted(clusters, key=lambda x: (-x["weight"], -x["corroboration"]))[: MAX_ITEMS * 4]
     verdict = ai_score(ranked, MAX_ITEMS) if use_ai else None
 
-    items, five = [], []
+    items, five, theses_out = [], [], []
     if verdict and verdict.get("items"):
         five = [s for s in verdict.get("five_minutes", []) if isinstance(s, str)][:5]
+        ok_verdicts = {"supports", "challenges", "mixed", "no_signal"}
+        for th in (verdict.get("theses") or [])[:6]:
+            if isinstance(th, dict) and th.get("verdict") in ok_verdicts:
+                theses_out.append({"thesis": str(th.get("thesis", ""))[:200],
+                                   "verdict": th["verdict"],
+                                   "note": str(th.get("note", ""))[:300]})
         for row in verdict["items"]:
             try:
                 src = ranked[int(row["ref"])]
@@ -708,6 +733,7 @@ def build(clusters: list[dict], markets: list[dict], stats: dict, use_ai: bool) 
             "sources_blocked": stats.get("blocked", 0),
         },
         "five_minutes": five,
+        "theses": theses_out,
         "markets": markets,
         "buckets": [{"id": b, "label": l} for b, l in BUCKETS],
         "items": out,
@@ -761,6 +787,23 @@ def render_email(d: dict) -> str:
         f'<li style="margin:0 0 9px;font:400 15px/1.55 -apple-system,sans-serif;color:#16191C">{esc(s)}</li>'
         for s in d["five_minutes"]
     )
+    vcol = {"supports": "#1F6B4A", "challenges": "#B3261E", "mixed": "#A85B0A", "no_signal": "#8A8F96"}
+    thesis_rows = "".join(
+        f'<tr><td style="padding:9px 0;border-top:1px solid #F0EEEA">'
+        f'<span style="font:600 10px/1 ui-monospace,Menlo,monospace;letter-spacing:.08em;'
+        f'text-transform:uppercase;color:{vcol.get(th["verdict"], "#8A8F96")}">'
+        f'{esc(th["verdict"].replace("_", " "))}</span>'
+        f'<div style="margin-top:4px;font:400 14px/1.5 -apple-system,sans-serif;color:#16191C">{esc(th["thesis"])}</div>'
+        + (f'<div style="margin-top:3px;font:400 13px/1.5 -apple-system,sans-serif;color:#5C6268">{esc(th["note"])}</div>' if th.get("note") else "")
+        + "</td></tr>"
+        for th in d.get("theses", [])
+    )
+    theses_html = (
+        '<tr><td style="padding:22px 26px 4px">'
+        '<div style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:.09em;color:#8A8F96">'
+        'YOUR THESES · TODAY\'S EVIDENCE</div>'
+        f'<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:6px">{thesis_rows}</table></td></tr>'
+    ) if thesis_rows else ""  # noqa: W605
     mkt = " · ".join(
         f'{esc(m["label"])} {esc(m["value"])} ({m["change"]:+.2f}%)' for m in d.get("markets", [])
     )
@@ -778,6 +821,7 @@ def render_email(d: dict) -> str:
   <div style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:.09em;color:#8A8F96">TODAY IN 5 MINUTES</div>
   <ol style="margin:14px 0 0;padding-left:20px">{five}</ol>
 </td></tr>
+{theses_html}
 <tr><td style="padding:0 26px 30px"><table width="100%" cellpadding="0" cellspacing="0">{''.join(rows)}</table></td></tr>
 <tr><td style="padding:16px 26px 26px;border-top:1px solid #EAE8E4;
   font:400 12px/1.6 ui-monospace,Menlo,monospace;color:#8A8F96">

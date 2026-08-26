@@ -46,3 +46,12 @@ ignore:
   - Celebrity business news
   - Crypto memecoins
   - Sports business
+
+# Active market theses — the analyst checks each against every morning's news
+# and returns a verdict: supports / challenges / mixed / no signal. Being
+# challenged is the point. Keep these testable; edit or retire them freely.
+theses:
+  - Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)
+  - US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative
+  - Gold and silver will NOT rise further even in a recession, because they are already at all-time highs
+  - Nifty 29-Sep futures will fall below 23,000 before expiry
