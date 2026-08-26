@@ -1,7 +1,7 @@
 // v2 — the shell now updates itself: serve from cache instantly, but refetch
 // in the background so the next open gets the newest version. v1 served the
 // shell cache-first forever, which froze index.html updates.
-const SHELL = "dfi-shell-v6";
+const SHELL = "dfi-shell-v8";
 const DATA  = "dfi-data-v1";
 const ASSETS = [
   "./", "./index.html", "./manifest.webmanifest",

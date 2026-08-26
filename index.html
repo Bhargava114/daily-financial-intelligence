@@ -224,6 +224,7 @@ footer button:hover{border-color:var(--ink-faint);color:var(--ink)}
 }
 .dig-row a{color:var(--ink);text-decoration:none;border:1px solid var(--rule);border-radius:2px;padding:2px 7px}
 .dig-row a:hover{border-color:var(--ink-faint)}
+.dig-hint{flex-basis:100%;color:#1F6B4A}
 .skel{padding:26px var(--pad)}
 .skel div{height:13px;background:var(--rule-soft);border-radius:2px;margin-bottom:11px}
 .skel div:nth-child(2){width:82%}.skel div:nth-child(3){width:61%}
@@ -292,7 +293,8 @@ function itemHTML(it) {
         <a class="dig-claude" href="#" target="_blank" rel="noopener">Claude</a>
         <a class="dig-gpt" href="#" target="_blank" rel="noopener">ChatGPT</a>
         <a class="dig-pplx" href="#" target="_blank" rel="noopener">Perplexity</a>
-        <a class="dig-copy" href="#">Copy prompt</a>
+        <a class="dig-copy" href="#">Copy only</a>
+        <span class="dig-hint" hidden>Prompt copied &#10003; &mdash; if the chat opens empty, just paste.</span>
       </div>
     </div>
   </div>`;
@@ -431,7 +433,7 @@ function render(d) {
         paintTeach();
 
   // ---- dig deeper: package the story + an analyst briefing into a prompt ----
-  const digPrompt = it => `You are a buy-side macro analyst. Dig deeper into this story for an India-based investment professional (CFA) who is also a chartered accountant.
+  const digPrompt = it => `You are a senior macro and markets analyst. Dig deeper into this story for an India-based investment professional (CFA) who is also a chartered accountant. Cover it from BOTH sides of the street.
 
 HEADLINE: ${it.headline}
 WHAT HAPPENED: ${it.what_happened}
@@ -442,8 +444,10 @@ Give him, with recent news checked where you can:
 1. Context — what is actually new here versus already known
 2. Global implications — rates, growth, asset classes, in their own terms
 3. India transmission — only if genuinely material (USD, flows, INR, crude, yields)
-4. What would confirm or refute this mattering over the next weeks
-5. Key numbers, dates and releases to watch
+4. THE SELL-SIDE READ — how the street is likely framing this: consensus narrative, ratings/estimate revisions it could trigger, which sectors get the upgrade/downgrade notes, what the pitch to clients sounds like
+5. THE BUY-SIDE READ — what an allocator should actually do with it: is the move priced in, where consensus may be wrong, positioning and crowding risk, what would make you act versus wait
+6. Where the two reads DISAGREE — that gap is usually the interesting part
+7. What would confirm or refute this mattering, and the key numbers, dates and releases to watch
 Be concrete, cite what you rely on, and say plainly where you are uncertain.`;
 
   const byId = Object.fromEntries((d.items || []).map(x => [x.id, x]));
@@ -464,11 +468,21 @@ Be concrete, cite what you rely on, and say plainly where you are uncertain.`;
       }
     });
     row.addEventListener("click", e => e.stopPropagation());
+    const hint = row.querySelector(".dig-hint");
+    // Phones route these domains into their native apps, which drop the ?q=
+    // prefill. So every option copies the prompt first — worst case, one paste.
+    row.querySelectorAll(".dig-claude, .dig-gpt, .dig-pplx").forEach(a => {
+      a.addEventListener("click", () => {
+        navigator.clipboard?.writeText(digPrompt(it)).catch(() => {});
+        hint.hidden = false;
+      });
+    });
     row.querySelector(".dig-copy").addEventListener("click", e => {
       e.preventDefault(); e.stopPropagation();
       navigator.clipboard?.writeText(digPrompt(it)).then(() => {
         e.target.textContent = "Copied \u2713";
-        setTimeout(() => { e.target.textContent = "Copy prompt"; }, 1800);
+        hint.hidden = true;
+        setTimeout(() => { e.target.textContent = "Copy only"; }, 1800);
       });
     });
   });
@@ -488,7 +502,7 @@ Be concrete, cite what you rely on, and say plainly where you are uncertain.`;
       paintTeach();
 
   // ---- dig deeper: package the story + an analyst briefing into a prompt ----
-  const digPrompt = it => `You are a buy-side macro analyst. Dig deeper into this story for an India-based investment professional (CFA) who is also a chartered accountant.
+  const digPrompt = it => `You are a senior macro and markets analyst. Dig deeper into this story for an India-based investment professional (CFA) who is also a chartered accountant. Cover it from BOTH sides of the street.
 
 HEADLINE: ${it.headline}
 WHAT HAPPENED: ${it.what_happened}
@@ -499,8 +513,10 @@ Give him, with recent news checked where you can:
 1. Context — what is actually new here versus already known
 2. Global implications — rates, growth, asset classes, in their own terms
 3. India transmission — only if genuinely material (USD, flows, INR, crude, yields)
-4. What would confirm or refute this mattering over the next weeks
-5. Key numbers, dates and releases to watch
+4. THE SELL-SIDE READ — how the street is likely framing this: consensus narrative, ratings/estimate revisions it could trigger, which sectors get the upgrade/downgrade notes, what the pitch to clients sounds like
+5. THE BUY-SIDE READ — what an allocator should actually do with it: is the move priced in, where consensus may be wrong, positioning and crowding risk, what would make you act versus wait
+6. Where the two reads DISAGREE — that gap is usually the interesting part
+7. What would confirm or refute this mattering, and the key numbers, dates and releases to watch
 Be concrete, cite what you rely on, and say plainly where you are uncertain.`;
 
   const byId = Object.fromEntries((d.items || []).map(x => [x.id, x]));
@@ -521,11 +537,21 @@ Be concrete, cite what you rely on, and say plainly where you are uncertain.`;
       }
     });
     row.addEventListener("click", e => e.stopPropagation());
+    const hint = row.querySelector(".dig-hint");
+    // Phones route these domains into their native apps, which drop the ?q=
+    // prefill. So every option copies the prompt first — worst case, one paste.
+    row.querySelectorAll(".dig-claude, .dig-gpt, .dig-pplx").forEach(a => {
+      a.addEventListener("click", () => {
+        navigator.clipboard?.writeText(digPrompt(it)).catch(() => {});
+        hint.hidden = false;
+      });
+    });
     row.querySelector(".dig-copy").addEventListener("click", e => {
       e.preventDefault(); e.stopPropagation();
       navigator.clipboard?.writeText(digPrompt(it)).then(() => {
         e.target.textContent = "Copied \u2713";
-        setTimeout(() => { e.target.textContent = "Copy prompt"; }, 1800);
+        hint.hidden = true;
+        setTimeout(() => { e.target.textContent = "Copy only"; }, 1800);
       });
     });
   });
@@ -534,7 +560,7 @@ Be concrete, cite what you rely on, and say plainly where you are uncertain.`;
   paintTeach();
 
   // ---- dig deeper: package the story + an analyst briefing into a prompt ----
-  const digPrompt = it => `You are a buy-side macro analyst. Dig deeper into this story for an India-based investment professional (CFA) who is also a chartered accountant.
+  const digPrompt = it => `You are a senior macro and markets analyst. Dig deeper into this story for an India-based investment professional (CFA) who is also a chartered accountant. Cover it from BOTH sides of the street.
 
 HEADLINE: ${it.headline}
 WHAT HAPPENED: ${it.what_happened}
@@ -545,8 +571,10 @@ Give him, with recent news checked where you can:
 1. Context — what is actually new here versus already known
 2. Global implications — rates, growth, asset classes, in their own terms
 3. India transmission — only if genuinely material (USD, flows, INR, crude, yields)
-4. What would confirm or refute this mattering over the next weeks
-5. Key numbers, dates and releases to watch
+4. THE SELL-SIDE READ — how the street is likely framing this: consensus narrative, ratings/estimate revisions it could trigger, which sectors get the upgrade/downgrade notes, what the pitch to clients sounds like
+5. THE BUY-SIDE READ — what an allocator should actually do with it: is the move priced in, where consensus may be wrong, positioning and crowding risk, what would make you act versus wait
+6. Where the two reads DISAGREE — that gap is usually the interesting part
+7. What would confirm or refute this mattering, and the key numbers, dates and releases to watch
 Be concrete, cite what you rely on, and say plainly where you are uncertain.`;
 
   const byId = Object.fromEntries((d.items || []).map(x => [x.id, x]));
@@ -567,11 +595,21 @@ Be concrete, cite what you rely on, and say plainly where you are uncertain.`;
       }
     });
     row.addEventListener("click", e => e.stopPropagation());
+    const hint = row.querySelector(".dig-hint");
+    // Phones route these domains into their native apps, which drop the ?q=
+    // prefill. So every option copies the prompt first — worst case, one paste.
+    row.querySelectorAll(".dig-claude, .dig-gpt, .dig-pplx").forEach(a => {
+      a.addEventListener("click", () => {
+        navigator.clipboard?.writeText(digPrompt(it)).catch(() => {});
+        hint.hidden = false;
+      });
+    });
     row.querySelector(".dig-copy").addEventListener("click", e => {
       e.preventDefault(); e.stopPropagation();
       navigator.clipboard?.writeText(digPrompt(it)).then(() => {
         e.target.textContent = "Copied \u2713";
-        setTimeout(() => { e.target.textContent = "Copy prompt"; }, 1800);
+        hint.hidden = true;
+        setTimeout(() => { e.target.textContent = "Copy only"; }, 1800);
       });
     });
   });
