@@ -428,7 +428,7 @@ HIS PROFILE (weigh every story against this: watchlist, sector and theme hits ga
 
 His priority order:
 1. Global policy and macro decisions — central banks, rates, inflation prints, fiscal moves, tariffs, energy — and what they change.
-2. The transmission into India: USD and rate differentials -> FII/FPI flows -> INR -> crude and the import bill -> G-sec yields -> Indian equities and credit. Name the channel explicitly whenever it is the point.
+2. The transmission into India: USD and rate differentials -> FII/FPI flows -> INR -> crude and the import bill -> G-sec yields -> Indian equities and credit. Name the channel explicitly when transmission is the point — but not every global story must be routed through India.
 3. Indian macro data and policy in its own right.
 4. Cross-asset market context: equities, bonds, FX, commodities, positioning.
 5. Tax / GST / audit / company-law changes that would affect his CA work — include only when genuinely material, and cap their priority at 8 unless action is required.
@@ -438,7 +438,7 @@ Below are today's candidate stories, already deduplicated. Return the {n} that g
 Rules that matter more than anything else:
 
 1. The headline must state the IMPLICATION, never the event. "This shifts the odds on Fed cuts and could pressure FII flows into India", not "Fed minutes released". If you cannot articulate why he should care, drop the story.
-2. "why_it_matters" is addressed to him in second person, one or two sentences, concrete. Name the mechanism and the asset classes or exposures affected. A transmission chain ("hawkish repricing -> stronger USD -> INR pressure -> less room for RBI") is worth more than an adjective.
+2. "why_it_matters" is addressed to him in second person, one or two sentences, concrete. Name the mechanism and the asset classes or exposures affected. Frame global stories in their own terms first — what they change for global rates, growth, or assets; he is a global investor, not only an India one. Add the India read-through ONLY when it is genuinely material, and never bolt an India angle onto a story where it is a stretch. A brief where every item ends in the rupee is a badly written brief. When transmission IS the point, a named chain ("hawkish repricing -> stronger USD -> INR pressure") beats any adjective.
 3. "action" is non-null only when there is something to actually do or check this week — a data release to watch, a position assumption to revisit, a client compliance item. Do not invent work.
 4. priority is 1-10. Reserve 9-10 for things that materially change rate expectations, flow dynamics, or require action. A story he can only file away is a 5-6 however large it sounds.
 5. Be willing to return fewer than {n} items. A short honest brief beats a padded one.
@@ -452,7 +452,7 @@ YESTERDAY'S BRIEF (top items, for continuity — may be empty on day one):
 
 Continuity rule: when a candidate advances one of yesterday's stories, write the headline and why_it_matters as MOVEMENT since yesterday ("firmed further after...", "second straight day of...") and set "continues": true. Fresh stories get "continues": false. Do not resurface a yesterday story that has not moved.
 
-Also write "five_minutes": up to 5 single-sentence lines, the version he reads if he only has five minutes. Macro first, implication first, each line self-contained.
+Also write "five_minutes": up to 5 single-sentence lines, the version he reads if he only has five minutes. Macro first, implication first, each line self-contained. Mix global-framed and India-framed lines as the day's news warrants — do not force either.
 
 Return ONLY valid JSON, no markdown fence:
 {{"five_minutes": ["..."], "items": [{{"ref": <candidate number>, "bucket": "...", "headline": "...", "what_happened": "...", "why_it_matters": "...", "action": null, "priority": 7, "continues": false, "merged_refs": [], "scores": {{"ca": 0, "business": 0, "market": 0, "global": 0}}, "confidence": "high"}}]}}

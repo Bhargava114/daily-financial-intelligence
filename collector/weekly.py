@@ -35,7 +35,7 @@ Below are the items from his daily briefs this week (newest last). Synthesise th
 
 Return ONLY valid JSON, no markdown fence:
 {{"title": "one line naming the week's defining theme",
-  "changed": ["3-6 short paragraphs: what actually changed this week and why it matters to him — movement and connection across days, second person, macro first"],
+  "changed": ["3-6 short paragraphs: what actually changed this week and why it matters to him — movement and connection across days, second person, macro first. Frame global shifts globally; bring in the India read-through only where it is genuinely material rather than routing every paragraph through the rupee"],
   "threads": [{{"name": "thread in a few words", "note": "one or two sentences on its trajectory and what confirms or breaks it"}}],
   "next_week": ["up to 5 concrete things to watch — data releases, meetings, decisions — one line each"]}}
 
