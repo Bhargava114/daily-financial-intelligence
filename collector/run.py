@@ -441,20 +441,41 @@ def _call_anthropic(key: str, prompt: str) -> str:
 
 
 def _call_gemini(key: str, prompt: str) -> str:
-    """Google's free tier, via its OpenAI-compatible endpoint. One call a day
-    sits far inside the free daily quota."""
-    r = requests.post(
-        "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
-        timeout=180,
-        headers={"Authorization": f"Bearer {key}", "content-type": "application/json"},
-        json={
-            "model": MODEL or "gemini-2.5-flash",
-            "max_tokens": 8000,
-            "messages": [{"role": "user", "content": prompt}],
-        },
-    )
-    r.raise_for_status()
-    return r.json()["choices"][0]["message"]["content"] or ""
+    """Google's free tier, via the documented native endpoint. Model names churn
+    every few months, so several are tried in order and a 404 on one just moves
+    to the next — a rename should never take the brief down."""
+    models = [m for m in [
+        os.environ.get("DFI_MODEL") or None,
+        "gemini-flash-latest",
+        "gemini-3.5-flash",
+        "gemini-2.5-flash",
+    ] if m]
+    last: Exception | None = None
+    for model in dict.fromkeys(models):  # de-dupe, keep order
+        try:
+            r = requests.post(
+                f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+                timeout=180,
+                headers={"x-goog-api-key": key, "content-type": "application/json"},
+                json={
+                    "contents": [{"parts": [{"text": prompt}]}],
+                    "generationConfig": {"maxOutputTokens": 8000, "responseMimeType": "application/json"},
+                },
+            )
+            if r.status_code in (400, 404) and "model" in r.text.lower():
+                log(f"  · gemini model '{model}' rejected ({r.status_code}), trying next")
+                last = RuntimeError(r.text[:200])
+                continue
+            r.raise_for_status()
+            parts = r.json()["candidates"][0]["content"]["parts"]
+            return "".join(pt.get("text", "") for pt in parts)
+        except requests.HTTPError as exc:
+            body = exc.response.text[:200] if exc.response is not None else ""
+            log(f"  · gemini '{model}' HTTP {exc.response.status_code if exc.response is not None else '?'}: {body}")
+            last = exc
+        except Exception as exc:  # noqa: BLE001
+            last = exc
+    raise last or RuntimeError("no gemini model accepted the request")
 
 
 def ai_score(items: list[dict], n: int) -> dict | None:
