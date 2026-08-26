@@ -483,8 +483,8 @@ def _call_gemini(key: str, prompt: str) -> str:
     models = [m for m in [
         os.environ.get("DFI_MODEL") or None,
         "gemini-flash-latest",
+        "gemini-3.6-flash",
         "gemini-3.5-flash",
-        "gemini-2.5-flash",
     ] if m]
     last: Exception | None = None
     for model in dict.fromkeys(models):  # de-dupe, keep order
@@ -544,7 +544,7 @@ def ai_score(items: list[dict], n: int) -> dict | None:
             return out
         except Exception as exc:  # noqa: BLE001
             log(f"  · model attempt {attempt + 1} ({provider[0]}) failed: {type(exc).__name__}: {exc}")
-            time.sleep(3 * (attempt + 1))
+            time.sleep((20, 60, 120)[min(attempt, 2)])  # 503 storms usually pass within a couple of minutes
     return None
 
 
