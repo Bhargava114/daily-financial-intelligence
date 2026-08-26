@@ -44,7 +44,7 @@ IST = timezone(timedelta(hours=5, minutes=30))
 
 WINDOW_HOURS = int(os.environ.get("DFI_WINDOW_HOURS", "26"))
 MAX_ITEMS = int(os.environ.get("DFI_MAX_ITEMS", "14"))
-MODEL = os.environ.get("DFI_MODEL", "claude-sonnet-5")
+MODEL = os.environ.get("DFI_MODEL") or ""
 UA = "DailyFinancialIntelligence/1.0 (personal digest; +https://github.com/)"
 
 BUCKETS = [
@@ -425,11 +425,48 @@ CANDIDATES:
 {candidates}"""
 
 
+def _call_anthropic(key: str, prompt: str) -> str:
+    r = requests.post(
+        "https://api.anthropic.com/v1/messages",
+        timeout=180,
+        headers={"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
+        json={
+            "model": MODEL or "claude-sonnet-5",
+            "max_tokens": 8000,
+            "messages": [{"role": "user", "content": prompt}],
+        },
+    )
+    r.raise_for_status()
+    return "".join(b.get("text", "") for b in r.json().get("content", []) if b.get("type") == "text")
+
+
+def _call_gemini(key: str, prompt: str) -> str:
+    """Google's free tier, via its OpenAI-compatible endpoint. One call a day
+    sits far inside the free daily quota."""
+    r = requests.post(
+        "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+        timeout=180,
+        headers={"Authorization": f"Bearer {key}", "content-type": "application/json"},
+        json={
+            "model": MODEL or "gemini-2.5-flash",
+            "max_tokens": 8000,
+            "messages": [{"role": "user", "content": prompt}],
+        },
+    )
+    r.raise_for_status()
+    return r.json()["choices"][0]["message"]["content"] or ""
+
+
 def ai_score(items: list[dict], n: int) -> dict | None:
-    key = os.environ.get("ANTHROPIC_API_KEY")
-    if not key:
-        log("  · no ANTHROPIC_API_KEY, using heuristic scoring")
+    """Prefers Anthropic if that key exists, else Gemini's free tier, else None
+    (heuristic fallback). Empty-string secrets count as absent — GitHub hands
+    unset secrets over as empty strings, not missing variables."""
+    ant = os.environ.get("ANTHROPIC_API_KEY") or None
+    gem = os.environ.get("GEMINI_API_KEY") or None
+    if not (ant or gem):
+        log("  · no ANTHROPIC_API_KEY or GEMINI_API_KEY, using heuristic scoring")
         return None
+    provider = ("anthropic", ant) if ant else ("gemini", gem)
 
     lines = []
     for i, it in enumerate(items):
@@ -442,26 +479,14 @@ def ai_score(items: list[dict], n: int) -> dict | None:
 
     for attempt in range(3):
         try:
-            r = requests.post(
-                "https://api.anthropic.com/v1/messages",
-                timeout=180,
-                headers={
-                    "x-api-key": key,
-                    "anthropic-version": "2023-06-01",
-                    "content-type": "application/json",
-                },
-                json={
-                    "model": MODEL,
-                    "max_tokens": 8000,
-                    "messages": [{"role": "user", "content": prompt}],
-                },
-            )
-            r.raise_for_status()
-            text = "".join(b.get("text", "") for b in r.json().get("content", []) if b.get("type") == "text")
+            name, key = provider
+            text = _call_anthropic(key, prompt) if name == "anthropic" else _call_gemini(key, prompt)
             text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.M).strip()
-            return json.loads(text)
+            out = json.loads(text)
+            out["_provider"] = name
+            return out
         except Exception as exc:  # noqa: BLE001
-            log(f"  · model attempt {attempt + 1} failed: {type(exc).__name__}: {exc}")
+            log(f"  · model attempt {attempt + 1} ({provider[0]}) failed: {type(exc).__name__}: {exc}")
             time.sleep(3 * (attempt + 1))
     return None
 
@@ -546,7 +571,7 @@ def build(clusters: list[dict], markets: list[dict], stats: dict, use_ai: bool) 
     return {
         "date": now.date().isoformat(),
         "generated_at": now.isoformat(),
-        "scoring": "model" if verdict else "heuristic",
+        "scoring": (verdict or {}).get("_provider", "model") if verdict else "heuristic",
         "stats": {
             "items": len(out),
             "actions": sum(1 for i in out if i["action"]),
@@ -637,9 +662,9 @@ def render_email(d: dict) -> str:
 def send_email(d: dict) -> bool:
     host = os.environ.get("SMTP_HOST") or "smtp.gmail.com"
     port = int(os.environ.get("SMTP_PORT") or "587")
-    user = os.environ.get("SMTP_USER")
-    pwd = os.environ.get("SMTP_PASS")
-    to = os.environ.get("DIGEST_TO")
+    user = os.environ.get("SMTP_USER") or None
+    pwd = os.environ.get("SMTP_PASS") or None
+    to = os.environ.get("DIGEST_TO") or None
     if not (user and pwd and to):
         log("  · email not configured (SMTP_USER / SMTP_PASS / DIGEST_TO), skipping")
         return False
