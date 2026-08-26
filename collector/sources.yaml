@@ -318,6 +318,105 @@ sources:
     region: global
     urls: ["https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258"]
 
+
+  # ─────────────────── Global macro · added for the CFA lens ───────────────────
+  # Central-bank and statistical publishers are the most bot-friendly sources on
+  # the internet. URLs below marked best-guess get verdicts from Source check.
+
+  - id: boj
+    name: Bank of Japan
+    tier: primary
+    weight: 8
+    ca_bias: 0
+    region: global
+    urls:
+      - "https://www.boj.or.jp/en/rss/whatsnew.xml"
+      - "https://www.boj.or.jp/en/rss/release.xml"
+
+  - id: us_treasury
+    name: US Treasury
+    tier: primary
+    weight: 8
+    ca_bias: 0
+    region: global
+    urls:
+      - "https://home.treasury.gov/rss/press.xml"
+      - "https://home.treasury.gov/news/press-releases/rss.xml"
+
+  - id: bls
+    name: US BLS (jobs, CPI)
+    tier: data
+    weight: 9
+    ca_bias: 0
+    region: global
+    urls:
+      - "https://www.bls.gov/feed/news_release.rss"
+      - "https://www.bls.gov/feed/bls_latest.rss"
+
+  - id: bea
+    name: US BEA (GDP, PCE)
+    tier: data
+    weight: 8
+    ca_bias: 0
+    region: global
+    urls:
+      - "https://apps.bea.gov/rss/rss.xml"
+
+  - id: eia
+    name: US EIA (energy)
+    tier: data
+    weight: 7
+    ca_bias: 0
+    region: global
+    urls:
+      - "https://www.eia.gov/rss/todayinenergy.xml"
+
+  - id: marketwatch
+    name: MarketWatch
+    tier: wire
+    weight: 5
+    ca_bias: 0
+    region: global
+    urls:
+      - "https://feeds.content.dowjones.io/public/rss/mw_topstories"
+      - "https://feeds.content.dowjones.io/public/rss/mw_marketpulse"
+
+  - id: cnbc_markets
+    name: CNBC · Markets
+    tier: paper
+    weight: 4
+    ca_bias: 0
+    region: global
+    urls:
+      - "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664"
+
+  - id: cfa_institute
+    name: CFA Institute · Enterprising Investor
+    tier: paper
+    weight: 5
+    ca_bias: 0
+    region: global
+    urls:
+      - "https://blogs.cfainstitute.org/investor/feed/"
+
+  - id: imf_blog
+    name: IMF Blog
+    tier: primary
+    weight: 7
+    ca_bias: 0
+    region: global
+    urls:
+      - "https://www.imf.org/en/Blogs/rss"
+
+  - id: wto
+    name: WTO
+    tier: primary
+    weight: 6
+    ca_bias: 0
+    region: global
+    urls:
+      - "https://www.wto.org/library/rss/latest_news_e.xml"
+
 # ─────────────────────────── market snapshot ───────────────────────────
 # Stooq serves free delayed EOD quotes as CSV with no key. Used only for the
 # one-line market context strip, not for anything you would trade on.

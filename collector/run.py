@@ -49,10 +49,10 @@ UA = "DailyFinancialIntelligence/1.0 (personal digest; +https://github.com/)"
 
 BUCKETS = [
     ("must_know", "What you need to know today"),
-    ("ca_work", "What could affect your CA work"),
-    ("india_economy", "India · economy and business"),
-    ("global", "Global developments that reach India"),
-    ("markets", "Market context"),
+    ("global", "Central banks & global macro"),
+    ("india_economy", "India · macro, flows and policy"),
+    ("markets", "Markets · cross-asset context"),
+    ("ca_work", "Tax, audit & compliance"),
     ("watchlist", "Worth monitoring, not yet urgent"),
 ]
 
@@ -378,14 +378,14 @@ def heuristic_score(it: dict) -> dict:
     corrob = min(1.0, 0.34 * (it["corroboration"] - 1))
     base = 0.5 * max(ca, macro) + 0.5 * it["weight"] + corrob
     priority = int(max(1, min(10, round(base * 0.85))))
-    if it["tier"] == "primary" and CA_TERMS.search(text):
-        bucket = "ca_work"
-    elif priority >= 8:
+    if priority >= 8 and MACRO_TERMS.search(text):
         bucket = "must_know"
+    elif it["region"] == "global" and MACRO_TERMS.search(text):
+        bucket = "global"
+    elif it["tier"] == "primary" and CA_TERMS.search(text):
+        bucket = "ca_work"
     elif it["region"] == "india":
         bucket = "india_economy"
-    elif MACRO_TERMS.search(text):
-        bucket = "global"
     else:
         bucket = "watchlist"
     return {
@@ -400,23 +400,30 @@ def heuristic_score(it: dict) -> dict:
     }
 
 
-PROMPT = """You are the analyst behind a chartered accountant's morning brief. He practises in India: direct tax, GST, audit, financial reporting, company law. He also follows the Indian and global economy and invests.
+PROMPT = """You are the analyst behind the morning brief of an India-based investment professional. He is a CFA first: global macro, markets, portfolio implications. He is also a chartered accountant, so material Indian tax/audit/regulatory changes still matter, but as a secondary lens.
+
+His priority order:
+1. Global policy and macro decisions — central banks, rates, inflation prints, fiscal moves, tariffs, energy — and what they change.
+2. The transmission into India: USD and rate differentials -> FII/FPI flows -> INR -> crude and the import bill -> G-sec yields -> Indian equities and credit. Name the channel explicitly whenever it is the point.
+3. Indian macro data and policy in its own right.
+4. Cross-asset market context: equities, bonds, FX, commodities, positioning.
+5. Tax / GST / audit / company-law changes that would affect his CA work — include only when genuinely material, and cap their priority at 8 unless action is required.
 
 Below are today's candidate stories, already deduplicated. Return the {n} that genuinely deserve his attention today and discard the rest.
 
 Rules that matter more than anything else:
 
-1. The headline must state the IMPLICATION FOR HIM, never the event. Write "This could change the interest-rate outlook for your clients' borrowing costs", not "RBI holds repo rate". If you cannot articulate why he should care, drop the story.
-2. "why_it_matters" is addressed to him in second person, one or two sentences, concrete. Name the mechanism — who is affected and through what channel.
-3. "action" is non-null only when there is something he should actually do this week (check applicability to clients, diarise a due date, review a disclosure). Otherwise null. Do not invent work.
-4. priority is 1-10. Reserve 9-10 for things that change what he does. A large global story he can only watch is a 6, not a 9.
+1. The headline must state the IMPLICATION, never the event. "This shifts the odds on Fed cuts and could pressure FII flows into India", not "Fed minutes released". If you cannot articulate why he should care, drop the story.
+2. "why_it_matters" is addressed to him in second person, one or two sentences, concrete. Name the mechanism and the asset classes or exposures affected. A transmission chain ("hawkish repricing -> stronger USD -> INR pressure -> less room for RBI") is worth more than an adjective.
+3. "action" is non-null only when there is something to actually do or check this week — a data release to watch, a position assumption to revisit, a client compliance item. Do not invent work.
+4. priority is 1-10. Reserve 9-10 for things that materially change rate expectations, flow dynamics, or require action. A story he can only file away is a 5-6 however large it sounds.
 5. Be willing to return fewer than {n} items. A short honest brief beats a padded one.
-6. Never assert a fact that is not in the supplied title or summary. If detail is thin, say less.
-7. Candidates were deduplicated by word overlap, which misses paraphrase. If several candidates describe ONE event, return a single item, use the most authoritative candidate as "ref" (a regulator beats a newspaper), and list the other candidate numbers in "merged_refs".
+6. Never assert a fact that is not in the supplied title or summary. Never invent numbers. If detail is thin, say less.
+7. Candidates were deduplicated by word overlap, which misses paraphrase. If several candidates describe ONE event, return a single item, use the most authoritative candidate as "ref" (a central bank or statistics agency beats a newspaper), and list the other candidate numbers in "merged_refs".
 
-Buckets: must_know, ca_work, india_economy, global, markets, watchlist.
+Buckets: must_know, global (central banks & global macro), india_economy (Indian macro, flows, policy), markets (cross-asset context), ca_work (tax/audit/compliance), watchlist.
 
-Also write "five_minutes": up to 5 single-sentence lines, the version he reads if he only has five minutes. Each line must be self-contained and implication-first.
+Also write "five_minutes": up to 5 single-sentence lines, the version he reads if he only has five minutes. Macro first, implication first, each line self-contained.
 
 Return ONLY valid JSON, no markdown fence:
 {{"five_minutes": ["..."], "items": [{{"ref": <candidate number>, "bucket": "...", "headline": "...", "what_happened": "...", "why_it_matters": "...", "action": null, "priority": 7, "merged_refs": [], "scores": {{"ca": 0, "business": 0, "market": 0, "global": 0}}, "confidence": "high"}}]}}
