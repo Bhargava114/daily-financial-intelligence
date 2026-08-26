@@ -715,6 +715,31 @@ def send_email(d: dict) -> bool:
 # ───────────────────────────────── main ─────────────────────────────────
 
 
+def audit(conf: dict) -> int:
+    """Try every source and print an honest table. No digest, no email, no commit."""
+    session = requests.Session()
+    ok = 0
+    print(f"{'SOURCE':<18} {'STATUS':<12} DETAIL")
+    print("-" * 78)
+    for src in conf["sources"]:
+        fn = fetch_scrape if "scrape" in src else fetch_feed
+        try:
+            got = fn(src, session)
+        except Exception:  # noqa: BLE001
+            got = []
+        where = src["scrape"]["url"] if "scrape" in src else src["urls"][0]
+        if got:
+            ok += 1
+            print(f"{src['id']:<18} {'OK':<12} {len(got)} items · {where[:52]}")
+        else:
+            print(f"{src['id']:<18} {'DEAD':<12} {where[:58]}")
+    m = market_strip(conf, offline=False)
+    print("-" * 78)
+    print(f"markets strip: {'OK, ' + str(len(m)) + ' instruments' if m else 'DEAD'}")
+    print(f"{ok}/{len(conf['sources'])} sources alive from this runner")
+    return 0
+
+
 def log(msg: str) -> None:
     print(msg, flush=True)
 
@@ -722,11 +747,16 @@ def log(msg: str) -> None:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--offline", action="store_true")
+    ap.add_argument("--audit", action="store_true", help="test every source, print a table, change nothing")
     ap.add_argument("--no-ai", action="store_true")
     ap.add_argument("--no-email", action="store_true")
     args = ap.parse_args()
 
     conf = yaml.safe_load(CONF.read_text())
+
+    if args.audit:
+        return audit(conf)
+
     DATA.mkdir(exist_ok=True)
     (DATA / "archive").mkdir(exist_ok=True)
 

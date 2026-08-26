@@ -156,7 +156,9 @@ sources:
     weight: 5
     ca_bias: 1
     region: india
-    urls: ["https://www.business-standard.com/rss/economy-102.rss"]
+    urls:
+      - "https://www.business-standard.com/rss/economy-102.rss"
+      - "https://www.business-standard.com/rss/latest.rss"
 
   - id: bs_finance
     name: Business Standard · Finance
@@ -237,7 +239,9 @@ sources:
     weight: 8
     ca_bias: 1
     region: global
-    urls: ["https://www.imf.org/en/News/RSS?language=eng"]
+    urls:
+      - "https://www.imf.org/en/News/RSS?language=eng"
+      - "https://www.imf.org/external/cntpst/prfeed.aspx"
 
   - id: bis
     name: BIS
@@ -245,7 +249,9 @@ sources:
     weight: 8
     ca_bias: 1
     region: global
-    urls: ["https://www.bis.org/doclist/all_rss.rss"]
+    urls:
+      - "https://www.bis.org/doclist/all_rss.rss"
+      - "https://www.bis.org/list/press_releases/index.rss"
 
   - id: worldbank
     name: World Bank
@@ -253,7 +259,9 @@ sources:
     weight: 7
     ca_bias: 0
     region: global
-    urls: ["https://www.worldbank.org/en/news/all.rss"]
+    urls:
+      - "https://www.worldbank.org/en/news/all.rss"
+      - "https://www.worldbank.org/en/news/all?format=rss"
 
   - id: oecd
     name: OECD
@@ -261,7 +269,9 @@ sources:
     weight: 7
     ca_bias: 1
     region: global
-    urls: ["https://www.oecd.org/en/latest.xml"]
+    urls:
+      - "https://www.oecd.org/en/latest.xml"
+      - "https://www.oecd.org/newsroom/index.xml"
 
   - id: sec
     name: SEC
@@ -277,26 +287,20 @@ sources:
     weight: 9
     ca_bias: 2
     region: global
-    urls: ["https://www.ifrs.org/news-and-events/rss/"]
-
-  - id: fasb
-    name: FASB
-    tier: primary
-    weight: 6
-    ca_bias: 1
-    region: global
-    urls: ["https://www.fasb.org/rss/news.xml"]
+    urls:
+      - "https://www.ifrs.org/news-and-events/rss/"
+      - "https://www.ifrs.org/news-and-events/rss-feeds/"
 
   # ─────────────────────────── Global · press ───────────────────────────
   # Reuters, FT, WSJ and Bloomberg are deliberately absent — see README.
   # These are the credible open replacements for wire-level global coverage.
-  - id: apnews_business
-    name: AP Business
+  - id: bbc_business
+    name: BBC Business
     tier: wire
     weight: 6
     ca_bias: 0
     region: global
-    urls: ["https://rsshub.app/apnews/topics/business"]
+    urls: ["https://feeds.bbci.co.uk/news/business/rss.xml"]
 
   - id: guardian_business
     name: Guardian Business
