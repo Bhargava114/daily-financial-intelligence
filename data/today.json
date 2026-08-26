@@ -1,20 +1,20 @@
 {
   "date": "2026-08-27",
-  "generated_at": "2026-08-27T00:49:33.663708+05:30",
+  "generated_at": "2026-08-27T01:01:53.861525+05:30",
   "scoring": "gemini",
   "stats": {
-    "items": 9,
-    "actions": 2,
-    "candidates": 185,
-    "sources_ok": 16,
-    "sources_failed": 17
+    "items": 12,
+    "actions": 3,
+    "candidates": 180,
+    "sources_ok": 17,
+    "sources_failed": 15
   },
   "five_minutes": [
-    "A weakening rupee combined with foreign asset reporting requirements could inflate tax and penalty liabilities for your HNI clients.",
-    "Your startup clients may soon gain direct access to Japanese venture capital through a proposed bilateral pitching initiative.",
-    "Use the newly released RBI House Price Index trends to benchmark and verify property valuations and capital gains calculations for your real estate clients.",
-    "Intermediary clients registered with SEBI must prepare to align their cyber compliance reporting with the newly launched Cyber Suraksha Portal.",
-    "Assess your clients' equity and banking sector portfolios as PSU banks outperform private lenders with a 4% monthly gain."
+    "Your food processing and FMCG clients must liquidate surplus sugar inventory by August 31 after the government refused stock limit extensions.",
+    "RBI's updated directions alter deposit interest rates and reserve ratio rules for rural co-operative banks, impacting statutory audits and compliance.",
+    "RBI's August Bulletin and GDP poll project growth moderating to 7.1%, signaling sustained macroeconomic resilience alongside subdued private capex.",
+    "The All-India House Price Index rose 1.1% in Q1, offering updated property transaction benchmarks for client real estate valuations and asset structuring.",
+    "Meta's multi-billion dollar settlement removes a major legal overhang, driving tech equities higher globally."
   ],
   "markets": [],
   "buckets": [
@@ -45,70 +45,18 @@
   ],
   "items": [
     {
-      "id": "1d1848a39704",
+      "id": "912f8781c326",
       "bucket": "ca_work",
-      "headline": "Your HNI clients declaring foreign assets may face steeper tax valuations as the rupee depreciates",
-      "what_happened": "A weakening Indian rupee is crossing paths with foreign asset amnesty disclosures.",
-      "why_it_matters": "A depreciating rupee means foreign assets will convert to higher INR values, directly inflating the taxable base and potential penalty calculations for your clients seeking to regularize foreign assets.",
-      "action": "Identify HNI clients with reportable foreign assets and run updated tax liability computations reflecting the depreciating exchange rate.",
+      "headline": "Advise bulk sugar consumer clients to liquidate excess inventory before the strict August 31 compliance deadline",
+      "what_happened": "The government rejected industry pleas to extend the deadline for easing stock limits, mandating bulk sugar consumers to liquidate surplus inventory by August 31 to curb hoarding.",
+      "why_it_matters": "Your corporate clients in confectionery, beverage, and food processing face severe regulatory penalties and physical inspections if their warehouse inventories exceed prescribed limits after August 31.",
+      "action": "Review stock registers and inventory levels of food processing/manufacturing clients today to ensure surplus stocks are sold or regularised before August 31.",
       "priority": 9,
       "scores": {
         "ca": 9,
-        "business": 7,
-        "market": 6,
-        "global": 5
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Economic Times",
-        "tier": "paper",
-        "url": "https://economictimes.indiatimes.com/news/economy/policy/rupee-slide-valuation-rules-put-foreign-asset-disclosure-scheme-out-of-reach-for-many/articleshow/133548823.cms",
-        "published": "2026-08-26T18:22:14+00:00"
-      },
-      "also_reported_by": [
-        "Economic Times · Economy"
-      ]
-    },
-    {
-      "id": "751b17bdabca",
-      "bucket": "ca_work",
-      "headline": "Your regulated market intermediary clients must prepare for new cyber compliance via SEBI's newly launched portal",
-      "what_happened": "SEBI has launched a new 'Cyber Suraksha Portal' to streamline cybersecurity-related filings and incident reporting.",
-      "why_it_matters": "Your clients who operate as market intermediaries will need to integrate this portal into their compliance calendars and internal reporting workflows.",
-      "action": "Verify which of your intermediary clients are subject to SEBI cyber guidelines and ensure they register on the new portal.",
-      "priority": 8,
-      "scores": {
-        "ca": 8,
-        "business": 6,
-        "market": 5,
-        "global": 4
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/aug-2026/launch-of-cyber-suraksha-portal_103930.html",
-        "published": "2026-08-26T19:18:13.750077+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "34793d4546ad",
-      "bucket": "ca_work",
-      "headline": "Your startup clients could soon pitch for Japanese capital through a proposed bilateral pitching series",
-      "what_happened": "India has proposed a 'Shark Tank'-style startup pitching initiative to connect young Indian startups with Japanese investments and corporate partners.",
-      "why_it_matters": "If you advise early-stage or tech startups, this bilateral channel could soon open up structured foreign investment and joint-venture opportunities for your clients.",
-      "action": null,
-      "priority": 7,
-      "scores": {
-        "ca": 7,
-        "business": 8,
-        "market": 6,
-        "global": 7
+        "business": 9,
+        "market": 4,
+        "global": 1
       },
       "confidence": "high",
       "is_update": false,
@@ -116,26 +64,107 @@
       "source": {
         "name": "Economic Times · Economy",
         "tier": "paper",
-        "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/piyush-goyal-proposes-india-japan-shark-tank-style-startup-series-to-boost-investments-business-ties/articleshow/133529788.cms",
-        "published": "2026-08-26T04:41:57+00:00"
+        "url": "https://economictimes.indiatimes.com/news/economy/agriculture/bulk-sugar-users-in-a-soup-as-govt-refuses-to-ease-stock-limit-order/articleshow/133550008.cms",
+        "published": "2026-08-26T19:00:16+00:00"
       },
       "also_reported_by": [
-        "Economic Times · Economy"
+        "Economic Times"
       ]
     },
     {
-      "id": "7d43c9af5a1d",
+      "id": "e1a911a667df",
+      "bucket": "ca_work",
+      "headline": "Review statutory compliance for rural co-operative bank clients under RBI's amended deposit interest rate directions",
+      "what_happened": "The Reserve Bank of India issued the Rural Co-operative Banks – Interest Rate on Deposits Second Amendment Directions, 2026.",
+      "why_it_matters": "If you audit or advise rural co-operative banks, these revised operational instructions directly impact interest schedule computations, statutory disclosures, and compliance reporting.",
+      "action": "Check the amended RBI directions against your banking clients' deposit schedules and audit checklists for the upcoming reporting cycle.",
+      "priority": 8,
+      "scores": {
+        "ca": 9,
+        "business": 6,
+        "market": 3,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13690&Mode=0",
+        "published": "2026-08-26T19:29:49.030970+00:00"
+      },
+      "also_reported_by": [
+        "RBI Notifications"
+      ]
+    },
+    {
+      "id": "34e6c2731e00",
+      "bucket": "ca_work",
+      "headline": "Update statutory liquidity and cash reserve audit checklists following RBI's fourth amendment for rural co-operative banks",
+      "what_happened": "The RBI notified the Rural Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio Fourth Amendment Directions, 2026.",
+      "why_it_matters": "Statutory auditors of co-operative credit institutions must ensure regulatory compliance with the amended CRR and SLR computation and maintenance formulas.",
+      "action": "Incorporate the fourth amendment provisions into internal audit programmes and verify liquidity ratio maintenance for co-op bank clients.",
+      "priority": 8,
+      "scores": {
+        "ca": 9,
+        "business": 6,
+        "market": 3,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13684&Mode=0",
+        "published": "2026-08-26T19:29:49.031734+00:00"
+      },
+      "also_reported_by": [
+        "RBI Notifications"
+      ]
+    },
+    {
+      "id": "3926c8eb92b2",
       "bucket": "india_economy",
-      "headline": "Use the RBI's latest macro assessment to advise clients on interest-rate risks and business planning",
-      "what_happened": "The RBI released its August 2026 Bulletin, highlighting a fragile global economic environment alongside domestic economic updates.",
-      "why_it_matters": "Understanding the central bank's view on economic fragility allows you to provide sound, macro-backed advisory to your corporate clients regarding their capital expenditure timing.",
+      "headline": "Prepare for moderated domestic demand as Q1 GDP growth is estimated at 7.1% amid lagging private investment",
+      "what_happened": "A Reuters poll projected India's economic growth slowed to 7.1% in the April-June quarter, driven by consumer spending and government outlays while private capital expenditure remained sluggish.",
+      "why_it_matters": "Slowing private investment and persistent crude price pressure affect corporate revenue forecasts, working capital demands, and expansion financing across your business client base.",
       "action": null,
-      "priority": 6,
+      "priority": 7,
       "scores": {
         "ca": 6,
         "business": 8,
         "market": 7,
-        "global": 6
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Economic Times · Economy",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/news/economy/indicators/indian-economic-growth-likely-slowed-to-7-1-in-april-june-quarter-reuters-poll/articleshow/133528587.cms",
+        "published": "2026-08-26T03:36:08+00:00"
+      },
+      "also_reported_by": [
+        "Mint · Economy"
+      ]
+    },
+    {
+      "id": "bf2b77c9d227",
+      "bucket": "india_economy",
+      "headline": "Factor updated official property price benchmarks into your clients' real estate valuation and capital gains assessments",
+      "what_happened": "The RBI released the All-India House Price Index for Q1:2026-27 (base year 2022-23), recording a 1.1% quarterly increase across eighteen major cities based on registration data.",
+      "why_it_matters": "Provides objective macroeconomic property valuation reference points relevant when structuring corporate asset sales, computing capital gains, or reviewing balance sheet property revaluations.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 6,
+        "business": 7,
+        "market": 6,
+        "global": 1
       },
       "confidence": "high",
       "is_update": true,
@@ -143,103 +172,22 @@
       "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63444",
-        "published": "2026-08-26T19:18:13.955307+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63436",
+        "published": "2026-08-26T19:29:49.712021+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "da9c3dfbd719",
+      "id": "7d43c9af5a1d",
       "bucket": "india_economy",
-      "headline": "Expect enhanced foreign capital interest and advisory opportunities in your clients' fintech and payment businesses",
-      "what_happened": "Finance Minister Nirmala Sitharaman pitched India's digital infrastructure, fintech, payments, and young demography to Canadian investors.",
-      "why_it_matters": "Increased interest from Canadian funds in fintech and financial services can translate into potential cross-border M&A, valuations, and compliance advisory mandates for your firm.",
+      "headline": "Track central bank macroeconomic assessment to guide client cash flow management and expansion budgeting",
+      "what_happened": "The RBI released its August 2026 Bulletin featuring the State of the Economy article, reviewing monetary policy transmission, liquidity conditions, and economic performance.",
+      "why_it_matters": "The macroeconomic data and central bank commentary provide critical context for evaluating interest rate trajectories and corporate borrowing environments.",
       "action": null,
       "priority": 6,
       "scores": {
         "ca": 6,
         "business": 7,
-        "market": 7,
-        "global": 7
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Economic Times · Economy",
-        "tier": "paper",
-        "url": "https://economictimes.indiatimes.com/news/economy/finance/india-fastest-growing-major-economy-offers-strong-investment-opportunities-finance-minister-nirmala-sitharamanseeking-investement-from-canadian-entities/articleshow/133531917.cms",
-        "published": "2026-08-26T06:19:12+00:00"
-      },
-      "also_reported_by": [
-        "Economic Times · Economy"
-      ]
-    },
-    {
-      "id": "24c79a78bed9",
-      "bucket": "markets",
-      "headline": "A 4% rise in PSU bank stocks may require a review of your investment clients' banking sector allocations",
-      "what_happened": "The Nifty PSU Bank index has risen by 4% this month, sharply outperforming the flat-to-negative private bank index and Nifty 50.",
-      "why_it_matters": "This market rotation might warrant a rebalancing of your clients' equity portfolios to capture the momentum in state-owned lenders.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 5,
-        "business": 6,
-        "market": 8,
-        "global": 4
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Mint · Markets",
-        "tier": "paper",
-        "url": "https://www.livemint.com/market/stock-market-news/sbi-pnb-to-bank-of-maharashtra-psu-bank-stocks-rise-up-to-4-whats-driving-the-rally-do-you-own-any-of-these-11787720628727.html",
-        "published": "2026-08-26T05:30:32+00:00"
-      },
-      "also_reported_by": [
-        "Mint · Markets"
-      ]
-    },
-    {
-      "id": "a11de6dae63f",
-      "bucket": "markets",
-      "headline": "Favorable global cues and cooling oil prices are set to sustain a positive momentum in your clients' equity portfolios",
-      "what_happened": "Indian stock indices ended positively and are expected to open higher, supported by falling oil prices and positive global signals.",
-      "why_it_matters": "A sustained market upswing reduces immediate hedging costs and provides a positive window for executing tax-loss harvesting or profit-taking strategies for your portfolio clients.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 5,
-        "business": 6,
-        "market": 7,
-        "global": 6
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Mint · Markets",
-        "tier": "paper",
-        "url": "https://www.livemint.com/market/stock-market-news/nifty-50-sensex-prediction-today-check-how-indian-stock-market-is-expected-to-trade-on-26-august-11787708075189.html",
-        "published": "2026-08-26T02:05:15+00:00"
-      },
-      "also_reported_by": [
-        "Mint · Markets"
-      ]
-    },
-    {
-      "id": "bf2b77c9d227",
-      "bucket": "watchlist",
-      "headline": "This benchmark property index trend will assist you in verifying clients' real estate valuations and capital gains projections",
-      "what_happened": "The RBI released the All-India House Price Index (HPI) for Q1:2026-27, which registered a growth of 1.1%.",
-      "why_it_matters": "Using official transaction-level index data helps you cross-verify property price movements and validate capital gains calculations for your real estate and investor clients.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 7,
-        "business": 6,
         "market": 6,
         "global": 3
       },
@@ -249,37 +197,166 @@
       "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63436",
-        "published": "2026-08-26T19:18:13.956855+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63444",
+        "published": "2026-08-26T19:29:49.710385+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "20917acffd6b",
-      "bucket": "watchlist",
-      "headline": "Proposed overhaul of India's skilling system could impact your corporate clients' CSR and employee training models",
-      "what_happened": "Niti Aayog has proposed transforming India's education and training into an integrated, outcome-driven system focusing on actual employment rather than simple certification.",
-      "why_it_matters": "A shift towards actual employment outcomes might require your corporate clients to restructure their corporate social responsibility (CSR) spending on training programs and employee onboarding frameworks.",
+      "id": "ffd98e5a2e5d",
+      "bucket": "global",
+      "headline": "Monitor US big tech legal liability resolutions as Meta settles federal youth harm lawsuit for up to $18bn",
+      "what_happened": "Meta Platforms reached an agreement during a California federal court trial to pay up to $18 billion to settle claims by US states regarding platform safety and child mental health.",
+      "why_it_matters": "Resolves a massive balance sheet litigation liability for one of the world's largest digital platforms, stabilizing investor sentiment across global equity portfolios.",
       "action": null,
       "priority": 5,
       "scores": {
-        "ca": 6,
-        "business": 7,
-        "market": 4,
-        "global": 4
+        "ca": 2,
+        "business": 6,
+        "market": 7,
+        "global": 8
       },
       "confidence": "high",
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "Mint · Economy",
-        "tier": "paper",
-        "url": "https://www.livemint.com/economy/niti-aayog-skilling-blueprint-india-jobs-education-2047-mint-explainer-11787715149634.html",
-        "published": "2026-08-26T07:22:42+00:00"
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/cd68q3wynnqo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-08-26T17:44:39+00:00"
       },
       "also_reported_by": [
-        "Economic Times"
+        "Mint · Markets"
       ]
+    },
+    {
+      "id": "beba7249eeef",
+      "bucket": "markets",
+      "headline": "Anticipate firm short-term money market rates as RBI conducts ₹2,00,000 crore VRRR liquidity absorption",
+      "what_happened": "The Reserve Bank of India announced an overnight Variable Rate Reverse Repo auction under the LAF on August 27, 2026, to absorb ₹2,00,000 crore of surplus system liquidity.",
+      "why_it_matters": "Active liquidity mopping by the central bank directly influences overnight call rates, treasury yields, and short-term corporate debt instrument yields in your portfolio.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 4,
+        "business": 6,
+        "market": 7,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63445",
+        "published": "2026-08-26T19:29:49.710288+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "7b5084a847cf",
+      "bucket": "markets",
+      "headline": "Evaluate retail allocation opportunity in government stake divestment in Hindustan Copper",
+      "what_happened": "The government opened the retail portion of its Offer for Sale (OFS) for Hindustan Copper with an expanded 6% stake sale at a floor price of ₹514 per share following heavy non-retail oversubscription.",
+      "why_it_matters": "Offers your personal portfolio or high-net-worth clients an opportunity to participate in a large sovereign disinvestment at a fixed floor price.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 3,
+        "business": 5,
+        "market": 7,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/stock-market-news/hindustan-copper-share-price-in-focus-as-ofs-opens-for-retail-investors-today-should-you-apply-11787713785032.html",
+        "published": "2026-08-26T03:15:54+00:00"
+      },
+      "also_reported_by": [
+        "Mint · Markets"
+      ]
+    },
+    {
+      "id": "751b17bdabca",
+      "bucket": "watchlist",
+      "headline": "Note SEBI's rollout of the Cyber Suraksha Portal for regulated securities entities and market intermediaries",
+      "what_happened": "SEBI officially launched its Cyber Suraksha Portal to bolster cybersecurity governance and incident reporting across market infrastructure and intermediaries.",
+      "why_it_matters": "Brokers, registered intermediaries, and listed corporate clients may face structured cybersecurity compliance obligations and reporting protocols under this framework.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 6,
+        "business": 5,
+        "market": 4,
+        "global": 1
+      },
+      "confidence": "medium",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/aug-2026/launch-of-cyber-suraksha-portal_103930.html",
+        "published": "2026-08-26T19:29:48.604922+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "50c1aeedce8f",
+      "bucket": "watchlist",
+      "headline": "Track SEBI enforcement trends on SME/listed accounting practices following final order in Varanium Cloud",
+      "what_happened": "SEBI passed a final order in the matter of Varanium Cloud Limited concluding regulatory enforcement proceedings.",
+      "why_it_matters": "Enforcement actions against listed entities illustrate SEBI's tightening scrutiny over financial misstatements, disclosure failures, and promoter actions.",
+      "action": null,
+      "priority": 4,
+      "scores": {
+        "ca": 6,
+        "business": 4,
+        "market": 4,
+        "global": 1
+      },
+      "confidence": "medium",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/enforcement/orders/aug-2026/final-order-in-respect-of-varanium-cloud-limited_104019.html",
+        "published": "2026-08-26T19:29:48.604251+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "d9311591756f",
+      "bucket": "watchlist",
+      "headline": "Observe SEBI regulatory compliance determinations in Max Financial Services matter",
+      "what_happened": "The capital markets regulator issued an order in the matter of Max Financial Services Limited.",
+      "why_it_matters": "Highlights SEBI's interpretation and application of securities compliance, governance standards, and transaction reporting requirements for major listed financial conglomerates.",
+      "action": null,
+      "priority": 4,
+      "scores": {
+        "ca": 5,
+        "business": 4,
+        "market": 5,
+        "global": 1
+      },
+      "confidence": "medium",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/enforcement/orders/aug-2026/order-in-the-matter-of-max-financial-services-limited_103935.html",
+        "published": "2026-08-26T19:29:48.604827+00:00"
+      },
+      "also_reported_by": []
     }
   ]
 }
