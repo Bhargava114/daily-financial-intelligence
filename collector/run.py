@@ -635,8 +635,8 @@ def render_email(d: dict) -> str:
 
 
 def send_email(d: dict) -> bool:
-    host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
-    port = int(os.environ.get("SMTP_PORT", "587"))
+    host = os.environ.get("SMTP_HOST") or "smtp.gmail.com"
+    port = int(os.environ.get("SMTP_PORT") "587")
     user = os.environ.get("SMTP_USER")
     pwd = os.environ.get("SMTP_PASS")
     to = os.environ.get("DIGEST_TO")
