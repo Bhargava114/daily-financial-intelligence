@@ -38,6 +38,8 @@ import requests
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
+PROFILE = Path(__file__).resolve().parent / "profile.yaml"
+LEARNED = Path(__file__).resolve().parent / "learned.yaml"
 CONF = Path(__file__).resolve().parent / "sources.yaml"
 DATA = ROOT / "data"
 IST = timezone(timedelta(hours=5, minutes=30))
@@ -402,7 +404,27 @@ def heuristic_score(it: dict) -> dict:
     }
 
 
+def load_profile() -> str:
+    """profile.yaml is hand-written and never machine-edited; learned.yaml is
+    appended by the likes workflow. Both are optional."""
+    lines = []
+    for path in (PROFILE, LEARNED):
+        try:
+            data = yaml.safe_load(path.read_text()) or {}
+        except Exception:  # noqa: BLE001
+            continue
+        for k, v in data.items():
+            if isinstance(v, list):
+                lines.append(f"{k}: " + "; ".join(str(x) for x in v))
+            else:
+                lines.append(f"{k}: {str(v).strip()}")
+    return "\n".join(lines)
+
+
 PROMPT = """You are the analyst behind the morning brief of an India-based investment professional. He is a CFA first: global macro, markets, portfolio implications. He is also a chartered accountant, so material Indian tax/audit/regulatory changes still matter, but as a secondary lens.
+
+HIS PROFILE (weigh every story against this: watchlist, sector and theme hits gain priority; "ignore" topics lose it; "learned_interests" are distilled from stories he marked as interesting, treat them as revealed preference):
+{profile}
 
 His priority order:
 1. Global policy and macro decisions — central banks, rates, inflation prints, fiscal moves, tariffs, energy — and what they change.
@@ -425,10 +447,15 @@ Rules that matter more than anything else:
 
 Buckets: must_know, global (central banks & global macro), india_economy (Indian macro, flows, policy), markets (cross-asset context), ca_work (tax/audit/compliance), watchlist.
 
+YESTERDAY'S BRIEF (top items, for continuity — may be empty on day one):
+{yesterday}
+
+Continuity rule: when a candidate advances one of yesterday's stories, write the headline and why_it_matters as MOVEMENT since yesterday ("firmed further after...", "second straight day of...") and set "continues": true. Fresh stories get "continues": false. Do not resurface a yesterday story that has not moved.
+
 Also write "five_minutes": up to 5 single-sentence lines, the version he reads if he only has five minutes. Macro first, implication first, each line self-contained.
 
 Return ONLY valid JSON, no markdown fence:
-{{"five_minutes": ["..."], "items": [{{"ref": <candidate number>, "bucket": "...", "headline": "...", "what_happened": "...", "why_it_matters": "...", "action": null, "priority": 7, "merged_refs": [], "scores": {{"ca": 0, "business": 0, "market": 0, "global": 0}}, "confidence": "high"}}]}}
+{{"five_minutes": ["..."], "items": [{{"ref": <candidate number>, "bucket": "...", "headline": "...", "what_happened": "...", "why_it_matters": "...", "action": null, "priority": 7, "continues": false, "merged_refs": [], "scores": {{"ca": 0, "business": 0, "market": 0, "global": 0}}, "confidence": "high"}}]}}
 
 CANDIDATES:
 {candidates}"""
@@ -505,7 +532,7 @@ def ai_score(items: list[dict], n: int) -> dict | None:
             f"[{i}] ({it['source']}, {it['tier']}) {it['title']}\n"
             f"    {it.get('summary', '')[:320]}{extra}"
         )
-    prompt = PROMPT.format(n=n, candidates="\n".join(lines))
+    prompt = PROMPT.format(n=n, candidates="\n".join(lines), profile=load_profile() or "(no profile file yet — use the defaults above)", yesterday=yesterday_context() or "(none)")
 
     for attempt in range(3):
         try:
@@ -526,6 +553,21 @@ def ai_score(items: list[dict], n: int) -> dict | None:
 
 def item_id(it: dict) -> str:
     return hashlib.sha1(it["canonical"].encode()).hexdigest()[:12]
+
+
+def yesterday_context() -> str:
+    """Top of yesterday's brief, compressed, so the analyst writes movement
+    ("odds firmed further") instead of treating every day as day one."""
+    today = datetime.now(IST).date().isoformat()
+    files = [f for f in sorted(DATA.glob("archive/*.json")) if f.stem != today]
+    if not files:
+        return ""
+    try:
+        prev = json.loads(files[-1].read_text())
+    except Exception:  # noqa: BLE001
+        return ""
+    items = sorted(prev.get("items", []), key=lambda x: -x.get("priority", 0))[:8]
+    return "\n".join(f"[p{i.get('priority', '?')}] {i.get('headline', '')}" for i in items)
 
 
 def load_yesterday() -> dict:
@@ -583,8 +625,11 @@ def build(clusters: list[dict], markets: list[dict], stats: dict, use_ai: bool) 
                 "priority": int(row.get("priority", 5)),
                 "scores": row.get("scores", {}),
                 "confidence": row.get("confidence", "medium"),
-                "is_update": bool(was),
-                "update_note": "Carried over from yesterday with new reporting." if was else None,
+                "is_update": bool(was) or bool(row.get("continues")),
+                "update_note": (
+                    "Continues yesterday's story." if row.get("continues")
+                    else "Carried over from yesterday with new reporting." if was else None
+                ),
                 "source": {
                     "name": src["source"],
                     "tier": src["tier"],

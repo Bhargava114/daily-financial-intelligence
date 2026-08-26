@@ -1,0 +1,48 @@
+# Your profile — the analyst reads this every morning before ranking stories.
+#
+# Edit freely (pencil icon on GitHub). Plain language works; these are hints
+# to an AI, not code. Changes take effect from the next morning's run.
+#
+# PRIVACY NOTE: this text is sent to the AI provider with each day's stories.
+# On Google's free tier, prompts may be used for model training — so describe
+# interests and themes, but do NOT put actual holdings, amounts, client names,
+# or anything confidential in here.
+
+role: >
+  CFA-oriented investment professional and chartered accountant based in India.
+  Global macro first, markets second, Indian tax/compliance third.
+
+# Ordered — the analyst treats earlier lines as more important.
+priorities:
+  - Central bank decisions and rate expectations (Fed, RBI, ECB, BoJ) and what they change
+  - Transmission into India — USD, FII/FPI flows, INR, crude, G-sec yields, Indian equities
+  - Indian macro data and policy (CPI, GDP, fiscal, credit growth)
+  - Cross-asset context — equities, bonds, FX, commodities, gold
+  - Material Indian tax / GST / audit / company-law changes
+
+# Sectors whose stories should rank higher for you.
+sectors:
+  - Indian banks and NBFCs
+  - IT services / exporters
+  - Energy and oil importers
+  - Real estate
+
+# Themes you are actively tracking — stories touching these gain priority.
+themes:
+  - USD/INR direction and RBI intervention
+  - Gold as a portfolio asset
+  - US fiscal deficit and Treasury yields
+  - China stimulus and commodity demand
+  - AI capex cycle and its market impact
+
+# Specific companies or instruments to watch (names, not amounts).
+watchlist:
+  - Nifty 50
+  - India 10Y G-sec
+  - Brent crude
+
+# Topics to quietly deprioritise — they will still appear if truly major.
+ignore:
+  - Celebrity business news
+  - Crypto memecoins
+  - Sports business
