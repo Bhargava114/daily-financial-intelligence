@@ -129,7 +129,7 @@ def send(w: dict) -> None:
         log("  · email not configured, skipping")
         return
     msg = MIMEMultipart("alternative")
-    msg["Subject"] = f"The Week · {w['title'][:70]}"
+    msg["Subject"] = f"Daily Intel · The Week · {w['title'][:60]}"
     msg["From"], msg["To"] = user, to
     plain = w["title"] + "\n\n" + "\n\n".join(w["changed"])
     msg.attach(MIMEText(plain, "plain", "utf-8"))
