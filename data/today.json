@@ -1,20 +1,20 @@
 {
   "date": "2026-08-27",
-  "generated_at": "2026-08-27T00:42:50.035416+05:30",
-  "scoring": "heuristic",
+  "generated_at": "2026-08-27T00:49:33.663708+05:30",
+  "scoring": "gemini",
   "stats": {
-    "items": 14,
-    "actions": 0,
-    "candidates": 186,
-    "sources_ok": 17,
-    "sources_failed": 16
+    "items": 9,
+    "actions": 2,
+    "candidates": 185,
+    "sources_ok": 16,
+    "sources_failed": 17
   },
   "five_minutes": [
-    "SEBI Order for Compliance – Release Order for Recovery Certificate No. RC 5196 of 2022 against Tanna Tusharbhai Hiralal in the matter of Excel Castronics Limited.",
-    "Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
-    "Release Order – Archit Jindal [Defaulter] PAN: AGNPJ5775G in the matter of Focus Industrial Resources Limited: under Certificate No. 3875 of 2021",
-    "Reserve Bank of India (Rural Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026",
-    "Completion of Recovery Certificate No. RC6746 of 2023 in respect of Ankit Modi (PAN: AENPM9852P) in the matter of Illiquid Stock Options"
+    "A weakening rupee combined with foreign asset reporting requirements could inflate tax and penalty liabilities for your HNI clients.",
+    "Your startup clients may soon gain direct access to Japanese venture capital through a proposed bilateral pitching initiative.",
+    "Use the newly released RBI House Price Index trends to benchmark and verify property valuations and capital gains calculations for your real estate clients.",
+    "Intermediary clients registered with SEBI must prepare to align their cyber compliance reporting with the newly launched Cyber Suraksha Portal.",
+    "Assess your clients' equity and banking sector portfolios as PSU banks outperform private lenders with a 4% monthly gain."
   ],
   "markets": [],
   "buckets": [
@@ -45,369 +45,240 @@
   ],
   "items": [
     {
-      "id": "e1a911a667df",
-      "bucket": "must_know",
-      "headline": "Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
-      "what_happened": "RBI/2026-27/248 DOR.SOG(SPE).REC.214/13.03.00/2026-27 August 25, 2026 Reserve Bank of India (Rural Co-operative Banks &ndash; Interest Rate on Deposits) Second Amendment Directions, 2026 Please refer to the Reserve Bank of India (Rural Co-operative Banks &ndash; Interest Rate on Deposits) Directions, 2025 (hereinafter referred to as &lsquo;Directions&rsquo;), dated November 28, 2025 (Updated as on June 17, 2026), wherein temporary withdrawal of the interest rate ceiling on fresh FCNR(B) deposits of 3-5 year tenors and restriction on interest rates on NRE deposits of 3 year and above tenors, in",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 8,
+      "id": "1d1848a39704",
+      "bucket": "ca_work",
+      "headline": "Your HNI clients declaring foreign assets may face steeper tax valuations as the rupee depreciates",
+      "what_happened": "A weakening Indian rupee is crossing paths with foreign asset amnesty disclosures.",
+      "why_it_matters": "A depreciating rupee means foreign assets will convert to higher INR values, directly inflating the taxable base and potential penalty calculations for your clients seeking to regularize foreign assets.",
+      "action": "Identify HNI clients with reportable foreign assets and run updated tax liability computations reflecting the depreciating exchange rate.",
+      "priority": 9,
       "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
+        "ca": 9,
+        "business": 7,
+        "market": 6,
         "global": 5
       },
-      "confidence": "low",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
       "source": {
-        "name": "RBI Notifications",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13690&Mode=0",
-        "published": "2026-08-26T19:12:22.697021+00:00"
+        "name": "Economic Times",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/news/economy/policy/rupee-slide-valuation-rules-put-foreign-asset-disclosure-scheme-out-of-reach-for-many/articleshow/133548823.cms",
+        "published": "2026-08-26T18:22:14+00:00"
       },
       "also_reported_by": [
-        "RBI Notifications"
+        "Economic Times · Economy"
       ]
     },
     {
-      "id": "6428ebbf6deb",
-      "bucket": "must_know",
-      "headline": "Release Order – Archit Jindal [Defaulter] PAN: AGNPJ5775G in the matter of Focus Industrial Resources Limited: under Certificate No. 3875 of 2021",
-      "what_happened": "Release Order – Archit Jindal [Defaulter] PAN: AGNPJ5775G in the matter of Focus Industrial Resources Limited: under Certificate No. 3875 of 2021",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
-        "global": 5
-      },
-      "confidence": "low",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/release-order-archit-jindal-defaulter-pan-agnpj5775g-in-the-matter-of-focus-industrial-resources-limited-under-certificate-no-3875-of-2021_104022.html",
-        "published": "2026-08-26T19:12:22.284651+00:00"
-      },
-      "also_reported_by": [
-        "SEBI"
-      ]
-    },
-    {
-      "id": "34e6c2731e00",
-      "bucket": "must_know",
-      "headline": "Reserve Bank of India (Rural Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026",
-      "what_happened": "RBI/2026-27/242 DOR.RET.REC.209/12.01.001/2026-27 August 25, 2026 Reserve Bank of India (Rural Co-operative Banks &ndash; Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026 Please refer to the Reserve Bank of India (Rural Co-operative Banks &ndash; Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (updated as on June 19, 2026) wherein exemption from CRR and SLR maintenance have been provided to fresh FCNR(B) deposits of minimum tenor of three years and maximum tenor of five years and fresh Non-Resident (External) Rupee (NRE) term deposits of te",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
+      "id": "751b17bdabca",
+      "bucket": "ca_work",
+      "headline": "Your regulated market intermediary clients must prepare for new cyber compliance via SEBI's newly launched portal",
+      "what_happened": "SEBI has launched a new 'Cyber Suraksha Portal' to streamline cybersecurity-related filings and incident reporting.",
+      "why_it_matters": "Your clients who operate as market intermediaries will need to integrate this portal into their compliance calendars and internal reporting workflows.",
+      "action": "Verify which of your intermediary clients are subject to SEBI cyber guidelines and ensure they register on the new portal.",
       "priority": 8,
       "scores": {
         "ca": 8,
         "business": 6,
-        "market": 6,
-        "global": 5
+        "market": 5,
+        "global": 4
       },
-      "confidence": "low",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
-      "source": {
-        "name": "RBI Notifications",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13684&Mode=0",
-        "published": "2026-08-26T19:12:22.697698+00:00"
-      },
-      "also_reported_by": [
-        "RBI Notifications"
-      ]
-    },
-    {
-      "id": "c68709037014",
-      "bucket": "must_know",
-      "headline": "Completion of Recovery Certificate No. RC6746 of 2023 in respect of Ankit Modi (PAN: AENPM9852P) in the matter of Illiquid Stock Options",
-      "what_happened": "Completion of Recovery Certificate No. RC6746 of 2023 in respect of Ankit Modi (PAN: AENPM9852P) in the matter of Illiquid Stock Options",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
-        "global": 5
-      },
-      "confidence": "low",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
       "source": {
         "name": "SEBI",
         "tier": "primary",
-        "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/completion-of-recovery-certificate-no-rc6746-of-2023-in-respect-of-ankit-modi-pan-aenpm9852p-in-the-matter-of-illiquid-stock-options_103996.html",
-        "published": "2026-08-26T19:12:22.285124+00:00"
+        "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/aug-2026/launch-of-cyber-suraksha-portal_103930.html",
+        "published": "2026-08-26T19:18:13.750077+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "34793d4546ad",
+      "bucket": "ca_work",
+      "headline": "Your startup clients could soon pitch for Japanese capital through a proposed bilateral pitching series",
+      "what_happened": "India has proposed a 'Shark Tank'-style startup pitching initiative to connect young Indian startups with Japanese investments and corporate partners.",
+      "why_it_matters": "If you advise early-stage or tech startups, this bilateral channel could soon open up structured foreign investment and joint-venture opportunities for your clients.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 7,
+        "business": 8,
+        "market": 6,
+        "global": 7
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Economic Times · Economy",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/piyush-goyal-proposes-india-japan-shark-tank-style-startup-series-to-boost-investments-business-ties/articleshow/133529788.cms",
+        "published": "2026-08-26T04:41:57+00:00"
       },
       "also_reported_by": [
-        "SEBI"
+        "Economic Times · Economy"
       ]
     },
     {
-      "id": "712b90fafb1e",
-      "bucket": "must_know",
-      "headline": "State Government Securities - Full Auction Result",
-      "what_happened": "The result of the auction of State Government Securities held on August 25, 2026 , is as under: (Amount in &#8377; Crore) &nbsp; ANDHRA PRADESH SGS 2039 ANDHRA PRADESH SGS 2051 GUJARAT SGS 2036 GUJARAT SGS 2041 Notified Amount 1000 1600 1000 1000 Tenor Re-issue of 7.56% ANDHRA SGS 2039 issued on 01-JUL-2026 Re-issue of 7.68% ANDHRA SGS 2051 issued on 29-JUL-2026 10 -Years 15 -Years Competitive Bids Received &nbsp; &nbsp; &nbsp; &nbsp; (i) No. 81 35 87 70 (ii) Amount 2055.500 4963 5290 4000 Cut-off Yield (%) 7.6695 7.6891 7.47 7.59 Cut off Price (&#8377;) 99.10 99.89 100 100 Competitive Bids Ac",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "id": "7d43c9af5a1d",
+      "bucket": "india_economy",
+      "headline": "Use the RBI's latest macro assessment to advise clients on interest-rate risks and business planning",
+      "what_happened": "The RBI released its August 2026 Bulletin, highlighting a fragile global economic environment alongside domestic economic updates.",
+      "why_it_matters": "Understanding the central bank's view on economic fragility allows you to provide sound, macro-backed advisory to your corporate clients regarding their capital expenditure timing.",
       "action": null,
-      "priority": 8,
+      "priority": 6,
       "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
-        "global": 5
+        "ca": 6,
+        "business": 8,
+        "market": 7,
+        "global": 6
       },
-      "confidence": "low",
+      "confidence": "high",
       "is_update": true,
       "update_note": "Carried over from yesterday with new reporting.",
       "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63443",
-        "published": "2026-08-26T19:12:23.303370+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63444",
+        "published": "2026-08-26T19:18:13.955307+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "da9c3dfbd719",
+      "bucket": "india_economy",
+      "headline": "Expect enhanced foreign capital interest and advisory opportunities in your clients' fintech and payment businesses",
+      "what_happened": "Finance Minister Nirmala Sitharaman pitched India's digital infrastructure, fintech, payments, and young demography to Canadian investors.",
+      "why_it_matters": "Increased interest from Canadian funds in fintech and financial services can translate into potential cross-border M&A, valuations, and compliance advisory mandates for your firm.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 6,
+        "business": 7,
+        "market": 7,
+        "global": 7
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Economic Times · Economy",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/news/economy/finance/india-fastest-growing-major-economy-offers-strong-investment-opportunities-finance-minister-nirmala-sitharamanseeking-investement-from-canadian-entities/articleshow/133531917.cms",
+        "published": "2026-08-26T06:19:12+00:00"
       },
       "also_reported_by": [
-        "RBI"
+        "Economic Times · Economy"
       ]
     },
     {
-      "id": "beba7249eeef",
-      "bucket": "must_know",
-      "headline": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on August 27, 2026",
-      "what_happened": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Thursday, August 27, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 2,00,000 1 9:30 AM to 10:00 AM August 28, 2026 (Friday) 2. The operational guidelines for the auction as given in the Reserve Bank&rsquo;s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deputy General Manager (Communications)&nbsp;&nbsp;&nbsp",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "id": "24c79a78bed9",
+      "bucket": "markets",
+      "headline": "A 4% rise in PSU bank stocks may require a review of your investment clients' banking sector allocations",
+      "what_happened": "The Nifty PSU Bank index has risen by 4% this month, sharply outperforming the flat-to-negative private bank index and Nifty 50.",
+      "why_it_matters": "This market rotation might warrant a rebalancing of your clients' equity portfolios to capture the momentum in state-owned lenders.",
       "action": null,
-      "priority": 8,
+      "priority": 6,
       "scores": {
-        "ca": 8,
+        "ca": 5,
         "business": 6,
-        "market": 6,
-        "global": 5
+        "market": 8,
+        "global": 4
       },
-      "confidence": "low",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
       "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63445",
-        "published": "2026-08-26T19:12:23.302774+00:00"
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/stock-market-news/sbi-pnb-to-bank-of-maharashtra-psu-bank-stocks-rise-up-to-4-whats-driving-the-rally-do-you-own-any-of-these-11787720628727.html",
+        "published": "2026-08-26T05:30:32+00:00"
       },
       "also_reported_by": [
-        "RBI"
+        "Mint · Markets"
+      ]
+    },
+    {
+      "id": "a11de6dae63f",
+      "bucket": "markets",
+      "headline": "Favorable global cues and cooling oil prices are set to sustain a positive momentum in your clients' equity portfolios",
+      "what_happened": "Indian stock indices ended positively and are expected to open higher, supported by falling oil prices and positive global signals.",
+      "why_it_matters": "A sustained market upswing reduces immediate hedging costs and provides a positive window for executing tax-loss harvesting or profit-taking strategies for your portfolio clients.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 5,
+        "business": 6,
+        "market": 7,
+        "global": 6
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/stock-market-news/nifty-50-sensex-prediction-today-check-how-indian-stock-market-is-expected-to-trade-on-26-august-11787708075189.html",
+        "published": "2026-08-26T02:05:15+00:00"
+      },
+      "also_reported_by": [
+        "Mint · Markets"
       ]
     },
     {
       "id": "bf2b77c9d227",
-      "bucket": "must_know",
-      "headline": "All-India House Price Index for Q1:2026-27",
-      "what_happened": "The Reserve Bank of India (RBI) compiles the House Price Index (HPI) on a quarterly basis using transaction-level data received from the registration authorities. Today, the RBI released 1 the HPI for Q1:2026-27 with base year as 2022-23, covering eighteen major cities 2 . Highlights: The All India HPI increased by 1.1 per cent and stood at 117.5 in Q1:2026-27 compared to previous quarter, primarily driven by an increase in the index for cities such as Chandigarh, Lucknow, and Thiruvananthapuram ( Chart 1 ). The HPI registered an annual growth of 3.6 per cent in Q1:2026-27, same as in Q1 of pr",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "bucket": "watchlist",
+      "headline": "This benchmark property index trend will assist you in verifying clients' real estate valuations and capital gains projections",
+      "what_happened": "The RBI released the All-India House Price Index (HPI) for Q1:2026-27, which registered a growth of 1.1%.",
+      "why_it_matters": "Using official transaction-level index data helps you cross-verify property price movements and validate capital gains calculations for your real estate and investor clients.",
       "action": null,
-      "priority": 8,
+      "priority": 6,
       "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
-        "global": 5
+        "ca": 7,
+        "business": 6,
+        "market": 6,
+        "global": 3
       },
-      "confidence": "low",
+      "confidence": "high",
       "is_update": true,
       "update_note": "Carried over from yesterday with new reporting.",
       "source": {
         "name": "RBI",
         "tier": "primary",
         "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63436",
-        "published": "2026-08-26T19:12:23.304361+00:00"
+        "published": "2026-08-26T19:18:13.956855+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "ab784b786f2e",
-      "bucket": "must_know",
-      "headline": "Appeal No. 7002 of 2026 filed by Yogesh Dhondiram Patil",
-      "what_happened": "Appeal No. 7002 of 2026 filed by Yogesh Dhondiram Patil",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
-        "global": 5
-      },
-      "confidence": "low",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/otherentry//_103995.html",
-        "published": "2026-08-26T19:12:22.285146+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "fd6401adcfff",
-      "bucket": "must_know",
-      "headline": "Appeal No. 7003 of 2026 filed by Sopan Ashok Kajale",
-      "what_happened": "Appeal No. 7003 of 2026 filed by Sopan Ashok Kajale",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
-        "global": 5
-      },
-      "confidence": "low",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/otherentry//_103997.html",
-        "published": "2026-08-26T19:12:22.285096+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "5630f4bf25ec",
-      "bucket": "must_know",
-      "headline": "Appeal No. 7004 of 2026 filed by yash kumar",
-      "what_happened": "Appeal No. 7004 of 2026 filed by yash kumar",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
-        "global": 5
-      },
-      "confidence": "low",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/otherentry//_103999.html",
-        "published": "2026-08-26T19:12:22.285051+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "15b402801093",
-      "bucket": "must_know",
-      "headline": "Appeal No. 7005 of 2026 filed by Gnaneeswar Adhi",
-      "what_happened": "Appeal No. 7005 of 2026 filed by Gnaneeswar Adhi",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
-        "global": 5
-      },
-      "confidence": "low",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/enforcement/orders/aug-2026/appeal-no-7005-of-2026-filed-by-gnaneeswar-adhi_104001.html",
-        "published": "2026-08-26T19:12:22.285008+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "107daf1969f0",
-      "bucket": "must_know",
-      "headline": "Appeal No. 7006 of 2026 filed by Shekhar Santani",
-      "what_happened": "Appeal No. 7006 of 2026 filed by Shekhar Santani",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
-        "global": 5
-      },
-      "confidence": "low",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/enforcement/orders/aug-2026/appeal-no-7006-of-2026-filed-by-shekhar-santani_104003.html",
-        "published": "2026-08-26T19:12:22.284965+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "8bcc846d79ea",
-      "bucket": "ca_work",
-      "headline": "SEBI Order for Compliance – Release Order for Recovery Certificate No. RC 5196 of 2022 against Tanna Tusharbhai Hiralal in the matter of Excel Castronics Limited.",
-      "what_happened": "SEBI Order for Compliance – Release Order for Recovery Certificate No. RC 5196 of 2022 against Tanna Tusharbhai Hiralal in the matter of Excel Castronics Limited.",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 9,
-      "scores": {
-        "ca": 10,
-        "business": 3,
-        "market": 3,
-        "global": 5
-      },
-      "confidence": "low",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/sebi-order-for-compliance-release-order-for-recovery-certificate-no-rc-5196-of-2022-against-tanna-tusharbhai-hiralal-in-the-matter-of-excel-castronics-limited-_104026.html",
-        "published": "2026-08-26T19:12:22.284463+00:00"
-      },
-      "also_reported_by": [
-        "SEBI"
-      ]
-    },
-    {
-      "id": "3e48c0e2a002",
+      "id": "20917acffd6b",
       "bucket": "watchlist",
-      "headline": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "what_happened": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "headline": "Proposed overhaul of India's skilling system could impact your corporate clients' CSR and employee training models",
+      "what_happened": "Niti Aayog has proposed transforming India's education and training into an integrated, outcome-driven system focusing on actual employment rather than simple certification.",
+      "why_it_matters": "A shift towards actual employment outcomes might require your corporate clients to restructure their corporate social responsibility (CSR) spending on training programs and employee onboarding frameworks.",
       "action": null,
-      "priority": 6,
+      "priority": 5,
       "scores": {
-        "ca": 4,
-        "business": 3,
-        "market": 3,
-        "global": 5
+        "ca": 6,
+        "business": 7,
+        "market": 4,
+        "global": 4
       },
-      "confidence": "low",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
       "source": {
-        "name": "Federal Reserve",
-        "tier": "primary",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
-        "published": "2026-08-25T18:00:00+00:00"
+        "name": "Mint · Economy",
+        "tier": "paper",
+        "url": "https://www.livemint.com/economy/niti-aayog-skilling-blueprint-india-jobs-education-2047-mint-explainer-11787715149634.html",
+        "published": "2026-08-26T07:22:42+00:00"
       },
       "also_reported_by": [
-        "Federal Reserve · All"
+        "Economic Times"
       ]
     }
   ]
