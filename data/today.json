@@ -1,0 +1,326 @@
+{
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T22:59:35.334582+05:30",
+  "scoring": "heuristic",
+  "stats": {
+    "items": 11,
+    "actions": 0,
+    "candidates": 11,
+    "sources_ok": 12,
+    "sources_failed": 0
+  },
+  "five_minutes": [
+    "SAMPLE — CBDT issues a circular clarifying the treatment of a disputed deduction",
+    "SAMPLE — Reserve Bank keeps the policy repo rate unchanged and shifts its stated liquidity stance",
+    "SAMPLE — SEBI tightens a disclosure requirement applying to listed entities",
+    "SAMPLE — GST Council recommends a rate change and a new return filing timeline",
+    "SAMPLE — ICAI releases an exposure draft affecting revenue recognition guidance"
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "ca_work",
+      "label": "What could affect your CA work"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · economy and business"
+    },
+    {
+      "id": "global",
+      "label": "Global developments that reach India"
+    },
+    {
+      "id": "markets",
+      "label": "Market context"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "9da036d10167",
+      "bucket": "must_know",
+      "headline": "SAMPLE — Reserve Bank keeps the policy repo rate unchanged and shifts its stated liquidity stance",
+      "what_happened": "Placeholder record used to exercise the pipeline offline. Real content replaces this on the first live run.",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 8,
+        "business": 6,
+        "market": 6,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/",
+        "published": "2026-08-26T02:40:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "07d5c65b9a76",
+      "bucket": "ca_work",
+      "headline": "SAMPLE — CBDT issues a circular clarifying the treatment of a disputed deduction",
+      "what_happened": "Placeholder record. The live collector fills this from the CBDT communications listing.",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 10,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "CBDT / Income Tax",
+        "tier": "primary",
+        "url": "https://incometaxindia.gov.in/",
+        "published": "2026-08-26T03:10:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "ed736b52b13f",
+      "bucket": "ca_work",
+      "headline": "SAMPLE — SEBI tightens a disclosure requirement applying to listed entities",
+      "what_happened": "Placeholder record for the SEBI circular feed.",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 10,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/",
+        "published": "2026-08-26T05:20:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "473ae3813e7e",
+      "bucket": "ca_work",
+      "headline": "SAMPLE — GST Council recommends a rate change and a new return filing timeline",
+      "what_happened": "Placeholder record covering the PIB Finance Ministry feed, which carries GST Council outcomes.",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 10,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "PIB · Ministry of Finance",
+        "tier": "primary",
+        "url": "https://pib.gov.in/",
+        "published": "2026-08-26T04:05:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "8158eba11e7f",
+      "bucket": "ca_work",
+      "headline": "SAMPLE — ICAI releases an exposure draft affecting revenue recognition guidance",
+      "what_happened": "Placeholder record for the ICAI announcements page.",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 10,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "ICAI",
+        "tier": "primary",
+        "url": "https://www.icai.org/",
+        "published": "2026-08-26T03:55:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "71909b12ae40",
+      "bucket": "ca_work",
+      "headline": "SAMPLE — IFRS Foundation publishes an amendment to a reporting standard",
+      "what_happened": "Placeholder record for the IFRS news feed.",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 10,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "IFRS Foundation",
+        "tier": "primary",
+        "url": "https://www.ifrs.org/",
+        "published": "2026-08-25T20:10:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "a3261869ff66",
+      "bucket": "ca_work",
+      "headline": "SAMPLE — MCA notifies an amendment to filing requirements under the Companies Act",
+      "what_happened": "Placeholder record for the MCA notifications listing.",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 10,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "MCA",
+        "tier": "primary",
+        "url": "https://www.mca.gov.in/",
+        "published": "2026-08-26T04:30:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "78269ebbc53e",
+      "bucket": "india_economy",
+      "headline": "SAMPLE — MoSPI releases monthly inflation data slightly above consensus",
+      "what_happened": "Placeholder record for official statistics carried via PIB.",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 6,
+        "business": 6,
+        "market": 6,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "PIB",
+        "tier": "primary",
+        "url": "https://pib.gov.in/",
+        "published": "2026-08-26T06:00:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "e3833add665c",
+      "bucket": "india_economy",
+      "headline": "SAMPLE — Brent crude rises sharply on supply disruption, pressuring importer margins",
+      "what_happened": "Placeholder record for the Mint markets feed.",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 4,
+        "business": 6,
+        "market": 6,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/",
+        "published": "2026-08-26T01:15:00+00:00"
+      },
+      "also_reported_by": [
+        "Economic Times"
+      ]
+    },
+    {
+      "id": "f9ca82392713",
+      "bucket": "global",
+      "headline": "SAMPLE — Federal Reserve minutes show officials more divided on the pace of easing",
+      "what_happened": "Placeholder record for the Fed monetary press feed.",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 4,
+        "business": 6,
+        "market": 6,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Federal Reserve",
+        "tier": "primary",
+        "url": "https://www.federalreserve.gov/",
+        "published": "2026-08-25T22:00:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "2361a83f79a4",
+      "bucket": "watchlist",
+      "headline": "SAMPLE — European Central Bank signals a slower path on rate reductions",
+      "what_happened": "Placeholder record for the ECB press feed.",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 4,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "ECB",
+        "tier": "primary",
+        "url": "https://www.ecb.europa.eu/",
+        "published": "2026-08-25T21:30:00+00:00"
+      },
+      "also_reported_by": []
+    }
+  ],
+  "sample": true
+}

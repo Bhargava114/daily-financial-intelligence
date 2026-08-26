@@ -1,0 +1,328 @@
+# Daily Financial Intelligence — source registry
+#
+# tier:      primary  = the regulator/institution's own publication (highest trust)
+#            wire     = news agency
+#            paper    = business newspaper
+#            data     = statistical / market release
+# weight:    used to pick the canonical source when several outlets report one event
+# ca_bias:   nudges the relevance score for a CA. 0 = neutral, +2 = strongly CA-relevant
+# every url is tried in order; the first one that returns items wins.
+# a source that fails is skipped and logged — it never breaks the run.
+
+sources:
+
+  # ─────────────────────────── India · primary ───────────────────────────
+  - id: rbi_press
+    name: RBI
+    tier: primary
+    weight: 10
+    ca_bias: 2
+    region: india
+    urls:
+      - "https://website.rbi.org.in/en/web/rbi/-/press-releases?p_l_back_url=%2Fen%2Fweb%2Frbi&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_ZBRp3ZKNMTOs_rss=1"
+      - "https://www.rbi.org.in/Scripts/Rss.aspx?Id=1"
+      - https://www.rbi.org.in/pressreleases_rss.xml
+
+  - id: rbi_notifications
+    name: RBI Notifications
+    tier: primary
+    weight: 10
+    ca_bias: 2
+    region: india
+    urls:
+      - "https://www.rbi.org.in/Scripts/Rss.aspx?Id=2"
+      - https://www.rbi.org.in/notifications_rss.xml
+
+  - id: sebi
+    name: SEBI
+    tier: primary
+    weight: 10
+    ca_bias: 2
+    region: india
+    urls:
+      - https://www.sebi.gov.in/sebirss.xml
+      - "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6&smid=0"
+
+  # PIB carries the official announcements of Finance Ministry, CBDT, CBIC and the
+  # GST Council long before those departments update their own sites. It is the single
+  # highest-value Indian feed for a CA and was missing from the original plan.
+  - id: pib_finance
+    name: PIB · Ministry of Finance
+    tier: primary
+    weight: 9
+    ca_bias: 2
+    region: india
+    urls:
+      - "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"
+
+  - id: pib_all
+    name: PIB
+    tier: primary
+    weight: 8
+    ca_bias: 1
+    region: india
+    urls:
+      - "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=0"
+
+  # ── html-scraped: these regulators publish no feed. selector-based, best effort. ──
+  - id: cbdt
+    name: CBDT / Income Tax
+    tier: primary
+    weight: 10
+    ca_bias: 2
+    region: india
+    scrape:
+      url: https://incometaxindia.gov.in/Pages/communications/index.aspx
+      item: "table tr"
+      title: "a"
+      link: "a"
+
+  - id: cbic_gst
+    name: CBIC · GST
+    tier: primary
+    weight: 10
+    ca_bias: 2
+    region: india
+    scrape:
+      url: https://www.cbic.gov.in/entities/view-sticker
+      item: "ul li"
+      title: "a"
+      link: "a"
+
+  - id: mca
+    name: MCA
+    tier: primary
+    weight: 9
+    ca_bias: 2
+    region: india
+    scrape:
+      url: https://www.mca.gov.in/content/mca/global/en/notifications-tender/notifications.html
+      item: ".notification-list li, table tr"
+      title: "a"
+      link: "a"
+
+  - id: icai
+    name: ICAI
+    tier: primary
+    weight: 9
+    ca_bias: 2
+    region: india
+    scrape:
+      url: https://www.icai.org/category/announcements
+      item: ".post, article, li.announcement"
+      title: "a"
+      link: "a"
+
+  - id: ibbi
+    name: IBBI
+    tier: primary
+    weight: 8
+    ca_bias: 2
+    region: india
+    scrape:
+      url: https://ibbi.gov.in/en/whats-new
+      item: "li, table tr"
+      title: "a"
+      link: "a"
+
+  # ─────────────────────────── India · press ───────────────────────────
+  - id: et_top
+    name: Economic Times
+    tier: paper
+    weight: 5
+    ca_bias: 0
+    region: india
+    urls: ["https://economictimes.indiatimes.com/rssfeedstopstories.cms"]
+
+  - id: et_economy
+    name: Economic Times · Economy
+    tier: paper
+    weight: 5
+    ca_bias: 1
+    region: india
+    urls: ["https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms"]
+
+  - id: et_tax
+    name: Economic Times · Tax
+    tier: paper
+    weight: 5
+    ca_bias: 2
+    region: india
+    urls: ["https://economictimes.indiatimes.com/wealth/tax/rssfeeds/62154117.cms"]
+
+  - id: bs_economy
+    name: Business Standard · Economy
+    tier: paper
+    weight: 5
+    ca_bias: 1
+    region: india
+    urls: ["https://www.business-standard.com/rss/economy-102.rss"]
+
+  - id: bs_finance
+    name: Business Standard · Finance
+    tier: paper
+    weight: 5
+    ca_bias: 1
+    region: india
+    urls: ["https://www.business-standard.com/rss/finance-103.rss"]
+
+  - id: mint_economy
+    name: Mint · Economy
+    tier: paper
+    weight: 5
+    ca_bias: 1
+    region: india
+    urls: ["https://www.livemint.com/rss/economy"]
+
+  - id: mint_markets
+    name: Mint · Markets
+    tier: paper
+    weight: 5
+    ca_bias: 0
+    region: india
+    urls: ["https://www.livemint.com/rss/markets"]
+
+  - id: bl_economy
+    name: BusinessLine
+    tier: paper
+    weight: 5
+    ca_bias: 1
+    region: india
+    urls: ["https://www.thehindubusinessline.com/economy/feeder/default.rss"]
+
+  - id: moneycontrol
+    name: Moneycontrol
+    tier: paper
+    weight: 3
+    ca_bias: 0
+    region: india
+    urls: ["https://www.moneycontrol.com/rss/economy.xml"]
+
+  # ─────────────────────────── Global · primary ───────────────────────────
+  - id: fed_monetary
+    name: Federal Reserve
+    tier: primary
+    weight: 10
+    ca_bias: 0
+    region: global
+    urls: ["https://www.federalreserve.gov/feeds/press_monetary.xml"]
+
+  - id: fed_all
+    name: Federal Reserve · All
+    tier: primary
+    weight: 9
+    ca_bias: 0
+    region: global
+    urls: ["https://www.federalreserve.gov/feeds/press_all.xml"]
+
+  - id: ecb
+    name: ECB
+    tier: primary
+    weight: 9
+    ca_bias: 0
+    region: global
+    urls: ["https://www.ecb.europa.eu/rss/press.html"]
+
+  - id: boe
+    name: Bank of England
+    tier: primary
+    weight: 8
+    ca_bias: 0
+    region: global
+    urls: ["https://www.bankofengland.co.uk/rss/news"]
+
+  - id: imf
+    name: IMF
+    tier: primary
+    weight: 8
+    ca_bias: 1
+    region: global
+    urls: ["https://www.imf.org/en/News/RSS?language=eng"]
+
+  - id: bis
+    name: BIS
+    tier: primary
+    weight: 8
+    ca_bias: 1
+    region: global
+    urls: ["https://www.bis.org/doclist/all_rss.rss"]
+
+  - id: worldbank
+    name: World Bank
+    tier: primary
+    weight: 7
+    ca_bias: 0
+    region: global
+    urls: ["https://www.worldbank.org/en/news/all.rss"]
+
+  - id: oecd
+    name: OECD
+    tier: primary
+    weight: 7
+    ca_bias: 1
+    region: global
+    urls: ["https://www.oecd.org/en/latest.xml"]
+
+  - id: sec
+    name: SEC
+    tier: primary
+    weight: 8
+    ca_bias: 1
+    region: global
+    urls: ["https://www.sec.gov/news/pressreleases.rss"]
+
+  - id: ifrs
+    name: IFRS Foundation
+    tier: primary
+    weight: 9
+    ca_bias: 2
+    region: global
+    urls: ["https://www.ifrs.org/news-and-events/rss/"]
+
+  - id: fasb
+    name: FASB
+    tier: primary
+    weight: 6
+    ca_bias: 1
+    region: global
+    urls: ["https://www.fasb.org/rss/news.xml"]
+
+  # ─────────────────────────── Global · press ───────────────────────────
+  # Reuters, FT, WSJ and Bloomberg are deliberately absent — see README.
+  # These are the credible open replacements for wire-level global coverage.
+  - id: apnews_business
+    name: AP Business
+    tier: wire
+    weight: 6
+    ca_bias: 0
+    region: global
+    urls: ["https://rsshub.app/apnews/topics/business"]
+
+  - id: guardian_business
+    name: Guardian Business
+    tier: paper
+    weight: 4
+    ca_bias: 0
+    region: global
+    urls: ["https://www.theguardian.com/uk/business/rss"]
+
+  - id: cnbc_economy
+    name: CNBC · Economy
+    tier: paper
+    weight: 4
+    ca_bias: 0
+    region: global
+    urls: ["https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258"]
+
+# ─────────────────────────── market snapshot ───────────────────────────
+# Stooq serves free delayed EOD quotes as CSV with no key. Used only for the
+# one-line market context strip, not for anything you would trade on.
+markets:
+  endpoint: https://stooq.com/q/l/?s={symbols}&f=sd2t2ohlcv&h&e=csv
+  instruments:
+    - {symbol: "^nya",    label: "NYSE Composite"}
+    - {symbol: "^spx",    label: "S&P 500"}
+    - {symbol: "usdinr",  label: "USD/INR"}
+    - {symbol: "cb.f",    label: "Brent"}
+    - {symbol: "xauusd",  label: "Gold"}
+    - {symbol: "10usy.b", label: "US 10Y"}
