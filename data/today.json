@@ -1,21 +1,21 @@
 {
   "date": "2026-08-27",
-  "generated_at": "2026-08-27T02:02:05.092862+05:30",
-  "scoring": "gemini",
+  "generated_at": "2026-08-27T02:12:08.724314+05:30",
+  "scoring": "heuristic",
   "stats": {
-    "items": 6,
-    "actions": 3,
+    "items": 14,
+    "actions": 0,
     "candidates": 207,
-    "sources_ok": 23,
-    "sources_failed": 6,
+    "sources_ok": 24,
+    "sources_failed": 5,
     "sources_blocked": 10
   },
   "five_minutes": [
-    "Slowing US Q2 GDP growth of 1.5% solidifies the case for upcoming Fed rate cuts, reducing yield pressure on the INR.",
-    "Resilient US personal income growth of 0.4% in July suggests the Fed can take a gradual approach to policy easing.",
-    "The August RBI Bulletin highlights a fragile global economic backdrop, reinforcing the central bank's cautious domestic rate stance.",
-    "A modest 1.1 rise in the All-India House Price Index indicates stable real estate collateral values for banking and NBFC loan books.",
-    "Crypto miners refitting facilities for AI workloads highlights the sustained infrastructure demand driving the global AI capex cycle."
+    "SEBI Order for Compliance – Release Order for Recovery Certificate No. RC 5196 of 2022 against Tanna Tusharbhai Hiralal in the matter of Excel Castronics Limited.",
+    "SEBI Order for Compliance Notice of Attachment Demat Account and Mutual Fund Folio(s) for Recovery Certificate No.8932 of 2025 against M/s. Jay Energy and S. Energies Limited in the matter of Jay Energy and S. Energies Limited",
+    "Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
+    "Reserve Bank of India (Rural Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026",
+    "Completion of Recovery Certificate No. RC6746 of 2023 in respect of Ankit Modi (PAN: AENPM9852P) in the matter of Illiquid Stock Options"
   ],
   "markets": [],
   "buckets": [
@@ -46,154 +46,370 @@
   ],
   "items": [
     {
-      "id": "cbbc27a2bbeb",
-      "bucket": "global",
-      "headline": "Slowing US Q2 GDP growth of 1.5% solidifies Fed rate cut path, easing FII outflow pressure on India",
-      "what_happened": "The second estimate of US Q2 GDP confirmed that real gross domestic product increased at an annual rate of 1.5 percent, decelerating from 2.1 percent growth in the first quarter.",
-      "why_it_matters": "This slowing growth trend locks in expectations for upcoming Fed rate cuts. For your portfolio, this shifts the macro setup toward a softer dollar, which should ease yield differentials and support foreign portfolio inflows back into Indian assets.",
-      "action": "Revisit asset allocation models to factor in a softer USD environment and potential capital flows back into emerging market equities.",
-      "priority": 9,
-      "scores": {
-        "ca": 0,
-        "business": 2,
-        "market": 3,
-        "global": 5
-      },
-      "confidence": "high",
-      "is_update": true,
-      "update_note": "Continues yesterday's story.",
-      "source": {
-        "name": "US BEA (GDP, PCE)",
-        "tier": "data",
-        "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-2nd-quarter-2026",
-        "published": "2026-08-26T12:30:00+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "ca11222d0905",
-      "bucket": "global",
-      "headline": "Steady 0.4% US personal income growth in July provides a stable buffer against rapid economic deterioration",
-      "what_happened": "US personal income increased by $115.1 billion or 0.4 percent at a monthly rate in July, with consumer spending showing continued resilience.",
-      "why_it_matters": "Even as GDP slows, steady consumer demand and income growth prevent a hard landing scenario. This implies the Fed has room to implement a measured, non-emergency rate-cut cycle, sustaining stable global risk appetite.",
+      "id": "34e6c2731e00",
+      "bucket": "must_know",
+      "headline": "Reserve Bank of India (Rural Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026",
+      "what_happened": "RBI/2026-27/242 DOR.RET.REC.209/12.01.001/2026-27 August 25, 2026 Reserve Bank of India (Rural Co-operative Banks &ndash; Cash Reserve Ratio and Statutory Liquidity Ratio) Fourth Amendment Directions, 2026 Please refer to the Reserve Bank of India (Rural Co-operative Banks &ndash; Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (updated as on June 19, 2026) wherein exemption from CRR and SLR maintenance have been provided to fresh FCNR(B) deposits of minimum tenor of three years and maximum tenor of five years and fresh Non-Resident (External) Rupee (NRE) term deposits of te",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
       "action": null,
       "priority": 8,
       "scores": {
-        "ca": 0,
-        "business": 2,
-        "market": 3,
+        "ca": 8,
+        "business": 6,
+        "market": 6,
         "global": 5
       },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
+      "confidence": "low",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
       "source": {
-        "name": "US BEA (GDP, PCE)",
-        "tier": "data",
-        "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026",
-        "published": "2026-08-26T12:30:00+00:00"
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13684&Mode=0",
+        "published": "2026-08-26T20:40:19.613840+00:00"
       },
-      "also_reported_by": []
+      "also_reported_by": [
+        "RBI Notifications"
+      ]
     },
     {
-      "id": "7d43c9af5a1d",
-      "bucket": "india_economy",
-      "headline": "RBI Bulletin flags a fragile global backdrop, signaling a cautious and prolonged data-dependent domestic rate stance",
-      "what_happened": "The Reserve Bank of India released its August 2026 monthly Bulletin, featuring a 'State of the Economy' article noting that the global economy is currently confronting a fragile environment.",
-      "why_it_matters": "The focus on global fragility implies that the RBI will maintain its cautious stance to insulate domestic markets. For G-Sec yields and bond portfolios, this indicates that domestic rate cuts will lag the Fed, keeping yields elevated for longer.",
-      "action": "Evaluate the duration of your G-Sec portfolio, keeping in mind that the RBI is unlikely to hurry into a rate-cutting cycle.",
+      "id": "beba7249eeef",
+      "bucket": "must_know",
+      "headline": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on August 27, 2026",
+      "what_happened": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Thursday, August 27, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 2,00,000 1 9:30 AM to 10:00 AM August 28, 2026 (Friday) 2. The operational guidelines for the auction as given in the Reserve Bank&rsquo;s Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deputy General Manager (Communications)&nbsp;&nbsp;&nbsp",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
       "priority": 8,
       "scores": {
-        "ca": 0,
-        "business": 2,
-        "market": 4,
-        "global": 4
+        "ca": 8,
+        "business": 6,
+        "market": 6,
+        "global": 5
       },
-      "confidence": "high",
+      "confidence": "low",
       "is_update": true,
       "update_note": "Carried over from yesterday with new reporting.",
       "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63444",
-        "published": "2026-08-26T20:28:57.249070+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63445",
+        "published": "2026-08-26T20:40:20.489564+00:00"
       },
-      "also_reported_by": []
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "e1a911a667df",
+      "bucket": "india_economy",
+      "headline": "Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
+      "what_happened": "RBI/2026-27/248 DOR.SOG(SPE).REC.214/13.03.00/2026-27 August 25, 2026 Reserve Bank of India (Rural Co-operative Banks &ndash; Interest Rate on Deposits) Second Amendment Directions, 2026 Please refer to the Reserve Bank of India (Rural Co-operative Banks &ndash; Interest Rate on Deposits) Directions, 2025 (hereinafter referred to as &lsquo;Directions&rsquo;), dated November 28, 2025 (Updated as on June 17, 2026), wherein temporary withdrawal of the interest rate ceiling on fresh FCNR(B) deposits of 3-5 year tenors and restriction on interest rates on NRE deposits of 3 year and above tenors, in",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 8,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13690&Mode=0",
+        "published": "2026-08-26T20:40:19.613090+00:00"
+      },
+      "also_reported_by": [
+        "RBI Notifications"
+      ]
+    },
+    {
+      "id": "c68709037014",
+      "bucket": "india_economy",
+      "headline": "Completion of Recovery Certificate No. RC6746 of 2023 in respect of Ankit Modi (PAN: AENPM9852P) in the matter of Illiquid Stock Options",
+      "what_happened": "Completion of Recovery Certificate No. RC6746 of 2023 in respect of Ankit Modi (PAN: AENPM9852P) in the matter of Illiquid Stock Options",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 8,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/completion-of-recovery-certificate-no-rc6746-of-2023-in-respect-of-ankit-modi-pan-aenpm9852p-in-the-matter-of-illiquid-stock-options_103996.html",
+        "published": "2026-08-26T20:40:19.917101+00:00"
+      },
+      "also_reported_by": [
+        "SEBI"
+      ]
+    },
+    {
+      "id": "96a266cf90a3",
+      "bucket": "india_economy",
+      "headline": "Appeal No. 7008 of 2026 filed by Vishnu Kumar Bhaiya",
+      "what_happened": "Appeal No. 7008 of 2026 filed by Vishnu Kumar Bhaiya",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 8,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/otherentry//_104007.html",
+        "published": "2026-08-26T20:40:19.916865+00:00"
+      },
+      "also_reported_by": [
+        "SEBI"
+      ]
+    },
+    {
+      "id": "712b90fafb1e",
+      "bucket": "india_economy",
+      "headline": "State Government Securities - Full Auction Result",
+      "what_happened": "The result of the auction of State Government Securities held on August 25, 2026 , is as under: (Amount in &#8377; Crore) &nbsp; ANDHRA PRADESH SGS 2039 ANDHRA PRADESH SGS 2051 GUJARAT SGS 2036 GUJARAT SGS 2041 Notified Amount 1000 1600 1000 1000 Tenor Re-issue of 7.56% ANDHRA SGS 2039 issued on 01-JUL-2026 Re-issue of 7.68% ANDHRA SGS 2051 issued on 29-JUL-2026 10 -Years 15 -Years Competitive Bids Received &nbsp; &nbsp; &nbsp; &nbsp; (i) No. 81 35 87 70 (ii) Amount 2055.500 4963 5290 4000 Cut-off Yield (%) 7.6695 7.6891 7.47 7.59 Cut off Price (&#8377;) 99.10 99.89 100 100 Competitive Bids Ac",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 8,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63443",
+        "published": "2026-08-26T20:40:20.490174+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
     },
     {
       "id": "bf2b77c9d227",
       "bucket": "india_economy",
-      "headline": "All-India House Price Index rise of 1.1 in Q1 points to a stable, non-inflationary real estate market for mortgage lenders",
-      "what_happened": "The RBI's quarterly House Price Index (HPI) for Q1:2026-27, covering eighteen major cities, registered an increase of 1.1.",
-      "why_it_matters": "Moderate growth in real estate values keeps collateral backing for bank and NBFC mortgage books stable without triggering aggressive regulatory tightening on retail credit. This supports a healthy and lower-risk credit growth environment for financial institutions.",
+      "headline": "All-India House Price Index for Q1:2026-27",
+      "what_happened": "The Reserve Bank of India (RBI) compiles the House Price Index (HPI) on a quarterly basis using transaction-level data received from the registration authorities. Today, the RBI released 1 the HPI for Q1:2026-27 with base year as 2022-23, covering eighteen major cities 2 . Highlights: The All India HPI increased by 1.1 per cent and stood at 117.5 in Q1:2026-27 compared to previous quarter, primarily driven by an increase in the index for cities such as Chandigarh, Lucknow, and Thiruvananthapuram ( Chart 1 ). The HPI registered an annual growth of 3.6 per cent in Q1:2026-27, same as in Q1 of pr",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
       "action": null,
-      "priority": 7,
+      "priority": 8,
       "scores": {
-        "ca": 0,
+        "ca": 8,
         "business": 3,
         "market": 3,
-        "global": 1
+        "global": 5
       },
-      "confidence": "high",
+      "confidence": "low",
       "is_update": true,
       "update_note": "Carried over from yesterday with new reporting.",
       "source": {
         "name": "RBI",
         "tier": "primary",
         "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63436",
-        "published": "2026-08-26T20:28:57.250729+00:00"
+        "published": "2026-08-26T20:40:20.491260+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "77713cbbe8ba",
-      "bucket": "markets",
-      "headline": "Crypto infrastructure migration to AI processing reinforces the structural growth of the global AI capex cycle",
-      "what_happened": "Crypto mining firms are refitting their high-power data center mines to cater to AI workloads, driven by high demand and superior margins.",
-      "why_it_matters": "This shift highlights the acute global shortage of computing infrastructure and power capacity. It reinforces your thesis on the secular hardware and power demand driving the AI theme, directly benefiting tech exporters and hardware players.",
+      "id": "ab784b786f2e",
+      "bucket": "india_economy",
+      "headline": "Appeal No. 7002 of 2026 filed by Yogesh Dhondiram Patil",
+      "what_happened": "Appeal No. 7002 of 2026 filed by Yogesh Dhondiram Patil",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
       "action": null,
-      "priority": 7,
+      "priority": 8,
       "scores": {
-        "ca": 0,
+        "ca": 8,
         "business": 3,
-        "market": 4,
-        "global": 3
+        "market": 3,
+        "global": 5
       },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
+      "confidence": "low",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
       "source": {
-        "name": "BBC Business",
-        "tier": "wire",
-        "url": "https://www.bbc.co.uk/news/articles/c07ler8x9kpo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-08-25T23:11:02+00:00"
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/otherentry//_103995.html",
+        "published": "2026-08-26T20:40:19.917126+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "d9311591756f",
-      "bucket": "ca_work",
-      "headline": "SEBI order in Max Financial Services signals ongoing regulatory vigilance on listed financial sector governance",
-      "what_happened": "SEBI issued an order in the matter of Max Financial Services Limited, a major promoter and holding company in the Indian financial space.",
-      "why_it_matters": "As a chartered accountant and investor in financial services, you should track regulatory orders for corporate governance implications. While the brief announcement lacks detailed directives, any enforcement action can impact promoter-level compliance and valuation multiples.",
-      "action": "Check the SEBI portal for the full text of the Max Financial order to assess if there are any compliance changes or governance risks for portfolio holdings.",
-      "priority": 6,
+      "id": "fd6401adcfff",
+      "bucket": "india_economy",
+      "headline": "Appeal No. 7003 of 2026 filed by Sopan Ashok Kajale",
+      "what_happened": "Appeal No. 7003 of 2026 filed by Sopan Ashok Kajale",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
       "scores": {
-        "ca": 5,
-        "business": 2,
-        "market": 2,
-        "global": 0
+        "ca": 8,
+        "business": 3,
+        "market": 3,
+        "global": 5
       },
-      "confidence": "high",
+      "confidence": "low",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/otherentry//_103997.html",
+        "published": "2026-08-26T20:40:19.917069+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "15b402801093",
+      "bucket": "india_economy",
+      "headline": "Appeal No. 7005 of 2026 filed by Gnaneeswar Adhi",
+      "what_happened": "Appeal No. 7005 of 2026 filed by Gnaneeswar Adhi",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 8,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
       "is_update": false,
       "update_note": null,
       "source": {
         "name": "SEBI",
         "tier": "primary",
-        "url": "https://www.sebi.gov.in/enforcement/orders/aug-2026/order-in-the-matter-of-max-financial-services-limited_103935.html",
-        "published": "2026-08-26T20:28:56.909509+00:00"
+        "url": "https://www.sebi.gov.in/enforcement/orders/aug-2026/appeal-no-7005-of-2026-filed-by-gnaneeswar-adhi_104001.html",
+        "published": "2026-08-26T20:40:19.916971+00:00"
       },
       "also_reported_by": []
+    },
+    {
+      "id": "107daf1969f0",
+      "bucket": "india_economy",
+      "headline": "Appeal No. 7006 of 2026 filed by Shekhar Santani",
+      "what_happened": "Appeal No. 7006 of 2026 filed by Shekhar Santani",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 8,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/enforcement/orders/aug-2026/appeal-no-7006-of-2026-filed-by-shekhar-santani_104003.html",
+        "published": "2026-08-26T20:40:19.916920+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "ce1955d86abb",
+      "bucket": "india_economy",
+      "headline": "Appeal No. 7009 of 2026 filed by Kumari Devi",
+      "what_happened": "Appeal No. 7009 of 2026 filed by Kumari Devi",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 8,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/enforcement/orders/aug-2026/appeal-no-7009-of-2026-filed-by-kumari-devi_103998.html",
+        "published": "2026-08-26T20:40:19.917045+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "8bcc846d79ea",
+      "bucket": "ca_work",
+      "headline": "SEBI Order for Compliance – Release Order for Recovery Certificate No. RC 5196 of 2022 against Tanna Tusharbhai Hiralal in the matter of Excel Castronics Limited.",
+      "what_happened": "SEBI Order for Compliance – Release Order for Recovery Certificate No. RC 5196 of 2022 against Tanna Tusharbhai Hiralal in the matter of Excel Castronics Limited.",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 9,
+      "scores": {
+        "ca": 10,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/sebi-order-for-compliance-release-order-for-recovery-certificate-no-rc-5196-of-2022-against-tanna-tusharbhai-hiralal-in-the-matter-of-excel-castronics-limited-_104026.html",
+        "published": "2026-08-26T20:40:19.916351+00:00"
+      },
+      "also_reported_by": [
+        "SEBI"
+      ]
+    },
+    {
+      "id": "2c3ed6d68f05",
+      "bucket": "ca_work",
+      "headline": "SEBI Order for Compliance Notice of Attachment Demat Account and Mutual Fund Folio(s) for Recovery Certificate No.8932 of 2025 against M/s. Jay Energy and S. Energies Limited in the matter of Jay Energy and S. Energies Limited",
+      "what_happened": "SEBI Order for Compliance Notice of Attachment Demat Account and Mutual Fund Folio(s) for Recovery Certificate No.8932 of 2025 against M/s. Jay Energy and S. Energies Limited in the matter of Jay Energy and S. Energies Limited",
+      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "action": null,
+      "priority": 9,
+      "scores": {
+        "ca": 10,
+        "business": 3,
+        "market": 3,
+        "global": 5
+      },
+      "confidence": "low",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/sebi-order-for-compliance-notice-of-attachment-demat-account-and-mutual-fund-folio-s-for-recovery-certificate-no-8932-of-2025-against-m-s-jay-energy-and-s-energies-limited-in-the-matter-of-jay-ener-_104025.html",
+        "published": "2026-08-26T20:40:19.916455+00:00"
+      },
+      "also_reported_by": [
+        "SEBI"
+      ]
     }
   ]
 }
