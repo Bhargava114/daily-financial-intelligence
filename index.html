@@ -225,6 +225,14 @@ footer button:hover{border-color:var(--ink-faint);color:var(--ink)}
 .dig-row a{color:var(--ink);text-decoration:none;border:1px solid var(--rule);border-radius:2px;padding:2px 7px}
 .dig-row a:hover{border-color:var(--ink-faint)}
 .dig-hint{flex-basis:100%;color:#1F6B4A}
+.theses{padding:24px var(--pad) 0}
+.theses h2{margin:0;font-family:var(--mono);font-size:10.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint)}
+.thesis{display:grid;grid-template-columns:86px 1fr;gap:0 12px;margin-top:13px}
+.verdict{font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding-top:3px}
+.v-supports{color:#1F6B4A}.v-challenges{color:var(--p-critical)}.v-mixed{color:var(--p-high)}.v-no_signal{color:var(--ink-faint)}
+.thesis .tx{font-size:14px;line-height:1.5;color:var(--ink)}
+.thesis .tn{margin-top:3px;font-size:13.5px;line-height:1.55;color:var(--ink-soft)}
+.thesis.quiet .tx{color:var(--ink-faint)}
 .skel{padding:26px var(--pad)}
 .skel div{height:13px;background:var(--rule-soft);border-radius:2px;margin-bottom:11px}
 .skel div:nth-child(2){width:82%}.skel div:nth-child(3){width:61%}
@@ -327,6 +335,17 @@ function render(d) {
   if (d.five_minutes?.length) {
     html += `<section class="five"><h2>Today in five minutes</h2><ol>` +
       d.five_minutes.map(x => `<li>${esc(x)}</li>`).join("") + `</ol></section>`;
+  }
+
+  if (d.theses?.length) {
+    const V = {supports:"Supports", challenges:"Challenges", mixed:"Mixed", no_signal:"No signal"};
+    html += `<section class="theses"><h2>Your theses &middot; today's evidence</h2>` +
+      d.theses.map(th => `
+        <div class="thesis ${th.verdict === "no_signal" ? "quiet" : ""}">
+          <div class="verdict v-${esc(th.verdict)}">${V[th.verdict] || esc(th.verdict)}</div>
+          <div><div class="tx">${esc(th.thesis)}</div>
+          ${th.note ? `<div class="tn">${esc(th.note)}</div>` : ""}</div>
+        </div>`).join("") + `</section>`;
   }
 
   let seen = null;
