@@ -1,0 +1,43 @@
+name: Learn from likes
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  learn:
+    # Only the repository owner's own issues are obeyed — anyone else's are ignored.
+    if: github.event.issue.user.login == github.repository_owner && startsWith(github.event.issue.title, 'profile:')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml requests
+      - name: Distil likes into interests
+        env:
+          # passed via env, never interpolated into shell — issue text stays data
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python collector/learn.py
+      - name: Commit and close
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "daily-intel-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add collector/learned.yaml
+          if git diff --staged --quiet; then
+            gh issue close ${{ github.event.issue.number }} --comment "Nothing new to learn from these — your profile already covers them."
+          else
+            git commit -m "profile: learned from likes"
+            git push
+            gh issue close ${{ github.event.issue.number }} --comment "Profile updated — tomorrow's brief will use it. See collector/learned.yaml."
+          fi

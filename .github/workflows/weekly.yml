@@ -1,0 +1,45 @@
+name: Weekly review
+
+on:
+  schedule:
+    - cron: "40 3 * * 6"   # Saturday 03:40 UTC ≈ 09:10 IST, after the daily brief
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-review
+  cancel-in-progress: false
+
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: collector/requirements.txt
+      - run: pip install -r collector/requirements.txt
+      - name: Build the weekly review
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          DIGEST_TO: ${{ secrets.DIGEST_TO }}
+          DFI_MODEL: ${{ vars.DFI_MODEL || '' }}
+        run: python collector/weekly.py
+      - name: Publish
+        run: |
+          git config user.name  "daily-intel-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/weekly.json
+          git diff --staged --quiet && echo "nothing changed" && exit 0
+          git commit -m "weekly: $(date -u +%Y-%m-%d)"
+          git push
