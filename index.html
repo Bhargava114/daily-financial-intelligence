@@ -213,6 +213,17 @@ footer button:hover{border-color:var(--ink-faint);color:var(--ink)}
 .week .wlabel{margin:18px 0 2px;font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-faint)}
 .week ol{margin:8px 0 0;padding-left:19px}
 .week li{margin-bottom:7px;font-size:14.5px;line-height:1.55;color:var(--ink)}
+.dig{
+  background:none;border:1px solid var(--rule);border-radius:2px;cursor:pointer;
+  font-family:var(--mono);font-size:11px;color:var(--ink-faint);padding:1px 6px;
+}
+.dig:hover{color:var(--ink)}
+.dig-row{
+  margin-top:10px;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;
+  font-family:var(--mono);font-size:11px;color:var(--ink-faint);
+}
+.dig-row a{color:var(--ink);text-decoration:none;border:1px solid var(--rule);border-radius:2px;padding:2px 7px}
+.dig-row a:hover{border-color:var(--ink-faint)}
 .skel{padding:26px var(--pad)}
 .skel div{height:13px;background:var(--rule-soft);border-radius:2px;margin-bottom:11px}
 .skel div:nth-child(2){width:82%}.skel div:nth-child(3){width:61%}
@@ -274,6 +285,14 @@ function itemHTML(it) {
         <span class="chip">${esc(it.source.tier)}</span>${also}${conf}
         <button class="like" data-id="${esc(it.id)}" data-headline="${esc(it.headline)}"
           aria-pressed="false" title="Mark as interesting — teaches your profile">&#9825; interesting</button>
+        <button class="dig" title="Open this story in an AI with an analyst prompt">&#8618; dig deeper</button>
+      </div>
+      <div class="dig-row" hidden>
+        <span>Continue in:</span>
+        <a class="dig-claude" href="#" target="_blank" rel="noopener">Claude</a>
+        <a class="dig-gpt" href="#" target="_blank" rel="noopener">ChatGPT</a>
+        <a class="dig-pplx" href="#" target="_blank" rel="noopener">Perplexity</a>
+        <a class="dig-copy" href="#">Copy prompt</a>
       </div>
     </div>
   </div>`;
@@ -410,6 +429,49 @@ function render(d) {
         localStorage.removeItem("dfi:likes");
         Object.keys(likes).forEach(k => delete likes[k]);
         paintTeach();
+
+  // ---- dig deeper: package the story + an analyst briefing into a prompt ----
+  const digPrompt = it => `You are a buy-side macro analyst. Dig deeper into this story for an India-based investment professional (CFA) who is also a chartered accountant.
+
+HEADLINE: ${it.headline}
+WHAT HAPPENED: ${it.what_happened}
+INITIAL READ: ${it.why_it_matters}
+SOURCE: ${it.source?.url || ""}
+
+Give him, with recent news checked where you can:
+1. Context — what is actually new here versus already known
+2. Global implications — rates, growth, asset classes, in their own terms
+3. India transmission — only if genuinely material (USD, flows, INR, crude, yields)
+4. What would confirm or refute this mattering over the next weeks
+5. Key numbers, dates and releases to watch
+Be concrete, cite what you rely on, and say plainly where you are uncertain.`;
+
+  const byId = Object.fromEntries((d.items || []).map(x => [x.id, x]));
+  document.querySelectorAll(".item").forEach(el => {
+    const digBtn = el.querySelector(".dig"), row = el.querySelector(".dig-row");
+    const likeBtn = el.querySelector(".like");
+    if (!digBtn || !row || !likeBtn) return;
+    const it = byId[likeBtn.dataset.id];
+    if (!it) { digBtn.remove(); row.remove(); return; }
+    digBtn.addEventListener("click", e => {
+      e.stopPropagation();
+      row.hidden = !row.hidden;
+      if (!row.hidden) {
+        const q = encodeURIComponent(digPrompt(it));
+        row.querySelector(".dig-claude").href = `https://claude.ai/new?q=${q}`;
+        row.querySelector(".dig-gpt").href = `https://chatgpt.com/?q=${q}`;
+        row.querySelector(".dig-pplx").href = `https://www.perplexity.ai/search?q=${q}`;
+      }
+    });
+    row.addEventListener("click", e => e.stopPropagation());
+    row.querySelector(".dig-copy").addEventListener("click", e => {
+      e.preventDefault(); e.stopPropagation();
+      navigator.clipboard?.writeText(digPrompt(it)).then(() => {
+        e.target.textContent = "Copied \u2713";
+        setTimeout(() => { e.target.textContent = "Copy prompt"; }, 1800);
+      });
+    });
+  });
       });
     }
     btn.textContent = `\u2665 ${n} marked \u00b7 teach my profile`;
@@ -424,9 +486,95 @@ function render(d) {
       if (on) likes[el.dataset.id] = el.dataset.headline; else delete likes[el.dataset.id];
       localStorage.setItem("dfi:likes", JSON.stringify(likes));
       paintTeach();
+
+  // ---- dig deeper: package the story + an analyst briefing into a prompt ----
+  const digPrompt = it => `You are a buy-side macro analyst. Dig deeper into this story for an India-based investment professional (CFA) who is also a chartered accountant.
+
+HEADLINE: ${it.headline}
+WHAT HAPPENED: ${it.what_happened}
+INITIAL READ: ${it.why_it_matters}
+SOURCE: ${it.source?.url || ""}
+
+Give him, with recent news checked where you can:
+1. Context — what is actually new here versus already known
+2. Global implications — rates, growth, asset classes, in their own terms
+3. India transmission — only if genuinely material (USD, flows, INR, crude, yields)
+4. What would confirm or refute this mattering over the next weeks
+5. Key numbers, dates and releases to watch
+Be concrete, cite what you rely on, and say plainly where you are uncertain.`;
+
+  const byId = Object.fromEntries((d.items || []).map(x => [x.id, x]));
+  document.querySelectorAll(".item").forEach(el => {
+    const digBtn = el.querySelector(".dig"), row = el.querySelector(".dig-row");
+    const likeBtn = el.querySelector(".like");
+    if (!digBtn || !row || !likeBtn) return;
+    const it = byId[likeBtn.dataset.id];
+    if (!it) { digBtn.remove(); row.remove(); return; }
+    digBtn.addEventListener("click", e => {
+      e.stopPropagation();
+      row.hidden = !row.hidden;
+      if (!row.hidden) {
+        const q = encodeURIComponent(digPrompt(it));
+        row.querySelector(".dig-claude").href = `https://claude.ai/new?q=${q}`;
+        row.querySelector(".dig-gpt").href = `https://chatgpt.com/?q=${q}`;
+        row.querySelector(".dig-pplx").href = `https://www.perplexity.ai/search?q=${q}`;
+      }
+    });
+    row.addEventListener("click", e => e.stopPropagation());
+    row.querySelector(".dig-copy").addEventListener("click", e => {
+      e.preventDefault(); e.stopPropagation();
+      navigator.clipboard?.writeText(digPrompt(it)).then(() => {
+        e.target.textContent = "Copied \u2713";
+        setTimeout(() => { e.target.textContent = "Copy prompt"; }, 1800);
+      });
+    });
+  });
     });
   });
   paintTeach();
+
+  // ---- dig deeper: package the story + an analyst briefing into a prompt ----
+  const digPrompt = it => `You are a buy-side macro analyst. Dig deeper into this story for an India-based investment professional (CFA) who is also a chartered accountant.
+
+HEADLINE: ${it.headline}
+WHAT HAPPENED: ${it.what_happened}
+INITIAL READ: ${it.why_it_matters}
+SOURCE: ${it.source?.url || ""}
+
+Give him, with recent news checked where you can:
+1. Context — what is actually new here versus already known
+2. Global implications — rates, growth, asset classes, in their own terms
+3. India transmission — only if genuinely material (USD, flows, INR, crude, yields)
+4. What would confirm or refute this mattering over the next weeks
+5. Key numbers, dates and releases to watch
+Be concrete, cite what you rely on, and say plainly where you are uncertain.`;
+
+  const byId = Object.fromEntries((d.items || []).map(x => [x.id, x]));
+  document.querySelectorAll(".item").forEach(el => {
+    const digBtn = el.querySelector(".dig"), row = el.querySelector(".dig-row");
+    const likeBtn = el.querySelector(".like");
+    if (!digBtn || !row || !likeBtn) return;
+    const it = byId[likeBtn.dataset.id];
+    if (!it) { digBtn.remove(); row.remove(); return; }
+    digBtn.addEventListener("click", e => {
+      e.stopPropagation();
+      row.hidden = !row.hidden;
+      if (!row.hidden) {
+        const q = encodeURIComponent(digPrompt(it));
+        row.querySelector(".dig-claude").href = `https://claude.ai/new?q=${q}`;
+        row.querySelector(".dig-gpt").href = `https://chatgpt.com/?q=${q}`;
+        row.querySelector(".dig-pplx").href = `https://www.perplexity.ai/search?q=${q}`;
+      }
+    });
+    row.addEventListener("click", e => e.stopPropagation());
+    row.querySelector(".dig-copy").addEventListener("click", e => {
+      e.preventDefault(); e.stopPropagation();
+      navigator.clipboard?.writeText(digPrompt(it)).then(() => {
+        e.target.textContent = "Copied \u2713";
+        setTimeout(() => { e.target.textContent = "Copy prompt"; }, 1800);
+      });
+    });
+  });
 }
 
 async function load(bust) {
