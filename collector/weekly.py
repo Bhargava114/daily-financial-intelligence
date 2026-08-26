@@ -24,7 +24,7 @@ from pathlib import Path
 
 # reuse the daily collector's model callers, profile loader and paths
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from run import DATA, IST, _call_anthropic, _call_gemini, load_profile, log  # noqa: E402
+from run import DATA, IST, call_model, load_profile, log  # noqa: E402
 
 WEEKLY = DATA / "weekly.json"
 
@@ -66,24 +66,19 @@ def week_items(days: int = 7) -> tuple[list[str], int]:
 
 
 def synthesise(lines: list[str]) -> dict | None:
-    ant = os.environ.get("ANTHROPIC_API_KEY") or None
-    gem = os.environ.get("GEMINI_API_KEY") or None
-    if not (ant or gem):
-        log("  · no model key — weekly falls back to a top-items list")
-        return None
     prompt = PROMPT.format(profile=load_profile() or "(no profile)", items="\n".join(lines))
-    for attempt in range(3):
-        try:
-            text = _call_anthropic(ant, prompt) if ant else _call_gemini(gem, prompt)
-            text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.M).strip()
-            out = json.loads(text)
-            out["_provider"] = "anthropic" if ant else "gemini"
-            return out
-        except Exception as exc:  # noqa: BLE001
-            log(f"  · weekly attempt {attempt + 1} failed: {type(exc).__name__}: {exc}")
-            import time
-            time.sleep(4 * (attempt + 1))
-    return None
+    name, text = call_model(prompt)
+    if not text:
+        log("  · no model reachable — weekly falls back to a top-items list")
+        return None
+    try:
+        text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.M).strip()
+        out = json.loads(text)
+        out["_provider"] = name
+        return out
+    except Exception as exc:  # noqa: BLE001
+        log(f"  · {name} returned unparseable weekly output: {type(exc).__name__}")
+        return None
 
 
 def fallback(lines: list[str]) -> dict:

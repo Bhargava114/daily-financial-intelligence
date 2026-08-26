@@ -514,16 +514,69 @@ def _call_gemini(key: str, prompt: str) -> str:
     raise last or RuntimeError("no gemini model accepted the request")
 
 
+def _call_openai_compatible(base: str, key: str, models: list[str], prompt: str) -> str:
+    last: Exception | None = None
+    for model in models:
+        try:
+            r = requests.post(
+                f"{base}/chat/completions",
+                timeout=180,
+                headers={"Authorization": f"Bearer {key}", "content-type": "application/json"},
+                json={"model": model, "max_tokens": 8000,
+                      "messages": [{"role": "user", "content": prompt}]},
+            )
+            if r.status_code in (400, 404) and "model" in r.text.lower():
+                log(f"  · model '{model}' rejected ({r.status_code}), trying next")
+                last = RuntimeError(r.text[:200])
+                continue
+            r.raise_for_status()
+            return r.json()["choices"][0]["message"]["content"] or ""
+        except requests.HTTPError as exc:
+            body = exc.response.text[:200] if exc.response is not None else ""
+            log(f"  · '{model}' HTTP {exc.response.status_code if exc.response is not None else '?'}: {body}")
+            last = exc
+        except Exception as exc:  # noqa: BLE001
+            last = exc
+    raise last or RuntimeError("no model accepted the request")
+
+
+def _call_groq(key: str, prompt: str) -> str:
+    """Groq's free tier — the fallback engine when Gemini is having a morning."""
+    models = [m for m in [os.environ.get("DFI_GROQ_MODEL") or None,
+                          "llama-3.3-70b-versatile", "llama-3.1-8b-instant"] if m]
+    return _call_openai_compatible("https://api.groq.com/openai/v1", key, models, prompt)
+
+
+def call_model(prompt: str) -> tuple[str | None, str | None]:
+    """Try every configured provider in order, three passes with patient backoff.
+    Two independent providers down in the same minutes is rare; this is what
+    keeps 9 AM intelligent even when one of them is overloaded."""
+    provs = []
+    if os.environ.get("ANTHROPIC_API_KEY") or None:
+        provs.append(("anthropic", lambda p: _call_anthropic(os.environ["ANTHROPIC_API_KEY"], p)))
+    if os.environ.get("GEMINI_API_KEY") or None:
+        provs.append(("gemini", lambda p: _call_gemini(os.environ["GEMINI_API_KEY"], p)))
+    if os.environ.get("GROQ_API_KEY") or None:
+        provs.append(("groq", lambda p: _call_groq(os.environ["GROQ_API_KEY"], p)))
+    if not provs:
+        return None, None
+    for attempt in range(3):
+        for name, fn in provs:
+            try:
+                return name, fn(prompt)
+            except Exception as exc:  # noqa: BLE001
+                log(f"  · {name} attempt {attempt + 1} failed: {type(exc).__name__}")
+        time.sleep((20, 60, 120)[attempt])
+    return None, None
+
+
 def ai_score(items: list[dict], n: int) -> dict | None:
     """Prefers Anthropic if that key exists, else Gemini's free tier, else None
     (heuristic fallback). Empty-string secrets count as absent — GitHub hands
     unset secrets over as empty strings, not missing variables."""
-    ant = os.environ.get("ANTHROPIC_API_KEY") or None
-    gem = os.environ.get("GEMINI_API_KEY") or None
-    if not (ant or gem):
-        log("  · no ANTHROPIC_API_KEY or GEMINI_API_KEY, using heuristic scoring")
+    if not (os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("GEMINI_API_KEY") or os.environ.get("GROQ_API_KEY")):
+        log("  · no ANTHROPIC_API_KEY / GEMINI_API_KEY / GROQ_API_KEY, using heuristic scoring")
         return None
-    provider = ("anthropic", ant) if ant else ("gemini", gem)
 
     lines = []
     for i, it in enumerate(items):
@@ -534,18 +587,17 @@ def ai_score(items: list[dict], n: int) -> dict | None:
         )
     prompt = PROMPT.format(n=n, candidates="\n".join(lines), profile=load_profile() or "(no profile file yet — use the defaults above)", yesterday=yesterday_context() or "(none)")
 
-    for attempt in range(3):
-        try:
-            name, key = provider
-            text = _call_anthropic(key, prompt) if name == "anthropic" else _call_gemini(key, prompt)
-            text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.M).strip()
-            out = json.loads(text)
-            out["_provider"] = name
-            return out
-        except Exception as exc:  # noqa: BLE001
-            log(f"  · model attempt {attempt + 1} ({provider[0]}) failed: {type(exc).__name__}: {exc}")
-            time.sleep((20, 60, 120)[min(attempt, 2)])  # 503 storms usually pass within a couple of minutes
-    return None
+    name, text = call_model(prompt)
+    if not text:
+        return None
+    try:
+        text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.M).strip()
+        out = json.loads(text)
+        out["_provider"] = name
+        return out
+    except Exception as exc:  # noqa: BLE001
+        log(f"  · {name} returned unparseable output: {type(exc).__name__}")
+        return None
 
 
 # ───────────────────────────────── assembly ─────────────────────────────────
