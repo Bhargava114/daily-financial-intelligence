@@ -2,10 +2,11 @@ name: Daily brief
 
 on:
   schedule:
-    # GitHub cron is UTC. 03:10 UTC = 08:40 IST, deliberately early: scheduled
-    # runs on shared runners are routinely delayed 5-30 minutes, so aiming at
-    # 03:30 would regularly land after 09:00.
-    - cron: "10 3 * * *"
+    # GitHub cron is UTC and scheduled runs can be delayed or even dropped in
+    # busy windows, so two alarms on odd minutes: whichever fires first builds
+    # the brief, the other sees it fresh and exits (guard in run.py).
+    - cron: "7 3 * * *"    # ≈ 08:37 IST
+    - cron: "52 3 * * *"   # ≈ 09:22 IST, safety net
   workflow_dispatch:        # lets you run it by hand from the Actions tab
 
 permissions:
@@ -41,6 +42,7 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           DIGEST_TO: ${{ secrets.DIGEST_TO }}
           DFI_MODEL: ${{ vars.DFI_MODEL || '' }}
+          DFI_SKIP_IF_FRESH: ${{ github.event_name == 'schedule' && '1' || '' }}
         run: python collector/run.py
 
       - name: Publish
