@@ -556,10 +556,35 @@ def _call_openai_compatible(base: str, key: str, models: list[str], prompt: str)
 
 
 def _call_groq(key: str, prompt: str) -> str:
-    """Groq's free tier — the fallback engine when Gemini is having a morning."""
-    models = [m for m in [os.environ.get("DFI_GROQ_MODEL") or None,
-                          "llama-3.3-70b-versatile", "llama-3.1-8b-instant"] if m]
-    return _call_openai_compatible("https://api.groq.com/openai/v1", key, models, prompt)
+    """Groq's free tier — the fallback engine when Gemini is having a morning.
+    Model names churn faster than any code should hardcode, so ask Groq's own
+    /models endpoint what exists right now and rank the text models by size
+    and suitability. A rename can never 404 this path again."""
+    override = os.environ.get("DFI_GROQ_MODEL") or None
+    if override:
+        return _call_openai_compatible("https://api.groq.com/openai/v1", key, [override], prompt)
+    r = requests.get("https://api.groq.com/openai/v1/models", timeout=20,
+                     headers={"Authorization": f"Bearer {key}"})
+    r.raise_for_status()
+    avail = [m.get("id", "") for m in r.json().get("data", []) if m.get("id")]
+
+    def score(mid: str) -> int:
+        low = mid.lower()
+        if any(x in low for x in ("whisper", "tts", "guard", "embed", "moderation", "vision", "audio")):
+            return -1  # not a text-generation model
+        pts = 0
+        for pat, val in (("versatile", 50), ("120b", 45), ("70b", 40), ("gpt-oss", 38),
+                         ("llama-4", 35), ("instruct", 30), ("maverick", 25), ("qwen", 20),
+                         ("scout", 15), ("32b", 15), ("9b", 5), ("8b", 5)):
+            if pat in low:
+                pts += val
+        return pts
+
+    ranked = sorted((m for m in avail if score(m) >= 0), key=score, reverse=True)[:3]
+    if not ranked:
+        raise RuntimeError("groq lists no usable text models")
+    log(f"  · groq live menu, trying: {', '.join(ranked)}")
+    return _call_openai_compatible("https://api.groq.com/openai/v1", key, ranked, prompt)
 
 
 def call_model(prompt: str) -> tuple[str | None, str | None]:
