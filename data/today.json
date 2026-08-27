@@ -1,23 +1,44 @@
 {
   "date": "2026-08-27",
-  "generated_at": "2026-08-27T12:01:49.713475+05:30",
-  "scoring": "heuristic",
+  "generated_at": "2026-08-27T12:09:46.004743+05:30",
+  "scoring": "gemini",
   "stats": {
-    "items": 14,
-    "actions": 0,
-    "candidates": 197,
+    "items": 12,
+    "actions": 2,
+    "candidates": 199,
     "sources_ok": 24,
     "sources_failed": 5,
     "sources_blocked": 10
   },
   "five_minutes": [
-    "SEBI Order for Compliance – Release Order for Recovery Certificate No. RC 5196 of 2022 against Tanna Tusharbhai Hiralal in the matter of Excel Castronics Limited.",
-    "Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
-    "Notice of Attachment of Demat Account and Mutual Fund Folio(s) 15754 of 2026 dated August 21, 2026 against Paras Shah (PAN: DOKPS0203A) [Defaulter] in the matter of trading based stock recommendations using social media YouTube in the scrip of Sadhna Broadcast Ltd.: under Recovery Certificate No. 92",
-    "Completion of Recovery Certificate No. RC6746 of 2023 in respect of Ankit Modi (PAN: AENPM9852P) in the matter of Illiquid Stock Options",
-    "Underwriting Auction for sale of Government Security for &#8377;34,000 crore on August 28, 2026"
+    "Slower US Q2 GDP growth of 1.5% reinforces Fed rate cut expectations and helps cap US Treasury yields.",
+    "Nvidia's $96bn quarter beat forecasts, confirming strong global demand for AI infrastructure.",
+    "US personal income grew 0.4% in July, indicating that US economic cooling remains gradual.",
+    "RBI's August Bulletin points to domestic macro resilience despite global economic headwinds.",
+    "RBI absorbed ₹1.42 lakh crore via VRRR at a 5.24% cutoff rate to maintain overnight liquidity control."
   ],
-  "theses": [],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "no_signal",
+      "note": ""
+    }
+  ],
   "markets": [],
   "buckets": [
     {
@@ -47,375 +68,315 @@
   ],
   "items": [
     {
-      "id": "e1a911a667df",
-      "bucket": "india_economy",
-      "headline": "Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Second Amendment Directions, 2026",
-      "what_happened": "RBI/2026-27/248 DOR.SOG(SPE).REC.214/13.03.00/2026-27 August 25, 2026 Reserve Bank of India (Rural Co-operative Banks &ndash; Interest Rate on Deposits) Second Amendment Directions, 2026 Please refer to the Reserve Bank of India (Rural Co-operative Banks &ndash; Interest Rate on Deposits) Directions, 2025 (hereinafter referred to as &lsquo;Directions&rsquo;), dated November 28, 2025 (Updated as on June 17, 2026), wherein temporary withdrawal of the interest rate ceiling on fresh FCNR(B) deposits of 3-5 year tenors and restriction on interest rates on NRE deposits of 3 year and above tenors, in",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "id": "cbbc27a2bbeb",
+      "bucket": "global",
+      "headline": "Slower US Q2 GDP growth of 1.5% reinforces Fed rate cut expectations and caps US Treasury yield upside",
+      "what_happened": "US real GDP grew at an annual rate of 1.5% in Q2 2026 according to the second estimate, slowing from 2.1% growth in Q1.",
+      "why_it_matters": "Slower US economic expansion cements market expectations for Federal Reserve monetary easing later this year, keeping a lid on US Treasury yields. Softening US yields moderate USD strength and ease capital outflow pressures on emerging markets.",
+      "action": "Revisit US rate cut expectations and portfolio yield duration assumptions ahead of the next FOMC decision.",
+      "priority": 9,
+      "scores": {
+        "ca": 2,
+        "business": 7,
+        "market": 9,
+        "global": 10
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "US BEA (GDP, PCE)",
+        "tier": "data",
+        "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-2nd-quarter-2026",
+        "published": "2026-08-26T12:30:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "980b0e69d066",
+      "bucket": "global",
+      "headline": "Nvidia's $96bn quarter validates persistent global AI capex momentum, supporting tech valuations",
+      "what_happened": "Nvidia reported quarterly revenue of $96 billion, exceeding market expectations due to accelerating demand for AI hardware.",
+      "why_it_matters": "Strong enterprise hardware demand demonstrates that the global AI infrastructure investment cycle remains fully intact. Continued mega-cap tech earnings beats provide valuation support for global equity markets.",
       "action": null,
       "priority": 8,
       "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
-        "global": 5
+        "ca": 1,
+        "business": 9,
+        "market": 8,
+        "global": 9
       },
-      "confidence": "low",
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/ce871n7lyvlo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-08-26T21:49:26+00:00"
+      },
+      "also_reported_by": [
+        "Guardian Business"
+      ]
+    },
+    {
+      "id": "ca11222d0905",
+      "bucket": "global",
+      "headline": "Resilient US consumer income and spending in July signal a gradual rather than abrupt economic cooling",
+      "what_happened": "US personal income grew 0.4% ($115.1 billion) and disposable income increased 0.5% in July, supporting ongoing personal consumption expenditures.",
+      "why_it_matters": "Steady income growth and personal spending show that the US consumer balance sheet remains resilient even as headline GDP growth moderates. This balanced profile reduces immediate US hard-landing risks.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 1,
+        "business": 6,
+        "market": 7,
+        "global": 9
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "US BEA (GDP, PCE)",
+        "tier": "data",
+        "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026",
+        "published": "2026-08-26T12:30:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "609ec45bc5b0",
+      "bucket": "global",
+      "headline": "BoJ policy address reinforces gradual normalization stance, keeping yen liquidity dynamics in focus",
+      "what_happened": "Bank of Japan Deputy Governor Himino delivered a speech in Saitama addressing Japan's economic outlook and monetary policy framework.",
+      "why_it_matters": "The BoJ's ongoing shift away from ultra-accommodative policy remains a key factor for global cross-border capital flows and yen carry trade positioning.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 1,
+        "business": 5,
+        "market": 7,
+        "global": 9
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Bank of Japan",
+        "tier": "primary",
+        "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko260827a.htm",
+        "published": "2026-08-27T01:35:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "ffd98e5a2e5d",
+      "bucket": "global",
+      "headline": "Meta's $18bn legal settlement highlights escalating regulatory liability and compliance costs for mega-cap tech",
+      "what_happened": "Meta agreed to pay up to $18 billion to settle lawsuits brought by US states claiming its social media platforms caused harm to children.",
+      "why_it_matters": "The massive monetary settlement highlights expanding regulatory and legal liabilities facing major technology platforms, impacting corporate free cash flow and setting a precedent for global platform governance.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 3,
+        "business": 8,
+        "market": 6,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/cd68q3wynnqo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-08-26T21:27:23+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "7d43c9af5a1d",
+      "bucket": "india_economy",
+      "headline": "RBI August Bulletin flags global economic fragility while underscoring domestic growth resilience",
+      "what_happened": "The RBI released its August 2026 Bulletin, featuring its bi-monthly policy statement and the 'State of the Economy' article highlighting fragile global conditions.",
+      "why_it_matters": "The central bank's macroeconomic review stresses that while global tailwinds are constrained by policy uncertainty and slowing trade, Indian domestic activity retains underlying momentum, offering comfort for local debt and credit markets.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 3,
+        "business": 6,
+        "market": 7,
+        "global": 7
+      },
+      "confidence": "high",
       "is_update": true,
       "update_note": "Carried over from yesterday with new reporting.",
       "source": {
-        "name": "RBI Notifications",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13690&Mode=0",
-        "published": "2026-08-27T06:29:33.874528+00:00"
-      },
-      "also_reported_by": [
-        "RBI Notifications"
-      ]
-    },
-    {
-      "id": "637c1153bed5",
-      "bucket": "india_economy",
-      "headline": "Notice of Attachment of Demat Account and Mutual Fund Folio(s) 15754 of 2026 dated August 21, 2026 against Paras Shah (PAN: DOKPS0203A) [Defaulter] in the matter of trading based stock recommendations using social media YouTube in the scrip of Sadhna Broadcast Ltd.: under Recovery Certificate No. 92",
-      "what_happened": "Notice of Attachment of Demat Account and Mutual Fund Folio(s) 15754 of 2026 dated August 21, 2026 against Paras Shah (PAN: DOKPS0203A) [Defaulter] in the matter of trading based stock recommendations using social media YouTube in the scrip of Sadhna Broadcast Ltd.: under Recovery Certificate No. 9253 of 2026.",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
-        "global": 5
-      },
-      "confidence": "low",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/notice-of-attachment-of-demat-account-and-mutual-fund-folio-s-15754-of-2026-dated-august-21-2026-against-paras-shah-pan-dokps0203a-defaulter-in-the-matter-of-trading-based-stock-recommendations-_103980.html",
-        "published": "2026-08-27T06:29:35.202609+00:00"
-      },
-      "also_reported_by": [
-        "SEBI"
-      ]
-    },
-    {
-      "id": "c68709037014",
-      "bucket": "india_economy",
-      "headline": "Completion of Recovery Certificate No. RC6746 of 2023 in respect of Ankit Modi (PAN: AENPM9852P) in the matter of Illiquid Stock Options",
-      "what_happened": "Completion of Recovery Certificate No. RC6746 of 2023 in respect of Ankit Modi (PAN: AENPM9852P) in the matter of Illiquid Stock Options",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
-        "global": 5
-      },
-      "confidence": "low",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/completion-of-recovery-certificate-no-rc6746-of-2023-in-respect-of-ankit-modi-pan-aenpm9852p-in-the-matter-of-illiquid-stock-options_103996.html",
-        "published": "2026-08-27T06:29:35.202190+00:00"
-      },
-      "also_reported_by": [
-        "SEBI"
-      ]
-    },
-    {
-      "id": "89abf85def09",
-      "bucket": "india_economy",
-      "headline": "Underwriting Auction for sale of Government Security for &#8377;34,000 crore on August 28, 2026",
-      "what_happened": "Government of India has announced the sale (re-issue) of Government Security, as detailed below, through auction to be held on August 28, 2026 (Friday). As per the extant scheme of underwriting commitment notified on November 14, 2007, the amounts of Minimum Underwriting Commitment (MUC) and the minimum bidding commitment under Additional Competitive Underwriting (ACU) auction, applicable to each Primary Dealer (PD), are as under: (&#8377; crore) Security Notified Amount MUC amount per PD Minimum bidding commitment per PD under ACU auction 6.94% GS 2036 34,000 810 810 The underwriting auction ",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
-        "global": 5
-      },
-      "confidence": "low",
-      "is_update": false,
-      "update_note": null,
-      "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63448",
-        "published": "2026-08-27T06:29:35.728810+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63444",
+        "published": "2026-08-27T06:38:11.509830+00:00"
       },
-      "also_reported_by": [
-        "Economic Times · Economy",
-        "RBI"
-      ]
+      "also_reported_by": []
     },
     {
-      "id": "4fb13438b2b5",
+      "id": "34793d4546ad",
       "bucket": "india_economy",
-      "headline": "Money Market Operations as on August 26, 2026",
-      "what_happened": "Money Market Operations as on August 26, 2026",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "headline": "India proposes joint venture pitching initiative with Japan to drive bilateral startup investments",
+      "what_happened": "Union Minister Piyush Goyal proposed an India-Japan startup pitching initiative to connect Indian entrepreneurs with Japanese capital and corporate partners.",
+      "why_it_matters": "Institutionalized cross-border startup channels aim to expand Japanese FDI inflows into domestic technology and manufacturing ventures over the medium term.",
       "action": null,
-      "priority": 8,
+      "priority": 4,
       "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
+        "ca": 2,
+        "business": 6,
+        "market": 4,
         "global": 5
       },
-      "confidence": "low",
+      "confidence": "high",
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63449",
-        "published": "2026-08-27T06:29:35.728707+00:00"
+        "name": "Economic Times · Economy",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/piyush-goyal-proposes-india-japan-shark-tank-style-startup-series-to-boost-investments-business-ties/articleshow/133529788.cms",
+        "published": "2026-08-26T04:41:57+00:00"
       },
       "also_reported_by": [
-        "RBI"
+        "Economic Times · Economy"
       ]
     },
     {
       "id": "452794fa47ac",
-      "bucket": "india_economy",
-      "headline": "Result of the Overnight Variable Rate Reverse Repo (VRRR) auction held on August 27, 2026",
-      "what_happened": "Tenor 1-day Notified Amount (in &#8377; crore) 2,00,000 Total amount of offers received (in &#8377; crore) 1,42,622 Amount accepted (in &#8377; crore) 1,42,622 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate N.A. Ajit Prasad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deputy General Manager (Communications)&nbsp;&nbsp;&nbsp;&nbsp; Press Release: 2026-2027/969",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "bucket": "markets",
+      "headline": "RBI VRRR auction absorbs ₹1.42 lakh crore at 5.24% cutoff following yesterday's auction announcement",
+      "what_happened": "Following yesterday's auction announcement, the RBI absorbed ₹1.42 lakh crore of banking system liquidity in its 1-day VRRR operation at a 5.24% cutoff rate.",
+      "why_it_matters": "High absorption in the VRRR window shows active liquidity management by the RBI to keep money market rates aligned with policy targets and prevent overnight rates from drifting too low.",
       "action": null,
-      "priority": 8,
+      "priority": 6,
       "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
-        "global": 5
+        "ca": 2,
+        "business": 4,
+        "market": 8,
+        "global": 3
       },
-      "confidence": "low",
-      "is_update": false,
-      "update_note": null,
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
       "source": {
         "name": "RBI",
         "tier": "primary",
         "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63447",
-        "published": "2026-08-27T06:29:35.728872+00:00"
+        "published": "2026-08-27T06:38:11.509305+00:00"
       },
       "also_reported_by": [
         "RBI"
       ]
     },
     {
-      "id": "9cf41c3eb546",
-      "bucket": "india_economy",
-      "headline": "Release Order in Recovery Certificate No 6467 of 2023 issued against Ramesh Chhallani HUF (PAN – AALHR9880C) in the matter of Kelvin Fincap Limited",
-      "what_happened": "Release Order in Recovery Certificate No 6467 of 2023 issued against Ramesh Chhallani HUF (PAN – AALHR9880C) in the matter of Kelvin Fincap Limited",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "id": "d213a036d770",
+      "bucket": "markets",
+      "headline": "Skyways Air Services IPO subscribed over 5 times, demonstrating sustained domestic primary market demand",
+      "what_happened": "Skyways Air Services' IPO reached over 5x subscription on day 4, with grey market indicators suggesting a 30% listing premium.",
+      "why_it_matters": "Strong retail and institutional demand for mid-tier equity offerings indicates robust domestic liquidity, supporting overall equity market sentiment.",
       "action": null,
-      "priority": 8,
+      "priority": 5,
       "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
-        "global": 5
+        "ca": 2,
+        "business": 6,
+        "market": 6,
+        "global": 2
       },
-      "confidence": "low",
+      "confidence": "high",
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/release-order-in-recovery-certificate-no-6467-of-2023-issued-against-ramesh-chhallani-huf-pan-aalhr9880c-in-the-matter-of-kelvin-fincap-limited_103932.html",
-        "published": "2026-08-27T06:29:35.202379+00:00"
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/stock-market-news/skyways-air-services-ipo-day-4-issue-subscribed-over-5-times-gmp-signals-30-listing-pop-should-you-apply-or-not-11787799500821.html",
+        "published": "2026-08-27T03:34:31+00:00"
       },
       "also_reported_by": [
-        "SEBI"
+        "Mint · Markets"
       ]
-    },
-    {
-      "id": "6428ebbf6deb",
-      "bucket": "india_economy",
-      "headline": "Release Order – Archit Jindal [Defaulter] PAN: AGNPJ5775G in the matter of Focus Industrial Resources Limited: under Certificate No. 3875 of 2021",
-      "what_happened": "Release Order – Archit Jindal [Defaulter] PAN: AGNPJ5775G in the matter of Focus Industrial Resources Limited: under Certificate No. 3875 of 2021",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
-        "global": 5
-      },
-      "confidence": "low",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/release-order-archit-jindal-defaulter-pan-agnpj5775g-in-the-matter-of-focus-industrial-resources-limited-under-certificate-no-3875-of-2021_104022.html",
-        "published": "2026-08-27T06:29:35.202034+00:00"
-      },
-      "also_reported_by": [
-        "SEBI"
-      ]
-    },
-    {
-      "id": "20033ac092f6",
-      "bucket": "india_economy",
-      "headline": "Notice of Attachment dated August 21, 2026 issued under RC No. 9265 of 2026 drawn against Kavita Shah in the matter of Sadhna Broadcast Limited",
-      "what_happened": "Notice of Attachment dated August 21, 2026 issued under RC No. 9265 of 2026 drawn against Kavita Shah in the matter of Sadhna Broadcast Limited",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
-        "global": 5
-      },
-      "confidence": "low",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/notice-of-attachment-dated-august-21-2026-issued-under-rc-no-9265-of-2026-drawn-against-kavita-shah-in-the-matter-of-sadhna-broadcast-limited_103942.html",
-        "published": "2026-08-27T06:29:35.202962+00:00"
-      },
-      "also_reported_by": [
-        "SEBI"
-      ]
-    },
-    {
-      "id": "ce1955d86abb",
-      "bucket": "india_economy",
-      "headline": "Appeal No. 7009 of 2026 filed by Kumari Devi",
-      "what_happened": "Appeal No. 7009 of 2026 filed by Kumari Devi",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
-        "global": 5
-      },
-      "confidence": "low",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/enforcement/orders/aug-2026/appeal-no-7009-of-2026-filed-by-kumari-devi_103998.html",
-        "published": "2026-08-27T06:29:35.202157+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "228001be23c6",
-      "bucket": "india_economy",
-      "headline": "Appeal No. 7015 of 2026 filed by Adv Abhishek Mathur",
-      "what_happened": "Appeal No. 7015 of 2026 filed by Adv Abhishek Mathur",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
-        "global": 5
-      },
-      "confidence": "low",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/enforcement/orders/aug-2026/appeal-no-7015-of-2026-filed-by-adv-abhishek-mathur_104002.html",
-        "published": "2026-08-27T06:29:35.202131+00:00"
-      },
-      "also_reported_by": []
     },
     {
       "id": "50c1aeedce8f",
-      "bucket": "india_economy",
-      "headline": "Final Order in the matter of Varanium Cloud Limited",
-      "what_happened": "Final Order in the matter of Varanium Cloud Limited",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "bucket": "ca_work",
+      "headline": "SEBI final order in Varanium Cloud enforces strict accountability for corporate misreporting",
+      "what_happened": "SEBI issued its final order regarding Varanium Cloud Limited following investigations into financial irregularities.",
+      "why_it_matters": "Concluding SEBI enforcement actions reinforce financial reporting standards and regulatory risk premiums for small-cap listed equities.",
       "action": null,
-      "priority": 8,
+      "priority": 5,
       "scores": {
-        "ca": 8,
-        "business": 3,
-        "market": 3,
-        "global": 5
+        "ca": 7,
+        "business": 5,
+        "market": 4,
+        "global": 1
       },
-      "confidence": "low",
+      "confidence": "high",
       "is_update": false,
       "update_note": null,
       "source": {
         "name": "SEBI",
         "tier": "primary",
         "url": "https://www.sebi.gov.in/enforcement/orders/aug-2026/final-order-in-respect-of-varanium-cloud-limited_104019.html",
-        "published": "2026-08-27T06:29:35.202102+00:00"
+        "published": "2026-08-27T06:38:11.306278+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "8bcc846d79ea",
+      "id": "d9311591756f",
       "bucket": "ca_work",
-      "headline": "SEBI Order for Compliance – Release Order for Recovery Certificate No. RC 5196 of 2022 against Tanna Tusharbhai Hiralal in the matter of Excel Castronics Limited.",
-      "what_happened": "SEBI Order for Compliance – Release Order for Recovery Certificate No. RC 5196 of 2022 against Tanna Tusharbhai Hiralal in the matter of Excel Castronics Limited.",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
+      "headline": "SEBI compliance order against Max Financial Services highlights continued regulatory scrutiny on financial holding structures",
+      "what_happened": "SEBI issued a regulatory order in the matter of Max Financial Services Limited.",
+      "why_it_matters": "Regulatory orders regarding listed financial services entities establish compliance benchmarks and governance standards for corporate group structures.",
       "action": null,
-      "priority": 9,
+      "priority": 5,
       "scores": {
-        "ca": 10,
-        "business": 3,
-        "market": 3,
-        "global": 5
+        "ca": 7,
+        "business": 5,
+        "market": 4,
+        "global": 1
       },
-      "confidence": "low",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/aug-2026/sebi-order-for-compliance-release-order-for-recovery-certificate-no-rc-5196-of-2022-against-tanna-tusharbhai-hiralal-in-the-matter-of-excel-castronics-limited-_104026.html",
-        "published": "2026-08-27T06:29:35.201944+00:00"
-      },
-      "also_reported_by": [
-        "SEBI"
-      ]
-    },
-    {
-      "id": "18d09155e60e",
-      "bucket": "ca_work",
-      "headline": "Alignment of SEBI's Cyber Incident Reporting Portal with FIRE Format",
-      "what_happened": "Alignment of SEBI's Cyber Incident Reporting Portal with FIRE Format",
-      "why_it_matters": "Scored without the model — open the source to judge relevance yourself.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 10,
-        "business": 3,
-        "market": 3,
-        "global": 5
-      },
-      "confidence": "low",
+      "confidence": "high",
       "is_update": false,
       "update_note": null,
       "source": {
         "name": "SEBI",
         "tier": "primary",
-        "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/alignment-of-sebi-s-cyber-incident-reporting-portal-with-fire-format_103915.html",
-        "published": "2026-08-27T06:29:35.202503+00:00"
+        "url": "https://www.sebi.gov.in/enforcement/orders/aug-2026/order-in-the-matter-of-max-financial-services-limited_103935.html",
+        "published": "2026-08-27T06:38:11.306915+00:00"
       },
       "also_reported_by": []
+    },
+    {
+      "id": "89abf85def09",
+      "bucket": "watchlist",
+      "headline": "Upcoming ₹34,000 crore GoI bond auction will test primary dealer underwriting demand and sovereign yield levels",
+      "what_happened": "The RBI announced an auction for the re-issue of Government of India securities worth ₹34,000 crore scheduled for Friday, August 28, 2026.",
+      "why_it_matters": "The upcoming debt supply will absorb domestic fixed-income liquidity and provide a fresh price signal for India 10Y G-sec yields.",
+      "action": "Monitor auction cut-off yields on Friday to gauge institutional demand for G-secs.",
+      "priority": 6,
+      "scores": {
+        "ca": 2,
+        "business": 4,
+        "market": 7,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63448",
+        "published": "2026-08-27T06:38:11.509243+00:00"
+      },
+      "also_reported_by": [
+        "Economic Times · Economy",
+        "RBI"
+      ]
     }
   ]
 }
