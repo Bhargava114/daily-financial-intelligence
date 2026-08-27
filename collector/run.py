@@ -909,6 +909,22 @@ def main() -> int:
     if args.audit:
         return audit(conf)
 
+    # Two cron lines fire this workflow as insurance against GitHub dropping
+    # scheduled runs. Whichever fires first does the work; any later scheduled
+    # run sees a fresh digest and exits — no duplicate brief, no duplicate email.
+    # Manual runs never skip (the env is only set for schedule events).
+    if os.environ.get("DFI_SKIP_IF_FRESH"):
+        try:
+            cur = json.loads((DATA / "today.json").read_text())
+            gen = datetime.fromisoformat(cur["generated_at"])
+            fresh = cur["date"] == datetime.now(IST).date().isoformat() and \
+                (datetime.now(IST) - gen) < timedelta(hours=3)
+            if fresh:
+                log(f"today's digest already generated at {cur['generated_at']} — nothing to do")
+                return 0
+        except Exception:  # noqa: BLE001
+            pass
+
     DATA.mkdir(exist_ok=True)
     (DATA / "archive").mkdir(exist_ok=True)
 
