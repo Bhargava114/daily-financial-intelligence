@@ -510,7 +510,7 @@ def _call_gemini(key: str, prompt: str) -> str:
                 headers={"x-goog-api-key": key, "content-type": "application/json"},
                 json={
                     "contents": [{"parts": [{"text": prompt}]}],
-                    "generationConfig": {"maxOutputTokens": 8000, "responseMimeType": "application/json"},
+                    "generationConfig": {"maxOutputTokens": 20000, "responseMimeType": "application/json"},
                 },
             )
             if r.status_code in (400, 404) and "model" in r.text.lower():
@@ -587,10 +587,10 @@ def _call_groq(key: str, prompt: str) -> str:
     return _call_openai_compatible("https://api.groq.com/openai/v1", key, ranked, prompt)
 
 
-def call_model(prompt: str) -> tuple[str | None, str | None]:
+def call_model(prompt: str) -> tuple[str | None, dict | None]:
     """Try every configured provider in order, three passes with patient backoff.
-    Two independent providers down in the same minutes is rare; this is what
-    keeps 9 AM intelligent even when one of them is overloaded."""
+    Success means VALID PARSED JSON — a provider that answers with truncated or
+    malformed output counts as failed, and the next engine gets the baton."""
     provs = []
     if os.environ.get("ANTHROPIC_API_KEY") or None:
         provs.append(("anthropic", lambda p: _call_anthropic(os.environ["ANTHROPIC_API_KEY"], p)))
@@ -603,7 +603,11 @@ def call_model(prompt: str) -> tuple[str | None, str | None]:
     for attempt in range(3):
         for name, fn in provs:
             try:
-                return name, fn(prompt)
+                text = fn(prompt)
+                text = re.sub(r"^```(?:json)?|```$", "", (text or "").strip(), flags=re.M).strip()
+                return name, json.loads(text)
+            except json.JSONDecodeError:
+                log(f"  · {name} attempt {attempt + 1}: unparseable output ({(text or '')[:80]!r}…), trying next engine")
             except Exception as exc:  # noqa: BLE001
                 log(f"  · {name} attempt {attempt + 1} failed: {type(exc).__name__}")
         time.sleep((20, 60, 120)[attempt])
@@ -631,17 +635,11 @@ def ai_score(items: list[dict], n: int) -> dict | None:
                            yesterday=yesterday_context() or "(none)",
                            theses="\n".join(f"{i+1}. {x}" for i, x in enumerate(theses)) or "(none declared)")
 
-    name, text = call_model(prompt)
-    if not text:
+    name, out = call_model(prompt)
+    if not out:
         return None
-    try:
-        text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.M).strip()
-        out = json.loads(text)
-        out["_provider"] = name
-        return out
-    except Exception as exc:  # noqa: BLE001
-        log(f"  · {name} returned unparseable output: {type(exc).__name__}")
-        return None
+    out["_provider"] = name
+    return out
 
 
 # ───────────────────────────────── assembly ─────────────────────────────────

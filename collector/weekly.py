@@ -67,18 +67,12 @@ def week_items(days: int = 7) -> tuple[list[str], int]:
 
 def synthesise(lines: list[str]) -> dict | None:
     prompt = PROMPT.format(profile=load_profile() or "(no profile)", items="\n".join(lines))
-    name, text = call_model(prompt)
-    if not text:
-        log("  · no model reachable — weekly falls back to a top-items list")
+    name, out = call_model(prompt)
+    if not out:
+        log("  · no model produced valid output — weekly falls back to a top-items list")
         return None
-    try:
-        text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.M).strip()
-        out = json.loads(text)
-        out["_provider"] = name
-        return out
-    except Exception as exc:  # noqa: BLE001
-        log(f"  · {name} returned unparseable weekly output: {type(exc).__name__}")
-        return None
+    out["_provider"] = name
+    return out
 
 
 def fallback(lines: list[str]) -> dict:
