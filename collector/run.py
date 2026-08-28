@@ -453,7 +453,8 @@ Rules that matter more than anything else:
 4. priority is 1-10. Reserve 9-10 for things that materially change rate expectations, flow dynamics, or require action. A story he can only file away is a 5-6 however large it sounds.
 5. Be willing to return fewer than {n} items. A short honest brief beats a padded one.
 6. Never assert a fact that is not in the supplied title or summary. Never invent numbers. If detail is thin, say less.
-7. Candidates were deduplicated by word overlap, which misses paraphrase. If several candidates describe ONE event, return a single item, use the most authoritative candidate as "ref" (a central bank or statistics agency beats a newspaper), and list the other candidate numbers in "merged_refs".
+7. STYLE — write like a colleague, not like an AI. Banned: binary contrasts ("It's not X, it's Y"), importance puffery ("marks a pivotal moment", "a testament to", "underscores"), faux-insight setups ("what nobody tells you"), weasel attribution ("experts say", "analysts believe" without naming them), fake-profound endings, dramatic fragments. Prefer concrete nouns and numbers from the items over abstractions. If a sentence would survive in any story about any topic, it is filler — cut it.
+8. Candidates were deduplicated by word overlap, which misses paraphrase. If several candidates describe ONE event, return a single item, use the most authoritative candidate as "ref" (a central bank or statistics agency beats a newspaper), and list the other candidate numbers in "merged_refs".
 
 Buckets: must_know, global (central banks & global macro), india_economy (Indian macro, flows, policy), markets (cross-asset context), ca_work (tax/audit/compliance), watchlist.
 

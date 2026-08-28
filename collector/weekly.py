@@ -39,7 +39,7 @@ Return ONLY valid JSON, no markdown fence:
   "threads": [{{"name": "thread in a few words", "note": "one or two sentences on its trajectory and what confirms or breaks it"}}],
   "next_week": ["up to 5 concrete things to watch — data releases, meetings, decisions — one line each"]}}
 
-Rules: never assert a fact or number that is not in the items below. At most 4 threads. If the week was quiet, say so honestly rather than inflating.
+Rules: never assert a fact or number that is not in the items below. At most 4 threads. If the week was quiet, say so honestly rather than inflating. Style: no binary contrasts ("not X but Y"), no puffery ("pivotal", "testament", "underscores"), no weasel attribution, no fake-profound closers — concrete nouns and numbers over abstractions, always.
 
 THIS WEEK'S ITEMS:
 {items}"""
