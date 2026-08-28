@@ -1,21 +1,21 @@
 {
   "date": "2026-08-28",
-  "generated_at": "2026-08-28T11:02:17.077622+05:30",
+  "generated_at": "2026-08-28T19:52:16.402084+05:30",
   "scoring": "gemini",
   "stats": {
-    "items": 8,
-    "actions": 1,
-    "candidates": 194,
+    "items": 5,
+    "actions": 3,
+    "candidates": 199,
     "sources_ok": 24,
     "sources_failed": 5,
     "sources_blocked": 10
   },
   "five_minutes": [
-    "ECB July meeting account indicates central bankers remain cautious on rate cuts due to sticky service inflation.",
-    "RBI Q1 corporate performance data provides a baseline on revenue and profitability across 3,247 listed Indian firms.",
-    "RBI absorbed ₹1.53 lakh crore in its 3-day VRRR auction at a 5.24% cutoff yield, extending short-term liquidity management.",
-    "Indian T-bill auction cutoffs reached 5.795% for 364-day paper, anchoring short-end sovereign yield benchmarks.",
-    "US federal court ruled the Trump administration unlawfully retaliated against Anthropic, exposing policy friction in tech."
+    "Sovereign G-sec yields firmed below 6.92% as RBI's ₹34,000 crore 10-year bond auction saw strong 2.4x bid coverage.",
+    "RBI escalated liquidity absorption by announcing a massive ₹6 lakh crore 15-day VRRR auction to keep money market rates aligned with policy repo.",
+    "US court ruling against Trump administration policy over Anthropic highlights growing legal friction around US AI defense deployment.",
+    "SEBI extended implementation timelines for new ETF market-making and call auction norms, granting operational relief to fund managers.",
+    "US domestic uranium output tripled in 2025 according to EIA data, reinforcing baseload nuclear fuel security amidst energy transition demands."
   ],
   "theses": [
     {
@@ -26,7 +26,7 @@
     {
       "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
       "verdict": "supports",
-      "note": "A federal court ruling that the Trump administration illegally retaliated against AI startup Anthropic underscores institutional friction and regulatory headwinds facing US growth sectors."
+      "note": "A court ruling that the Trump administration illegally retaliated against Anthropic highlights policy and legal friction surrounding critical tech infrastructure."
     },
     {
       "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
@@ -68,42 +68,17 @@
   ],
   "items": [
     {
-      "id": "2995e023ea7d",
-      "bucket": "global",
-      "headline": "ECB July meeting account reinforces cautious rate-cut path amid sticky service inflation",
-      "what_happened": "The European Central Bank published the meeting account from its July 22-23, 2026 policy meeting.",
-      "why_it_matters": "Persistent inflation in wages and services keeps ECB policymakers cautious about rapid monetary easing, anchoring Eurozone benchmark bond yields and supporting the Euro against major currencies.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 1,
-        "business": 7,
-        "market": 8,
-        "global": 9
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "ECB",
-        "tier": "primary",
-        "url": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg260827~f06c21fd54.en.html",
-        "published": "2026-08-27T11:30:00+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
       "id": "667b766f6dcf",
       "bucket": "global",
-      "headline": "US court ruling on Anthropic signals growing legal and policy friction in US AI capex landscape",
-      "what_happened": "A federal judge ruled that the Trump administration unlawfully retaliated against AI startup Anthropic over policy disputes regarding military applications.",
-      "why_it_matters": "Regulatory overreach and government friction introduce operational drag into high-valuation US technology firms, impacting global market sentiment around the AI investment cycle.",
+      "headline": "Judicial ruling against Trump administration highlights growing policy friction around US defense AI adoption",
+      "what_happened": "A US judge ruled that the Trump administration illegally retaliated against AI startup Anthropic following disputes with the Pentagon over military application of AI technology.",
+      "why_it_matters": "Legal challenges to executive retaliation create policy uncertainty for US enterprise tech firms pursuing government contracts. It underscores regulatory and governance risks surrounding dual-use AI technology deployment.",
       "action": null,
-      "priority": 7,
+      "priority": 6,
       "scores": {
         "ca": 1,
-        "business": 8,
-        "market": 7,
+        "business": 6,
+        "market": 6,
         "global": 8
       },
       "confidence": "high",
@@ -116,47 +91,47 @@
         "published": "2026-08-28T03:41:59+00:00"
       },
       "also_reported_by": [
-        "MarketWatch"
+        "Guardian Business"
       ]
     },
     {
-      "id": "3b5ef6e81ba2",
-      "bucket": "india_economy",
-      "headline": "RBI corporate data provides Q1 demand and margin health pulse across 3,247 listed non-financial firms",
-      "what_happened": "The Reserve Bank of India released Q1 2026-27 performance data for the private corporate business sector based on abridged financial results of listed non-government non-financial companies.",
-      "why_it_matters": "Gives direct empirical ground truth on top-line growth and operating margins, helping calibrate earnings trajectory assumptions for Indian equity valuations.",
-      "action": "Review Q1 corporate margin trends across bank and NBFC borrower profiles.",
-      "priority": 8,
+      "id": "6cd7dcaa7c04",
+      "bucket": "global",
+      "headline": "Tripling US domestic uranium output reinforces long-term nuclear fuel supply security",
+      "what_happened": "US EIA data revealed that 2025 domestic uranium concentrate (U3O8) production rose to 2.1 million pounds, more than tripling 2024 levels to reach its highest point since 2017.",
+      "why_it_matters": "Expanding domestic production reduces reliance on imported nuclear fuel for US baseload power generation. This supports nuclear energy transition capex while dampening vulnerability to foreign supply chain bottlenecks.",
+      "action": null,
+      "priority": 6,
       "scores": {
-        "ca": 3,
-        "business": 8,
-        "market": 8,
-        "global": 3
+        "ca": 1,
+        "business": 6,
+        "market": 6,
+        "global": 7
       },
       "confidence": "high",
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63452",
-        "published": "2026-08-28T05:30:08.354062+00:00"
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68044",
+        "published": "2026-08-28T14:00:00+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "d606e93bbd04",
+      "id": "a00bb420b25b",
       "bucket": "india_economy",
-      "headline": "RBI VRRR absorption expands to ₹1.53 lakh crore at 5.24% cutoff yield",
-      "what_happened": "The RBI accepted ₹1,52,537 crore against a ₹3,00,000 crore notified amount at a weighted average and cutoff rate of 5.24% in its 3-day VRRR auction.",
-      "why_it_matters": "Absorption firmed further from yesterday's ₹1.42 lakh crore level at an unchanged 5.24% cutoff, demonstrating the central bank's active fine-tuning to prevent overnight rates from falling below policy targets.",
-      "action": null,
-      "priority": 7,
+      "headline": "RBI's ₹6-lakh-crore VRRR auction signals aggressive liquidity absorption to preserve short-term rate corridor",
+      "what_happened": "The RBI announced a 15-day Variable Rate Reverse Repo (VRRR) auction under LAF scheduled for August 31, 2026, with a notified amount of ₹6,00,000 crore.",
+      "why_it_matters": "Building on yesterday's ₹1.42 lakh crore absorption, this massive liquidity drain prevents short-term money market rates from drifting below the policy repo rate. It tightens near-term systemic bank liquidity, supporting money market yields and bank deposit pricing.",
+      "action": "Track August 31 auction cutoff rate to gauge RBI's liquidity stance and short-term yield floor.",
+      "priority": 8,
       "scores": {
-        "ca": 1,
-        "business": 5,
+        "ca": 3,
+        "business": 7,
         "market": 8,
-        "global": 2
+        "global": 5
       },
       "confidence": "high",
       "is_update": true,
@@ -164,114 +139,64 @@
       "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63459",
-        "published": "2026-08-28T05:30:08.352964+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63467",
+        "published": "2026-08-28T14:20:55.952684+00:00"
       },
       "also_reported_by": [
         "RBI"
       ]
     },
     {
-      "id": "f3913a5dcf0c",
-      "bucket": "markets",
-      "headline": "RBI T-bill auction anchors short-end pricing with 364-day yield cutoff at 5.795%",
-      "what_happened": "The RBI completed full treasury bill auctions, setting cutoff yields at 5.2640% for 91-day (₹9,000 cr), 5.6181% for 182-day (₹8,000 cr), and 5.7950% for 364-day (₹7,000 cr) paper.",
-      "why_it_matters": "Provides updated sovereign short-curve benchmarks, setting baseline interest rate expectations for short-term corporate debt issuances and mutual fund money market allocations.",
-      "action": null,
-      "priority": 7,
+      "id": "9ea929671f92",
+      "bucket": "ca_work",
+      "headline": "SEBI's ETF compliance extension delays market-structure operational mandates for fund managers",
+      "what_happened": "SEBI extended the implementation timeline for provisions under its June 15, 2026 circular governing base price, price bands, call auctions in pre-open sessions, and close-out procedures for Exchange Traded Funds (ETFs).",
+      "why_it_matters": "This provides immediate operational relief to asset management companies and market makers, postponing mandatory trading engine and compliance adjustments. You gain additional buffer to review ETF market-making workflows and audit readiness.",
+      "action": "Review internal compliance audit timelines for asset management clients handling ETF trading desks.",
+      "priority": 6,
       "scores": {
-        "ca": 1,
+        "ca": 7,
         "business": 5,
-        "market": 8,
+        "market": 6,
         "global": 2
       },
       "confidence": "high",
       "is_update": false,
       "update_note": null,
       "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/extension-of-timeline-for-implementation-of-provisions-of-sebi-circular-dated-june-15-2026-on-norms-for-base-price-price-bands-call-auction-in-pre-open-session-and-close-out-procedure-for-exchange-_104094.html",
+        "published": "2026-08-28T14:20:54.638461+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "28e425f3ccf5",
+      "bucket": "watchlist",
+      "headline": "Strong 2.4x bid coverage at ₹34,000 crore GoI auction anchors benchmark 10-year G-sec yield below 6.92%",
+      "what_happened": "The Reserve Bank of India accepted ₹33,995.60 crore of competitive bids for the 6.94% GS 2036 benchmark paper against ₹82,151.76 crore received, setting a cut-off price of ₹100.17 and yield of 6.9136%.",
+      "why_it_matters": "Robust institutional demand for long-duration sovereign paper caps upside in India 10Y G-sec yields following yesterday's auction announcement. This keeps corporate borrowing spreads tight and reflects comfortable long-term appetite among primary dealers and banks.",
+      "action": "Verify primary dealer allotment and adjust 10Y G-sec yield expectations in fixed income models.",
+      "priority": 7,
+      "scores": {
+        "ca": 2,
+        "business": 6,
+        "market": 8,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63451",
-        "published": "2026-08-28T05:30:08.354164+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63461",
+        "published": "2026-08-28T14:20:55.953232+00:00"
       },
       "also_reported_by": [
         "RBI"
       ]
-    },
-    {
-      "id": "b062ddf392a9",
-      "bucket": "markets",
-      "headline": "Interbank market liquidity remains comfortable as overnight call rate averages 5.21%",
-      "what_happened": "RBI money market reporting for August 27 showed overnight segment turnover of ₹6.87 lakh crore at a 5.07% weighted average rate, with Triparty Repo printing at 5.08%.",
-      "why_it_matters": "Comfortable overnight liquidity keeps short-term interbank borrowing costs stable, preventing unwanted spikes in short-duration bank funding costs.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 1,
-        "business": 4,
-        "market": 7,
-        "global": 1
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63457",
-        "published": "2026-08-28T05:30:08.353398+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "bfe0f06cd061",
-      "bucket": "ca_work",
-      "headline": "SEC enforcement against 38 firms for false Form ADV filings highlights global advisory audit standards",
-      "what_happened": "The US SEC charged 38 entities for making material misrepresentations in Forms ADV between 2025 and 2026 to falsely present themselves as registered advisory firms.",
-      "why_it_matters": "Highlights regulatory intolerance for disclosure misstatements, underlining the importance of accurate regulatory compliance and disclosures for cross-border asset management entities.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 7,
-        "business": 5,
-        "market": 4,
-        "global": 6
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "SEC",
-        "tier": "primary",
-        "url": "https://www.sec.gov/newsroom/press-releases/2026-78-sec-38-entities-feigned-legitimacy-us-advisers-through-false-filings-lure-retail-investors",
-        "published": "2026-08-27T21:30:00+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "d9311591756f",
-      "bucket": "ca_work",
-      "headline": "SEBI passes order in Max Financial Services matter, maintaining oversight on listed holding structures",
-      "what_happened": "SEBI issued a regulatory order in the matter of Max Financial Services Limited.",
-      "why_it_matters": "Continued regulatory scrutiny on listed financial sector companies mandates systematic tracking of compliance and governance risk factors across Indian financial equities.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 6,
-        "business": 5,
-        "market": 5,
-        "global": 1
-      },
-      "confidence": "high",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/enforcement/orders/aug-2026/order-in-the-matter-of-max-financial-services-limited_103935.html",
-        "published": "2026-08-28T05:30:07.782251+00:00"
-      },
-      "also_reported_by": []
     }
   ]
 }
