@@ -6,7 +6,7 @@ on:
     # busy windows, so two alarms on odd minutes: whichever fires first builds
     # the brief, the other sees it fresh and exits (guard in run.py).
     - cron: "7 3 * * *"    # ≈ 08:37 IST
-    - cron: "52 3 * * *"   # ≈ 09:22 IST, safety net
+    - cron: "17 4 * * *"   # ≈ 09:47 IST, safety net in a quiter window
   workflow_dispatch:        # lets you run it by hand from the Actions tab
 
 permissions:
