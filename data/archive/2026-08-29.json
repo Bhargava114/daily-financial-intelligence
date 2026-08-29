@@ -1,21 +1,21 @@
 {
   "date": "2026-08-29",
-  "generated_at": "2026-08-29T13:28:22.896458+05:30",
+  "generated_at": "2026-08-29T16:43:45.711585+05:30",
   "scoring": "gemini",
   "stats": {
-    "items": 7,
-    "actions": 1,
-    "candidates": 197,
-    "sources_ok": 24,
-    "sources_failed": 5,
+    "items": 10,
+    "actions": 4,
+    "candidates": 187,
+    "sources_ok": 23,
+    "sources_failed": 6,
     "sources_blocked": 10
   },
   "five_minutes": [
-    "Hawkish commentary from the Fed around Jackson Hole raises rate hike risks, pushing US Treasury yields higher and threatening FII outflows.",
-    "India's July industrial output eased to 6.7% as a 16.1% surge in capital goods was partially offset by a 1% contraction in consumer non-durables.",
-    "A US-brokered agreement granting access to 65 billion barrels of Venezuelan crude introduces long-term supply expansion to global oil markets.",
-    "State governments are set to raise ₹27,000 crore via RBI bond auctions, adding fresh sovereign supply at the long end of the yield curve.",
-    "The Finance Ministry has scheduled pre-Budget 2027 consultations starting October 12, focusing on spending control and revenue targets."
+    "Hawkish Jackson Hole remarks from Kevin Warsh lifted US Treasury yields and lowered Fed rate-cut expectations.",
+    "A US agreement to manage 65 billion barrels of Venezuelan oil creates long-term supply headwind for crude.",
+    "India's July IIP moderated to 6.7% as consumer non-durables contracted despite a 16.1% capital goods surge.",
+    "SEBI approved Jio's ₹37,700 crore IPO, introducing significant primary market paper supply.",
+    "RBI scheduled a ₹6-lakh-crore 15-day VRRR auction for August 31 to maintain tight money market rate control."
   ],
   "theses": [
     {
@@ -26,7 +26,7 @@
     {
       "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
       "verdict": "challenges",
-      "note": "Securing control over 65 billion barrels of Venezuelan oil reserves expands US energy leverage and potential supply, challenging arguments of immediate policy-driven economic decline."
+      "note": "Solid US job market reports cited alongside rising Treasury yields reflect ongoing domestic economic resilience."
     },
     {
       "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
@@ -70,14 +70,14 @@
     {
       "id": "d22441c6e4bc",
       "bucket": "global",
-      "headline": "Hawkish Fed rhetoric lifts Treasury yields and elevates risk of renewed FII pressure on Indian equities",
-      "what_happened": "Kevin Warsh stated that the Federal Reserve still has work to do if inflation does not ease, with markets pricing in a 34% probability of a rate hike at the September 15-16 meeting.",
-      "why_it_matters": "A hawkish repricing of US monetary policy lifts US Treasury yields and strengthens the USD, narrowing rate differentials and creating headwinds for FII equity flows into India.",
-      "action": "Recheck interest rate sensitivity assumptions across banking and export portfolio holdings ahead of the mid-September FOMC.",
+      "headline": "Hawkish Jackson Hole remarks from Kevin Warsh push US Treasury yields higher and temper Fed rate cut bets",
+      "what_happened": "Ahead of his Jackson Hole address, Kevin Warsh warned that the Federal Reserve has work to do if price rises do not ease, lifting US Treasury yields and putting pressure on US equity futures.",
+      "why_it_matters": "A persistent hawkish stance from US policymakers keeps global interest rates higher for longer and maintains US dollar strength. For Indian markets, higher US yields widen rate differentials and risk tempering FII equity inflows.",
+      "action": "Revisit US rate expectations and dollar positioning ahead of the September Fed policy meeting.",
       "priority": 9,
       "scores": {
-        "ca": 1,
-        "business": 7,
+        "ca": 0,
+        "business": 6,
         "market": 9,
         "global": 9
       },
@@ -95,97 +95,16 @@
       ]
     },
     {
-      "id": "8519c58e03b6",
-      "bucket": "global",
-      "headline": "SEC proposal to exempt EU sovereign debt widens US institutional access to European fixed income",
-      "what_happened": "The US Securities and Exchange Commission proposed amending Exchange Act Rule 3a12-8 to add European Union debt obligations to the exempted foreign government debt list.",
-      "why_it_matters": "Reduces trading frictions and reporting overhead for US-based asset managers dealing in EU supranational bonds, facilitating cross-border fixed-income allocations.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 2,
-        "business": 4,
-        "market": 6,
-        "global": 7
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "SEC",
-        "tier": "primary",
-        "url": "https://www.sec.gov/newsroom/press-releases/2026-79-sec-proposes-amendments-exchange-act-rule-3a12-8-add-european-union-debt-obligations",
-        "published": "2026-08-28T17:33:00+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "24b5c5cdd92a",
-      "bucket": "india_economy",
-      "headline": "India's July IIP moderates to 6.7% as robust capex contrasts with persistent rural and consumer drag",
-      "what_happened": "India's industrial output growth slowed to 6.7% in July from 7.3% in June, driven by a 16.1% expansion in capital goods while consumer non-durables contracted by 1.0%.",
-      "why_it_matters": "The wide divergence confirms that the corporate and infrastructure investment cycle remains intact, but weakness in mass consumption will continue to weigh on FMCG volume growth.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 2,
-        "business": 8,
-        "market": 7,
-        "global": 3
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Economic Times · Economy",
-        "tier": "paper",
-        "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-industrial-output-slows-to-6-7-in-july-from-7-3-in-june-manufacturing-growth-accelerates/articleshow/133589645.cms",
-        "published": "2026-08-28T10:50:28+00:00"
-      },
-      "also_reported_by": [
-        "BusinessLine",
-        "Economic Times · Economy",
-        "Mint · Economy"
-      ]
-    },
-    {
-      "id": "d7618a219263",
-      "bucket": "india_economy",
-      "headline": "Exporters seek cotton yarn export curbs as input cost surge threatens textile margins",
-      "what_happened": "The Apparel Export Promotion Council urged the Commerce Ministry to regulate cotton yarn exports to counter sharp domestic price spikes harming garment export competitiveness.",
-      "why_it_matters": "Any trade intervention or export restriction would compress margins for yarn spinners while providing cost relief to downstream apparel manufacturers.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 1,
-        "business": 6,
-        "market": 5,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "BusinessLine",
-        "tier": "paper",
-        "url": "https://www.thehindubusinessline.com/economy/aepc-urges-commerce-minister-to-consider-measures-to-regulate-cotton-yarn-export/article71400602.ece",
-        "published": "2026-08-28T15:41:08+00:00"
-      },
-      "also_reported_by": [
-        "BusinessLine"
-      ]
-    },
-    {
       "id": "f436a1a9a099",
-      "bucket": "markets",
-      "headline": "US pact controlling 65bn barrels of Venezuelan crude alters medium-term supply expectations for oil importers",
-      "what_happened": "The US reached an agreement to take control over 65 billion barrels of Venezuelan oil reserves, intended to revive Venezuela's production.",
-      "why_it_matters": "Bringing heavy Venezuelan crude back under US management expands global supply capacity, dampening long-term upside risks for Brent crude and easing India's energy import bill.",
+      "bucket": "global",
+      "headline": "US agreement to control 65 billion barrels of Venezuelan oil threatens downside pressure on crude prices",
+      "what_happened": "The US reached an agreement to assume control over 65 billion barrels of Venezuelan oil reserves to boost production and revive the local economy.",
+      "why_it_matters": "Unlocking massive Venezuelan reserves expands global crude market supply, placing a structural cap on Brent crude prices. Lower oil prices directly reduce India's import bill, narrow the current account deficit, and benefit domestic energy consumers.",
       "action": null,
       "priority": 7,
       "scores": {
         "ca": 0,
-        "business": 6,
+        "business": 7,
         "market": 8,
         "global": 8
       },
@@ -204,44 +123,100 @@
       ]
     },
     {
-      "id": "4c6f316b1b25",
-      "bucket": "markets",
-      "headline": "RBI schedules ₹27,000 crore state debt auction, testing duration appetite across long-tenor G-secs",
-      "what_happened": "The Reserve Bank of India announced an aggregate auction of ₹27,000 crore in State Government Securities, including re-issuances of long-term paper such as the 2046 Assam loan.",
-      "why_it_matters": "Substantial state bond supply absorbs domestic institutional liquidity and could widen the spread between State Development Loans and benchmark central government securities.",
-      "action": null,
-      "priority": 6,
+      "id": "24b5c5cdd92a",
+      "bucket": "india_economy",
+      "headline": "July IIP growth slows to 6.7% as consumer non-durables contract despite a 16.1% capital goods surge",
+      "what_happened": "India's industrial output growth moderated to 6.7% in July from 7.3% in June, supported by manufacturing and electricity, while consumer non-durables fell 1% and capital goods surged 16.1%.",
+      "why_it_matters": "The divergence between buoyant investment goods and contracting consumer non-durables points to uneven domestic recovery. Weak mass consumption limits broad corporate revenue growth even as infrastructure capex remains intact.",
+      "action": "Watch upcoming consumer spending prints to assess demand recovery across FMCG and retail sectors.",
+      "priority": 8,
       "scores": {
-        "ca": 1,
-        "business": 5,
+        "ca": 0,
+        "business": 8,
         "market": 7,
-        "global": 1
+        "global": 4
       },
       "confidence": "high",
       "is_update": false,
       "update_note": null,
       "source": {
+        "name": "Economic Times · Economy",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-industrial-output-slows-to-6-7-in-july-from-7-3-in-june-manufacturing-growth-accelerates/articleshow/133589645.cms",
+        "published": "2026-08-28T10:50:28+00:00"
+      },
+      "also_reported_by": [
+        "BusinessLine",
+        "Economic Times · Economy",
+        "Mint · Economy"
+      ]
+    },
+    {
+      "id": "a00bb420b25b",
+      "bucket": "india_economy",
+      "headline": "RBI schedules ₹6-lakh-crore 15-day VRRR auction to drain surplus banking system liquidity",
+      "what_happened": "The Reserve Bank of India announced a 15-day Variable Rate Reverse Repo auction of ₹6,00,000 crore scheduled for August 31, 2026, with reversal on September 15.",
+      "why_it_matters": "Firmed further following liquidity absorption signals, confirming the central bank's intent to actively mop up excess cash and keep short-term money market rates tightly aligned with the policy corridor.",
+      "action": "Monitor short-term money market yields and commercial paper spreads post-auction.",
+      "priority": 8,
+      "scores": {
+        "ca": 1,
+        "business": 5,
+        "market": 8,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63468",
-        "published": "2026-08-29T07:56:30.897738+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63467",
+        "published": "2026-08-29T11:09:57.512272+00:00"
       },
       "also_reported_by": [
         "RBI"
       ]
     },
     {
-      "id": "2ad462947a16",
-      "bucket": "ca_work",
-      "headline": "Finance Ministry sets October 12 pre-Budget timeline with emphasis on fiscal restraint and revenue targets",
-      "what_happened": "The Ministry of Finance has scheduled pre-Budget meetings for the 2027-28 Union Budget starting October 12, 2026, directing central ministries to control spending and refine revenue estimates.",
-      "why_it_matters": "Signals the government's ongoing commitment to the fiscal consolidation glide path, shaping central capex allocations and potential direct/indirect tax rationalization.",
+      "id": "b3afb79c3d37",
+      "bucket": "india_economy",
+      "headline": "Simplified defence export norms and OEM long-term provisions widen market access for Indian manufacturers",
+      "what_happened": "The Indian government simplified defence export approval processes and added provisions for domestic companies maintaining long-term contracts with foreign original equipment manufacturers.",
+      "why_it_matters": "Removing regulatory hurdles accelerates export clearance timelines, boosting order execution and revenue visibility for listed Indian defence manufacturers.",
       "action": null,
-      "priority": 5,
+      "priority": 6,
       "scores": {
-        "ca": 6,
-        "business": 6,
-        "market": 5,
+        "ca": 2,
+        "business": 7,
+        "market": 6,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BusinessLine",
+        "tier": "paper",
+        "url": "https://www.thehindubusinessline.com/economy/india-widens-defence-export-access-simplifies-approvals-to-boost-global-market-reach/article71400126.ece",
+        "published": "2026-08-28T12:31:12+00:00"
+      },
+      "also_reported_by": [
+        "BusinessLine"
+      ]
+    },
+    {
+      "id": "2ad462947a16",
+      "bucket": "india_economy",
+      "headline": "Finance Ministry mandates strict expenditure control for upcoming FY28 pre-Budget meetings starting October 12",
+      "what_happened": "The Finance Ministry set October 12 for pre-Budget meetings for the 2027-28 Union Budget, instructing central ministries to control spending and refine revenue estimates.",
+      "why_it_matters": "Early focus on fiscal restraint signals sustained commitment to medium-term deficit targets, supporting sovereign credit stability and long-term bond sentiment.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 3,
+        "business": 5,
+        "market": 6,
         "global": 2
       },
       "confidence": "high",
@@ -254,8 +229,115 @@
         "published": "2026-08-29T05:11:38+00:00"
       },
       "also_reported_by": [
+        "BusinessLine",
         "Economic Times"
       ]
+    },
+    {
+      "id": "e4c983901c45",
+      "bucket": "markets",
+      "headline": "SEBI clearance for Jio's ₹37,700 crore IPO sets up massive equity supply absorption in domestic markets",
+      "what_happened": "SEBI granted regulatory approval for Reliance Industries arm Jio to raise ₹37,700 crore through an initial public offering.",
+      "why_it_matters": "A mega-issuance of this scale will soak up substantial domestic institutional and retail cash reserves, creating potential supply-side headwinds for secondary market liquidity across telecom and broader large-cap equities.",
+      "action": "Assess institutional capital allocation trends and primary market liquidity demand ahead of launch.",
+      "priority": 8,
+      "scores": {
+        "ca": 2,
+        "business": 8,
+        "market": 9,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Economic Times",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-soon-reliances-telecom-arm-gets-sebi-nod-for-rs-37000-crore-offering/articleshow/133590054.cms",
+        "published": "2026-08-28T11:18:38+00:00"
+      },
+      "also_reported_by": [
+        "Mint · Markets"
+      ]
+    },
+    {
+      "id": "28e425f3ccf5",
+      "bucket": "markets",
+      "headline": "Government 10-year G-sec yield cut-off settles at 6.9136% backed by strong 2.4x bid coverage",
+      "what_happened": "The RBI completed the auction of the 6.94% GS 2036 paper for ₹34,000 crore, setting the cut-off yield at 6.9136% after receiving competitive bids totaling ₹82,151.76 crore.",
+      "why_it_matters": "Continued from earlier bidding data, the final cut-off yield confirms solid investor demand for 10-year sovereign paper below 6.92%, anchoring benchmark yields against upward rate pressures.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 4,
+        "market": 8,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63461",
+        "published": "2026-08-29T11:09:57.513373+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "4c6f316b1b25",
+      "bucket": "markets",
+      "headline": "State governments announce ₹27,000 crore bond auctions to add supply pressure across SDL yield curves",
+      "what_happened": "State governments offered to sell debt stock totaling ₹27,000 crore via auction across various tenors, including re-issuances from Assam and Bihar.",
+      "why_it_matters": "Heavy issuance of State Development Loans increases fresh debt supply, widening the yield spread between state paper and central government G-secs.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 4,
+        "market": 7,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63468",
+        "published": "2026-08-29T11:09:57.512191+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "904bde432b4c",
+      "bucket": "markets",
+      "headline": "RBI notifies ₹24,000 crore T-bill auction to absorb short-term sovereign funding needs",
+      "what_happened": "The RBI announced auctions for 91-day, 182-day, and 364-day Treasury Bills totaling ₹24,000 crore scheduled for September 2, 2026.",
+      "why_it_matters": "Ongoing short-term paper supply maintains routine liquidity management across banking money market desks and anchors the short end of the yield curve.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 3,
+        "market": 7,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63465",
+        "published": "2026-08-29T11:09:57.512664+00:00"
+      },
+      "also_reported_by": []
     }
   ]
 }
