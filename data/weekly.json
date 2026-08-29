@@ -1,0 +1,38 @@
+{
+  "kind": "weekly",
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T15:56:55.654315+05:30",
+  "scoring": "gemini",
+  "days_covered": 4,
+  "title": "US Yield Repricing and Aggressive RBI VRRR Drains Frame Market Dynamics",
+  "changed": [
+    "US economic signals diverged this week as slower Q2 GDP growth of 1.5% initially reinforced rate cut expectations and capped Treasury yields. Resilient July consumer spending and subsequent hawkish Fed rhetoric reversed that trajectory by week-end, pushing US yields higher and raising the risk of foreign institutional investment pressure on Indian equities. In corporate tech, Nvidia's $96bn quarter verified ongoing global AI infrastructure spending, balancing escalating compliance costs marked by Meta's $18bn legal settlement.",
+    "Domestically, the Reserve Bank of India shifted into aggressive liquidity absorption to keep short-term money market rates from falling below the policy corridor. The RBI followed a ₹1.42 lakh crore Variable Rate Reverse Repo auction at a 5.24% cutoff with a ₹6-lakh-crore VRRR drain. Despite this liquidity tightening, long-duration paper found firm support: institutional demand anchored the benchmark 10-year G-sec yield below 6.92%, backed by a 2.4x bid coverage ratio at the government's ₹34,000 crore bond auction.",
+    "Macroeconomic data pointed to an uneven domestic recovery. July IIP growth moderated to 6.7%, driven by infrastructure and corporate capex while mass consumer and rural demand trailed. Fiscal planning for the coming year took shape as the Finance Ministry set an October 12 pre-Budget timeline focused on revenue targets and fiscal restraint. For energy importers, a US pact controlling 65 billion barrels of Venezuelan crude altered medium-term global supply expectations, dampening upside risks for Brent crude."
+  ],
+  "threads": [
+    {
+      "name": "Fed Policy Repricing & US Yields",
+      "note": "Slower US Q2 GDP of 1.5% supported rate cut bets before hawkish Fed rhetoric pushed Treasury yields higher. Confirmed by sustained high US yields and FII equity outflows; broken by softer inflation readings that revive rate-cut consensus."
+    },
+    {
+      "name": "RBI Short-Term Liquidity Absorption",
+      "note": "The RBI escalated VRRR drains from ₹1.42 lakh crore to ₹6 lakh crore to maintain the money market rate corridor. Confirmed by money market rates staying aligned with policy targets; broken by systemic liquidity deficits."
+    },
+    {
+      "name": "India 10Y Sovereign Bond Anchoring",
+      "note": "Strong 2.4x bid coverage at the ₹34,000 crore auction held benchmark G-sec yields below 6.92%. Confirmed by institutional absorption of upcoming state debt; broken by spillovers from rising US Treasury yields."
+    },
+    {
+      "name": "Global AI Infrastructure Capex",
+      "note": "Nvidia's $96bn quarter confirmed ongoing enterprise hardware investment. Confirmed by sustained mega-cap technology capex; broken by corporate spending pullbacks or regulatory hurdles."
+    }
+  ],
+  "next_week": [
+    "Upcoming ₹27,000 crore state government debt auction to test institutional duration appetite across state development loans.",
+    "Preparations for the Finance Ministry's October 12 pre-Budget consultations evaluating fiscal restraint targets.",
+    "Monitoring foreign institutional investment flows into Indian equities amid elevated US Treasury yields.",
+    "Tracking global crude price adjustments following the US pact controlling 65 billion barrels of Venezuelan crude.",
+    "Implementation timeline changes for fund managers following SEBI's ETF compliance extension."
+  ]
+}
