@@ -1,38 +1,40 @@
 {
   "kind": "weekly",
-  "date": "2026-08-29",
-  "generated_at": "2026-08-29T15:56:55.654315+05:30",
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T13:21:39.044133+05:30",
   "scoring": "gemini",
-  "days_covered": 4,
-  "title": "US Yield Repricing and Aggressive RBI VRRR Drains Frame Market Dynamics",
+  "days_covered": 7,
+  "title": "Hawkish Fed Repricing, Middle East Oil Risks, and RBI Liquidity Escalation",
   "changed": [
-    "US economic signals diverged this week as slower Q2 GDP growth of 1.5% initially reinforced rate cut expectations and capped Treasury yields. Resilient July consumer spending and subsequent hawkish Fed rhetoric reversed that trajectory by week-end, pushing US yields higher and raising the risk of foreign institutional investment pressure on Indian equities. In corporate tech, Nvidia's $96bn quarter verified ongoing global AI infrastructure spending, balancing escalating compliance costs marked by Meta's $18bn legal settlement.",
-    "Domestically, the Reserve Bank of India shifted into aggressive liquidity absorption to keep short-term money market rates from falling below the policy corridor. The RBI followed a ₹1.42 lakh crore Variable Rate Reverse Repo auction at a 5.24% cutoff with a ₹6-lakh-crore VRRR drain. Despite this liquidity tightening, long-duration paper found firm support: institutional demand anchored the benchmark 10-year G-sec yield below 6.92%, backed by a 2.4x bid coverage ratio at the government's ₹34,000 crore bond auction.",
-    "Macroeconomic data pointed to an uneven domestic recovery. July IIP growth moderated to 6.7%, driven by infrastructure and corporate capex while mass consumer and rural demand trailed. Fiscal planning for the coming year took shape as the Finance Ministry set an October 12 pre-Budget timeline focused on revenue targets and fiscal restraint. For energy importers, a US pact controlling 65 billion barrels of Venezuelan crude altered medium-term global supply expectations, dampening upside risks for Brent crude."
+    "US rate expectations repriced higher across the week following hawkish Fed comments and strong US jobs data, driving the 10-year US Treasury yield to 4.79%. Term premia widened across G7 debt markets, with UK long-term borrowing costs reaching 1998 highs, even as a widening US trade deficit of $88.6 billion points to a drag on Q3 US GDP. For your portfolio, this re-anchors dollar strength, narrows the yield differential with Indian sovereign paper, and maintains pressure on foreign portfolio flows.",
+    "Energy risks escalated after US military strikes on Iranian island targets pushed Brent crude near $89 per barrel. While a 23% surge in H1 2026 US LNG exports and progress on Venezuelan crude supply provide structural supply caps, immediate refined fuel price increases threaten to expand India's import bill and current account deficit, tempering the buffer provided by July's services trade surplus.",
+    "In India, macro signals diverged as manufacturing PMI fell to a five-year low while food, protein, and sugar price pressures remained sticky. The RBI responded to money market conditions by escalating liquidity absorption with a ₹7 lakh crore 30-day VRRR auction. This followed the central bank's full rejection of bids in a ₹30,000 crore government bond buyback, signaling direct resistance to primary dealer demands for higher sovereign yields.",
+    "Capital markets face an upcoming liquidity absorption test following SEBI's approval of the ₹30,000 crore NSE IPO. On the tax and regulatory front, the GST Council prioritized procedural compliance ease over rate restructuring, while the RBI issued updated operational rules for non-resident bank accounts at AD Category-I banks and standardized portfolio valuation guidelines for Urban Co-operative Banks.",
+    "In corporate sectors, Volkswagen formalized 50,000 job cuts amidst European manufacturing contraction, while Nvidia acquired Hugging Face for $12.9 billion, expanding the AI capex cycle into software infrastructure despite central bank warnings on technology capital expenditure risks."
   ],
   "threads": [
     {
-      "name": "Fed Policy Repricing & US Yields",
-      "note": "Slower US Q2 GDP of 1.5% supported rate cut bets before hawkish Fed rhetoric pushed Treasury yields higher. Confirmed by sustained high US yields and FII equity outflows; broken by softer inflation readings that revive rate-cut consensus."
+      "name": "US 10-year Treasury yield momentum",
+      "note": "Resilient US labor data and G7 fiscal borrowing needs pushed the 10-year yield to 4.79%. Weakening US employment figures or softer inflation metrics are needed to break this upward yield trajectory."
     },
     {
-      "name": "RBI Short-Term Liquidity Absorption",
-      "note": "The RBI escalated VRRR drains from ₹1.42 lakh crore to ₹6 lakh crore to maintain the money market rate corridor. Confirmed by money market rates staying aligned with policy targets; broken by systemic liquidity deficits."
+      "name": "RBI money market liquidity management",
+      "note": "The central bank shifted to a ₹7 lakh crore 30-day VRRR auction while rejecting higher yield bids in government buybacks. Sustained liquidity draining keeps short-term T-bill yields anchored above 5.25%."
     },
     {
-      "name": "India 10Y Sovereign Bond Anchoring",
-      "note": "Strong 2.4x bid coverage at the ₹34,000 crore auction held benchmark G-sec yields below 6.92%. Confirmed by institutional absorption of upcoming state debt; broken by spillovers from rising US Treasury yields."
+      "name": "Brent crude oil and current account pressure",
+      "note": "Military strikes on Iranian island targets drove Brent crude toward $89. Price drops back toward lower range bounds require de-escalation in Middle East geopolitical tensions or expanded non-OPEC output."
     },
     {
-      "name": "Global AI Infrastructure Capex",
-      "note": "Nvidia's $96bn quarter confirmed ongoing enterprise hardware investment. Confirmed by sustained mega-cap technology capex; broken by corporate spending pullbacks or regulatory hurdles."
+      "name": "AI capex expansion",
+      "note": "Nvidia's $12.9 billion Hugging Face deal extends technology capex from hardware into developer software. Broader corporate margin compression or central bank warnings on capital expenditure volatility could break momentum."
     }
   ],
   "next_week": [
-    "Upcoming ₹27,000 crore state government debt auction to test institutional duration appetite across state development loans.",
-    "Preparations for the Finance Ministry's October 12 pre-Budget consultations evaluating fiscal restraint targets.",
-    "Monitoring foreign institutional investment flows into Indian equities amid elevated US Treasury yields.",
-    "Tracking global crude price adjustments following the US pact controlling 65 billion barrels of Venezuelan crude.",
-    "Implementation timeline changes for fund managers following SEBI's ETF compliance extension."
+    "Bidding participation and yield clearing levels in the upcoming ₹32,000 crore G-sec auction.",
+    "Commercial bank liquidity response and uptake in the RBI's ₹7 lakh crore 30-day VRRR auction.",
+    "Implementation of updated RBI compliance guidelines for non-resident accounts across AD Category-I banks.",
+    "SEBI's post-CAS rollout review of derivative settlement prices and its impact on trading volumes.",
+    "Market liquidity adjustments following SEBI's approval of the ₹30,000 crore NSE IPO."
   ]
 }
