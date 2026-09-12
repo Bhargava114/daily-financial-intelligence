@@ -1,40 +1,39 @@
 {
   "kind": "weekly",
-  "date": "2026-09-05",
-  "generated_at": "2026-09-05T13:21:39.044133+05:30",
+  "date": "2026-09-12",
+  "generated_at": "2026-09-12T13:38:25.964614+05:30",
   "scoring": "gemini",
   "days_covered": 7,
-  "title": "Hawkish Fed Repricing, Middle East Oil Risks, and RBI Liquidity Escalation",
+  "title": "Global Inflation Surges Driven by Oil as RBI Triggers Durable Liquidity Absorption",
   "changed": [
-    "US rate expectations repriced higher across the week following hawkish Fed comments and strong US jobs data, driving the 10-year US Treasury yield to 4.79%. Term premia widened across G7 debt markets, with UK long-term borrowing costs reaching 1998 highs, even as a widening US trade deficit of $88.6 billion points to a drag on Q3 US GDP. For your portfolio, this re-anchors dollar strength, narrows the yield differential with Indian sovereign paper, and maintains pressure on foreign portfolio flows.",
-    "Energy risks escalated after US military strikes on Iranian island targets pushed Brent crude near $89 per barrel. While a 23% surge in H1 2026 US LNG exports and progress on Venezuelan crude supply provide structural supply caps, immediate refined fuel price increases threaten to expand India's import bill and current account deficit, tempering the buffer provided by July's services trade surplus.",
-    "In India, macro signals diverged as manufacturing PMI fell to a five-year low while food, protein, and sugar price pressures remained sticky. The RBI responded to money market conditions by escalating liquidity absorption with a ₹7 lakh crore 30-day VRRR auction. This followed the central bank's full rejection of bids in a ₹30,000 crore government bond buyback, signaling direct resistance to primary dealer demands for higher sovereign yields.",
-    "Capital markets face an upcoming liquidity absorption test following SEBI's approval of the ₹30,000 crore NSE IPO. On the tax and regulatory front, the GST Council prioritized procedural compliance ease over rate restructuring, while the RBI issued updated operational rules for non-resident bank accounts at AD Category-I banks and standardized portfolio valuation guidelines for Urban Co-operative Banks.",
-    "In corporate sectors, Volkswagen formalized 50,000 job cuts amidst European manufacturing contraction, while Nvidia acquired Hugging Face for $12.9 billion, expanding the AI capex cycle into software infrastructure despite central bank warnings on technology capital expenditure risks."
+    "US CPI reaching 3.4% alongside Brent crude touching $105 per barrel pushed market expectations for a Federal Reserve rate hike to 90%. North American trade friction escalated as the US imposed import bans on Canadian goods, bolstering safe-haven demand for the US dollar. UK GDP expanded 0.4% in July on AI services growth, while ECB guidance maintained cautious inflation monitoring, holding global sovereign bond yields at elevated baselines.",
+    "Domestically, monetary conditions shifted toward aggressive tightening as the RBI announced a ₹1 lakh crore Open Market Operation (OMO) bond sale to drain long-term liquidity. This follows daily VRRR absorptions throughout the week ranging from ₹3.44 lakh crore to ₹4.61 lakh crore at a 5.24% cut-off. Short-term rates responded rapidly, with overnight call money holding between 4.98% and 4.99%, 364-day T-bills setting yields at 5.91%, and the 2033 benchmark G-sec yield establishing at 6.81% ahead of a ₹35,900 crore state debt issuance pipeline.",
+    "Foreign portfolio investment faces headwinds from widening US-India rate differentials, compounding the Nifty's 8.6% YTD decline driven by capital allocation shifts toward North Asian semiconductor equities. SEBI finalized a formal pact with ESMA to preserve European bank access to Indian clearing houses, while simultaneously easing operational compliance for FPIs trading exclusively in Indian sovereign paper. Tata Motors assumed full operational restructuring responsibility for Jaguar Land Rover after the UK government ruled out state bridge aid.",
+    "For tax and audit practices, statutory clarity on GST rate rationalisation and corporate guarantee valuations remains deferred until the October 7 GST Council meeting. RBI issued updated Priority Sector Lending classification rules and streamlined legacy FEMA circulars governing non-resident accounts and vostro balance reconciliations. Additionally, SEBI released operational FAQs for its Demat 2.0 corporate bond tokenisation pilot and enforced updated penalty frameworks for commodity derivative position limits."
   ],
   "threads": [
     {
-      "name": "US 10-year Treasury yield momentum",
-      "note": "Resilient US labor data and G7 fiscal borrowing needs pushed the 10-year yield to 4.79%. Weakening US employment figures or softer inflation metrics are needed to break this upward yield trajectory."
+      "name": "US Hawkish Repricing and Fed Rate Odds",
+      "note": "US CPI at 3.4% and crude at $105 per barrel drove market pricing for a Fed hike to 90%. A pullback in crude energy prices or softer inflation metrics breaks this trajectory."
     },
     {
-      "name": "RBI money market liquidity management",
-      "note": "The central bank shifted to a ₹7 lakh crore 30-day VRRR auction while rejecting higher yield bids in government buybacks. Sustained liquidity draining keeps short-term T-bill yields anchored above 5.25%."
+      "name": "RBI Liquidity Drain and Sovereign Yield Pressure",
+      "note": "The RBI's planned ₹1 lakh crore OMO bond sale and ₹5 lakh crore overnight VRRR auction act to absorb surplus cash and lift G-sec yields. Strong institutional demand for state paper and primary sovereign auctions prevents further spread widening."
     },
     {
-      "name": "Brent crude oil and current account pressure",
-      "note": "Military strikes on Iranian island targets drove Brent crude toward $89. Price drops back toward lower range bounds require de-escalation in Middle East geopolitical tensions or expanded non-OPEC output."
+      "name": "FPI Flow Pressures on Domestic Assets",
+      "note": "Foreign rotation out of Indian equities toward North Asian hardware suppliers drove an 8.6% YTD drop in the Nifty. SEBI's compliance relief for sovereign-only FPIs aims to buffer debt inflows against dollar index strength."
     },
     {
-      "name": "AI capex expansion",
-      "note": "Nvidia's $12.9 billion Hugging Face deal extends technology capex from hardware into developer software. Broader corporate margin compression or central bank warnings on capital expenditure volatility could break momentum."
+      "name": "Regulatory and FEMA Compliance Overhauls",
+      "note": "RBI's FEMA circular rationalisation and revised non-resident account rules require immediate audit updates for bank vostro accounts. Deferral of the GST Council meeting to October 7 delays tax planning for corporate clients."
     }
   ],
   "next_week": [
-    "Bidding participation and yield clearing levels in the upcoming ₹32,000 crore G-sec auction.",
-    "Commercial bank liquidity response and uptake in the RBI's ₹7 lakh crore 30-day VRRR auction.",
-    "Implementation of updated RBI compliance guidelines for non-resident accounts across AD Category-I banks.",
-    "SEBI's post-CAS rollout review of derivative settlement prices and its impact on trading volumes.",
-    "Market liquidity adjustments following SEBI's approval of the ₹30,000 crore NSE IPO."
+    "Execution of RBI's ₹5 lakh crore overnight VRRR auction to manage short-term liquidity.",
+    "Primary market absorption of the upcoming ₹35,900 crore state development loan auction.",
+    "FII flow responses to 90% Fed hike probability and persistent $105 Brent crude.",
+    "Bank and NBFC audit updates for RBI's revised Priority Sector Lending classification rules.",
+    "Brokerage compliance updates for SEBI's revised commodity derivative position limit penalties."
   ]
 }
