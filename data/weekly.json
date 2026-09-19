@@ -1,39 +1,39 @@
 {
   "kind": "weekly",
-  "date": "2026-09-12",
-  "generated_at": "2026-09-12T13:38:25.964614+05:30",
+  "date": "2026-09-19",
+  "generated_at": "2026-09-19T13:46:51.210669+05:30",
   "scoring": "gemini",
   "days_covered": 7,
-  "title": "Global Inflation Surges Driven by Oil as RBI Triggers Durable Liquidity Absorption",
+  "title": "Central bank divergence deepens as RBI drains liquidity and BoJ tightens to multi-decade highs",
   "changed": [
-    "US CPI reaching 3.4% alongside Brent crude touching $105 per barrel pushed market expectations for a Federal Reserve rate hike to 90%. North American trade friction escalated as the US imposed import bans on Canadian goods, bolstering safe-haven demand for the US dollar. UK GDP expanded 0.4% in July on AI services growth, while ECB guidance maintained cautious inflation monitoring, holding global sovereign bond yields at elevated baselines.",
-    "Domestically, monetary conditions shifted toward aggressive tightening as the RBI announced a ₹1 lakh crore Open Market Operation (OMO) bond sale to drain long-term liquidity. This follows daily VRRR absorptions throughout the week ranging from ₹3.44 lakh crore to ₹4.61 lakh crore at a 5.24% cut-off. Short-term rates responded rapidly, with overnight call money holding between 4.98% and 4.99%, 364-day T-bills setting yields at 5.91%, and the 2033 benchmark G-sec yield establishing at 6.81% ahead of a ₹35,900 crore state debt issuance pipeline.",
-    "Foreign portfolio investment faces headwinds from widening US-India rate differentials, compounding the Nifty's 8.6% YTD decline driven by capital allocation shifts toward North Asian semiconductor equities. SEBI finalized a formal pact with ESMA to preserve European bank access to Indian clearing houses, while simultaneously easing operational compliance for FPIs trading exclusively in Indian sovereign paper. Tata Motors assumed full operational restructuring responsibility for Jaguar Land Rover after the UK government ruled out state bridge aid.",
-    "For tax and audit practices, statutory clarity on GST rate rationalisation and corporate guarantee valuations remains deferred until the October 7 GST Council meeting. RBI issued updated Priority Sector Lending classification rules and streamlined legacy FEMA circulars governing non-resident accounts and vostro balance reconciliations. Additionally, SEBI released operational FAQs for its Demat 2.0 corporate bond tokenisation pilot and enforced updated penalty frameworks for commodity derivative position limits."
+    "Global monetary policy divergence widened this week as the Bank of Japan raised its policy rate to a 31-year high, increasing the risk of yen carry trade unwinds and cross-border capital repatriation. In Europe, sticky consumer inflation expectations and wage growth tracking at 2.7% reinforced the European Central Bank's measured pace of rate reductions. The Bank of England held its benchmark rate at 3.75% while pausing gilt sales, balancing softer 3.9% wage growth against petrol-driven headline inflation, with all major central banks awaiting the Federal Reserve's dot plot projections.",
+    "Energy markets absorbed rising geopolitical tail risks, with Middle East friction threatening upward price moves in Brent crude toward $100 to $120. While Cheniere's completed Corpus Christi LNG expansion added supply capacity to global gas markets, firm refining crack spreads kept downstream transport fuel costs elevated globally. In parallel, US federal opposition to AI development restrictions secured an open runway for mega-cap technology capital expenditure, overcoming safety pause proposals from private lab leadership.",
+    "In India, the Reserve Bank shifted its balance sheet stance by detailing a ₹1 lakh crore Open Market Operation (OMO) bond sale across three tranches and executing a ₹25,000 crore auction. Alongside overnight variable rate reverse repo absorptions reaching up to ₹2.4 lakh crore, this permanent liquidity withdrawal anchored overnight money market rates near 4.9%. The absorption pushed primary yields higher, holding the benchmark 2033 G-sec at 6.82% and extending 2041 and 2076 paper cut-offs to 7.23% and 7.69% respectively.",
+    "On India's external and regulatory accounts, the July current account deficit widened to $7.0 billion, heightening your reliance on service trade receipts from software exports to buffer the rupee. For your audit and compliance workflow, the RBI rationalised foreign exchange circular frameworks under FEMA, issued draft KYC standard operating procedures for money mule accounts, and adjusted Priority Sector Lending classification rules governing bank balance sheet targets."
   ],
   "threads": [
     {
-      "name": "US Hawkish Repricing and Fed Rate Odds",
-      "note": "US CPI at 3.4% and crude at $105 per barrel drove market pricing for a Fed hike to 90%. A pullback in crude energy prices or softer inflation metrics breaks this trajectory."
+      "name": "Sovereign yield curve repricing",
+      "note": "The RBI's ₹1 lakh crore OMO sale program and state borrowing of ₹16,750 crore have anchored the 10-year G-sec at 6.82% and ultra-long paper at 7.69%. Execution of the remaining OMO tranches and weekly ₹24,000 crore T-bill cut-offs will confirm if long-end yields rise further."
     },
     {
-      "name": "RBI Liquidity Drain and Sovereign Yield Pressure",
-      "note": "The RBI's planned ₹1 lakh crore OMO bond sale and ₹5 lakh crore overnight VRRR auction act to absorb surplus cash and lift G-sec yields. Strong institutional demand for state paper and primary sovereign auctions prevents further spread widening."
+      "name": "Global central bank divergence",
+      "note": "The BoJ's hike to a 31-year high tightens global liquidity while the BoE holds at 3.75% and the ECB slows rate cuts. Fed dot plot projections will confirm whether widening interest rate differentials accelerate capital repatriation out of emerging assets."
     },
     {
-      "name": "FPI Flow Pressures on Domestic Assets",
-      "note": "Foreign rotation out of Indian equities toward North Asian hardware suppliers drove an 8.6% YTD drop in the Nifty. SEBI's compliance relief for sovereign-only FPIs aims to buffer debt inflows against dollar index strength."
+      "name": "Energy cost transmission to twin deficits",
+      "note": "Brent crude tail risks toward $100 to $120 threaten to expand India's current account deficit beyond the $7.0 billion July print. Stable domestic fuel pricing depends on whether refined product crack spreads soften or global crude shocks materialize."
     },
     {
-      "name": "Regulatory and FEMA Compliance Overhauls",
-      "note": "RBI's FEMA circular rationalisation and revised non-resident account rules require immediate audit updates for bank vostro accounts. Deferral of the GST Council meeting to October 7 delays tax planning for corporate clients."
+      "name": "Bank regulatory and balance sheet compliance",
+      "note": "RBI updates to Priority Sector Lending rules and mandatory SOPs for money mule accounts require adjustments to commercial bank lending targets and internal audits. The transition to SEBI Demat 2.0 tokenised bonds outlines a structural change for corporate debt settlements."
     }
   ],
   "next_week": [
-    "Execution of RBI's ₹5 lakh crore overnight VRRR auction to manage short-term liquidity.",
-    "Primary market absorption of the upcoming ₹35,900 crore state development loan auction.",
-    "FII flow responses to 90% Fed hike probability and persistent $105 Brent crude.",
-    "Bank and NBFC audit updates for RBI's revised Priority Sector Lending classification rules.",
-    "Brokerage compliance updates for SEBI's revised commodity derivative position limit penalties."
+    "Federal Reserve interest rate decision and Summary of Economic Projections dot plot release",
+    "Auction settlement of the remaining tranches of the RBI's ₹1 lakh crore OMO bond sale program",
+    "RBI weekly auction of ₹24,000 crore across 91-day, 182-day, and 364-day Treasury bills",
+    "Primary market bidding and cut-off yields for ₹16,750 crore in state government debt issuances",
+    "Primary market capital absorption and subscription metrics for NSE's ₹22,500 crore IPO"
   ]
 }
