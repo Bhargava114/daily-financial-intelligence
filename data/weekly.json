@@ -1,39 +1,38 @@
 {
   "kind": "weekly",
-  "date": "2026-09-19",
-  "generated_at": "2026-09-19T13:46:51.210669+05:30",
+  "date": "2026-09-26",
+  "generated_at": "2026-09-26T14:19:10.873196+05:30",
   "scoring": "gemini",
   "days_covered": 7,
-  "title": "Central bank divergence deepens as RBI drains liquidity and BoJ tightens to multi-decade highs",
+  "title": "Global debt strains elevate yield floors as RBI drains liquidity ahead of H2 issuance",
   "changed": [
-    "Global monetary policy divergence widened this week as the Bank of Japan raised its policy rate to a 31-year high, increasing the risk of yen carry trade unwinds and cross-border capital repatriation. In Europe, sticky consumer inflation expectations and wage growth tracking at 2.7% reinforced the European Central Bank's measured pace of rate reductions. The Bank of England held its benchmark rate at 3.75% while pausing gilt sales, balancing softer 3.9% wage growth against petrol-driven headline inflation, with all major central banks awaiting the Federal Reserve's dot plot projections.",
-    "Energy markets absorbed rising geopolitical tail risks, with Middle East friction threatening upward price moves in Brent crude toward $100 to $120. While Cheniere's completed Corpus Christi LNG expansion added supply capacity to global gas markets, firm refining crack spreads kept downstream transport fuel costs elevated globally. In parallel, US federal opposition to AI development restrictions secured an open runway for mega-cap technology capital expenditure, overcoming safety pause proposals from private lab leadership.",
-    "In India, the Reserve Bank shifted its balance sheet stance by detailing a ₹1 lakh crore Open Market Operation (OMO) bond sale across three tranches and executing a ₹25,000 crore auction. Alongside overnight variable rate reverse repo absorptions reaching up to ₹2.4 lakh crore, this permanent liquidity withdrawal anchored overnight money market rates near 4.9%. The absorption pushed primary yields higher, holding the benchmark 2033 G-sec at 6.82% and extending 2041 and 2076 paper cut-offs to 7.23% and 7.69% respectively.",
-    "On India's external and regulatory accounts, the July current account deficit widened to $7.0 billion, heightening your reliance on service trade receipts from software exports to buffer the rupee. For your audit and compliance workflow, the RBI rationalised foreign exchange circular frameworks under FEMA, issued draft KYC standard operating procedures for money mule accounts, and adjusted Priority Sector Lending classification rules governing bank balance sheet targets."
+    "Global sovereign debt dynamics hardened as the IMF warned of unsustainable fiscal paths in the US and UK, reinforced by an August borrowing surge in Britain and a US Q2 current account deficit widening 15.7% to $246 billion. With European Central Bank Chief Economist Lane signaling sluggish euro area growth and steady rates, and Japan core CPI hovering near 2% to restrain Bank of Japan hikes, developed market yields remained underpinned, providing persistent support to the US dollar.",
+    "Domestic fixed income benchmarks adjusted to heavy primary paper as the government outlined ₹7.86 lakh crore in H2 bond sales, moderating the full-year target while state governments absorbed over ₹38,000 crore across successive auctions. The Reserve Bank of India anchored short-term funding benchmarks by pricing 1-year T-bills at 6.00%—a 61 bps spread over 3-month paper—and fixed the GoI Floating Rate Bond 2033 coupon at 6.87% for H2 FY27.",
+    "The RBI moved aggressively to sterilize surplus domestic liquidity, conducting a ₹25,000 crore OMO bond sale that drew a 3.4x bid cover alongside daily VRRR operations that absorbed up to ₹1.01 lakh crore at 5.24%. These drains anchored the weighted average overnight money market rate at 5.08% ahead of quarter-end funding adjustments, while the Ways and Means Advances limit for October to March was established at ₹50 trillion.",
+    "From a regulatory and balance sheet perspective, the RBI revised market risk guidelines to alter trading book capital charge computations across interest rate, equity, and foreign exchange portfolios. Parallel actions finalized OTC derivative novation directions, amended portfolio valuation rules for All India Financial Institutions, and tightened trade reporting under FEMA, directly raising capital calibration and audit standards across bank books."
   ],
   "threads": [
     {
-      "name": "Sovereign yield curve repricing",
-      "note": "The RBI's ₹1 lakh crore OMO sale program and state borrowing of ₹16,750 crore have anchored the 10-year G-sec at 6.82% and ultra-long paper at 7.69%. Execution of the remaining OMO tranches and weekly ₹24,000 crore T-bill cut-offs will confirm if long-end yields rise further."
+      "name": "Global sovereign debt term premium",
+      "note": "IMF debt warnings and widening US twin deficits maintain upward pressure on developed-market benchmark yields. Downward surprises in growth data confirm this yield floor, while synchronized fiscal consolidation breaks it."
     },
     {
-      "name": "Global central bank divergence",
-      "note": "The BoJ's hike to a 31-year high tightens global liquidity while the BoE holds at 3.75% and the ECB slows rate cuts. Fed dot plot projections will confirm whether widening interest rate differentials accelerate capital repatriation out of emerging assets."
+      "name": "RBI systemic liquidity sterilization",
+      "note": "Consecutive VRRR operations at 5.24% and the ₹25,000 crore OMO sale reflect direct efforts to keep overnight money market rates near the policy floor. Persistent credit-deposit divergence noted in the RBI bulletin will determine whether systemic liquidity transitions into a deficit."
     },
     {
-      "name": "Energy cost transmission to twin deficits",
-      "note": "Brent crude tail risks toward $100 to $120 threaten to expand India's current account deficit beyond the $7.0 billion July print. Stable domestic fuel pricing depends on whether refined product crack spreads soften or global crude shocks materialize."
+      "name": "Shifting Indian capital flows",
+      "note": "Q1 FY27 FDI equity inflows rose 6% to $19.8 billion despite a 76% contraction in direct US flows, shifting funding dependence toward trade export strength. A sharp widening in the merchandise trade balance breaks this balance-of-payments buffer."
     },
     {
-      "name": "Bank regulatory and balance sheet compliance",
-      "note": "RBI updates to Priority Sector Lending rules and mandatory SOPs for money mule accounts require adjustments to commercial bank lending targets and internal audits. The transition to SEBI Demat 2.0 tokenised bonds outlines a structural change for corporate debt settlements."
+      "name": "Bank trading book compliance overhaul",
+      "note": "Standardized market risk capital charges and revised valuation frameworks for financial institutions alter bank capital ratios. Audit adherence depends on clearing member implementation under SEBI and RBI reporting platforms."
     }
   ],
   "next_week": [
-    "Federal Reserve interest rate decision and Summary of Economic Projections dot plot release",
-    "Auction settlement of the remaining tranches of the RBI's ₹1 lakh crore OMO bond sale program",
-    "RBI weekly auction of ₹24,000 crore across 91-day, 182-day, and 364-day Treasury bills",
-    "Primary market bidding and cut-off yields for ₹16,750 crore in state government debt issuances",
-    "Primary market capital absorption and subscription metrics for NSE's ₹22,500 crore IPO"
+    "RBI ₹2 trillion overnight VRRR auction execution on 28 September",
+    "Commencement of the ₹7.86 lakh crore H2 sovereign borrowing programme",
+    "Operational transition to the ₹50 trillion Ways and Means Advances limit for October–March",
+    "Global tech and trade reaction to the Trump-Xi AI summit negotiations"
   ]
 }
