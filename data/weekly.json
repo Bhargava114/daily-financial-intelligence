@@ -1,40 +1,40 @@
 {
   "kind": "weekly",
-  "date": "2026-10-03",
-  "generated_at": "2026-10-03T14:54:50.613656+05:30",
+  "date": "2026-10-10",
+  "generated_at": "2026-10-10T15:37:39.337069+05:30",
   "scoring": "gemini",
   "days_covered": 7,
-  "title": "Global monetary divergence persists while RBI locks money-market rates and presses regulatory resets",
+  "title": "RBI Tightens System Liquidity and Insulates Rupee Amid Hardening Sovereign Yields",
   "changed": [
-    "Monetary divergence deepened across major central banks this week. In the United States, Q2 GDP slowing to 2.2% lifted expectations for Federal Reserve rate cuts and offered temporary relief to emerging market currencies, even as climbing US 10-year yields sparked mid-week equity declines. Concurrently, European Central Bank leadership reiterated a higher-for-longer path amid persistent inflation shocks, while the Bank of Japan advanced policy normalisation after a strong Tankan print pointed to sustained corporate strength, raising risks of yen carry trade unwinds.",
-    "Energy pressures evolved as early-week risks around a blocked Hormuz diplomatic channel kept a geopolitical risk premium in Brent crude. That upward pressure was partially blunted later in the week by record US natural gas production and a coordinated G7 fuel release that offset threats of US diesel export restrictions, limiting wholesale fuel volatility for energy importers.",
-    "Domestically, the Reserve Bank of India maintained a restrictive liquidity stance, conducting successive ₹2 lakh crore Variable Rate Reverse Repo auctions and fixing the floor near 5.24%. Alongside the fiscal deficit reaching ₹7.10 lakh crore (42% of the FY27 target), the RBI absorbed liquidity to maintain upward pressure on short-term rates. Concurrently, it initiated a Benchmark Issuance Strategy pilot for State Development Loans to compress sub-sovereign spreads after state auctions cleared between 7.4% and 8.0%.",
-    "For banks and non-bank lenders, systemic pressures intensified around the credit-deposit divergence highlighted in the RBI Bulletin. The central bank raised capital charges by tightening classification and valuation norms on financial institution investment portfolios, raising balance sheet provisioning hurdles as retail deposit competition mounts.",
-    "On compliance and corporate finance operations, the regulatory landscape shifted across multiple fronts. SEBI settled its long-running probe into Adani Group alongside actions on alternative investment fund structures and listed disclosure mandates. Meanwhile, the RBI eliminated transactional size caps on online Form A2 outward remittances, shifted NRI deposit reporting to the CIMS Sankalan portal, and tightened acquisition and voting rules for Local Area Banks."
+    "Global borrowing costs and energy supply risks maintained upward pressure on yields this week. US 5-year mortgage rates held at 6% alongside diverging EIA fuel price outlooks and crude disruptions from Hurricane Isaias in the Gulf Coast. Fed minutes highlighted an internal debate over cooling labor markets versus persistent service inflation, while the ECB weighed Eurozone growth risks and the Bank of Japan maintained its ultra-easy stance given a widening output gap.",
+    "The Reserve Bank of India mirrored this global backdrop by raising its Liquidity Adjustment Facility rate and executing aggressive liquidity drains. Daily Variable Rate Reverse Repo auctions absorbed between ₹1.40 lakh crore and ₹2.55 lakh crore at cut-off rates up to 5.49%. Interbank call money rates traded between 5.06% and 5.36% before easing to 5.27%, while the daily minimum Cash Reserve Ratio requirement was fixed at 90% to provide short-term treasury flexibility.",
+    "To defend the exchange rate against crude oil volatility, the RBI established a dedicated dollar window for oil marketing companies to route import demand away from spot currency markets. Concurrently, the regulator restricted forward contract rebooking to curb currency speculation while easing corporate outbound remittances by removing transaction caps on online Form A2 filings.",
+    "Domestic borrowing costs hardened across tenors. The primary sovereign auction of ₹36,000 crore cleared with long-end yields reaching 7.80%, Treasury bill yields spanned 5.6% to 6.3%, and State Development Loan yields rose to 7.5%–8.0% ahead of a scheduled ₹31,200 crore multi-tenor state auction.",
+    "In regulatory and compliance shifts, SEBI eliminated the mandatory merchant banker requirement for private placements of debt by select listed issuers and introduced a standardized Credit Risk-o-Meter. At the same time, the regulator issued enforcement orders against multiple Alternative Investment Funds, the RBI shifted Non-Resident Deposit reporting to the CIMS portal, and Paytm Payments Bank was formally removed from the RBI's Second Schedule."
   ],
   "threads": [
     {
-      "name": "RBI liquidity absorption and bank funding",
-      "note": "Back-to-back ₹2 lakh crore VRRR auctions anchor money market floors near 5.24% while credit-deposit gaps compress bank margins. Continued net liquidity drains or further tightening of FI portfolio capital rules will confirm sustained margin strain."
+      "name": "RBI Liquidity Drain",
+      "note": "Daily VRRR auctions absorbing up to ₹2.55 lakh crore keep short-term money market rates anchored near policy ceilings. A decline in VRRR absorption amounts or lower cut-off yields will confirm an easing liquidity stance."
     },
     {
-      "name": "Global central bank divergence",
-      "note": "US deceleration to 2.2% supports Fed easing prospects, contrasting with ECB higher-for-longer messaging and BoJ normalization. Discrepancies between US growth prints and resilient European inflation indicators will dictate the trajectory of USD and emerging market capital flows."
+      "name": "Rupee Defense Architecture",
+      "note": "Opening a dedicated dollar window for oil importers and restricting FX forward rebooking isolates spot USD/INR from energy shocks. Increased spot market volatility during crude spikes will signal a breakdown in this intervention strategy."
     },
     {
-      "name": "Indian sovereign and sub-sovereign yield curves",
-      "note": "State bond auctions yielding up to 8% and a fiscal deficit at 42% of the FY27 target weigh on G-sec paper. The success of the RBI's Benchmark Issuance Strategy pilot will determine if state development loan spreads compress against the 10-year benchmark."
+      "name": "Sovereign Yield Hardening",
+      "note": "Primary G-sec auction cut-offs at 7.80% and state paper yields reaching 8.0% set higher benchmark borrowing costs. Bid coverage and yields in the upcoming ₹31,200 crore state auction will test institutional demand."
     },
     {
-      "name": "Cross-border compliance and exchange controls",
-      "note": "FEMA export-import documentation updates and relaxed online Form A2 thresholds alter trade and capital-account administrative timelines. Further operational transitions onto the CIMS portal will determine execution drag for corporate and retail flows."
+      "name": "Debt and AIF Oversight",
+      "note": "SEBI enforcement actions against private funds combined with new Credit Risk-o-Meter requirements tighten structural governance. Further regulatory orders will keep compliance mandates elevated across fund managers."
     }
   ],
   "next_week": [
-    "RBI monetary policy committee meeting and liquidity stance commentary",
-    "Release of India manufacturing and services PMI data following 8% August IIP print",
-    "US non-farm payrolls and labor market indicators following Q2 GDP revision",
-    "Weekly primary sovereign auction cut-offs and SDL benchmark issuance allocations",
-    "Crude market movements against G7 stockpile actions and Middle East trade routes"
+    "Track bidding demand and cut-off yields in the ₹31,200 crore multi-tenor state government bond auction.",
+    "Monitor banking system liquidity absorption in the RBI scheduled ₹2.00 lakh crore 3-day VRRR auction.",
+    "Watch for formal GST Council notifications on removing arrest powers and simplifying e-commerce seller rules.",
+    "Verify bank and corporate operational transition for Non-Resident Deposit filings on the CIMS portal.",
+    "Observe Brent crude price volatility following Gulf Coast supply shut-ins from Hurricane Isaias."
   ]
 }
