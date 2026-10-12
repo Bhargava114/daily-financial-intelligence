@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-11",
-  "generated_at": "2026-10-11T15:28:55.053214+05:30",
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T16:10:01.227254+05:30",
   "scoring": "groq",
   "stats": {
-    "items": 12,
-    "actions": 0,
-    "candidates": 152,
+    "items": 9,
+    "actions": 4,
+    "candidates": 165,
     "sources_ok": 24,
     "sources_failed": 5,
     "sources_blocked": 10
   },
   "five_minutes": [
-    "RBI's new dollar window for public oil marketers eases INR pressure from crude imports, supporting rupee stability.",
-    "RBI conducts a second consecutive ₹2 lakh crore VRRR auction, draining liquidity and likely nudging 10‑yr G‑sec yields higher.",
-    "Hurricane Isaias threatens Gulf Coast oil output, pushing Brent crude up and raising India's import bill.",
-    "Jio Platforms' upcoming ₹30 trillion IPO could reshape the Nifty and increase tech sector exposure.",
-    "State governments plan a ₹31,200 crore bond auction, adding supply to the G‑sec market and testing demand."
+    "RBI opens a special dollar window for public oil marketers, easing INR pressure from crude imports.",
+    "RBI absorbs ₹2 lakh crore via a 3‑day VRRR auction at 5.49%, supporting short‑term rates.",
+    "State governments auction ₹31,200 crore of bonds, adding fresh supply to the G‑sec market.",
+    "Hurricane Isaias threatens Gulf Coast crude output, raising near‑term Brent prices and India's import bill.",
+    "RBI raises the minimum CRR to 90%, tightening bank liquidity and potentially curbing credit growth."
   ],
   "theses": [
     {
@@ -70,16 +70,16 @@
     {
       "id": "65a842a08c07",
       "bucket": "global",
-      "headline": "Hurricane Isaias threatens Gulf Coast oil output, risking near‑term crude supply disruption",
-      "what_happened": "The storm is expected to make landfall on the Gulf Coast, potentially shutting in production facilities.",
-      "why_it_matters": "Possible reduction in U.S. crude supply could tighten global oil markets, lift Brent crude, and raise India’s import bill and INR pressure.",
+      "headline": "Hurricane Isaias threatens Gulf Coast output, risking near‑term crude supply disruption",
+      "what_happened": "The storm is forecast to make landfall on the Gulf Coast, potentially shutting in production at US refining and export facilities.",
+      "why_it_matters": "Supply concerns can lift Brent crude prices, increasing India's import bill and adding pressure on the INR and inflation expectations.",
       "action": null,
       "priority": 7,
       "scores": {
         "ca": 0,
-        "business": 1,
-        "market": 5,
-        "global": 4
+        "business": 0,
+        "market": 2,
+        "global": 1
       },
       "confidence": "high",
       "is_update": true,
@@ -88,50 +88,23 @@
         "name": "US EIA (energy)",
         "tier": "data",
         "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
-        "published": "2026-10-11T09:54:50.104317+00:00"
+        "published": "2026-10-12T10:39:08.780076+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "eb8fc9905951",
-      "bucket": "global",
-      "headline": "US President Trump secures diesel supply deal with Russia, raising geopolitical risk",
-      "what_happened": "Trump announced a deal to import Russian diesel, drawing criticism from Ukraine.",
-      "why_it_matters": "Increases US diesel availability and may affect global diesel spreads; heightened geopolitical tension could influence energy trade flows.",
-      "action": null,
-      "priority": 6,
+      "id": "c6798b702aa3",
+      "bucket": "india_economy",
+      "headline": "RBI opens special dollar window for public oil marketers, easing INR pressure from crude imports",
+      "what_happened": "The Reserve Bank of India decided to open a special window to meet the daily dollar requirements of Indian Oil Corporation, Hindustan Petroleum and Bharat Petroleum.",
+      "why_it_matters": "Direct dollar supply to the OMCs reduces market purchases, limiting upward pressure on USD/INR and on crude import costs, which can temper FX volatility.",
+      "action": "Watch INR spot and OMC dollar demand data; consider adjusting FX hedge ratios for oil‑linked exposures.",
+      "priority": 9,
       "scores": {
         "ca": 0,
         "business": 1,
         "market": 2,
-        "global": 4
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "BBC Business",
-        "tier": "wire",
-        "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-        "published": "2026-10-10T14:24:14+00:00"
-      },
-      "also_reported_by": [
-        "BBC Business"
-      ]
-    },
-    {
-      "id": "c6798b702aa3",
-      "bucket": "india_economy",
-      "headline": "RBI opens dedicated dollar window for public oil marketers, easing INR pressure from crude imports",
-      "what_happened": "RBI announced a special window to meet the daily dollar requirements of Indian Oil, Hindustan Petroleum and Bharat Petroleum.",
-      "why_it_matters": "Provides dollar liquidity to OMCs, reducing spot INR demand and supporting rupee stability; also lowers volatility for oil‑related equities.",
-      "action": null,
-      "priority": 9,
-      "scores": {
-        "ca": 0,
-        "business": 3,
-        "market": 4,
-        "global": 2
+        "global": 0
       },
       "confidence": "high",
       "is_update": true,
@@ -140,23 +113,48 @@
         "name": "RBI",
         "tier": "primary",
         "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63784",
-        "published": "2026-10-11T09:54:50.266808+00:00"
+        "published": "2026-10-12T10:39:08.713155+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "7f6e1932bafe",
+      "id": "0c1385c98e72",
       "bucket": "india_economy",
-      "headline": "RBI conducts second consecutive 3‑day VRRR auction, draining ₹2 lakh crore of liquidity",
-      "what_happened": "RBI scheduled a ₹2 00,000 crore Variable Rate Reverse Repo auction for three days starting Oct 12.",
-      "why_it_matters": "Large reverse‑repo absorbs excess bank funds, supporting short‑term rates and likely lifting 10‑yr G‑sec yields; signals RBI vigilance on liquidity.",
-      "action": null,
+      "headline": "RBI raises minimum CRR to 90%, tightening bank liquidity",
+      "what_happened": "The RBI issued a direction that scheduled banks must maintain a cash reserve ratio of at least 90% of deposits.",
+      "why_it_matters": "Higher CRR reduces lendable funds, potentially slowing credit growth and impacting banking sector profitability and stock valuations.",
+      "action": "Reassess exposure to banks and NBFCs; watch credit‑growth data for early signals.",
       "priority": 9,
       "scores": {
         "ca": 0,
-        "business": 2,
-        "market": 5,
-        "global": 1
+        "business": 1,
+        "market": 2,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13736&Mode=0",
+        "published": "2026-10-12T10:39:07.488447+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "eb63a0b8614e",
+      "bucket": "india_economy",
+      "headline": "RBI drains ₹2 lakh crore via 3‑day VRRR auction at 5.49%",
+      "what_happened": "The RBI conducted a three‑day variable‑rate reverse repo auction, accepting the full ₹2 lakh crore at a cut‑off rate of 5.49%.",
+      "why_it_matters": "Absorbing liquidity supports short‑term rates and can keep 10‑year G‑sec yields from falling further, influencing fund allocation between cash and bonds.",
+      "action": "Track 10‑year G‑sec yield movements and short‑term money‑market rates for liquidity signals.",
+      "priority": 8,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 2,
+        "global": 0
       },
       "confidence": "high",
       "is_update": true,
@@ -164,179 +162,106 @@
       "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63782",
-        "published": "2026-10-11T09:54:50.266970+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "e35af47b9a84",
-      "bucket": "india_economy",
-      "headline": "RBI issues new FX market circulars tightening re‑booking of cancelled contracts",
-      "what_happened": "RBI released two circulars (A.P. Dir Series No. 25 & 26) imposing restrictions on re‑booking of cancelled foreign‑exchange contracts.",
-      "why_it_matters": "Tightens FX derivative activity, potentially reducing speculative USD/INR forward flows and supporting rupee stability; impacts banks' FX desks and corporate hedging costs.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 0,
-        "business": 2,
-        "market": 4,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63783",
-        "published": "2026-10-11T09:54:50.266920+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "5fd456f1f7cd",
-      "bucket": "india_economy",
-      "headline": "India pushes FTAs with 38 economies, expanding trade footprint",
-      "what_happened": "Government announced nine trade pacts covering 38 developed economies signed in the past four and a half years.",
-      "why_it_matters": "Broader market access could boost export growth, improve trade balance and support INR; benefits exporters such as IT services.",
-      "action": null,
-      "priority": 7,
-      "scores": {
-        "ca": 0,
-        "business": 4,
-        "market": 3,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Economic Times · Economy",
-        "tier": "paper",
-        "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-expanding-trade-footprint-to-strengthen-global-ties-and-empower-msmes-piyush-goyal/articleshow/134864720.cms",
-        "published": "2026-10-11T04:29:56+00:00"
-      },
-      "also_reported_by": [
-        "Economic Times"
-      ]
-    },
-    {
-      "id": "5813a02c6ceb",
-      "bucket": "india_economy",
-      "headline": "RBI releases working paper on gaps in state‑level inflation data",
-      "what_happened": "The central bank published a paper assessing data gaps in state‑level inflation during the Covid period.",
-      "why_it_matters": "Insights may shape RBI’s view of inflation heterogeneity, influencing future policy stance and rate expectations.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 0,
-        "business": 1,
-        "market": 2,
-        "global": 1
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63776",
-        "published": "2026-10-11T09:54:50.267845+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "ffece3ccab25",
-      "bucket": "markets",
-      "headline": "State governments auction ₹31,200 crore of bonds, adding supply to the G‑sec market",
-      "what_happened": "Assam, Bihar and other states offered to sell ₹31,200 crore of securities across various tenors in an auction.",
-      "why_it_matters": "Increases debt supply, which may lift yields on 10‑yr G‑secs and affect banks' funding costs; monitor bid‑to‑cover and price impact.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 0,
-        "business": 3,
-        "market": 5,
-        "global": 1
-      },
-      "confidence": "high",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63780",
-        "published": "2026-10-11T09:54:50.267259+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63786",
+        "published": "2026-10-12T10:39:08.712688+00:00"
       },
       "also_reported_by": [
         "RBI"
       ]
     },
     {
-      "id": "fac5f54a7c12",
-      "bucket": "markets",
-      "headline": "RBI auctions ₹23,000 crore of 91‑, 182‑ and 364‑day Treasury Bills",
-      "what_happened": "The central bank announced the auction of ₹8,000 crore each of 91‑day and 182‑day T‑bills and ₹7,000 crore of 364‑day T‑bills.",
-      "why_it_matters": "Absorbs liquidity and sets short‑term rate benchmarks, influencing repo rates and banks' funding costs.",
+      "id": "ffece3ccab25",
+      "bucket": "india_economy",
+      "headline": "State governments auction ₹31,200 crore of bonds, adding supply to G‑sec market",
+      "what_happened": "Assam, Bihar and other states offered ₹31,200 crore of securities across 7‑, 11‑year tenors for auction.",
+      "why_it_matters": "The added sovereign debt supply can push yields higher and affect the relative attractiveness of equities versus bonds.",
+      "action": "Monitor yield curve shifts post‑auction and fund‑flow data into Indian bonds.",
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 2,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63780",
+        "published": "2026-10-12T10:39:08.713717+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "aba1e95980cb",
+      "bucket": "india_economy",
+      "headline": "RBI amends AIFI capital adequacy norms, tightening buffers for NBFCs",
+      "what_happened": "The RBI issued its Fifth Amendment Directions tightening capital adequacy requirements for All‑India Financial Institutions.",
+      "why_it_matters": "Stricter capital buffers may constrain NBFC lending, affecting credit availability and risk premia in the corporate sector.",
       "action": null,
       "priority": 7,
       "scores": {
         "ca": 0,
-        "business": 2,
-        "market": 5,
+        "business": 1,
+        "market": 1,
         "global": 0
       },
       "confidence": "high",
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "RBI",
+        "name": "RBI Notifications",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63778",
-        "published": "2026-10-11T09:54:50.267444+00:00"
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13735&Mode=0",
+        "published": "2026-10-12T10:39:07.488606+00:00"
       },
-      "also_reported_by": []
+      "also_reported_by": [
+        "RBI Notifications"
+      ]
     },
     {
-      "id": "49322020f46e",
-      "bucket": "watchlist",
-      "headline": "Jio Platforms plans up to ₹30,213 crore IPO, set to be India’s largest public issue",
-      "what_happened": "The company announced an IPO window from Oct 21‑23, aiming to raise up to ₹30,213 crore.",
-      "why_it_matters": "Massive capital raise could boost tech‑sector weighting in the Nifty and increase retail participation; pricing will affect market sentiment.",
+      "id": "8795b14f239b",
+      "bucket": "markets",
+      "headline": "SEBI adds Credit Risk‑o‑Meter to debt securities disclosures",
+      "what_happened": "The Securities and Exchange Board of India introduced a new Credit Risk‑o‑Meter metric for listed debt issuers.",
+      "why_it_matters": "The additional risk gauge can influence investor pricing of corporate bonds, potentially widening spreads for lower‑rated issuers.",
       "action": null,
-      "priority": 8,
+      "priority": 6,
       "scores": {
         "ca": 0,
-        "business": 5,
-        "market": 5,
-        "global": 2
+        "business": 1,
+        "market": 2,
+        "global": 0
       },
       "confidence": "high",
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "Mint · Markets",
-        "tier": "paper",
-        "url": "https://www.livemint.com/market/ipo/jio-ipo-how-mukesh-ambanis-mega-issue-compares-with-indias-5-biggest-ipos-check-price-band-valuation-11791616589751.html",
-        "published": "2026-10-10T08:14:14+00:00"
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/introduction-of-credit-risk-o-meter-as-an-additional-disclosure-mechanism-for-debt-securities_105081.html",
+        "published": "2026-10-12T10:39:07.298507+00:00"
       },
       "also_reported_by": [
-        "Mint · Markets"
+        "Economic Times"
       ]
     },
     {
-      "id": "8d85fa372ec0",
+      "id": "ef189e8849d9",
       "bucket": "watchlist",
-      "headline": "Avenue Supermarts Q2 profit rises 8.5% to ₹743 crore, revenue up 18%",
-      "what_happened": "DMart reported FY27 Q2 net profit of ₹742.98 crore and revenue of ₹19,657.50 crore.",
-      "why_it_matters": "Strong consumer retail performance supports growth outlook for Indian consumption, potentially lifting retail stocks and the Nifty.",
+      "headline": "Reliance shares down 6% in month, Jio Platforms IPO seen as bounce catalyst",
+      "what_happened": "Reliance Industries stock fell 6% over the past month while analysts view the upcoming Jio Platforms IPO as a potential driver for a rebound.",
+      "why_it_matters": "Moves in India's largest cap affect Nifty performance and the IPO could channel fresh foreign inflows into equities.",
       "action": null,
       "priority": 6,
       "scores": {
         "ca": 0,
-        "business": 4,
-        "market": 4,
+        "business": 1,
+        "market": 2,
         "global": 0
       },
       "confidence": "high",
@@ -345,25 +270,25 @@
       "source": {
         "name": "Mint · Markets",
         "tier": "paper",
-        "url": "https://www.livemint.com/market/stock-market-news/avenue-supermarts-q2-results-dmart-parent-net-profit-jumps-8-5-to-rs-742-98-crore-revneue-up-18-11791626484306.html",
-        "published": "2026-10-10T10:08:50+00:00"
+        "url": "https://www.livemint.com/market/stock-market-news/ril-shares-reliance-industries-stock-slides-6-in-a-month-can-jio-platforms-ipo-aid-the-bounce-back-experts-views-11791781439943.html",
+        "published": "2026-10-12T05:31:22+00:00"
       },
       "also_reported_by": [
         "Mint · Markets"
       ]
     },
     {
-      "id": "f1fe79fcc8cc",
+      "id": "d5593c64a9fe",
       "bucket": "watchlist",
-      "headline": "HDFC Securities sees 66% upside in Sobha despite 21% price fall",
-      "what_happened": "Analyst maintains a buy rating with a target price of ₹1,930, implying a 66% upside.",
-      "why_it_matters": "Highlights potential rebound in real‑estate equities, offering a buying opportunity; may affect exposure to the construction sector.",
+      "headline": "Petrochemical stocks jump 70% in six months, driven by Dolly Khanna buying",
+      "what_happened": "Shares of a leading petrochemical company rose from about ₹124 to ₹215, a 70% gain, after significant buying by investor Dolly Khanna.",
+      "why_it_matters": "Strong momentum in petrochemicals signals sector strength, relevant for banks’ loan books and exporters' earnings forecasts.",
       "action": null,
-      "priority": 6,
+      "priority": 5,
       "scores": {
         "ca": 0,
-        "business": 3,
-        "market": 4,
+        "business": 1,
+        "market": 1,
         "global": 0
       },
       "confidence": "high",
@@ -372,8 +297,8 @@
       "source": {
         "name": "Mint · Markets",
         "tier": "paper",
-        "url": "https://www.livemint.com/market/stock-market-news/down-21-in-3-months-but-hdfc-securities-sees-66-upside-in-this-property-stock-check-target-price-rationale-11791622041810.html",
-        "published": "2026-10-10T09:41:41+00:00"
+        "url": "https://www.livemint.com/market/stock-market-news/dolly-khanna-portfolio-70-rise-in-6-months-ace-investor-buys-stake-in-petrochemical-stock-in-q2-should-you-buy-11791771726670.html",
+        "published": "2026-10-12T03:18:17+00:00"
       },
       "also_reported_by": [
         "Mint · Markets"

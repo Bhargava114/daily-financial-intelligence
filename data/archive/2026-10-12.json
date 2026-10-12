@@ -1,0 +1,308 @@
+{
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T16:10:01.227254+05:30",
+  "scoring": "groq",
+  "stats": {
+    "items": 9,
+    "actions": 4,
+    "candidates": 165,
+    "sources_ok": 24,
+    "sources_failed": 5,
+    "sources_blocked": 10
+  },
+  "five_minutes": [
+    "RBI opens a special dollar window for public oil marketers, easing INR pressure from crude imports.",
+    "RBI absorbs ₹2 lakh crore via a 3‑day VRRR auction at 5.49%, supporting short‑term rates.",
+    "State governments auction ₹31,200 crore of bonds, adding fresh supply to the G‑sec market.",
+    "Hurricane Isaias threatens Gulf Coast crude output, raising near‑term Brent prices and India's import bill.",
+    "RBI raises the minimum CRR to 90%, tightening bank liquidity and potentially curbing credit growth."
+  ],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "no_signal",
+      "note": ""
+    }
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "global",
+      "label": "Central banks & global macro"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · macro, flows and policy"
+    },
+    {
+      "id": "markets",
+      "label": "Markets · cross-asset context"
+    },
+    {
+      "id": "ca_work",
+      "label": "Tax, audit & compliance"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "65a842a08c07",
+      "bucket": "global",
+      "headline": "Hurricane Isaias threatens Gulf Coast output, risking near‑term crude supply disruption",
+      "what_happened": "The storm is forecast to make landfall on the Gulf Coast, potentially shutting in production at US refining and export facilities.",
+      "why_it_matters": "Supply concerns can lift Brent crude prices, increasing India's import bill and adding pressure on the INR and inflation expectations.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 2,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-10-12T10:39:08.780076+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "c6798b702aa3",
+      "bucket": "india_economy",
+      "headline": "RBI opens special dollar window for public oil marketers, easing INR pressure from crude imports",
+      "what_happened": "The Reserve Bank of India decided to open a special window to meet the daily dollar requirements of Indian Oil Corporation, Hindustan Petroleum and Bharat Petroleum.",
+      "why_it_matters": "Direct dollar supply to the OMCs reduces market purchases, limiting upward pressure on USD/INR and on crude import costs, which can temper FX volatility.",
+      "action": "Watch INR spot and OMC dollar demand data; consider adjusting FX hedge ratios for oil‑linked exposures.",
+      "priority": 9,
+      "scores": {
+        "ca": 0,
+        "business": 1,
+        "market": 2,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63784",
+        "published": "2026-10-12T10:39:08.713155+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "0c1385c98e72",
+      "bucket": "india_economy",
+      "headline": "RBI raises minimum CRR to 90%, tightening bank liquidity",
+      "what_happened": "The RBI issued a direction that scheduled banks must maintain a cash reserve ratio of at least 90% of deposits.",
+      "why_it_matters": "Higher CRR reduces lendable funds, potentially slowing credit growth and impacting banking sector profitability and stock valuations.",
+      "action": "Reassess exposure to banks and NBFCs; watch credit‑growth data for early signals.",
+      "priority": 9,
+      "scores": {
+        "ca": 0,
+        "business": 1,
+        "market": 2,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13736&Mode=0",
+        "published": "2026-10-12T10:39:07.488447+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "eb63a0b8614e",
+      "bucket": "india_economy",
+      "headline": "RBI drains ₹2 lakh crore via 3‑day VRRR auction at 5.49%",
+      "what_happened": "The RBI conducted a three‑day variable‑rate reverse repo auction, accepting the full ₹2 lakh crore at a cut‑off rate of 5.49%.",
+      "why_it_matters": "Absorbing liquidity supports short‑term rates and can keep 10‑year G‑sec yields from falling further, influencing fund allocation between cash and bonds.",
+      "action": "Track 10‑year G‑sec yield movements and short‑term money‑market rates for liquidity signals.",
+      "priority": 8,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 2,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63786",
+        "published": "2026-10-12T10:39:08.712688+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "ffece3ccab25",
+      "bucket": "india_economy",
+      "headline": "State governments auction ₹31,200 crore of bonds, adding supply to G‑sec market",
+      "what_happened": "Assam, Bihar and other states offered ₹31,200 crore of securities across 7‑, 11‑year tenors for auction.",
+      "why_it_matters": "The added sovereign debt supply can push yields higher and affect the relative attractiveness of equities versus bonds.",
+      "action": "Monitor yield curve shifts post‑auction and fund‑flow data into Indian bonds.",
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 2,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63780",
+        "published": "2026-10-12T10:39:08.713717+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "aba1e95980cb",
+      "bucket": "india_economy",
+      "headline": "RBI amends AIFI capital adequacy norms, tightening buffers for NBFCs",
+      "what_happened": "The RBI issued its Fifth Amendment Directions tightening capital adequacy requirements for All‑India Financial Institutions.",
+      "why_it_matters": "Stricter capital buffers may constrain NBFC lending, affecting credit availability and risk premia in the corporate sector.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 1,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13735&Mode=0",
+        "published": "2026-10-12T10:39:07.488606+00:00"
+      },
+      "also_reported_by": [
+        "RBI Notifications"
+      ]
+    },
+    {
+      "id": "8795b14f239b",
+      "bucket": "markets",
+      "headline": "SEBI adds Credit Risk‑o‑Meter to debt securities disclosures",
+      "what_happened": "The Securities and Exchange Board of India introduced a new Credit Risk‑o‑Meter metric for listed debt issuers.",
+      "why_it_matters": "The additional risk gauge can influence investor pricing of corporate bonds, potentially widening spreads for lower‑rated issuers.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 1,
+        "market": 2,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/introduction-of-credit-risk-o-meter-as-an-additional-disclosure-mechanism-for-debt-securities_105081.html",
+        "published": "2026-10-12T10:39:07.298507+00:00"
+      },
+      "also_reported_by": [
+        "Economic Times"
+      ]
+    },
+    {
+      "id": "ef189e8849d9",
+      "bucket": "watchlist",
+      "headline": "Reliance shares down 6% in month, Jio Platforms IPO seen as bounce catalyst",
+      "what_happened": "Reliance Industries stock fell 6% over the past month while analysts view the upcoming Jio Platforms IPO as a potential driver for a rebound.",
+      "why_it_matters": "Moves in India's largest cap affect Nifty performance and the IPO could channel fresh foreign inflows into equities.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 1,
+        "market": 2,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/stock-market-news/ril-shares-reliance-industries-stock-slides-6-in-a-month-can-jio-platforms-ipo-aid-the-bounce-back-experts-views-11791781439943.html",
+        "published": "2026-10-12T05:31:22+00:00"
+      },
+      "also_reported_by": [
+        "Mint · Markets"
+      ]
+    },
+    {
+      "id": "d5593c64a9fe",
+      "bucket": "watchlist",
+      "headline": "Petrochemical stocks jump 70% in six months, driven by Dolly Khanna buying",
+      "what_happened": "Shares of a leading petrochemical company rose from about ₹124 to ₹215, a 70% gain, after significant buying by investor Dolly Khanna.",
+      "why_it_matters": "Strong momentum in petrochemicals signals sector strength, relevant for banks’ loan books and exporters' earnings forecasts.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 0,
+        "business": 1,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/stock-market-news/dolly-khanna-portfolio-70-rise-in-6-months-ace-investor-buys-stake-in-petrochemical-stock-in-q2-should-you-buy-11791771726670.html",
+        "published": "2026-10-12T03:18:17+00:00"
+      },
+      "also_reported_by": [
+        "Mint · Markets"
+      ]
+    }
+  ]
+}
