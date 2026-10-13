@@ -1,0 +1,259 @@
+{
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T15:58:17.851435+05:30",
+  "scoring": "gemini",
+  "stats": {
+    "items": 7,
+    "actions": 0,
+    "candidates": 215,
+    "sources_ok": 23,
+    "sources_failed": 6,
+    "sources_blocked": 10
+  },
+  "five_minutes": [
+    "IMF raised India's 2026 GDP growth forecast to 7%, citing resilient domestic demand that enables the economy to buck global slowdown headwinds.",
+    "US Gulf Coast energy shut-ins firmed as Hurricane Isaias nears landfall, raising supply disruption risks for Brent crude.",
+    "RBI drained a further ₹71,580 crore via a 1-day VRRR auction at a 5.49% cut-off, reinforcing its tight liquidity stance.",
+    "State bond auction yields cleared as high as 8.16%, reflecting continued heavy supply pressures across the domestic yield curve.",
+    "RBI issued formal notifications locking in the 90% daily minimum CRR requirement and updated AIFI capital adequacy standards."
+  ],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "no_signal",
+      "note": ""
+    }
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "global",
+      "label": "Central banks & global macro"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · macro, flows and policy"
+    },
+    {
+      "id": "markets",
+      "label": "Markets · cross-asset context"
+    },
+    {
+      "id": "ca_work",
+      "label": "Tax, audit & compliance"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "65a842a08c07",
+      "bucket": "global",
+      "headline": "Gulf Coast shut-ins firmed further as Category 2 Hurricane Isaias approaches, threatening crude supply",
+      "what_happened": "The US EIA reported Category 2 Hurricane Isaias is nearing Gulf Coast landfall, causing energy infrastructure shut-ins ahead of impact late Friday.",
+      "why_it_matters": "Sustained production halts risk pushing Brent crude prices higher, directly threatening India's import bill and widening the current account deficit if elevated prices persist.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 1,
+        "business": 7,
+        "market": 8,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-10-13T10:26:42.354137+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "e78fb9dbe12b",
+      "bucket": "india_economy",
+      "headline": "IMF's GDP growth upgrade to 7% reinforces India's macro resilience and equity earnings support",
+      "what_happened": "The IMF raised India's 2026 growth forecast to 7.0%, highlighting resilient domestic demand and services activity that allow the economy to withstand higher oil prices and a broader global slowdown.",
+      "why_it_matters": "Strong domestic growth backing provides structural support for Indian corporate earnings and equity valuations. It also gives the RBI room to maintain its focus on inflation and liquidity without pressure to accelerate rate cuts.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 2,
+        "business": 8,
+        "market": 8,
+        "global": 7
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Economic Times · Economy",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/news/economy/indicators/imf-raises-indias-2026-growth-forecast-to-7-says-india-stands-out-even-as-global-growth-slows/articleshow/134905823.cms",
+        "published": "2026-10-13T02:01:23+00:00"
+      },
+      "also_reported_by": [
+        "BusinessLine",
+        "Economic Times · Economy",
+        "Guardian Business",
+        "Mint · Economy"
+      ]
+    },
+    {
+      "id": "e39702b2e8a5",
+      "bucket": "india_economy",
+      "headline": "RBI absorbed a further ₹71,580 crore via VRRR auction at 5.49%, keeping overnight rates anchored near repo",
+      "what_happened": "The RBI conducted a 1-day VRRR auction accepting ₹71,580 crore against a ₹1,50,000 crore notified amount at a cut-off yield of 5.49%.",
+      "why_it_matters": "The central bank continues active liquidity absorption to prevent short-term money market rates from drifting below the repo rate, keeping bank funding costs firm.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 2,
+        "business": 6,
+        "market": 8,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63795",
+        "published": "2026-10-13T10:26:42.324564+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "0c1385c98e72",
+      "bucket": "india_economy",
+      "headline": "RBI formalized 90% daily minimum CRR maintenance requirement via official circular",
+      "what_happened": "The RBI issued a notification under Section 42(1) confirming scheduled banks must maintain a daily minimum CRR of at least 90%.",
+      "why_it_matters": "Locks in stricter daily intraday cash management requirements for commercial banks, limiting daily liquidity buffer fluctuations across treasury desks.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 5,
+        "business": 6,
+        "market": 7,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13736&Mode=0",
+        "published": "2026-10-13T10:26:41.929575+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "ad93a6a16c49",
+      "bucket": "markets",
+      "headline": "State loan yields cleared as high as 8.16% in fresh auctions, maintaining upward pressure on G-sec spreads",
+      "what_happened": "State bond auction results showed Assam 11-year paper cut off at 8.10% while long-tenor Bihar re-issues cleared between 8.148% and 8.159%.",
+      "why_it_matters": "Elevated yields on State Development Loans demonstrate ongoing supply pressure, keeping corporate credit spreads wide and long-end yield curves steep.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 2,
+        "business": 5,
+        "market": 8,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63797",
+        "published": "2026-10-13T10:26:42.324425+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "aba1e95980cb",
+      "bucket": "ca_work",
+      "headline": "RBI issued fifth amendment directions on AIFI capital adequacy, solidifying regulatory buffer norms",
+      "what_happened": "The RBI released the Fifth Amendment Directions 2026 updating capital adequacy prudential norms for All India Financial Institutions.",
+      "why_it_matters": "Tightens capital buffer mandates for specialized financial institutions like SIDBI and NABARD, requiring verification of updated capital adequacy ratios during audit reviews.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 8,
+        "business": 5,
+        "market": 4,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13735&Mode=0",
+        "published": "2026-10-13T10:26:41.929694+00:00"
+      },
+      "also_reported_by": [
+        "RBI Notifications"
+      ]
+    },
+    {
+      "id": "d32956d5e64f",
+      "bucket": "ca_work",
+      "headline": "SEBI notified updated Portfolio Managers Regulations effective April 2027",
+      "what_happened": "SEBI published the SEBI (Portfolio Managers) Regulations, 2026, set to take effect from April 1, 2027.",
+      "why_it_matters": "Establishes the long-term regulatory architecture for PMS entities, allowing advance preparation for client compliance frameworks and audit readiness.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 7,
+        "business": 5,
+        "market": 5,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/legal/regulations/oct-2026/securities-and-exchange-board-of-india-portfolio-managers-regulations-2026-with-effect-from-april-1-2027-_105159.html",
+        "published": "2026-10-13T10:26:41.914299+00:00"
+      },
+      "also_reported_by": [
+        "SEBI"
+      ]
+    }
+  ]
+}
