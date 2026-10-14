@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-13",
-  "generated_at": "2026-10-13T15:58:17.851435+05:30",
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T14:09:03.566982+05:30",
   "scoring": "gemini",
   "stats": {
-    "items": 7,
-    "actions": 0,
-    "candidates": 215,
-    "sources_ok": 23,
-    "sources_failed": 6,
+    "items": 11,
+    "actions": 1,
+    "candidates": 219,
+    "sources_ok": 24,
+    "sources_failed": 5,
     "sources_blocked": 10
   },
   "five_minutes": [
-    "IMF raised India's 2026 GDP growth forecast to 7%, citing resilient domestic demand that enables the economy to buck global slowdown headwinds.",
-    "US Gulf Coast energy shut-ins firmed as Hurricane Isaias nears landfall, raising supply disruption risks for Brent crude.",
-    "RBI drained a further ₹71,580 crore via a 1-day VRRR auction at a 5.49% cut-off, reinforcing its tight liquidity stance.",
-    "State bond auction yields cleared as high as 8.16%, reflecting continued heavy supply pressures across the domestic yield curve.",
-    "RBI issued formal notifications locking in the 90% daily minimum CRR requirement and updated AIFI capital adequacy standards."
+    "The RBI permanently drained ₹25,000 crore of durable banking liquidity via G-sec OMO sales, causing overnight VRRR deployment to contract by nearly two-thirds to ₹25,533 crore.",
+    "Fresh T-bill cut-offs at 5.73% for 91-day and 6.49% for 364-day paper established a steep 76 bps spread across the sovereign money market curve.",
+    "Federal Reserve discount rate minutes revealed the underlying debate among regional bank directors regarding the pace and necessity of policy easing.",
+    "State government loan reissues maintained elevated yields across long tenors, continuing to pressure the SDL-G-sec spread.",
+    "The RBI issued updated directions on inter-bank forex dealings and risk management, impacting corporate derivative and hedging compliance."
   ],
   "theses": [
     {
@@ -68,72 +68,205 @@
   ],
   "items": [
     {
-      "id": "65a842a08c07",
+      "id": "1fdcb042ee86",
       "bucket": "global",
-      "headline": "Gulf Coast shut-ins firmed further as Category 2 Hurricane Isaias approaches, threatening crude supply",
-      "what_happened": "The US EIA reported Category 2 Hurricane Isaias is nearing Gulf Coast landfall, causing energy infrastructure shut-ins ahead of impact late Friday.",
-      "why_it_matters": "Sustained production halts risk pushing Brent crude prices higher, directly threatening India's import bill and widening the current account deficit if elevated prices persist.",
+      "headline": "Fed discount rate records show regional policy debate, testing consensus behind aggressive cuts",
+      "what_happened": "The Federal Reserve released the minutes of its Board discount rate meetings held on August 17, September 9, and September 16, 2026.",
+      "why_it_matters": "Discount rate requests from regional Reserve Bank boards provide direct evidence of internal divisions over credit conditions and employment health prior to FOMC decisions. Divergent regional recommendations would challenge market pricing for rapid rate cuts, potentially supporting the US dollar against emerging market currencies.",
       "action": null,
-      "priority": 7,
+      "priority": 6,
       "scores": {
         "ca": 1,
-        "business": 7,
+        "business": 4,
         "market": 8,
-        "global": 8
-      },
-      "confidence": "high",
-      "is_update": true,
-      "update_note": "Continues yesterday's story.",
-      "source": {
-        "name": "US EIA (energy)",
-        "tier": "data",
-        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
-        "published": "2026-10-13T10:26:42.354137+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "e78fb9dbe12b",
-      "bucket": "india_economy",
-      "headline": "IMF's GDP growth upgrade to 7% reinforces India's macro resilience and equity earnings support",
-      "what_happened": "The IMF raised India's 2026 growth forecast to 7.0%, highlighting resilient domestic demand and services activity that allow the economy to withstand higher oil prices and a broader global slowdown.",
-      "why_it_matters": "Strong domestic growth backing provides structural support for Indian corporate earnings and equity valuations. It also gives the RBI room to maintain its focus on inflation and liquidity without pressure to accelerate rate cuts.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 2,
-        "business": 8,
-        "market": 8,
-        "global": 7
+        "global": 9
       },
       "confidence": "high",
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "Economic Times · Economy",
-        "tier": "paper",
-        "url": "https://economictimes.indiatimes.com/news/economy/indicators/imf-raises-indias-2026-growth-forecast-to-7-says-india-stands-out-even-as-global-growth-slows/articleshow/134905823.cms",
-        "published": "2026-10-13T02:01:23+00:00"
+        "name": "Federal Reserve",
+        "tier": "primary",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
+        "published": "2026-10-13T18:00:00+00:00"
       },
       "also_reported_by": [
-        "BusinessLine",
-        "Economic Times · Economy",
-        "Guardian Business",
-        "Mint · Economy"
+        "Bank of England",
+        "Federal Reserve · All"
       ]
     },
     {
-      "id": "e39702b2e8a5",
-      "bucket": "india_economy",
-      "headline": "RBI absorbed a further ₹71,580 crore via VRRR auction at 5.49%, keeping overnight rates anchored near repo",
-      "what_happened": "The RBI conducted a 1-day VRRR auction accepting ₹71,580 crore against a ₹1,50,000 crore notified amount at a cut-off yield of 5.49%.",
-      "why_it_matters": "The central bank continues active liquidity absorption to prevent short-term money market rates from drifting below the repo rate, keeping bank funding costs firm.",
+      "id": "20810eb63c8d",
+      "bucket": "global",
+      "headline": "US $1.2bn AML fine on Bank of America tightens cross-border correspondent scrutiny",
+      "what_happened": "The US Treasury fined Bank of America $1.2 billion for failing to detect and report transactions tied to Chinese money laundering networks.",
+      "why_it_matters": "Enforcement of this scale prompts global banks to de-risk correspondent banking relationships and tighten surveillance on Asian cross-border flows. Indian corporate clients moving funds through international channels may experience longer settlement checks and heightened documentation demands.",
       "action": null,
-      "priority": 7,
+      "priority": 5,
+      "scores": {
+        "ca": 6,
+        "business": 6,
+        "market": 5,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-10-14T02:05:32+00:00"
+      },
+      "also_reported_by": [
+        "Economic Times"
+      ]
+    },
+    {
+      "id": "b7cfd8014af7",
+      "bucket": "global",
+      "headline": "IMF upgrade to UK growth dampens European recession bets, firming sovereign yield floors",
+      "what_happened": "The IMF revised upward its economic growth forecast for the UK this year while maintaining warnings over persistent inflation and fiscal risks.",
+      "why_it_matters": "Stronger output numbers reduce pressure on the Bank of England to ease aggressively, reinforcing a higher-for-longer rate environment across developed Europe and limiting gains in global core bond markets.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 1,
+        "business": 5,
+        "market": 6,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/cmly05l1g15yo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-10-13T11:58:43+00:00"
+      },
+      "also_reported_by": [
+        "BBC Business"
+      ]
+    },
+    {
+      "id": "44195a40224f",
+      "bucket": "india_economy",
+      "headline": "RBI's ₹25,000 crore OMO bond sale tightens durable banking liquidity, supporting G-sec yields",
+      "what_happened": "The RBI conducted an open market operation sale of government securities across 2030, 2031, 2032, and 2026 maturities, accepting the full notified amount of ₹25,000 crore against bids totaling ₹55,518 crore.",
+      "why_it_matters": "Unlike temporary reverse repo operations, this permanently drains ₹25,000 crore of cash from the banking system. This withdrawal removes excess liquidity that could otherwise fuel credit inflation or soft money market rates, placing a firmer floor under benchmark G-sec yields.",
+      "action": null,
+      "priority": 8,
       "scores": {
         "ca": 2,
         "business": 6,
+        "market": 9,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63798",
+        "published": "2026-10-14T08:36:46.809234+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "1ed5713d5c99",
+      "bucket": "india_economy",
+      "headline": "Overnight VRRR absorption plunged to ₹25,533 crore after RBI drained durable liquidity through bond sales",
+      "what_happened": "In its 1-day Variable Rate Reverse Repo auction, the RBI absorbed ₹25,533 crore against a notified ₹50,000 crore at a cut-off rate of 5.49%, down from ₹71,580 crore accepted the previous day.",
+      "why_it_matters": "Banks offered less than half of the notified amount as systemic liquidity tightened following the RBI's ₹25,000 crore OMO bond sale. This sharp reduction in parked surplus indicates that the central bank's liquidity absorption is successfully compressing excess banking cash.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 1,
+        "business": 5,
         "market": 8,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63802",
+        "published": "2026-10-14T08:36:46.807945+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "cb2de2ef4c3b",
+      "bucket": "india_economy",
+      "headline": "Call rate stability at 5.34% confirms overnight liquidity transmission remains orderly amid RBI draining",
+      "what_happened": "RBI money market data for October 13 showed total overnight volume of ₹6,89,444 crore with a weighted average call money rate of 5.34% and triparty repo at 5.39%.",
+      "why_it_matters": "Despite the large-scale absorption via OMO sales and VRRR, overnight interbank borrowing costs traded cleanly below the 5.49% VRRR cut-off. This indicates that while surplus liquidity is being systematically lowered, cash distribution across banks remains friction-free.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 1,
+        "business": 4,
+        "market": 7,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63801",
+        "published": "2026-10-14T08:36:46.808376+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "244cc19cb6f9",
+      "bucket": "markets",
+      "headline": "T-bill auction establishes steep 76 bps spread, favoring 1-year paper over ultra-short tenors",
+      "what_happened": "The RBI auctioned 91-day, 182-day, and 364-day Treasury Bills, setting cut-off yields at 5.7281%, 6.2896%, and 6.4891% respectively across total accepted issuance of ₹23,000 crore.",
+      "why_it_matters": "The 76 bps slope between 3-month and 12-month paper reflects strong near-term cash demand while pricing term premia into 1-year paper. For treasury allocations, the carry pick-up in 364-day paper offers attractive yield without taking duration risk beyond one year.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 1,
+        "business": 5,
+        "market": 8,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63803",
+        "published": "2026-10-14T08:36:46.807875+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "17625514afd0",
+      "bucket": "markets",
+      "headline": "State loan reissues sustained elevated yields across long tenors after yesterday's spike to 8.16%",
+      "what_happened": "The RBI concluded fresh State Government Securities auctions for Assam, Bihar, and Chhattisgarh, re-issuing paper including 2035, 2044, and 2051 tenors.",
+      "why_it_matters": "Following yesterday's auction clearing as high as 8.16%, states continue to lock in steep yields on ultra-long paper. This persistent supply keeps sub-sovereign spreads wide over the 10-year G-sec and raises the benchmark borrowing cost for state-backed enterprises.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 2,
+        "business": 5,
+        "market": 7,
         "global": 2
       },
       "confidence": "high",
@@ -142,100 +275,48 @@
       "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63795",
-        "published": "2026-10-13T10:26:42.324564+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63799",
+        "published": "2026-10-14T08:36:46.809122+00:00"
       },
       "also_reported_by": [
         "RBI"
       ]
     },
     {
-      "id": "0c1385c98e72",
-      "bucket": "india_economy",
-      "headline": "RBI formalized 90% daily minimum CRR maintenance requirement via official circular",
-      "what_happened": "The RBI issued a notification under Section 42(1) confirming scheduled banks must maintain a daily minimum CRR of at least 90%.",
-      "why_it_matters": "Locks in stricter daily intraday cash management requirements for commercial banks, limiting daily liquidity buffer fluctuations across treasury desks.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 5,
-        "business": 6,
-        "market": 7,
-        "global": 1
-      },
-      "confidence": "high",
-      "is_update": true,
-      "update_note": "Continues yesterday's story.",
-      "source": {
-        "name": "RBI Notifications",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13736&Mode=0",
-        "published": "2026-10-13T10:26:41.929575+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "ad93a6a16c49",
-      "bucket": "markets",
-      "headline": "State loan yields cleared as high as 8.16% in fresh auctions, maintaining upward pressure on G-sec spreads",
-      "what_happened": "State bond auction results showed Assam 11-year paper cut off at 8.10% while long-tenor Bihar re-issues cleared between 8.148% and 8.159%.",
-      "why_it_matters": "Elevated yields on State Development Loans demonstrate ongoing supply pressure, keeping corporate credit spreads wide and long-end yield curves steep.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 2,
-        "business": 5,
-        "market": 8,
-        "global": 1
-      },
-      "confidence": "high",
-      "is_update": true,
-      "update_note": "Continues yesterday's story.",
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63797",
-        "published": "2026-10-13T10:26:42.324425+00:00"
-      },
-      "also_reported_by": [
-        "RBI"
-      ]
-    },
-    {
-      "id": "aba1e95980cb",
+      "id": "b89133c09535",
       "bucket": "ca_work",
-      "headline": "RBI issued fifth amendment directions on AIFI capital adequacy, solidifying regulatory buffer norms",
-      "what_happened": "The RBI released the Fifth Amendment Directions 2026 updating capital adequacy prudential norms for All India Financial Institutions.",
-      "why_it_matters": "Tightens capital buffer mandates for specialized financial institutions like SIDBI and NABARD, requiring verification of updated capital adequacy ratios during audit reviews.",
-      "action": null,
+      "headline": "RBI updates inter-bank dealing norms, requiring review of corporate forex hedging mandates",
+      "what_happened": "The RBI issued A.P. (DIR Series) Circular No. 27 updating the Master Direction on Risk Management and Inter-Bank Dealings for all Authorised Dealers.",
+      "why_it_matters": "These changes modify operational compliance requirements for authorized dealers managing FX exposure and derivative bookings. For your CA practice and corporate treasury clients, this requires auditing active derivative agreements and hedging documentation against the amended directions.",
+      "action": "Review A.P. (DIR Series) Circular No. 27 to ensure client forex hedging mandates and documentation align with the updated master direction.",
       "priority": 6,
       "scores": {
         "ca": 8,
-        "business": 5,
-        "market": 4,
-        "global": 1
+        "business": 6,
+        "market": 6,
+        "global": 5
       },
       "confidence": "high",
-      "is_update": true,
-      "update_note": "Continues yesterday's story.",
+      "is_update": false,
+      "update_note": null,
       "source": {
         "name": "RBI Notifications",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13735&Mode=0",
-        "published": "2026-10-13T10:26:41.929694+00:00"
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13739&Mode=0",
+        "published": "2026-10-14T08:36:46.508641+00:00"
       },
       "also_reported_by": [
         "RBI Notifications"
       ]
     },
     {
-      "id": "d32956d5e64f",
+      "id": "2b3e6028e288",
       "bucket": "ca_work",
-      "headline": "SEBI notified updated Portfolio Managers Regulations effective April 2027",
-      "what_happened": "SEBI published the SEBI (Portfolio Managers) Regulations, 2026, set to take effect from April 1, 2027.",
-      "why_it_matters": "Establishes the long-term regulatory architecture for PMS entities, allowing advance preparation for client compliance frameworks and audit readiness.",
+      "headline": "SEBI adjudication against Wipro insider trading reinforces compliance burden on listed IT management",
+      "what_happened": "SEBI issued an adjudication order concerning suspected insider trading in the shares of Wipro Ltd.",
+      "why_it_matters": "Regulatory scrutiny on trade pre-clearance and Unpublished Price Sensitive Information (UPSI) handling within a major Nifty IT constituent signals heightened surveillance by the regulator. It serves as an audit reminder to evaluate internal trading window protocols for listed audit clients.",
       "action": null,
-      "priority": 5,
+      "priority": 4,
       "scores": {
         "ca": 7,
         "business": 5,
@@ -248,12 +329,35 @@
       "source": {
         "name": "SEBI",
         "tier": "primary",
-        "url": "https://www.sebi.gov.in/legal/regulations/oct-2026/securities-and-exchange-board-of-india-portfolio-managers-regulations-2026-with-effect-from-april-1-2027-_105159.html",
-        "published": "2026-10-13T10:26:41.914299+00:00"
+        "url": "https://www.sebi.gov.in/enforcement/orders/oct-2026/adjudication-order-in-the-matter-of-suspected-insider-trading-in-the-scrip-of-wipro-ltd_105200.html",
+        "published": "2026-10-14T08:36:45.570479+00:00"
       },
-      "also_reported_by": [
-        "SEBI"
-      ]
+      "also_reported_by": []
+    },
+    {
+      "id": "e733b561d865",
+      "bucket": "ca_work",
+      "headline": "SEBI penalty on IIFL Capital flags stricter broker inspection and intermediary audit standards",
+      "what_happened": "SEBI passed an adjudication order following an inspection of operations at IIFL Capital Services Limited.",
+      "why_it_matters": "The order highlights ongoing regulatory inspections into broker-dealer risk systems, client fund segregation, and statutory reporting. For chartered accountants auditing capital market intermediaries, it signals areas of heightened scrutiny during statutory and internal audits.",
+      "action": null,
+      "priority": 4,
+      "scores": {
+        "ca": 7,
+        "business": 5,
+        "market": 4,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/enforcement/orders/oct-2026/adjudication-order-in-the-matter-of-inspection-of-iifl-capital-services-limited_105198.html",
+        "published": "2026-10-14T08:36:45.570509+00:00"
+      },
+      "also_reported_by": []
     }
   ]
 }
