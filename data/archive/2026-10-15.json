@@ -1,0 +1,332 @@
+{
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T13:43:11.309177+05:30",
+  "scoring": "groq",
+  "stats": {
+    "items": 10,
+    "actions": 2,
+    "candidates": 216,
+    "sources_ok": 24,
+    "sources_failed": 5,
+    "sources_blocked": 10
+  },
+  "five_minutes": [
+    "US CPI rose to 3.7% YoY, keeping Fed cut odds low and likely strengthening the USD, which pressures the INR.",
+    "BOJ board member Koeda signaled possible policy tightening, which could lift the yen and affect INR via cross‑currency dynamics.",
+    "RBI raised the minimum CRR to 90%, tightening bank liquidity and supporting G‑sec yields while curbing credit growth.",
+    "Hurricane Isaias threatens Gulf Coast oil output, likely pushing Brent crude higher and widening India’s import bill.",
+    "Premature redemption of SGB 2019‑20 Series V may channel cash into physical gold, supporting gold prices."
+  ],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "challenges",
+      "note": "Premature SGB redemption and higher US inflation could boost gold demand, suggesting further price upside."
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "no_signal",
+      "note": ""
+    }
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "global",
+      "label": "Central banks & global macro"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · macro, flows and policy"
+    },
+    {
+      "id": "markets",
+      "label": "Markets · cross-asset context"
+    },
+    {
+      "id": "ca_work",
+      "label": "Tax, audit & compliance"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "6eca7b63b487",
+      "bucket": "global",
+      "headline": "US CPI climbs to 3.7% YoY, raising doubts on near‑term Fed cuts",
+      "what_happened": "US consumer price index for the year to September rose 3.7%, driven mainly by higher motor fuel prices, above expectations.",
+      "why_it_matters": "Higher inflation keeps Fed rate‑cut odds lower, supporting a stronger USD and putting pressure on the INR and FII inflows.",
+      "action": null,
+      "priority": 9,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 2,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-10-14T15:26:14+00:00"
+      },
+      "also_reported_by": [
+        "BBC Business"
+      ]
+    },
+    {
+      "id": "f6b68924bc13",
+      "bucket": "global",
+      "headline": "BOJ board member Koeda hints at possible policy tightening in upcoming speech",
+      "what_happened": "In a speech in Kumamoto, BOJ board member Koeda discussed the outlook for economic activity, prices and monetary policy, indicating that the central bank may consider tightening if inflation persists.",
+      "why_it_matters": "A more hawkish stance could strengthen the yen, compressing USD/INR and adding pressure on Indian equities and bond inflows.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Bank of Japan",
+        "tier": "primary",
+        "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261015a.htm",
+        "published": "2026-10-15T01:30:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "1a5d46b9216a",
+      "bucket": "global",
+      "headline": "PBOC, BOJ and BOK convene tripartite meeting, signalling coordinated policy outlook",
+      "what_happened": "The central banks of China, Japan and South Korea held their fifteenth tripartite governors’ meeting to discuss monetary policy coordination.",
+      "why_it_matters": "Any joint guidance could affect regional currency dynamics, especially yen and won, which feed into INR via USD/INR cross‑currencies and influence capital flows.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Bank of Japan",
+        "tier": "primary",
+        "url": "http://www.boj.or.jp/en/intl_finance/cooperate/coop261014a.pdf",
+        "published": "2026-10-14T11:00:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "65a842a08c07",
+      "bucket": "global",
+      "headline": "Hurricane Isaias threatens Gulf Coast oil production, could lift crude prices",
+      "what_happened": "Meteorologists forecast Hurricane Isaias making landfall on the Gulf Coast, risking significant shut‑ins at US refining and production facilities.",
+      "why_it_matters": "Supply disruptions are likely to push Brent crude higher, increasing India’s import bill and supporting a weaker INR.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 2,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-10-15T08:12:16.373402+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "6952ab409813",
+      "bucket": "markets",
+      "headline": "Premature redemption of SGB 2019‑20 Series V may boost domestic gold demand",
+      "what_happened": "The RBI announced that premature redemption of the 2019‑20 Sovereign Gold Bond series is permitted after the fifth year, with redemption price set at par plus accrued interest.",
+      "why_it_matters": "You may see increased cash outflows from SGB holders into physical gold, supporting gold prices and affecting gold‑linked portfolio allocations.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 2,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63807",
+        "published": "2026-10-15T08:12:16.250354+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "0351c7ffee92",
+      "bucket": "markets",
+      "headline": "Money market rates edge higher, overnight segment averages 5.55%",
+      "what_happened": "RBI’s money market data for 14 Oct shows the weighted average rate for the overnight segment at 5.55%, within a 4.50‑5.90% range.",
+      "why_it_matters": "Rising short‑term rates increase funding costs for corporates and may influence RBI’s policy stance on repo rates.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63808",
+        "published": "2026-10-15T08:12:16.250265+00:00"
+      },
+      "also_reported_by": [
+        "Bank of Japan",
+        "RBI"
+      ]
+    },
+    {
+      "id": "7e411a20858e",
+      "bucket": "markets",
+      "headline": "VRRR auction absorbs full ₹9,562 crore at 5.49% cut‑off",
+      "what_happened": "The RBI’s overnight variable rate reverse repo auction on 15 Oct received ₹9,562 crore of offers, all accepted at a cut‑off rate of 5.49%.",
+      "why_it_matters": "The rate sets a floor for short‑term funding, influencing money‑market yields and liquidity conditions for banks.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63809",
+        "published": "2026-10-15T08:12:16.249859+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "5735b331492a",
+      "bucket": "markets",
+      "headline": "Treasury bill auction yields near 5.7‑6.5%, indicating steady demand for short‑term gov‑sec",
+      "what_happened": "RBI auctioned 91‑day, 182‑day and 364‑day T‑bills with yields of 5.73%, 6.29% and 6.48% respectively.",
+      "why_it_matters": "Yield levels guide the risk‑free benchmark for Indian corporate bonds and affect G‑sec price dynamics.",
+      "action": null,
+      "priority": 4,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63804",
+        "published": "2026-10-15T08:12:16.250901+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "0c1385c98e72",
+      "bucket": "ca_work",
+      "headline": "RBI lifts minimum Cash Reserve Ratio to 90%, tightening bank liquidity",
+      "what_happened": "The RBI issued a circular raising the statutory minimum CRR for scheduled banks from the previous level to not less than 90% of net demand and time liabilities.",
+      "why_it_matters": "Higher CRR reduces banks’ funding capacity, likely curbing loan growth, supporting G‑sec yields and putting upward pressure on the INR via reduced liquidity.",
+      "action": "Review banks’ CRR compliance and reassess credit exposure assumptions for the quarter.",
+      "priority": 9,
+      "scores": {
+        "ca": 3,
+        "business": 1,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13736&Mode=0",
+        "published": "2026-10-15T08:12:14.933706+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "b89133c09535",
+      "bucket": "ca_work",
+      "headline": "RBI issues updated risk‑management circular for authorised dealers",
+      "what_happened": "The RBI released a circular reminding authorised dealers of the Master Direction on risk management and inter‑bank dealings, emphasizing compliance with existing norms.",
+      "why_it_matters": "Corporate treasury teams may need to revisit their forex hedging mandates to ensure alignment with the updated guidelines.",
+      "action": "Check client FX hedging frameworks against the circular’s provisions.",
+      "priority": 4,
+      "scores": {
+        "ca": 2,
+        "business": 0,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13739&Mode=0",
+        "published": "2026-10-15T08:12:14.933296+00:00"
+      },
+      "also_reported_by": [
+        "RBI Notifications"
+      ]
+    }
+  ]
+}
