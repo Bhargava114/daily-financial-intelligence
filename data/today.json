@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-15",
-  "generated_at": "2026-10-15T13:43:11.309177+05:30",
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T13:35:58.527847+05:30",
   "scoring": "groq",
   "stats": {
-    "items": 10,
-    "actions": 2,
-    "candidates": 216,
+    "items": 14,
+    "actions": 0,
+    "candidates": 221,
     "sources_ok": 24,
     "sources_failed": 5,
     "sources_blocked": 10
   },
   "five_minutes": [
-    "US CPI rose to 3.7% YoY, keeping Fed cut odds low and likely strengthening the USD, which pressures the INR.",
-    "BOJ board member Koeda signaled possible policy tightening, which could lift the yen and affect INR via cross‑currency dynamics.",
-    "RBI raised the minimum CRR to 90%, tightening bank liquidity and supporting G‑sec yields while curbing credit growth.",
-    "Hurricane Isaias threatens Gulf Coast oil output, likely pushing Brent crude higher and widening India’s import bill.",
-    "Premature redemption of SGB 2019‑20 Series V may channel cash into physical gold, supporting gold prices."
+    "India’s BoP deficit widened in August to $5.2 bn, keeping pressure on the rupee as the USD stays strong.",
+    "RBI’s new 90% CRR floor tightens bank liquidity, nudging overnight money‑market rates toward 5.7% and supporting higher G‑sec yields.",
+    "The VRRR auction cleared at a 5.49% cut‑off and the underwriting auction set a 7.40% commission, reinforcing the RBI’s short‑term rate floor.",
+    "Hurricane Isaias threatens Gulf Coast oil output, keeping Brent crude above $80 and lifting India’s import bill.",
+    "Reliance Jio’s upcoming IPO adds a large‑cap tech listing, likely spiking Nifty volatility and drawing fresh capital."
   ],
   "theses": [
     {
@@ -30,8 +30,8 @@
     },
     {
       "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
-      "verdict": "challenges",
-      "note": "Premature SGB redemption and higher US inflation could boost gold demand, suggesting further price upside."
+      "verdict": "no_signal",
+      "note": ""
     },
     {
       "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
@@ -68,18 +68,43 @@
   ],
   "items": [
     {
-      "id": "6eca7b63b487",
+      "id": "65a842a08c07",
       "bucket": "global",
-      "headline": "US CPI climbs to 3.7% YoY, raising doubts on near‑term Fed cuts",
-      "what_happened": "US consumer price index for the year to September rose 3.7%, driven mainly by higher motor fuel prices, above expectations.",
-      "why_it_matters": "Higher inflation keeps Fed rate‑cut odds lower, supporting a stronger USD and putting pressure on the INR and FII inflows.",
+      "headline": "Hurricane Isaias threatens Gulf Coast production, keeping Brent crude above $80",
+      "what_happened": "The storm is projected to cause significant shut‑ins in Gulf oil output.",
+      "why_it_matters": "Higher crude prices raise India’s import bill and support energy‑related equities.",
       "action": null,
-      "priority": 9,
+      "priority": 7,
       "scores": {
         "ca": 0,
         "business": 0,
-        "market": 2,
-        "global": 2
+        "market": 1,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-10-16T08:05:02.893243+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "39b7f82fe027",
+      "bucket": "global",
+      "headline": "AI startup Anthropic seeks investors ahead of IPO, underscoring rising demand for AI compute",
+      "what_happened": "Anthropic is courting investors as it prepares a stock market debut.",
+      "why_it_matters": "Growing AI funding may accelerate global AI‑capex, benefitting Indian IT services exporters that supply software and talent.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 1
       },
       "confidence": "high",
       "is_update": false,
@@ -87,121 +112,19 @@
       "source": {
         "name": "BBC Business",
         "tier": "wire",
-        "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-10-14T15:26:14+00:00"
-      },
-      "also_reported_by": [
-        "BBC Business"
-      ]
-    },
-    {
-      "id": "f6b68924bc13",
-      "bucket": "global",
-      "headline": "BOJ board member Koeda hints at possible policy tightening in upcoming speech",
-      "what_happened": "In a speech in Kumamoto, BOJ board member Koeda discussed the outlook for economic activity, prices and monetary policy, indicating that the central bank may consider tightening if inflation persists.",
-      "why_it_matters": "A more hawkish stance could strengthen the yen, compressing USD/INR and adding pressure on Indian equities and bond inflows.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 0,
-        "business": 0,
-        "market": 1,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Bank of Japan",
-        "tier": "primary",
-        "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261015a.htm",
-        "published": "2026-10-15T01:30:00+00:00"
+        "url": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-10-15T11:34:55+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "1a5d46b9216a",
-      "bucket": "global",
-      "headline": "PBOC, BOJ and BOK convene tripartite meeting, signalling coordinated policy outlook",
-      "what_happened": "The central banks of China, Japan and South Korea held their fifteenth tripartite governors’ meeting to discuss monetary policy coordination.",
-      "why_it_matters": "Any joint guidance could affect regional currency dynamics, especially yen and won, which feed into INR via USD/INR cross‑currencies and influence capital flows.",
+      "id": "76288be0280b",
+      "bucket": "india_economy",
+      "headline": "August BoP deficit widens to $5.2 bn, keeping pressure on the rupee",
+      "what_happened": "Preliminary data show India’s current‑account balance at –$5.2 bn in August, deeper than –$6.1 bn a year ago.",
+      "why_it_matters": "A larger deficit supports USD strength and could sustain INR depreciation unless offset by capital inflows.",
       "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 0,
-        "business": 0,
-        "market": 1,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Bank of Japan",
-        "tier": "primary",
-        "url": "http://www.boj.or.jp/en/intl_finance/cooperate/coop261014a.pdf",
-        "published": "2026-10-14T11:00:00+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "65a842a08c07",
-      "bucket": "global",
-      "headline": "Hurricane Isaias threatens Gulf Coast oil production, could lift crude prices",
-      "what_happened": "Meteorologists forecast Hurricane Isaias making landfall on the Gulf Coast, risking significant shut‑ins at US refining and production facilities.",
-      "why_it_matters": "Supply disruptions are likely to push Brent crude higher, increasing India’s import bill and supporting a weaker INR.",
-      "action": null,
-      "priority": 7,
-      "scores": {
-        "ca": 0,
-        "business": 0,
-        "market": 2,
-        "global": 1
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "US EIA (energy)",
-        "tier": "data",
-        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
-        "published": "2026-10-15T08:12:16.373402+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "6952ab409813",
-      "bucket": "markets",
-      "headline": "Premature redemption of SGB 2019‑20 Series V may boost domestic gold demand",
-      "what_happened": "The RBI announced that premature redemption of the 2019‑20 Sovereign Gold Bond series is permitted after the fifth year, with redemption price set at par plus accrued interest.",
-      "why_it_matters": "You may see increased cash outflows from SGB holders into physical gold, supporting gold prices and affecting gold‑linked portfolio allocations.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 0,
-        "business": 0,
-        "market": 2,
-        "global": 0
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63807",
-        "published": "2026-10-15T08:12:16.250354+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "0351c7ffee92",
-      "bucket": "markets",
-      "headline": "Money market rates edge higher, overnight segment averages 5.55%",
-      "what_happened": "RBI’s money market data for 14 Oct shows the weighted average rate for the overnight segment at 5.55%, within a 4.50‑5.90% range.",
-      "why_it_matters": "Rising short‑term rates increase funding costs for corporates and may influence RBI’s policy stance on repo rates.",
-      "action": null,
-      "priority": 5,
+      "priority": 9,
       "scores": {
         "ca": 0,
         "business": 0,
@@ -214,105 +137,23 @@
       "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63808",
-        "published": "2026-10-15T08:12:16.250265+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63813",
+        "published": "2026-10-16T08:05:00.948186+00:00"
       },
-      "also_reported_by": [
-        "Bank of Japan",
-        "RBI"
-      ]
-    },
-    {
-      "id": "7e411a20858e",
-      "bucket": "markets",
-      "headline": "VRRR auction absorbs full ₹9,562 crore at 5.49% cut‑off",
-      "what_happened": "The RBI’s overnight variable rate reverse repo auction on 15 Oct received ₹9,562 crore of offers, all accepted at a cut‑off rate of 5.49%.",
-      "why_it_matters": "The rate sets a floor for short‑term funding, influencing money‑market yields and liquidity conditions for banks.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 0,
-        "business": 0,
-        "market": 1,
-        "global": 0
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63809",
-        "published": "2026-10-15T08:12:16.249859+00:00"
-      },
-      "also_reported_by": [
-        "RBI"
-      ]
-    },
-    {
-      "id": "5735b331492a",
-      "bucket": "markets",
-      "headline": "Treasury bill auction yields near 5.7‑6.5%, indicating steady demand for short‑term gov‑sec",
-      "what_happened": "RBI auctioned 91‑day, 182‑day and 364‑day T‑bills with yields of 5.73%, 6.29% and 6.48% respectively.",
-      "why_it_matters": "Yield levels guide the risk‑free benchmark for Indian corporate bonds and affect G‑sec price dynamics.",
-      "action": null,
-      "priority": 4,
-      "scores": {
-        "ca": 0,
-        "business": 0,
-        "market": 1,
-        "global": 0
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63804",
-        "published": "2026-10-15T08:12:16.250901+00:00"
-      },
-      "also_reported_by": [
-        "RBI"
-      ]
+      "also_reported_by": []
     },
     {
       "id": "0c1385c98e72",
-      "bucket": "ca_work",
-      "headline": "RBI lifts minimum Cash Reserve Ratio to 90%, tightening bank liquidity",
-      "what_happened": "The RBI issued a circular raising the statutory minimum CRR for scheduled banks from the previous level to not less than 90% of net demand and time liabilities.",
-      "why_it_matters": "Higher CRR reduces banks’ funding capacity, likely curbing loan growth, supporting G‑sec yields and putting upward pressure on the INR via reduced liquidity.",
-      "action": "Review banks’ CRR compliance and reassess credit exposure assumptions for the quarter.",
+      "bucket": "india_economy",
+      "headline": "RBI raises minimum CRR to 90%, tightening bank liquidity and supporting money‑market rates",
+      "what_happened": "RBI notified that scheduled banks must keep a cash reserve ratio of at least 90%.",
+      "why_it_matters": "Higher CRR reduces excess liquidity, pushes up short‑term rates and may limit funding for banks, influencing credit growth.",
+      "action": null,
       "priority": 9,
       "scores": {
-        "ca": 3,
+        "ca": 0,
         "business": 1,
         "market": 1,
-        "global": 0
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI Notifications",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13736&Mode=0",
-        "published": "2026-10-15T08:12:14.933706+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "b89133c09535",
-      "bucket": "ca_work",
-      "headline": "RBI issues updated risk‑management circular for authorised dealers",
-      "what_happened": "The RBI released a circular reminding authorised dealers of the Master Direction on risk management and inter‑bank dealings, emphasizing compliance with existing norms.",
-      "why_it_matters": "Corporate treasury teams may need to revisit their forex hedging mandates to ensure alignment with the updated guidelines.",
-      "action": "Check client FX hedging frameworks against the circular’s provisions.",
-      "priority": 4,
-      "scores": {
-        "ca": 2,
-        "business": 0,
-        "market": 0,
         "global": 0
       },
       "confidence": "high",
@@ -321,11 +162,278 @@
       "source": {
         "name": "RBI Notifications",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13739&Mode=0",
-        "published": "2026-10-15T08:12:14.933296+00:00"
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13736&Mode=0",
+        "published": "2026-10-16T08:05:01.103683+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "c0ba5eda2444",
+      "bucket": "india_economy",
+      "headline": "Deloitte projects FY27 GDP growth of 7.1‑7.3%, driven by private investment",
+      "what_happened": "The consultancy forecasts India’s economy to expand 7.1‑7.3% in FY27, citing a rebound in private capital spending.",
+      "why_it_matters": "Higher growth expectations may lift equity valuations, especially in cyclical sectors like banks and construction.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 1,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Economic Times · Economy",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-gdp-to-grow-7-1-7-3-in-fy27-as-private-investment-gains-momentum-deloitte/articleshow/134984228.cms",
+        "published": "2026-10-16T06:06:02+00:00"
       },
       "also_reported_by": [
-        "RBI Notifications"
+        "BusinessLine",
+        "Economic Times"
+      ]
+    },
+    {
+      "id": "6f68af48721e",
+      "bucket": "india_economy",
+      "headline": "First phase of India‑US trade pact moves to legal drafting, promising tariff reductions",
+      "what_happened": "Commerce Minister announced that the initial phase of the bilateral trade agreement is now being drafted.",
+      "why_it_matters": "The pact could boost export‑oriented sectors, strengthen the rupee and attract foreign investment.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 1,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Economic Times · Economy",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-lock-first-phase-of-trade-pact-legal-drafting-underway-piyush-goyal/articleshow/134963012.cms",
+        "published": "2026-10-15T09:19:52+00:00"
+      },
+      "also_reported_by": [
+        "BusinessLine",
+        "Economic Times · Economy"
+      ]
+    },
+    {
+      "id": "7e411a20858e",
+      "bucket": "markets",
+      "headline": "VRRR auction cleared at 5.49% cut‑off, reinforcing RBI’s short‑term rate floor",
+      "what_happened": "All ₹9,562 cr of offers were accepted at a cut‑off of 5.49% in the overnight reverse repo auction.",
+      "why_it_matters": "The result confirms the RBI’s stance on maintaining a floor under money‑market rates, supporting current G‑sec yields.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63809",
+        "published": "2026-10-16T08:05:00.948594+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "66e0132cdade",
+      "bucket": "markets",
+      "headline": "Rupee firmed to ₹95.05/$ amid RBI measures, forward premiums hit four‑year high",
+      "what_happened": "The rupee closed 10 paise stronger at 95.05 per dollar, with forward premiums rising to multi‑year peaks.",
+      "why_it_matters": "A stronger INR lowers the import bill for crude and could attract FII inflows, easing pressure on Indian equities.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Economic Times · Economy",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/news/economy/indicators/rupee-strengthens-to-95-05-a-dollar-as-forward-premiums-hit-four-year-high-amid-rbi-measures/articleshow/134968902.cms",
+        "published": "2026-10-15T13:08:20+00:00"
+      },
+      "also_reported_by": [
+        "CNBC · Economy",
+        "Economic Times · Economy",
+        "Mint · Economy"
+      ]
+    },
+    {
+      "id": "60671e442c0a",
+      "bucket": "markets",
+      "headline": "Government bond auction cleared at 7.3955% yield, signaling tighter funding conditions for the fiscal deficit",
+      "what_happened": "The RBI’s October 16 auction of a 2036 government security attracted ₹34,000 cr at a cut‑off yield of 7.3955%.",
+      "why_it_matters": "Higher auction yields lift the 10‑year G‑sec curve, raising borrowing costs for the government and nudging Indian bond portfolios higher.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63817",
+        "published": "2026-10-16T08:05:00.947460+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "f887385a26af",
+      "bucket": "markets",
+      "headline": "Overnight money‑market rates hover around 5.7%, reflecting RBI’s liquidity tightening",
+      "what_happened": "RBI reported the overnight segment weighted‑average rate of 5.70% on Oct 15, within the 3‑6% range.",
+      "why_it_matters": "Elevated short‑term rates increase funding costs for corporates and influence the yield spread to G‑secs.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63815",
+        "published": "2026-10-16T08:05:00.947850+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "6d2147d72fd0",
+      "bucket": "markets",
+      "headline": "Underwriting auction for new government security set cut‑off commission at 7.40%, indicating demand for longer‑dated debt",
+      "what_happened": "RBI’s Oct 16 underwriting auction resulted in a cut‑off rate of 7.40% for the additional competitive underwriting.",
+      "why_it_matters": "The rate reflects investor appetite for longer‑tenor G‑secs and can shape the slope of the sovereign yield curve.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63816",
+        "published": "2026-10-16T08:05:00.947530+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "cd23660ede7c",
+      "bucket": "markets",
+      "headline": "Reliance Jio IPO slated for October, expected to be a marquee listing for the Nifty",
+      "what_happened": "The upcoming listing of Jio Platforms will add a large‑cap technology stock to the market.",
+      "why_it_matters": "The IPO could increase market depth, drive Nifty volatility, and offer a new exposure to the fast‑growing telecom sector.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/stock-market-news/reliance-jio-ipo-should-investors-buy-reliance-industries-shares-before-the-listing-11792116341742.html",
+        "published": "2026-10-16T03:07:37+00:00"
+      },
+      "also_reported_by": [
+        "Mint · Markets"
+      ]
+    },
+    {
+      "id": "c3f09b1c0a89",
+      "bucket": "ca_work",
+      "headline": "RBI clarifies Foreign Exchange Risk Reserve rules, tightening corporate FX hedging requirements",
+      "what_happened": "RBI issued FAQs on the FERR framework introduced in early October.",
+      "why_it_matters": "The guidance may raise compliance costs for import‑export firms and could affect FX‑linked cash‑flow forecasts.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 1,
+        "business": 0,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63812",
+        "published": "2026-10-16T08:05:00.948226+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "a93697441171",
+      "bucket": "ca_work",
+      "headline": "Net direct tax collections jump 13.2% YoY to ₹13.38 lakh cr, signalling fiscal strength",
+      "what_happened": "India’s direct tax receipts rose 13.21% year‑on‑year to ₹13.38 lakh crore as of Oct 14.",
+      "why_it_matters": "Robust tax revenue improves the fiscal balance, supporting sovereign creditworthiness and potentially lowering G‑sec spreads.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 1,
+        "business": 0,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Economic Times · Economy",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/news/economy/finance/indias-net-direct-tax-collections-rise-13-21-to-rs-13-38-lakh-crore-till-october-14-of-fy27/articleshow/134961367.cms",
+        "published": "2026-10-15T08:02:26+00:00"
+      },
+      "also_reported_by": [
+        "BusinessLine",
+        "Mint · Economy"
       ]
     }
   ]
