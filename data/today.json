@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-17",
-  "generated_at": "2026-10-17T13:14:11.874326+05:30",
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T13:29:59.055371+05:30",
   "scoring": "gemini",
   "stats": {
     "items": 11,
-    "actions": 4,
-    "candidates": 212,
+    "actions": 3,
+    "candidates": 151,
     "sources_ok": 24,
     "sources_failed": 5,
     "sources_blocked": 10
   },
   "five_minutes": [
-    "Category 2 Hurricane Isaias has triggered Gulf Coast production shut-ins, keeping upward pressure on Brent crude and India's import bill.",
-    "SEBI is moving to restore the 30-minute continuous session VWAP for derivatives settlement, curtailing artificial closing price volatility on contract expiries.",
-    "State government reliance on RBI loans surged by ₹20,155 crore in a single week to ₹58,569 crore, signaling heavy upcoming State Development Loan supply.",
-    "RBI approved the amalgamation of Emirates NBD's domestic branches into RBL Bank, providing mid-tier private banking balance sheets foreign capital support.",
-    "Updated RBI prudential norms for All India Financial Institutions and tighter Authorized Dealer risk management directions raise compliance thresholds for CA desks."
+    "Trump's waiver of Russian crude sanctions averts an immediate import bill shock for India, easing near-term pressure on the rupee.",
+    "India's August current account deficit narrowed to $5.2 billion, but an April-August cumulative expansion to $18.3 billion sustains long-term external balance drag.",
+    "An oversubscribed ₹34,000 crore auction of 6.94% GS 2036 at a 7.3955% cut-off anchors domestic long-term sovereign bond yields.",
+    "Air India's extended Saudi flight suspension amid Houthi strikes highlights persistent Middle East tensions that keep an upside risk premium under Brent crude.",
+    "RBI's revised directions on option premium deferrals alter hedging structures and balance sheet recognition for corporate treasury desks."
   ],
   "theses": [
     {
@@ -25,8 +25,8 @@
     },
     {
       "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
-      "verdict": "no_signal",
-      "note": ""
+      "verdict": "challenges",
+      "note": "Trump's waiver of proposed Russia sanctions on crude importers indicates policy flexibility to avert energy supply disruptions rather than compounding economic strain."
     },
     {
       "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
@@ -35,8 +35,8 @@
     },
     {
       "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
-      "verdict": "challenges",
-      "note": "Nifty 50 RSI has rebounded to 52.81 from an average of 34.70, pointing to strengthening momentum that resists downward pressure toward 23,000."
+      "verdict": "no_signal",
+      "note": ""
     }
   ],
   "markets": [],
@@ -68,118 +68,18 @@
   ],
   "items": [
     {
-      "id": "287b22d9c727",
+      "id": "a693fa8d6f9b",
       "bucket": "global",
-      "headline": "Expected UK bank tax hikes risk compressing European financial sector equity multiples",
-      "what_happened": "Senior UK banking executives confirmed expectations of sector-specific tax increases in the upcoming Autumn Budget to fill government revenue gaps.",
-      "why_it_matters": "Heightened bank balance sheet levies or corporate tax surcharges will drag on net profitability across European and UK lenders, weighing on global banking sector equity valuations.",
+      "headline": "US waiver on Russian crude sanctions averts immediate oil import bill shock for India",
+      "what_happened": "US President Donald Trump waived proposed sanctions provisions on Russian crude importers, while Secretary of State Marco Rubio affirmed that India's domestic energy requirements will be weighed before any future tariff implementation.",
+      "why_it_matters": "This shields your oil-importing portfolio exposures from an abrupt spike in crude acquisition costs and removes near-term depreciation pressure on the rupee by preserving discounted Russian supplies.",
       "action": null,
-      "priority": 5,
+      "priority": 8,
       "scores": {
-        "ca": 5,
-        "business": 6,
-        "market": 6,
-        "global": 7
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "BBC Business",
-        "tier": "wire",
-        "url": "https://www.bbc.co.uk/news/articles/c32l4k2xdvrzo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-10-16T10:16:27+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "282d33380f1e",
-      "bucket": "india_economy",
-      "headline": "RBI-sanctioned merger of Emirates NBD branches into RBL Bank bolsters private bank balance sheets",
-      "what_happened": "The Reserve Bank of India sanctioned the scheme of amalgamation of the Indian branches of Emirates NBD Bank P.J.S.C. with RBL Bank Limited under Section 44A of the Banking Regulation Act, 1949.",
-      "why_it_matters": "The structural merger enhances RBL Bank's tier-1 capital and corporate lending capacity, underscoring RBI's openness to strategic foreign bank consolidations within domestic mid-tier private lenders.",
-      "action": null,
-      "priority": 7,
-      "scores": {
-        "ca": 7,
+        "ca": 3,
         "business": 8,
-        "market": 7,
-        "global": 5
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63820",
-        "published": "2026-10-17T07:42:34.743590+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "b828db9ab23e",
-      "bucket": "india_economy",
-      "headline": "Surge of ₹20,155 crore in State Ways and Means advances foreshadows heavy upcoming SDL supply",
-      "what_happened": "RBI Weekly Statistical Supplement data shows central bank loans and advances to State Governments rose by ₹20,155 crore over the week to reach ₹58,569 crore.",
-      "why_it_matters": "Heavy short-term recourse to RBI overdraft windows signals mounting state fiscal pressures, which will inevitably spill over into larger State Development Loan auctions and widen yield spreads over central G-secs.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 5,
-        "business": 6,
-        "market": 7,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63819",
-        "published": "2026-10-17T07:42:34.743913+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "612cb79cdb41",
-      "bucket": "india_economy",
-      "headline": "Upcoming ₹23,000 crore T-bill auction tests short-term liquidity following tighter cash reserve mandates",
-      "what_happened": "The Reserve Bank announced auctions for ₹23,000 crore in Treasury Bills scheduled for October 21 across 91-day (₹8,000 crore), 182-day (₹8,000 crore), and 364-day (₹7,000 crore) tenors.",
-      "why_it_matters": "With the minimum daily CRR raised to 90% and money-market rates anchoring near 5.70%, this auction will gauge bank bidding appetite and short-end sovereign yield pricing.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 4,
-        "business": 5,
-        "market": 7,
-        "global": 3
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63821",
-        "published": "2026-10-17T07:42:34.743537+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "1fb2bb360595",
-      "bucket": "india_economy",
-      "headline": "India-Canada commercial agreements expand bilateral market access for digital innovation and AI services",
-      "what_happened": "India and Canada signed bilateral commercial deals to accelerate the proposed 2026 Comprehensive Economic Partnership Agreement, prioritizing AI, technology, and trade cooperation.",
-      "why_it_matters": "Thawing commercial ties provides structural export opportunities for Indian IT services firms seeking North American enterprise contracts in cloud and AI infrastructure.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 4,
-        "business": 7,
-        "market": 5,
-        "global": 6
+        "market": 8,
+        "global": 9
       },
       "confidence": "high",
       "is_update": false,
@@ -187,107 +87,51 @@
       "source": {
         "name": "Economic Times · Economy",
         "tier": "paper",
-        "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-canada-sign-commercial-deals-as-both-aim-to-seal-trade-pact-by-2026/articleshow/134985153.cms",
-        "published": "2026-10-16T06:51:39+00:00"
+        "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-an-important-ally-marco-rubio-says-us-president-studying-impact-of-possible-tariffs-on-countries-like-india/articleshow/135022835.cms",
+        "published": "2026-10-18T03:14:32+00:00"
       },
       "also_reported_by": [
-        "BusinessLine",
+        "Economic Times",
         "Economic Times · Economy"
       ]
     },
     {
-      "id": "03c94e31091f",
-      "bucket": "markets",
-      "headline": "Restoring continuous 30-minute VWAP for derivatives settlement reduces expiry-day distortion on index futures",
-      "what_happened": "SEBI initiated a comprehensive review of closing auction sessions, derivatives settlement methodology, and market timings, shifting back toward the final 30-minute continuous-session VWAP.",
-      "why_it_matters": "A return to continuous 30-minute VWAP curbs artificial price manipulation during settlement windows, improving execution quality for your Nifty derivatives books while boosting brokerage volumes.",
-      "action": "Review expiry-day execution models and VWAP tracking algorithms ahead of the operational transition.",
+      "id": "76288be0280b",
+      "bucket": "india_economy",
+      "headline": "August current account deficit narrows to $5.2 billion but five-month widening maintains structural rupee drag",
+      "what_happened": "RBI preliminary data shows India's current account deficit narrowed to $5.2 billion in August 2026 from $6.1 billion a year earlier, while the cumulative April-August deficit widened to $18.3 billion from $12.8 billion in the prior period.",
+      "why_it_matters": "While the single-month print offers temporary relief, the 43% cumulative deficit widening across April-August signals that your INR-denominated assets still face structural external account drag unless capital inflows accelerate.",
+      "action": null,
       "priority": 8,
       "scores": {
-        "ca": 6,
-        "business": 8,
-        "market": 9,
-        "global": 3
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/review-of-certain-aspects-of-the-closing-auction-session-market-timings-and-settlement-methodology-for-derivatives-contracts_105293.html",
-        "published": "2026-10-17T07:42:34.329375+00:00"
-      },
-      "also_reported_by": [
-        "Mint · Markets"
-      ]
-    },
-    {
-      "id": "b89133c09535",
-      "bucket": "ca_work",
-      "headline": "Revised risk management directions for Authorized Dealers tighten inter-bank foreign exchange dealing parameters",
-      "what_happened": "RBI issued circular DOR/DIR Series No. 27 amending the Master Direction on Risk Management and Inter-Bank Dealings for Authorized Dealers.",
-      "why_it_matters": "Adjusting AD dealing norms tightens treasury market-making controls and corporate FX exposures, directly affecting USD/INR hedging operations and offshore derivative positions.",
-      "action": "Cross-check corporate client FX hedging mandates and open inter-bank position limits against the amended Master Direction.",
-      "priority": 7,
-      "scores": {
-        "ca": 8,
+        "ca": 4,
         "business": 7,
-        "market": 7,
-        "global": 5
+        "market": 8,
+        "global": 7
       },
       "confidence": "high",
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "RBI Notifications",
+        "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13739&Mode=0",
-        "published": "2026-10-17T07:42:34.180017+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63813",
+        "published": "2026-10-18T07:57:26.671420+00:00"
       },
-      "also_reported_by": [
-        "RBI Notifications"
-      ]
+      "also_reported_by": []
     },
     {
-      "id": "aba1e95980cb",
-      "bucket": "ca_work",
-      "headline": "Fifth Amendment to AIFI capital adequacy directions recalibrates regulatory ratios for specialized lenders",
-      "what_happened": "RBI issued the Reserve Bank of India (All India Financial Institutions – Prudential Norms on Capital Adequacy) Fifth Amendment Directions, 2026, updating paragraph 77(6)(i).",
-      "why_it_matters": "This alters baseline regulatory capital calculations for institutions like NABARD, SIDBI, and EXIM Bank, directly influencing their wholesale debt issuance costs and tier-1 disclosures.",
-      "action": "Review the amended paragraph 77(6)(i) capital computation changes for statutory audit and capital adequacy certificates.",
+      "id": "f887385a26af",
+      "bucket": "markets",
+      "headline": "Anchored overnight rates at 5.70% confirm domestic liquidity buffer despite heavy sovereign supply",
+      "what_happened": "RBI reported total overnight money market volume of ₹7,29,578 crore on October 15, 2026, with the weighted average call rate printing at 5.75% and triparty repo at 5.71%.",
+      "why_it_matters": "Sub-5.80% overnight money rates confirm that the banking system is absorbing large primary paper issuances comfortably, reducing near-term repricing risk on your short-term debt holdings.",
+      "action": null,
       "priority": 6,
       "scores": {
-        "ca": 8,
-        "business": 6,
-        "market": 5,
-        "global": 3
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI Notifications",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13735&Mode=0",
-        "published": "2026-10-17T07:42:34.180321+00:00"
-      },
-      "also_reported_by": [
-        "RBI Notifications"
-      ]
-    },
-    {
-      "id": "462e12fe74f1",
-      "bucket": "ca_work",
-      "headline": "SGB 2020-21 Series VII premature redemption window establishes fixed liquidity reference for gold portfolios",
-      "what_happened": "RBI announced the premature redemption window for Sovereign Gold Bond 2020-21 Series VII due on October 19, 2026, following the completion of the 5-year lock-in period.",
-      "why_it_matters": "Provides an official sovereign cash-out benchmark based on IBJA gold averages, giving you a reference point to decide between holding to maturity, redeeming, or taking secondary market capital gains.",
-      "action": "Assess client Series VII holdings to determine whether premature redemption or secondary market liquidation offers better net post-tax returns.",
-      "priority": 5,
-      "scores": {
-        "ca": 7,
+        "ca": 3,
         "business": 5,
-        "market": 6,
+        "market": 7,
         "global": 4
       },
       "confidence": "high",
@@ -296,22 +140,104 @@
       "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63822",
-        "published": "2026-10-17T07:42:34.743436+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63815",
+        "published": "2026-10-18T07:57:26.670962+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "1bb337cc77f9",
-      "bucket": "ca_work",
-      "headline": "SEBI confirmatory order against Rajesh Exports reinforces audit diligence on bullion refiners",
-      "what_happened": "SEBI issued a confirmatory order in the matter of Rajesh Exports Limited, sustaining earlier regulatory directions and findings against the listed gold exporter.",
-      "why_it_matters": "Continued regulatory scrutiny on one of India's largest gold exporters signals governance and working-capital audit risks across the mid-cap gems and jewellery space.",
+      "id": "6bec9c5587b3",
+      "bucket": "markets",
+      "headline": "Extended Saudi flight cancellations amid Houthi strikes preserve Middle East supply-risk premium for crude",
+      "what_happened": "Air India and Air India Express extended their temporary suspension of commercial flights to Jeddah, Riyadh, and Dammam through October 24, 2026, citing escalating regional security risks.",
+      "why_it_matters": "Escalating drone and missile strikes threaten critical Gulf transit corridors, maintaining an upside risk premium on your Brent crude assumptions and pressuring aviation sector margins.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 2,
+        "business": 6,
+        "market": 7,
+        "global": 7
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BusinessLine",
+        "tier": "paper",
+        "url": "https://www.thehindubusinessline.com/economy/logistics/air-india-extends-temporary-suspension-of-flights-to-saudi-arabia-until-oct-24-amid-houthi-attacks/article71595830.ece",
+        "published": "2026-10-17T09:13:18+00:00"
+      },
+      "also_reported_by": [
+        "Economic Times"
+      ]
+    },
+    {
+      "id": "223ddb77cc37",
+      "bucket": "markets",
+      "headline": "Projected 16% revenue growth for BEL tests whether lofty defence multiples can survive order deceleration",
+      "what_happened": "Consensus forecasts from domestic brokerages project Bharat Electronics Limited to deliver 12% to 16% YoY revenue growth (₹6,487 crore to ₹6,720 crore) in Q2 FY27, though order intake is expected to taper.",
+      "why_it_matters": "With forward price-to-earnings multiples already elevated, you need to watch whether slowing defense order intake caps further upside for capital goods allocations.",
       "action": null,
       "priority": 5,
       "scores": {
-        "ca": 7,
+        "ca": 3,
         "business": 6,
+        "market": 6,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/stock-market-news/bel-q2-results-2026-date-out-market-sees-up-to-16-yoy-revenue-growth-defence-order-may-drop-share-outlook-in-focus-11792223944924.html",
+        "published": "2026-10-17T09:13:22+00:00"
+      },
+      "also_reported_by": [
+        "Mint · Markets"
+      ]
+    },
+    {
+      "id": "f2af74dcb6a6",
+      "bucket": "markets",
+      "headline": "Rising extraction costs at Hindustan Zinc risk compressing base-metal earnings despite volume gains",
+      "what_happened": "Hindustan Zinc is scheduled to report Q2 FY27 results next week, with analysts anticipating higher production volumes counterbalanced by escalating production and input costs.",
+      "why_it_matters": "Margin compression from higher input costs could offset volume growth, requiring you to moderate earnings expectations for cyclical non-ferrous metal holdings.",
+      "action": null,
+      "priority": 4,
+      "scores": {
+        "ca": 3,
+        "business": 5,
+        "market": 5,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/stock-market-news/hindustan-zinc-q2-results-2026-anil-agarwal-led-vedanta-firm-to-report-earnings-next-week-preview-dividend-history-11792235803320.html",
+        "published": "2026-10-17T12:49:14+00:00"
+      },
+      "also_reported_by": [
+        "Mint · Economy",
+        "Mint · Markets"
+      ]
+    },
+    {
+      "id": "680105820f3e",
+      "bucket": "ca_work",
+      "headline": "Revised commercial bank rules on option premium deferrals alter corporate derivative structuring",
+      "what_happened": "The Reserve Bank of India notified amendments to Sub-section D of Chapter IV in the Commercial Banks Miscellaneous Directions, revising guidelines on the deferment of option premiums.",
+      "why_it_matters": "You should expect revised terms from Authorized Dealers on deferred option premiums, which will affect hedge accounting schedules and cash flow timing for your corporate clients' FX derivatives.",
+      "action": "Review hedging contracts and premium accrual schedules for corporate clients using structured FX options.",
+      "priority": 6,
+      "scores": {
+        "ca": 8,
+        "business": 5,
         "market": 5,
         "global": 3
       },
@@ -319,37 +245,116 @@
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "SEBI",
+        "name": "RBI Notifications",
         "tier": "primary",
-        "url": "https://www.sebi.gov.in/enforcement/orders/oct-2026/confirmatory-order-in-the-matter-of-rajesh-exports-limited_105261.html",
-        "published": "2026-10-17T07:42:34.329549+00:00"
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13731&Mode=0",
+        "published": "2026-10-18T07:57:25.546767+00:00"
+      },
+      "also_reported_by": [
+        "RBI Notifications"
+      ]
+    },
+    {
+      "id": "462e12fe74f1",
+      "bucket": "ca_work",
+      "headline": "Premature redemption window for SGB 2020-21 Series VII allows tax-exempt bullion profit booking",
+      "what_happened": "The Reserve Bank of India announced the premature redemption window for Sovereign Gold Bond 2020-21 Series VII, payable on October 19, 2026, following the completion of the mandatory five-year holding threshold.",
+      "why_it_matters": "This gives your private clients a direct window to redeem bullion at sovereign-guaranteed pricing without suffering the illiquidity discounts typical of secondary market SGB trades.",
+      "action": "Check client portfolios for SGB 2020-21 Series VII holdings to evaluate tax-free redemption ahead of the October 19 cut-off.",
+      "priority": 6,
+      "scores": {
+        "ca": 7,
+        "business": 4,
+        "market": 6,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63822",
+        "published": "2026-10-18T07:57:26.669247+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "65a842a08c07",
-      "bucket": "watchlist",
-      "headline": "Gulf Coast production shut-ins from Category 2 Hurricane Isaias sustain Brent crude upside pressure",
-      "what_happened": "NOAA confirmed Hurricane Isaias has intensified to Category 2 ahead of late Friday landfall, triggering offshore production shut-ins across the Gulf of Mexico.",
-      "why_it_matters": "Elevated from an offshore threat to active facility shutdowns, prolonged supply disruption will keep Brent crude above $80, feeding directly into India's trade deficit and keeping the rupee on the back foot.",
+      "id": "1bb337cc77f9",
+      "bucket": "ca_work",
+      "headline": "SEBI confirmatory order against Rajesh Exports reinforces audit and governance scrutiny on bullion trade",
+      "what_happened": "SEBI passed a confirmatory order in the matter of Rajesh Exports Limited, upholding interim regulatory restrictions.",
+      "why_it_matters": "The sustained enforcement highlights heightened regulatory risk around precious metal export accounting, prompting you to review forensic and statutory audit safeguards across related client exposures.",
       "action": null,
-      "priority": 7,
+      "priority": 5,
       "scores": {
-        "ca": 2,
-        "business": 7,
-        "market": 8,
-        "global": 8
+        "ca": 7,
+        "business": 5,
+        "market": 4,
+        "global": 2
       },
       "confidence": "high",
       "is_update": true,
-      "update_note": "Continues yesterday's story.",
+      "update_note": "Carried over from yesterday with new reporting.",
       "source": {
-        "name": "US EIA (energy)",
-        "tier": "data",
-        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
-        "published": "2026-10-17T07:42:35.040077+00:00"
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/enforcement/orders/oct-2026/confirmatory-order-in-the-matter-of-rajesh-exports-limited_105261.html",
+        "published": "2026-10-18T07:57:25.815334+00:00"
       },
       "also_reported_by": []
+    },
+    {
+      "id": "84dbebcd6b56",
+      "bucket": "ca_work",
+      "headline": "SEBI exemption order for Allcargo Logistics clears regulatory pathway for corporate restructuring",
+      "what_happened": "SEBI granted an exemption order under its takeover and restructuring framework in the matter of Allcargo Logistics Limited.",
+      "why_it_matters": "The ruling provides legal precedent for your CA restructuring advisory work, confirming SEBI's tolerance thresholds for promoter-group share transfers during internal corporate reorganizations.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 7,
+        "business": 5,
+        "market": 4,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/enforcement/orders/oct-2026/exemption-order-in-the-matter-of-allcargo-logistics-limited_105250.html",
+        "published": "2026-10-18T07:57:25.815440+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "7da1f4a8623f",
+      "bucket": "watchlist",
+      "headline": "Robust 2.8x bid-to-cover at 6.94% GS 2036 auction cements domestic 10Y-area yields around 7.40%",
+      "what_happened": "The Reserve Bank of India successfully auctioned ₹34,000 crore of the 6.94% GS 2036 at a cut-off yield of 7.3955% (price ₹96.91), drawing ₹94,072 crore in competitive bids alongside complete underwriting absorption.",
+      "why_it_matters": "The heavy bid-to-cover confirms strong institutional absorption of long-term G-sec supply, giving you a firm 7.40% yield benchmark for structuring corporate bond and G-sec duration exposures.",
+      "action": "Revisit duration assumptions on corporate bond portfolios as the 7.40% cut-off stabilizes the belly of the sovereign curve.",
+      "priority": 7,
+      "scores": {
+        "ca": 4,
+        "business": 6,
+        "market": 9,
+        "global": 5
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63818",
+        "published": "2026-10-18T07:57:26.670456+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
     }
   ]
 }
