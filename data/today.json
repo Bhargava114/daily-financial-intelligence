@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-19",
-  "generated_at": "2026-10-19T14:18:32.849448+05:30",
-  "scoring": "gemini",
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T14:00:22.885474+05:30",
+  "scoring": "groq",
   "stats": {
-    "items": 14,
-    "actions": 7,
-    "candidates": 174,
-    "sources_ok": 23,
-    "sources_failed": 6,
+    "items": 6,
+    "actions": 6,
+    "candidates": 187,
+    "sources_ok": 24,
+    "sources_failed": 5,
     "sources_blocked": 10
   },
   "five_minutes": [
-    "SEBI's comprehensive review of closing auction sessions and derivative settlement methodologies threatens to alter end-of-day pricing mechanics and expiry basis risk across Indian equity indices.",
-    "An oversubscribed ₹1.51 lakh crore 7-day VRR auction reveals acute domestic banking liquidity deficits, keeping short-term money market borrowing rates elevated.",
-    "China's export acceleration driven by global AI hardware demand offsets its domestic consumer drag, sustaining regional manufacturing trade flows.",
-    "RBL Bank's RBI-approved absorption of Emirates NBD's Indian branches scales its NRI liability franchise and cross-border trade corridors.",
-    "Hurricane Isaias production shut-ins along the US Gulf Coast threaten Atlantic Basin physical supply, providing prompt upward support for Brent crude."
+    "RBI will auction ₹19,000 crn 6.53% 2031 dated bonds, likely lifting G‑sec yields and tightening sovereign spreads.",
+    "RBI plans a ₹50 bn overnight Variable Rate Repo on Oct 21, signalling tighter liquidity and could push short‑term money‑market rates higher.",
+    "A hurricane forecast to hit the Gulf Coast threatens crude output, pushing Brent up and adding pressure on the INR via a higher import bill.",
+    "SEBI’s review of the derivatives closing‑auction timing may increase Nifty‑50 futures volatility around expiry, affecting execution costs for index trades.",
+    "RBI’s new daily minimum CRR of 90% reduces banks’ cash buffers, tightening liquidity for the banking sector and may support higher G‑sec yields."
   ],
   "theses": [
     {
@@ -25,8 +25,8 @@
     },
     {
       "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
-      "verdict": "no_signal",
-      "note": ""
+      "verdict": "supports",
+      "note": "BBC analysis of the US economy under President Trump highlights weaker growth and inflation, aligning with the view of an impending decline."
     },
     {
       "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
@@ -68,122 +68,43 @@
   ],
   "items": [
     {
-      "id": "a5be6bae30bc",
+      "id": "65a842a08c07",
       "bucket": "global",
-      "headline": "AI hardware demand shields Chinese export growth from weak domestic consumption",
-      "what_happened": "China's economic growth accelerated on the back of resilient outbound shipments driven by global artificial intelligence demand, offsetting persistent weakness in domestic consumer spending.",
-      "why_it_matters": "While tech-driven export momentum supports East Asian supply chains, the lack of broader domestic consumption leaves global industrial commodities vulnerable if developed-market AI infrastructure spending decelerates.",
-      "action": null,
+      "headline": "Hurricane Isaias threatens Gulf‑Coast crude output, could lift Brent",
+      "what_happened": "Hurricane Isaias is forecast to make landfall on the Gulf Coast, risking significant disruptions to US energy infrastructure.",
+      "why_it_matters": "Supply shocks from the hurricane can push Brent crude higher, raising India’s oil import bill and adding downside pressure on the INR.",
+      "action": "Track Brent price movements and the INR/USD pair for any volatility spikes post‑landfall.",
       "priority": 7,
       "scores": {
-        "ca": 1,
-        "business": 6,
-        "market": 7,
-        "global": 8
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 1
       },
       "confidence": "high",
-      "is_update": false,
-      "update_note": null,
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
       "source": {
-        "name": "BBC Business",
-        "tier": "wire",
-        "url": "https://www.bbc.co.uk/news/articles/cm5yn098xz8lo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-10-19T06:08:02+00:00"
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-10-20T08:25:36.420715+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "c6cecbe38eea",
-      "bucket": "global",
-      "headline": "Microsoft's exit from premier UK data centre exposes mounting utility constraints on European AI infrastructure",
-      "what_happened": "Microsoft pulled out of plans to anchor Britain's largest AI data centre site in Essex, leaving infrastructure developer Nscale to proceed without the hyperscaler.",
-      "why_it_matters": "Hyperscaler pullbacks from major European sites underscore severe grid connection delays and power costs, indicating that the rapid pace of global AI capex will be constrained by physical infrastructure bottlenecks.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 1,
-        "business": 6,
-        "market": 6,
-        "global": 7
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "BBC Business",
-        "tier": "wire",
-        "url": "https://www.bbc.co.uk/news/articles/c9m26kl5y7epo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-10-18T16:46:42+00:00"
-      },
-      "also_reported_by": [
-        "Guardian Business"
-      ]
-    },
-    {
-      "id": "d5a298a379bb",
-      "bucket": "global",
-      "headline": "Record UK home price cuts underline accelerating global real estate stress under restrictive rates",
-      "what_happened": "UK housing data revealed property sellers are cutting asking prices on roughly 3,000 homes per day, the fastest pace of price reductions recorded in 15 years.",
-      "why_it_matters": "Widespread residential price discounting in Britain highlights the cumulative transmission of restrictive central bank rates into property valuations, dampening consumer balance sheets across developed markets.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 1,
-        "business": 5,
-        "market": 6,
-        "global": 7
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "BBC Business",
-        "tier": "wire",
-        "url": "https://www.bbc.co.uk/news/articles/c84g13z6xx4eo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-10-18T23:00:45+00:00"
-      },
-      "also_reported_by": [
-        "BBC Business"
-      ]
-    },
-    {
-      "id": "157edf224f6e",
-      "bucket": "global",
-      "headline": "Collateral damage from EU anti-dumping steel tariffs highlights broadening trade fragmentation risks",
-      "what_happened": "Ukrainian steel producers reported severe disruptions from EU tariff measures that were primarily designed to block subsidized Chinese steel imports.",
-      "why_it_matters": "Spillover effects from anti-dumping protections demonstrate that trade barriers directed at China are increasingly penalizing neighboring regional exporters, distorting cross-border supply chains and input pricing.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 1,
-        "business": 5,
-        "market": 5,
-        "global": 7
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "BBC Business",
-        "tier": "wire",
-        "url": "https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-10-18T23:28:45+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "282d33380f1e",
+      "id": "3132edc8ba88",
       "bucket": "india_economy",
-      "headline": "RBL Bank's absorption of Emirates NBD branches accelerates mid-tier private bank deposit and trade finance scale",
-      "what_happened": "The Reserve Bank of India approved the amalgamation of the Indian branch network of UAE-based Emirates NBD Bank P.J.S.C. with RBL Bank Limited under Section 44A of the Banking Regulation Act.",
-      "why_it_matters": "The merger secures an immediate inflow of high-ticket NRI deposits and Gulf-India trade remittance corridors for RBL Bank, improving its liability profile against larger private-sector competitors.",
-      "action": "Update balance sheet assumptions for RBL Bank, specifically regarding the integration costs and sticky NRI low-cost deposit contribution.",
-      "priority": 7,
+      "headline": "GoI bond auction lifts G‑sec supply and pressures yields",
+      "what_happened": "The Government of India announced a re‑issue of ₹19,000 crn of 6.53% dated securities maturing in 2031.",
+      "why_it_matters": "Additional sovereign supply will push up 10‑year G‑sec yields, tightening financing conditions for corporates and affecting bond‑fund valuations.",
+      "action": "Watch the pricing of the 2031 issue and the 10‑year yield curve for any acute spread widening.",
+      "priority": 9,
       "scores": {
-        "ca": 6,
-        "business": 8,
-        "market": 7,
-        "global": 4
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
       },
       "confidence": "high",
       "is_update": false,
@@ -191,128 +112,26 @@
       "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63820",
-        "published": "2026-10-19T08:44:53.803298+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "b828db9ab23e",
-      "bucket": "india_economy",
-      "headline": "Surge in state overdrafts to ₹58,569 crore presages expanded SDL borrowing supply",
-      "what_happened": "RBI Weekly Statistical Supplement data showed state government loans and advances spiked by ₹20,155 crore in one week to ₹58,569 crore, up ₹42,453 crore compared to the corresponding period last year.",
-      "why_it_matters": "A sharp rise in state utilization of RBI advances signals acute intra-year cash flow pressure across states, which inevitably spills into elevated State Development Loan issuance and widens SDL-G-sec spreads.",
-      "action": "Assess SDL yield spreads over benchmark 10Y G-sec across state paper holdings in anticipation of expanded state borrowing schedules.",
-      "priority": 6,
-      "scores": {
-        "ca": 4,
-        "business": 5,
-        "market": 7,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63819",
-        "published": "2026-10-19T08:44:53.803732+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "aba1e95980cb",
-      "bucket": "india_economy",
-      "headline": "Capital adequacy revisions for AIFIs tighten prudential norms across development lenders",
-      "what_happened": "The Reserve Bank of India published the Fifth Amendment Directions, 2026, updating capital adequacy prudential norms for All India Financial Institutions under paragraph 77(6)(i).",
-      "why_it_matters": "Stricter risk-weighted capital parameters for institutions like NABARD, SIDBI, and NHB influence their balance sheet capacity and secondary borrowing costs across domestic debt capital markets.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 6,
-        "business": 6,
-        "market": 5,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI Notifications",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13735&Mode=0",
-        "published": "2026-10-19T08:44:54.018084+00:00"
-      },
-      "also_reported_by": [
-        "RBI Notifications"
-      ]
-    },
-    {
-      "id": "03c94e31091f",
-      "bucket": "markets",
-      "headline": "Derivatives closing auction and settlement review threatens to reshape index expiry volatility and execution costs",
-      "what_happened": "SEBI initiated a comprehensive review of the closing auction session, market timings, and settlement methodology for exchange-traded derivatives contracts.",
-      "why_it_matters": "Any structural overhaul of closing price determination and settlement methodology directly alters expiry-day basis risk, tracking error, and hedging slippage across your Nifty and Bank Nifty futures books.",
-      "action": "Review the consultation points regarding proposed changes from volume-weighted average pricing to auction-based settlement before revising derivatives execution parameters.",
-      "priority": 8,
-      "scores": {
-        "ca": 3,
-        "business": 6,
-        "market": 9,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/review-of-certain-aspects-of-the-closing-auction-session-market-timings-and-settlement-methodology-for-derivatives-contracts_105293.html",
-        "published": "2026-10-19T08:44:52.981420+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "e04e9fd54e60",
-      "bucket": "markets",
-      "headline": "VRR bid surge to ₹1.51 lakh crore signals acute festival-season bank funding deficits",
-      "what_happened": "The RBI's 7-day Variable Rate Repo auction drew bids of ₹1,50,735 crore against a notified ₹1,00,000 crore, allotting ₹1,00,014 crore at a cut-off rate of 5.51% and weighted average rate of 5.52%.",
-      "why_it_matters": "Bids exceeding notified supply by 50% demonstrate intensifying systemic liquidity deficits across commercial banks, keeping overnight call rates and short-term certificate of deposit yields sticky at the upper bound.",
-      "action": "Track CP and CD rate spreads over the overnight repo rate as interbank liquidity pressures test front-end curve positioning.",
-      "priority": 7,
-      "scores": {
-        "ca": 2,
-        "business": 5,
-        "market": 8,
-        "global": 3
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63825",
-        "published": "2026-10-19T08:44:53.802535+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63832",
+        "published": "2026-10-20T08:25:36.352761+00:00"
       },
       "also_reported_by": [
         "RBI"
       ]
     },
     {
-      "id": "612cb79cdb41",
-      "bucket": "markets",
-      "headline": "₹23,000 crore T-Bill supply tests short-term money market absorption amidst tight liquidity",
-      "what_happened": "The Reserve Bank of India announced auctions for ₹23,000 crore in Treasury Bills, spanning ₹8,000 crore each in 91-day and 182-day paper and ₹7,000 crore in 364-day paper, settling on October 22.",
-      "why_it_matters": "Heavy short-dated sovereign issuance landing during a period of pronounced VRR borrowing by banks risks pushing primary auction yields higher across the sovereign short curve.",
-      "action": null,
-      "priority": 5,
+      "id": "1d31398a4637",
+      "bucket": "india_economy",
+      "headline": "RBI to run ₹50 bn overnight Variable Rate Repo on Oct 21",
+      "what_happened": "The Reserve Bank of India scheduled a VRR auction of ₹50,000 crn for one‑day tenor on 21 Oct 2026.",
+      "why_it_matters": "A VRR auction signals tighter liquidity and can lift short‑term repo rates, influencing money‑market yields and bank funding costs.",
+      "action": "Monitor repo rate movements and short‑term money‑market spreads after the auction.",
+      "priority": 8,
       "scores": {
-        "ca": 2,
-        "business": 4,
-        "market": 6,
-        "global": 2
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
       },
       "confidence": "high",
       "is_update": false,
@@ -320,49 +139,51 @@
       "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63821",
-        "published": "2026-10-19T08:44:53.803238+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63833",
+        "published": "2026-10-20T08:25:36.352359+00:00"
       },
-      "also_reported_by": []
+      "also_reported_by": [
+        "RBI"
+      ]
     },
     {
-      "id": "0c1385c98e72",
-      "bucket": "ca_work",
-      "headline": "Revised daily minimum CRR maintenance requirement alters bank treasury liquidity buffers",
-      "what_happened": "The Reserve Bank of India issued directions under Section 42(1) of the RBI Act modifying the daily minimum Cash Reserve Ratio maintenance requirements for scheduled commercial banks.",
-      "why_it_matters": "Changes to daily minimum CRR thresholds alter how treasury desks distribute cash balances across reporting fortnights, shifting daily interbank call money demand and short-term liquidity management.",
-      "action": "Examine the revised daily reserve maintenance thresholds in statutory audit compliance programs for banking clients.",
+      "id": "03c94e31091f",
+      "bucket": "markets",
+      "headline": "SEBI reviews closing‑auction timing, may raise index‑expiry volatility",
+      "what_happened": "SEBI issued a review of certain aspects of the Closing Auction Session, market timings and settlement methodology for derivatives contracts.",
+      "why_it_matters": "Changes to auction timing can increase Nifty‑50 futures volatility around expiry, raising execution risk and cost for equity‑index strategies.",
+      "action": "Re‑assess expiry‑day order‑book depth and hedge ratios for index‑linked positions.",
       "priority": 7,
       "scores": {
-        "ca": 8,
-        "business": 6,
-        "market": 7,
-        "global": 2
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
       },
       "confidence": "high",
-      "is_update": false,
-      "update_note": null,
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
       "source": {
-        "name": "RBI Notifications",
+        "name": "SEBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13736&Mode=0",
-        "published": "2026-10-19T08:44:54.017961+00:00"
+        "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/review-of-certain-aspects-of-the-closing-auction-session-market-timings-and-settlement-methodology-for-derivatives-contracts_105293.html",
+        "published": "2026-10-20T08:25:35.998974+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "b89133c09535",
-      "bucket": "ca_work",
-      "headline": "RBI updates FX risk management directions for authorised dealers and corporate hedging",
-      "what_happened": "The Reserve Bank of India issued A.P. (DIR Series) Circular No. 27 updating Master Directions on Risk Management and Inter-Bank Dealings for Authorised Dealers.",
-      "why_it_matters": "Modifications to inter-bank foreign exchange operating guidelines impact how authorised dealers verify underlying corporate exposures and manage cross-border derivative hedges.",
-      "action": "Verify compliance checklists and statutory audit documentation for corporate clients utilizing forward contracts and foreign currency derivative structures.",
+      "id": "bc47cdbf4e92",
+      "bucket": "markets",
+      "headline": "RBI amends limits for non‑option derivative contracts of Small Finance Banks",
+      "what_happened": "The RBI released amendment directions affecting limits for non‑option derivative contracts for small finance banks.",
+      "why_it_matters": "Stricter derivative limits may curb risk‑taking by SFBs, affecting their exposure to interest‑rate movements and overall sector credit risk.",
+      "action": "Review SFBs’ derivative positions and assess impact on their balance‑sheet risk metrics.",
       "priority": 6,
       "scores": {
-        "ca": 8,
-        "business": 5,
-        "market": 6,
-        "global": 4
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
       },
       "confidence": "high",
       "is_update": false,
@@ -370,62 +191,35 @@
       "source": {
         "name": "RBI Notifications",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13739&Mode=0",
-        "published": "2026-10-19T08:44:54.017565+00:00"
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13741&Mode=0",
+        "published": "2026-10-20T08:25:35.082396+00:00"
       },
       "also_reported_by": [
         "RBI Notifications"
       ]
     },
     {
-      "id": "9c9ebecb42c6",
+      "id": "0c1385c98e72",
       "bucket": "ca_work",
-      "headline": "SEBI's AIF Third Amendment tightens fund structuring and operational governance",
-      "what_happened": "SEBI notified the Securities and Exchange Board of India (Alternative Investment Funds) (Third Amendment) Regulations, 2026, updating regulatory requirements for private funds.",
-      "why_it_matters": "These regulatory adjustments impact fund structuring mandates, co-investment vehicles, and operational reporting, affecting both fund sponsors and tax advisory practices servicing private investment vehicles.",
-      "action": "Review client alternative investment fund structures against the newly notified third amendment operational clauses.",
-      "priority": 6,
-      "scores": {
-        "ca": 8,
-        "business": 5,
-        "market": 5,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/legal/regulations/oct-2026/securities-and-exchange-board-of-india-alternative-investment-funds-third-amendment-regulations-2026_105331.html",
-        "published": "2026-10-19T08:44:52.981300+00:00"
-      },
-      "also_reported_by": [
-        "SEBI"
-      ]
-    },
-    {
-      "id": "65a842a08c07",
-      "bucket": "watchlist",
-      "headline": "Gulf Coast Hurricane Isaias shut-ins threaten immediate US crude output and support Brent prices",
-      "what_happened": "The US EIA reported that Category 2 Hurricane Isaias is approaching the Gulf Coast, triggering upstream oil production shut-ins and raising risks of regional refining and export infrastructure disruptions.",
-      "why_it_matters": "Production curtailments in the Gulf of Mexico tighten prompt Atlantic Basin supplies, placing upward pressure on Brent crude prices and raising landed crude costs for Indian downstream refiners.",
-      "action": null,
-      "priority": 6,
+      "headline": "RBI raises daily minimum CRR to 90%, tightening bank liquidity",
+      "what_happened": "The RBI issued a direction changing the daily minimum Cash Reserve Ratio for scheduled banks to not less than 90%.",
+      "why_it_matters": "Higher CRR reduces banks’ cash buffers, tightening liquidity and potentially supporting higher G‑sec yields and tighter credit spreads.",
+      "action": "Check banks’ CRR compliance and adjust liquidity forecasts for the coming quarter.",
+      "priority": 8,
       "scores": {
         "ca": 1,
-        "business": 5,
-        "market": 7,
-        "global": 7
+        "business": 0,
+        "market": 1,
+        "global": 0
       },
       "confidence": "high",
-      "is_update": false,
-      "update_note": null,
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
       "source": {
-        "name": "US EIA (energy)",
-        "tier": "data",
-        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
-        "published": "2026-10-19T08:44:55.525482+00:00"
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13736&Mode=0",
+        "published": "2026-10-20T08:25:35.082972+00:00"
       },
       "also_reported_by": []
     }

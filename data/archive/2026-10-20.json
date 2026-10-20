@@ -1,0 +1,227 @@
+{
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T14:00:22.885474+05:30",
+  "scoring": "groq",
+  "stats": {
+    "items": 6,
+    "actions": 6,
+    "candidates": 187,
+    "sources_ok": 24,
+    "sources_failed": 5,
+    "sources_blocked": 10
+  },
+  "five_minutes": [
+    "RBI will auction ₹19,000 crn 6.53% 2031 dated bonds, likely lifting G‑sec yields and tightening sovereign spreads.",
+    "RBI plans a ₹50 bn overnight Variable Rate Repo on Oct 21, signalling tighter liquidity and could push short‑term money‑market rates higher.",
+    "A hurricane forecast to hit the Gulf Coast threatens crude output, pushing Brent up and adding pressure on the INR via a higher import bill.",
+    "SEBI’s review of the derivatives closing‑auction timing may increase Nifty‑50 futures volatility around expiry, affecting execution costs for index trades.",
+    "RBI’s new daily minimum CRR of 90% reduces banks’ cash buffers, tightening liquidity for the banking sector and may support higher G‑sec yields."
+  ],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "supports",
+      "note": "BBC analysis of the US economy under President Trump highlights weaker growth and inflation, aligning with the view of an impending decline."
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "no_signal",
+      "note": ""
+    }
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "global",
+      "label": "Central banks & global macro"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · macro, flows and policy"
+    },
+    {
+      "id": "markets",
+      "label": "Markets · cross-asset context"
+    },
+    {
+      "id": "ca_work",
+      "label": "Tax, audit & compliance"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "65a842a08c07",
+      "bucket": "global",
+      "headline": "Hurricane Isaias threatens Gulf‑Coast crude output, could lift Brent",
+      "what_happened": "Hurricane Isaias is forecast to make landfall on the Gulf Coast, risking significant disruptions to US energy infrastructure.",
+      "why_it_matters": "Supply shocks from the hurricane can push Brent crude higher, raising India’s oil import bill and adding downside pressure on the INR.",
+      "action": "Track Brent price movements and the INR/USD pair for any volatility spikes post‑landfall.",
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-10-20T08:25:36.420715+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "3132edc8ba88",
+      "bucket": "india_economy",
+      "headline": "GoI bond auction lifts G‑sec supply and pressures yields",
+      "what_happened": "The Government of India announced a re‑issue of ₹19,000 crn of 6.53% dated securities maturing in 2031.",
+      "why_it_matters": "Additional sovereign supply will push up 10‑year G‑sec yields, tightening financing conditions for corporates and affecting bond‑fund valuations.",
+      "action": "Watch the pricing of the 2031 issue and the 10‑year yield curve for any acute spread widening.",
+      "priority": 9,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63832",
+        "published": "2026-10-20T08:25:36.352761+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "1d31398a4637",
+      "bucket": "india_economy",
+      "headline": "RBI to run ₹50 bn overnight Variable Rate Repo on Oct 21",
+      "what_happened": "The Reserve Bank of India scheduled a VRR auction of ₹50,000 crn for one‑day tenor on 21 Oct 2026.",
+      "why_it_matters": "A VRR auction signals tighter liquidity and can lift short‑term repo rates, influencing money‑market yields and bank funding costs.",
+      "action": "Monitor repo rate movements and short‑term money‑market spreads after the auction.",
+      "priority": 8,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63833",
+        "published": "2026-10-20T08:25:36.352359+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "03c94e31091f",
+      "bucket": "markets",
+      "headline": "SEBI reviews closing‑auction timing, may raise index‑expiry volatility",
+      "what_happened": "SEBI issued a review of certain aspects of the Closing Auction Session, market timings and settlement methodology for derivatives contracts.",
+      "why_it_matters": "Changes to auction timing can increase Nifty‑50 futures volatility around expiry, raising execution risk and cost for equity‑index strategies.",
+      "action": "Re‑assess expiry‑day order‑book depth and hedge ratios for index‑linked positions.",
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/review-of-certain-aspects-of-the-closing-auction-session-market-timings-and-settlement-methodology-for-derivatives-contracts_105293.html",
+        "published": "2026-10-20T08:25:35.998974+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "bc47cdbf4e92",
+      "bucket": "markets",
+      "headline": "RBI amends limits for non‑option derivative contracts of Small Finance Banks",
+      "what_happened": "The RBI released amendment directions affecting limits for non‑option derivative contracts for small finance banks.",
+      "why_it_matters": "Stricter derivative limits may curb risk‑taking by SFBs, affecting their exposure to interest‑rate movements and overall sector credit risk.",
+      "action": "Review SFBs’ derivative positions and assess impact on their balance‑sheet risk metrics.",
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13741&Mode=0",
+        "published": "2026-10-20T08:25:35.082396+00:00"
+      },
+      "also_reported_by": [
+        "RBI Notifications"
+      ]
+    },
+    {
+      "id": "0c1385c98e72",
+      "bucket": "ca_work",
+      "headline": "RBI raises daily minimum CRR to 90%, tightening bank liquidity",
+      "what_happened": "The RBI issued a direction changing the daily minimum Cash Reserve Ratio for scheduled banks to not less than 90%.",
+      "why_it_matters": "Higher CRR reduces banks’ cash buffers, tightening liquidity and potentially supporting higher G‑sec yields and tighter credit spreads.",
+      "action": "Check banks’ CRR compliance and adjust liquidity forecasts for the coming quarter.",
+      "priority": 8,
+      "scores": {
+        "ca": 1,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13736&Mode=0",
+        "published": "2026-10-20T08:25:35.082972+00:00"
+      },
+      "also_reported_by": []
+    }
+  ]
+}
