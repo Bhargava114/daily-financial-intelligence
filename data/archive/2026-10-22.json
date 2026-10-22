@@ -1,0 +1,202 @@
+{
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T14:02:14.792658+05:30",
+  "scoring": "groq",
+  "stats": {
+    "items": 5,
+    "actions": 1,
+    "candidates": 193,
+    "sources_ok": 24,
+    "sources_failed": 5,
+    "sources_blocked": 10
+  },
+  "five_minutes": [
+    "Repo auction cut‑off rate 5.54% lifts short‑term money‑market rates, nudging G‑sec yields higher.",
+    "₹33 bn underwriting auction adds supply pressure, likely pushing 10‑yr G‑sec yields up.",
+    "Overnight money‑market weighted average rate 5.64% stays elevated, supporting INR pressure.",
+    "SEBI AIF Third Amendment raises compliance reporting for alternative funds, increasing audit effort.",
+    "RBI confirms CRR floor at 90%, keeping bank liquidity constraints unchanged."
+  ],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "no_signal",
+      "note": ""
+    }
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "global",
+      "label": "Central banks & global macro"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · macro, flows and policy"
+    },
+    {
+      "id": "markets",
+      "label": "Markets · cross-asset context"
+    },
+    {
+      "id": "ca_work",
+      "label": "Tax, audit & compliance"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "c03dce7a9ee8",
+      "bucket": "markets",
+      "headline": "₹33,000 cr government securities underwriting auction adds supply pressure, likely nudging 10‑yr G‑sec yields up",
+      "what_happened": "The government announced an underwriting auction of ₹33 bn of dated bonds scheduled for Oct 23.",
+      "why_it_matters": "Extra supply in the dated‑bond segment can lift benchmark 10‑yr yields, raise corporate borrowing costs and affect duration exposure in fixed‑income portfolios.",
+      "action": null,
+      "priority": 9,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63844",
+        "published": "2026-10-22T08:31:03.829942+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "9a76b6e9d862",
+      "bucket": "markets",
+      "headline": "Repo auction cut‑off rate of 5.54% signals tighter short‑term liquidity and pushes INR‑linked short‑term yields higher",
+      "what_happened": "The overnight variable‑rate repo auction on Oct 22 allotted the full ₹50 bn at a cut‑off of 5.54% and a weighted average of 5.55%.",
+      "why_it_matters": "Higher repo rates raise money‑market rates, lift short‑end G‑sec yields and increase funding costs for banks, which can pressure the INR and equity valuations.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63843",
+        "published": "2026-10-22T08:31:03.829986+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "d8e412bc49d2",
+      "bucket": "markets",
+      "headline": "Weighted average overnight money‑market rate at 5.64% indicates sustained high short‑term funding cost",
+      "what_happened": "Money‑market operations on Oct 21 show a weighted‑average overnight rate of 5.64% (range 4.85‑6.00%).",
+      "why_it_matters": "Persistently high money‑market rates keep short‑end yields elevated, supporting INR pressure against a strong USD and influencing cost‑of‑carry for equity positions.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63842",
+        "published": "2026-10-22T08:31:03.830212+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "9c9ebecb42c6",
+      "bucket": "ca_work",
+      "headline": "SEBI’s Third Amendment to AIF Regulations tightens compliance reporting, raising audit workload for alternative‑fund managers",
+      "what_happened": "The Securities and Exchange Board of India issued the Alternative Investment Funds (Third Amendment) Regulations, 2026.",
+      "why_it_matters": "The amendment adds new disclosure and reporting obligations for AIFs, meaning CA clients will need to update compliance processes and may incur higher audit fees.",
+      "action": "Notify AIF‑related clients to review the new regulations and adjust their reporting calendars this week.",
+      "priority": 8,
+      "scores": {
+        "ca": 1,
+        "business": 0,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/legal/regulations/oct-2026/securities-and-exchange-board-of-india-alternative-investment-funds-third-amendment-regulations-2026_105331.html",
+        "published": "2026-10-22T08:31:03.356936+00:00"
+      },
+      "also_reported_by": [
+        "SEBI"
+      ]
+    },
+    {
+      "id": "0c1385c98e72",
+      "bucket": "ca_work",
+      "headline": "RBI clarifies minimum Cash Reserve Ratio stays at 90%, confirming no easing of bank liquidity buffers",
+      "what_happened": "The RBI issued a notice stating that scheduled banks must maintain a CRR of not less than 90%.",
+      "why_it_matters": "A unchanged CRR limits banks’ ability to expand credit, sustaining current funding‑cost dynamics and supporting the outlook for short‑term rates.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 1,
+        "business": 0,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13736&Mode=0",
+        "published": "2026-10-22T08:31:02.879333+00:00"
+      },
+      "also_reported_by": []
+    }
+  ]
+}
