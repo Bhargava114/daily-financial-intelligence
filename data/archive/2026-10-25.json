@@ -1,0 +1,381 @@
+{
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T13:52:07.328294+05:30",
+  "scoring": "gemini",
+  "stats": {
+    "items": 12,
+    "actions": 7,
+    "candidates": 150,
+    "sources_ok": 24,
+    "sources_failed": 5,
+    "sources_blocked": 10
+  },
+  "five_minutes": [
+    "Domestic gold futures tumbled 3.5% this week as expectations of tighter US monetary policy and higher crude lifted real yields, capping bullion's recent highs.",
+    "The RBI relaxed daily minimum CRR maintenance for scheduled commercial banks to 90%, offering operational leeway to curb overnight interbank rate volatility.",
+    "Sovereign short-term supply of ₹23,000 crore in Treasury bills on October 28 will test domestic money market liquidity and anchor short-term borrowing costs.",
+    "RBI loans to state governments contracted by ₹28,869 crore week-on-week, limiting sub-national liquidity expansion ahead of planned state debt auctions.",
+    "UK budget fiscal constraints and sovereign borrowing plans highlight structural pressures sustaining elevated benchmark bond yields across developed markets."
+  ],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "supports",
+      "note": "Domestic gold prices fell roughly 3.5% to 3.85% this week as expectations of tighter US monetary policy dampened bullion momentum at record levels."
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "no_signal",
+      "note": ""
+    }
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "global",
+      "label": "Central banks & global macro"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · macro, flows and policy"
+    },
+    {
+      "id": "markets",
+      "label": "Markets · cross-asset context"
+    },
+    {
+      "id": "ca_work",
+      "label": "Tax, audit & compliance"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "e23b0269d1b8",
+      "bucket": "global",
+      "headline": "UK budget revenue search reflects fiscal constraints across major sovereign debt issuers",
+      "what_happened": "The UK government is finalizing revenue-raising options and spending measures—including a £1 billion affordable housing package—ahead of its budget without increasing headline income tax rates.",
+      "why_it_matters": "Developed market fiscal deficits are driving elevated benchmark Gilt and Treasury yields globally. Persistent sovereign borrowing requirements sustain high real risk-free rates, maintaining structural upward pressure on emerging market external borrowing spreads and currency valuations.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 4,
+        "business": 5,
+        "market": 7,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/c65yn9p55np2o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-10-25T06:00:15+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "0c1385c98e72",
+      "bucket": "india_economy",
+      "headline": "RBI permits 90% daily minimum CRR maintenance, granting temporary operational flexibility for bank treasury desks",
+      "what_happened": "The Reserve Bank of India issued a notification under Section 42(1) of the RBI Act allowing scheduled commercial banks to maintain daily Cash Reserve Ratio compliance at not less than 90%.",
+      "why_it_matters": "This prevents bank treasury desks from bidding up call money rates on individual settlement days when systemic liquidity is under pressure. For bank margins and short-end borrowing costs, it dampens abrupt spikes in overnight interbank rates.",
+      "action": "Check bank client treasury compliance reports to ensure daily maintenance buffers conform to the revised 90% minimum threshold.",
+      "priority": 8,
+      "scores": {
+        "ca": 8,
+        "business": 8,
+        "market": 8,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13736&Mode=0",
+        "published": "2026-10-25T08:19:26.323982+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "e16476633b48",
+      "bucket": "india_economy",
+      "headline": "RBI loans to state governments drop by ₹28,869 crore, signaling contraction in sub-national deficit financing",
+      "what_happened": "RBI Weekly Statistical Supplement data shows outstanding loans and advances to state governments fell sharply by ₹28,869 crore week-on-week to ₹29,700 crore as of October 16.",
+      "why_it_matters": "The steep drop in states tapping RBI liquidity facilities points to quarter-end repayment adjustments or reliance on open market State Development Loans (SDLs). A reduced reliance on Ways and Means Advances/overdrafts tempers state liquidity expansion and keeps pressure on SDL bond auction supply.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 5,
+        "business": 5,
+        "market": 7,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63855",
+        "published": "2026-10-25T08:19:26.554702+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "d1dd398e4950",
+      "bucket": "india_economy",
+      "headline": "RBI releases fortnightly M3 money supply figures, establishing benchmark for bank credit and deposit traction",
+      "what_happened": "The Reserve Bank of India released official data on Money Supply (M3) for the fortnight ended October 15, 2026.",
+      "why_it_matters": "Tracking broad money growth against credit expansion indicates whether banking sector deposit growth is keeping pace with lending demand. Any widening gap reinforces systemic liquidity tightness and upward pressure on bank deposit rates.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 4,
+        "business": 6,
+        "market": 6,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63856",
+        "published": "2026-10-25T08:19:26.554370+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "39435ddf2c05",
+      "bucket": "markets",
+      "headline": "Gold's 3.5% weekly slide reflects hawkish US monetary expectations capping upside despite geopolitical stress",
+      "what_happened": "MCX gold futures dropped roughly 3.5% this week while Chennai retail 24K prices fell 3.85% to ₹1,42,480 per 10 grams, weighed down by higher crude oil and expectations of tighter US monetary policy.",
+      "why_it_matters": "Rising US rate expectations and firming energy prices are overriding festival demand and geopolitical hedges, confirming that bullion faces heavy resistance at current all-time highs. Reassess tactical long gold exposures across client portfolios as higher-for-longer yields lift real opportunity costs.",
+      "action": "Review tactical gold allocation weights in multi-asset client portfolios ahead of next week's US rate commentary.",
+      "priority": 8,
+      "scores": {
+        "ca": 3,
+        "business": 7,
+        "market": 9,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/commodities/gold-rates-in-chennai-city-crash-this-week-can-yellow-metal-rebound-ahead-of-diwali-key-levels-to-watch-in-future-11792820547953.html",
+        "published": "2026-10-24T06:37:55+00:00"
+      },
+      "also_reported_by": [
+        "Mint · Markets"
+      ]
+    },
+    {
+      "id": "cf24c6072a42",
+      "bucket": "markets",
+      "headline": "GoI short-term paper supply of ₹23,000 crore across three tenors set to test money market liquidity",
+      "what_happened": "The RBI announced auctions for Government of India Treasury Bills totaling ₹23,000 crore (₹8,000 crore in 91-day, ₹8,000 crore in 182-day, and ₹7,000 crore in 364-day) scheduled for October 28.",
+      "why_it_matters": "With systemic liquidity already tight, fresh sovereign absorption at the short end will anchor T-bill yields higher and compete directly with short-term commercial paper and certificate of deposit issuances. Watch cutoff yields for signs of non-bank liquidity absorption.",
+      "action": "Track cutoff yields at the October 28 auction for pricing corporate short-term debt and bank CD spreads.",
+      "priority": 7,
+      "scores": {
+        "ca": 5,
+        "business": 6,
+        "market": 8,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63857",
+        "published": "2026-10-25T08:19:26.554341+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "da788d26d22b",
+      "bucket": "markets",
+      "headline": "Corporate action rush across 25 firms triggers dividend and corporate adjustment cutoffs next week",
+      "what_happened": "Over 25 companies, including Shriram Finance, Hexaware Technologies, RailTel, and Cyient, have set record dates between October 26 and 30 for dividends, rights issues, and corporate restructurings.",
+      "why_it_matters": "Concentrated record dates require derivative price adjustments and dividend entitlement reconciliations across client equity portfolios. For wealth and CA clients, dividend distribution timing also impacts quarterly advance tax computations.",
+      "action": "Reconcile client equity portfolios for record date cutoffs between October 26 and October 30 to account for dividend accruals.",
+      "priority": 5,
+      "scores": {
+        "ca": 6,
+        "business": 6,
+        "market": 6,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/stock-market-news/dividend-split-rights-issue-buyback-next-week-hexaware-tech-cyient-railtel-to-sagility-check-record-dates-11792826529111.html",
+        "published": "2026-10-24T08:13:33+00:00"
+      },
+      "also_reported_by": [
+        "Guardian Business",
+        "Mint · Markets"
+      ]
+    },
+    {
+      "id": "b89133c09535",
+      "bucket": "ca_work",
+      "headline": "RBI updates inter-bank risk management directions, tightening FX hedging and dealer compliance standards",
+      "what_happened": "The RBI issued A.P. (DIR Series) Circular No. 27 updating its Master Direction on Risk Management and Inter-Bank Dealings for all Authorised Dealers.",
+      "why_it_matters": "Authorized dealer banks and corporate treasury clients must align cross-border derivative bookings and underlying exposure verifications to the updated Master Direction. Failure to document valid underlying foreign currency exposures invites regulatory scrutiny during statutory FX audits.",
+      "action": "Review client cross-border hedging documentation against the amended Master Direction provisions.",
+      "priority": 7,
+      "scores": {
+        "ca": 8,
+        "business": 7,
+        "market": 6,
+        "global": 5
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13739&Mode=0",
+        "published": "2026-10-25T08:19:26.323737+00:00"
+      },
+      "also_reported_by": [
+        "RBI Notifications"
+      ]
+    },
+    {
+      "id": "8a677215fdaf",
+      "bucket": "ca_work",
+      "headline": "SEBI reviews call recording mandates for institutional research, signaling compliance relief for institutional desks",
+      "what_happened": "SEBI initiated a regulatory review of the requirement for Research Analysts and Research Entities to maintain call records of institutional clients.",
+      "why_it_matters": "Relaxing institutional call-logging requirements would reduce infrastructure and record-keeping overhead for institutional research houses without compromising retail investor protection. For your audit and advisory clients in financial services, this signals potential rationalization of compliance costs.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 7,
+        "business": 6,
+        "market": 5,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/review-of-regulatory-requirement-for-maintenance-of-call-records-of-institutional-clients-by-research-analysts-or-research-entities_105400.html",
+        "published": "2026-10-25T08:19:25.875753+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "a8e521184bfe",
+      "bucket": "ca_work",
+      "headline": "SEBI amends Infrastructure Investment Trusts regulations, refining structural compliance for sponsors",
+      "what_happened": "SEBI published the amended Securities and Exchange Board of India (Infrastructure Investment Trusts) Regulations, updated as of October 16, 2026.",
+      "why_it_matters": "The amendments update governance and regulatory compliance frameworks for InvITs and their investment managers. CA professionals advising infrastructure sponsors and institutional asset aggregators need to verify operational and disclosure alignment under the updated text.",
+      "action": "Verify client InvIT governance structures against the October 16 amended regulation text.",
+      "priority": 6,
+      "scores": {
+        "ca": 8,
+        "business": 6,
+        "market": 5,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/legal/regulations/oct-2026/securities-and-exchange-board-of-india-infrastructure-investment-trusts-regulations-2014-last-amended-on-october-16-2026-_105377.html",
+        "published": "2026-10-25T08:19:25.876145+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "5ed51d8ee961",
+      "bucket": "ca_work",
+      "headline": "RBI issues Second Amendment to Forthcoming Instructions Directions, adjusting commercial bank regulatory timelines",
+      "what_happened": "The Reserve Bank of India notified the Commercial Banks (Forthcoming Instructions) Second Amendment Directions, 2026, modifying Chapter IV of the November 2025 directions.",
+      "why_it_matters": "While technical in scope, modifications to forthcoming bank operational directions alter the implementation calendars for commercial bank regulatory adherence. Audit teams reviewing banking clients need to note revised compliance phase-in windows.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 7,
+        "business": 5,
+        "market": 4,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13744&Mode=0",
+        "published": "2026-10-25T08:19:26.321255+00:00"
+      },
+      "also_reported_by": [
+        "RBI",
+        "RBI Notifications"
+      ]
+    },
+    {
+      "id": "488a045a46e9",
+      "bucket": "ca_work",
+      "headline": "RBI mandates immediate screening updates following amended UNSC ISIL and Al-Qaida sanctions list",
+      "what_happened": "The RBI directed all banks, NBFCs, and ARCs to update sanction lists under Section 51A of UAPA following changes to three entries by the UNSC 1267/1989 Committee.",
+      "why_it_matters": "Regulated entities face strict non-compliance penalties for failing to execute immediate screening across customer databases and transaction monitoring engines. CA and compliance auditors must ensure automated AML/CFT matching algorithms reflect the three modified entries.",
+      "action": "Audit AML screening filters across financial institution clients to verify inclusion of the updated UNSC sanctions entries.",
+      "priority": 5,
+      "scores": {
+        "ca": 7,
+        "business": 5,
+        "market": 3,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13742&Mode=0",
+        "published": "2026-10-25T08:19:26.323522+00:00"
+      },
+      "also_reported_by": []
+    }
+  ]
+}
