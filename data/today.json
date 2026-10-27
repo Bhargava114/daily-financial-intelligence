@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-26",
-  "generated_at": "2026-10-26T14:18:31.935942+05:30",
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T14:27:17.878518+05:30",
   "scoring": "gemini",
   "stats": {
-    "items": 11,
-    "actions": 2,
-    "candidates": 178,
-    "sources_ok": 24,
-    "sources_failed": 5,
+    "items": 10,
+    "actions": 5,
+    "candidates": 206,
+    "sources_ok": 23,
+    "sources_failed": 6,
     "sources_blocked": 10
   },
   "five_minutes": [
-    "India's private capex pipeline expanded 39% to ₹99.7 lakh crore in September, led by manufacturing and power projects.",
-    "RBI injected ₹1.5 lakh crore through a 4-day VRR auction at a 5.55% cut-off to relieve short-term liquidity deficits.",
-    "GoI confirmed a ₹23,000 crore Treasury bill auction for October 28, keeping short-end money market yields firm.",
-    "US Gulf Coast energy production shut-ins from Hurricane Isaias threaten temporary supply tightness for Brent crude.",
-    "RBI delegated FEMA compounding powers to regional offices, accelerating settlement timelines for cross-border compliance cases."
+    "Banking system liquidity deficit persisted as RBI's ₹1.5 lakh crore VRR auction saw oversubscription with ₹1.86 lakh crore in bids.",
+    "India announced a ₹33,000 crore G-sec auction across four dated securities, testing sovereign yield curve absorption capacity.",
+    "US Gulf Coast energy shut-ins escalated as Category 2 Hurricane Isaias approached, threatening short-term crude supply tightness.",
+    "ECB corporate survey showed tightened Eurozone credit conditions, reinforcing European economic slowdown and policy easing expectations.",
+    "Bank of Japan service price metrics signal lingering wage-driven inflation pressures, keeping BOJ rate normalization on track."
   ],
   "theses": [
     {
@@ -68,16 +68,145 @@
   ],
   "items": [
     {
-      "id": "4c7f1769f749",
-      "bucket": "must_know",
-      "headline": "Expanding private capex pipeline underpins medium-term corporate credit demand and industrial equity earnings",
-      "what_happened": "India's private capital expenditure pipeline reached ₹99.7 lakh crore in September 2026, up 39%, with manufacturing and electricity accounting for the largest share.",
-      "why_it_matters": "A expanding capex queue supports long-term corporate credit growth and capital goods order books. However, geographical and sector concentration risks mean execution delays could limit immediate earnings translation for broader equities.",
+      "id": "65a842a08c07",
+      "bucket": "global",
+      "headline": "Gulf Coast crude production shut-ins expanded further as Category 2 Hurricane Isaias approached landfall",
+      "what_happened": "The US EIA reported that Category 2 Hurricane Isaias is nearing landfall on the Gulf Coast, causing energy infrastructure shut-ins and production disruptions.",
+      "why_it_matters": "Gulf Coast supply halts threaten short-term tightness in global crude supply, adding upward cost pressure on Brent crude and widening India's import bill.",
+      "action": "Monitor Brent crude spot prices and US Gulf Coast refiner restart timelines.",
+      "priority": 7,
+      "scores": {
+        "ca": 1,
+        "business": 6,
+        "market": 8,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-10-27T08:53:04.469522+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "3298a6bee645",
+      "bucket": "global",
+      "headline": "Tightened Eurozone bank lending conditions reinforce ECB monetary transmission and signal softening corporate demand",
+      "what_happened": "The ECB's Survey on the Access to Finance of Enterprises showed that enterprise credit conditions tightened across the euro area.",
+      "why_it_matters": "Restrictive bank lending conditions in Europe affirm slowing economic momentum and reinforce expectations for further ECB rate cuts to prevent credit contraction.",
       "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 1,
+        "business": 5,
+        "market": 7,
+        "global": 9
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "ECB",
+        "tier": "primary",
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261026~bde7b6d11a.en.html",
+        "published": "2026-10-26T09:00:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "3ef775ec92a3",
+      "bucket": "global",
+      "headline": "Japanese service price momentum and CPI metrics maintain focus on Bank of Japan rate normalisation timeline",
+      "what_happened": "The Bank of Japan released September Services Producer Price Index data along with updated core CPI indicators.",
+      "why_it_matters": "Sustained service sector price pressures support the BoJ's thesis of domestic wage-price transmission, keeping further rate hikes on the table and supporting yen valuation.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 1,
+        "business": 4,
+        "market": 7,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Bank of Japan",
+        "tier": "primary",
+        "url": "http://www.boj.or.jp/en/research/research_data/cpi/index.htm",
+        "published": "2026-10-27T05:00:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "cb6be6d68d9c",
+      "bucket": "global",
+      "headline": "Anthropic's public listing disclosures bring AI risk factor disclosures to equity valuation models",
+      "what_happened": "Anthropic filed for a public listing, highlighting governance and operational risks ahead of becoming the first pure-play AI company to go public.",
+      "why_it_matters": "Pricing pure-play AI equity risk will set a benchmark for public markets, testing investor appetite for heavy capex AI balance sheets.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 1,
+        "business": 7,
+        "market": 7,
+        "global": 7
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-10-26T16:27:17+00:00"
+      },
+      "also_reported_by": [
+        "BBC Business"
+      ]
+    },
+    {
+      "id": "b88b0cc5d0fa",
+      "bucket": "india_economy",
+      "headline": "Money market liquidity tightness persisted as RBI 4-day VRR drew ₹1.86 lakh crore in bids against ₹1.5 lakh crore allotted",
+      "what_happened": "RBI allotted ₹1,50,007 crore in its 4-day Variable Rate Repo auction at a cut-off rate of 5.55%, against total bids received of ₹1,86,666 crore.",
+      "why_it_matters": "Demand exceeding the ₹1.5 lakh crore target confirms lingering overnight liquidity deficit in the banking system, keeping short-term money market rates pinned near the upper policy band.",
+      "action": "Track system liquidity deficit and upcoming T-bill and G-sec settlement outflows for money market positioning.",
       "priority": 8,
       "scores": {
+        "ca": 3,
+        "business": 6,
+        "market": 8,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63864",
+        "published": "2026-10-27T08:53:04.026435+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "313abb034980",
+      "bucket": "india_economy",
+      "headline": "Scheduled ₹33,000 crore sovereign bond auction tests primary market demand across the yield curve",
+      "what_happened": "The Government of India announced the re-issue of four dated securities totaling ₹33,000 crore, including ₹9,000 crore of 6.20% GS 2029.",
+      "why_it_matters": "Fresh supply will test duration appetite among institutional investors, potentially putting upward yield pressure on benchmark G-secs unless offset by VRR support or buying interest.",
+      "action": "Monitor bidding yields at the auction to gauge term premium demands on 5-year to 10-year G-sec papers.",
+      "priority": 7,
+      "scores": {
         "ca": 2,
-        "business": 8,
+        "business": 5,
         "market": 8,
         "global": 3
       },
@@ -85,209 +214,28 @@
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "Economic Times · Economy",
-        "tier": "paper",
-        "url": "https://economictimes.indiatimes.com/news/economy/finance/indias-private-capex-pipeline-surges-39-to-rs-99-7-lakh-crore-risks-rise-report/articleshow/135186243.cms",
-        "published": "2026-10-25T07:57:04+00:00"
-      },
-      "also_reported_by": [
-        "BusinessLine"
-      ]
-    },
-    {
-      "id": "65a842a08c07",
-      "bucket": "global",
-      "headline": "Gulf Coast hurricane shut-ins threaten temporary crude supply tightness and upward Brent volatility",
-      "what_happened": "Category 2 Hurricane Isaias is nearing US Gulf Coast landfall, triggering oil production shut-ins and infrastructure disruptions across offshore fields.",
-      "why_it_matters": "Near-term supply curtailments in the Gulf of Mexico put upward pressure on crude benchmarks. For India, elevated Brent prices directly widen the import bill and threaten trade deficit expectations.",
-      "action": null,
-      "priority": 7,
-      "scores": {
-        "ca": 0,
-        "business": 6,
-        "market": 8,
-        "global": 9
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "US EIA (energy)",
-        "tier": "data",
-        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
-        "published": "2026-10-26T08:47:22.080226+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "24b3714edac9",
-      "bucket": "global",
-      "headline": "UK Budget set for October 28 firmed fiscal consolidation concerns across European sovereign bond markets",
-      "what_happened": "UK Chancellor John Healey confirmed the Autumn Budget presentation for October 28, focusing on tax policy changes and funding balance.",
-      "why_it_matters": "The fiscal balance between revenue raising and borrowing will determine UK Gilt supply expectations. It serves as a benchmark for fiscal constraint pressures confronting major sovereign debt issuers.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 1,
-        "business": 4,
-        "market": 6,
-        "global": 8
-      },
-      "confidence": "high",
-      "is_update": true,
-      "update_note": "Continues yesterday's story.",
-      "source": {
-        "name": "BBC Business",
-        "tier": "wire",
-        "url": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss",
-        "published": "2026-10-26T02:16:37+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "48d2f8f1d92f",
-      "bucket": "india_economy",
-      "headline": "RBI October Bulletin highlights bank lending rate transmission mechanism and NBFC balance sheet health",
-      "what_happened": "The Reserve Bank of India released its October 2026 Bulletin featuring empirical studies on WALR transmission dynamics and financial performance across the NBFC sector.",
-      "why_it_matters": "The analysis provides crucial empirical backing on how bank funding costs filter into WALR across lending segments. It reinforces the expectation that credit spreads for NBFCs will remain differentiated based on asset quality and borrowing mix.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 3,
-        "business": 7,
-        "market": 8,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63859",
-        "published": "2026-10-26T08:47:21.948486+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "e7a1f610464c",
-      "bucket": "india_economy",
-      "headline": "Potential Chinese solar export curbs pose cost escalation and project delay risks for Indian clean energy capex",
-      "what_happened": "Solex Energy warned that pending Chinese technology export restrictions on solar manufacturing equipment could cause module shortages and tariff inflation in India.",
-      "why_it_matters": "Supply chain friction in solar component imports threatens project timelines and execution costs for power developers, risking margin pressure across renewable energy portfolios.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 1,
-        "business": 7,
-        "market": 6,
-        "global": 6
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "BusinessLine",
-        "tier": "paper",
-        "url": "https://www.thehindubusinessline.com/economy/govt-needs-to-incentivise-domestic-solar-production-as-china-eyes-curbs-on-tech-exports-solex-chairman/article71622836.ece",
-        "published": "2026-10-25T08:26:36+00:00"
-      },
-      "also_reported_by": [
-        "BusinessLine"
-      ]
-    },
-    {
-      "id": "b88b0cc5d0fa",
-      "bucket": "markets",
-      "headline": "RBI injects ₹1.5 lakh crore via 4-day VRR to cap short-term money market rate spikes",
-      "what_happened": "The RBI allotted ₹1,50,007 crore in a 4-day Variable Rate Repo auction against bids of ₹1,86,666 crore, settling at a cut-off rate of 5.55% and weighted average rate of 5.59%.",
-      "why_it_matters": "Over-subscription in the repo facility highlights persistent frictional deficit in banking liquidity. This active central bank intervention prevents overnight call rates from drifting above the policy corridor.",
-      "action": null,
-      "priority": 7,
-      "scores": {
-        "ca": 1,
-        "business": 5,
-        "market": 8,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63864",
-        "published": "2026-10-26T08:47:21.936932+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63868",
+        "published": "2026-10-27T08:53:04.024921+00:00"
       },
       "also_reported_by": [
         "RBI"
       ]
     },
     {
-      "id": "cf24c6072a42",
-      "bucket": "markets",
-      "headline": "GoI short-term supply locked in as RBI sets ₹23,000 crore T-bill auction for October 28",
-      "what_happened": "The RBI announced auction details for ₹8,000 crore of 91-Day, ₹8,000 crore of 182-Day, and ₹7,000 crore of 364-Day T-Bills scheduled for settlement on October 29.",
-      "why_it_matters": "Continued heavy paper supply across short tenors tests money market absorption capacity while banking liquidity remains tight. This reinforces elevated yields at the short end of the Indian sovereign curve.",
-      "action": "Track auction cut-off yields on Wednesday to gauge short-term yield curve repricing.",
-      "priority": 7,
-      "scores": {
-        "ca": 1,
-        "business": 4,
-        "market": 8,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": true,
-      "update_note": "Continues yesterday's story.",
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63857",
-        "published": "2026-10-26T08:47:21.948854+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "d505195db8fc",
-      "bucket": "markets",
-      "headline": "Subdued return on equity capped Kotak Mahindra Bank's valuation premium despite steady Q2 earnings",
-      "what_happened": "Kotak Mahindra Bank reported healthy Q2 core operating profit and credit growth, but lower RoE trajectories compared to large peers compressed its trading valuation premium.",
-      "why_it_matters": "It signals that Indian banking sector stock selection is shifting sharply from loan growth volume to capital efficiency and margin resilience amidst elevated funding costs.",
+      "id": "f3486f23b918",
+      "bucket": "india_economy",
+      "headline": "September outward direct investment data tracks Indian corporate capital deployment across foreign subsidiaries",
+      "what_happened": "The RBI released monthly Overseas Direct Investment data for September 2026 covering both automatic and approval routes.",
+      "why_it_matters": "Outward FDI trends show capital allocation by domestic firms into overseas acquisitions and balance sheets, affecting long-term corporate credit profiles and FX outflows.",
       "action": null,
-      "priority": 7,
+      "priority": 5,
       "scores": {
-        "ca": 2,
-        "business": 8,
-        "market": 8,
-        "global": 1
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Mint · Markets",
-        "tier": "paper",
-        "url": "https://www.livemint.com/market/mark-to-market/kotak-mahindra-bank-q2-results-fy27-net-profit-nim-credit-costs-11792984798375.html",
-        "published": "2026-10-26T04:33:16+00:00"
-      },
-      "also_reported_by": [
-        "Mint · Markets"
-      ]
-    },
-    {
-      "id": "c974d7cd841b",
-      "bucket": "markets",
-      "headline": "State government bond issuance of ₹23,300 crore adds to sovereign paper supply and pushes spreads higher",
-      "what_happened": "Thirteen state governments announced auctions to raise ₹23,300 crore through State Development Loans across 9-year to 15-year maturities.",
-      "why_it_matters": "Heavy sub-national paper supply competing alongside central government auctions widens the SDL-G-sec yield spread, raising borrowing costs for state-level infrastructure funding.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 1,
-        "business": 5,
-        "market": 7,
-        "global": 1
+        "ca": 4,
+        "business": 6,
+        "market": 5,
+        "global": 4
       },
       "confidence": "high",
       "is_update": false,
@@ -295,23 +243,75 @@
       "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63860",
-        "published": "2026-10-26T08:47:21.937852+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63867",
+        "published": "2026-10-27T08:53:04.024973+00:00"
       },
       "also_reported_by": []
     },
     {
       "id": "d659e974d2e8",
       "bucket": "markets",
-      "headline": "SEBI waives margins on cash trades post Early Pay-In, improving institutional capital efficiency",
-      "what_happened": "SEBI introduced margin waivers on subsequent buy/sell transactions in the cash segment after an Early Pay-In of securities or funds is completed.",
-      "why_it_matters": "Eliminating duplicate margin requirements post-EPI unlocks intraday capital liquidity for institutional trading desks and brokers, lowering transaction friction in cash equity markets.",
-      "action": null,
+      "headline": "SEBI margin waiver post early pay-in reduces working capital lockup for equity cash segment transactions",
+      "what_happened": "SEBI introduced a margin waiver on subsequent buy/sell transactions following Early Pay-In (EPI) in the cash segment.",
+      "why_it_matters": "Releasing margin obligations immediately upon early pay-in lowers capital requirements for high-frequency institutional and proprietary cash segment trading.",
+      "action": "Verify broker margin clearing procedures to ensure automated release of EPI margin credits.",
       "priority": 6,
       "scores": {
-        "ca": 4,
+        "ca": 6,
         "business": 6,
         "market": 7,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/margin-waiver-on-subsequent-buy-sell-transactions-post-early-pay-in-epi-in-cash-segment_105364.html",
+        "published": "2026-10-27T08:53:03.249723+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "2ee6aaf69e35",
+      "bucket": "markets",
+      "headline": "Daily money market volumes show overnight call rates remaining firm at 5.74% weighted average",
+      "what_happened": "RBI money market data for October 26 showed overnight segment volume of ₹6.99 lakh crore with a weighted average rate of 5.74%.",
+      "why_it_matters": "Firm overnight rates near the repo ceiling reflect tight short-term liquidity, keeping short-duration debt yields supported.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 2,
+        "business": 4,
+        "market": 6,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63869",
+        "published": "2026-10-27T08:53:04.024577+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "8a677215fdaf",
+      "bucket": "ca_work",
+      "headline": "SEBI regulatory review of institutional call recording requirements eases compliance burdens for research entities",
+      "what_happened": "SEBI issued a review of regulatory requirements governing the maintenance of call records of institutional clients by Research Analysts and entities.",
+      "why_it_matters": "Rationalizing institutional call log retention reduces operational overhead and audit compliance friction for SEBI-registered research and advisory operations.",
+      "action": "Review internal compliance policies regarding institutional interaction record-keeping against SEBI's updated mandate.",
+      "priority": 6,
+      "scores": {
+        "ca": 8,
+        "business": 5,
+        "market": 5,
         "global": 1
       },
       "confidence": "high",
@@ -320,33 +320,8 @@
       "source": {
         "name": "SEBI",
         "tier": "primary",
-        "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/margin-waiver-on-subsequent-buy-sell-transactions-post-early-pay-in-epi-in-cash-segment_105364.html",
-        "published": "2026-10-26T08:47:21.442906+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "8b5f62a71c7d",
-      "bucket": "ca_work",
-      "headline": "RBI decentralizes FEMA compounding powers to Regional Offices, shortening cross-border compliance cycles",
-      "what_happened": "The RBI delegated compounding authority for specified foreign exchange contraventions directly to its Regional Offices via A.P. (DIR Series) Circular No. 28.",
-      "why_it_matters": "Decentralization streamlines compounding applications for corporate clients facing technical FEMA delays. It significantly reduces resolution timelines for cross-border capital and trade transactions.",
-      "action": "Review client FEMA non-compliance cases to identify matters eligible for regional office compounding.",
-      "priority": 7,
-      "scores": {
-        "ca": 9,
-        "business": 6,
-        "market": 3,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI Notifications",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13745&Mode=0",
-        "published": "2026-10-26T08:47:21.026580+00:00"
+        "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/review-of-regulatory-requirement-for-maintenance-of-call-records-of-institutional-clients-by-research-analysts-or-research-entities_105400.html",
+        "published": "2026-10-27T08:53:03.249323+00:00"
       },
       "also_reported_by": []
     }
