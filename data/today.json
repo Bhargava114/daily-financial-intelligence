@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-27",
-  "generated_at": "2026-10-27T14:27:17.878518+05:30",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T15:07:55.428140+05:30",
   "scoring": "gemini",
   "stats": {
-    "items": 10,
-    "actions": 5,
-    "candidates": 206,
-    "sources_ok": 23,
-    "sources_failed": 6,
+    "items": 7,
+    "actions": 1,
+    "candidates": 211,
+    "sources_ok": 24,
+    "sources_failed": 5,
     "sources_blocked": 10
   },
   "five_minutes": [
-    "Banking system liquidity deficit persisted as RBI's ₹1.5 lakh crore VRR auction saw oversubscription with ₹1.86 lakh crore in bids.",
-    "India announced a ₹33,000 crore G-sec auction across four dated securities, testing sovereign yield curve absorption capacity.",
-    "US Gulf Coast energy shut-ins escalated as Category 2 Hurricane Isaias approached, threatening short-term crude supply tightness.",
-    "ECB corporate survey showed tightened Eurozone credit conditions, reinforcing European economic slowdown and policy easing expectations.",
-    "Bank of Japan service price metrics signal lingering wage-driven inflation pressures, keeping BOJ rate normalization on track."
+    "Gulf Coast energy disruptions from Hurricane Isaias threaten crude supply, keeping upside pressure on Brent crude and Indian import costs.",
+    "Overnight money market rates remained firm near 5.75% as system liquidity tightness persisted for a second straight day.",
+    "RBI fixed 364-day T-bill yields at 6.69%, providing a clear rate benchmark for short-term corporate paper and bank funding.",
+    "RBI delegated FEMA compounding authority to regional offices, easing cross-border regulatory compliance workflows for CA advisory.",
+    "China's elderly population surpassed children, reinforcing structural drags on long-term global commodity demand."
   ],
   "theses": [
     {
@@ -68,18 +68,170 @@
   ],
   "items": [
     {
-      "id": "65a842a08c07",
+      "id": "d5ea68b079b3",
       "bucket": "global",
-      "headline": "Gulf Coast crude production shut-ins expanded further as Category 2 Hurricane Isaias approached landfall",
-      "what_happened": "The US EIA reported that Category 2 Hurricane Isaias is nearing landfall on the Gulf Coast, causing energy infrastructure shut-ins and production disruptions.",
-      "why_it_matters": "Gulf Coast supply halts threaten short-term tightness in global crude supply, adding upward cost pressure on Brent crude and widening India's import bill.",
-      "action": "Monitor Brent crude spot prices and US Gulf Coast refiner restart timelines.",
+      "headline": "China's elderly population surpasses children, compounding long-term structural drag on commodity demand",
+      "what_happened": "Official data confirmed China now supports more elderly citizens than children, signaling a permanent demographic shift in Asia's largest economy.",
+      "why_it_matters": "Sustained demographic contraction weakens long-term Chinese urban housing construction and industrial consumption, dampening global metals and energy demand trends over time.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 1,
+        "business": 6,
+        "market": 7,
+        "global": 9
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/cr20wzwyzl1qo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-10-27T23:16:08+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "9ce17ee8ff7d",
+      "bucket": "india_economy",
+      "headline": "RBI pushes state governments toward prudent debt management to curb state development loan supply pressures",
+      "what_happened": "RBI conducted the 36th Conference of State Finance Secretaries focusing on expenditure quality, cash balance management, and sustainable state debt limits.",
+      "why_it_matters": "Greater fiscal discipline among states helps restrain State Development Loan (SDL) issuance volumes, limiting supply pressure on the broader Indian sovereign yield curve.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 3,
+        "business": 5,
+        "market": 7,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63873",
+        "published": "2026-10-28T09:33:18.529770+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "62056ce072a0",
+      "bucket": "markets",
+      "headline": "Overnight money market rates remain elevated near 5.75% as liquidity tightness persists",
+      "what_happened": "RBI money market data showed total overnight volumes of ₹7.17 lakh crore, with call money weighted average rate at 5.75% and triparty repo at 5.62%.",
+      "why_it_matters": "Sustained tight liquidity keeps overnight money market borrowing rates elevated above policy rates, maintaining short-term funding pressure on NBFCs and bank treasury desks.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 2,
+        "business": 7,
+        "market": 8,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63874",
+        "published": "2026-10-28T09:33:18.529711+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "48e596a0ba99",
+      "bucket": "markets",
+      "headline": "Short-end sovereign yields anchor near 6.69% as RBI completes ₹23,000 crore T-bill auction",
+      "what_happened": "RBI set auction cut-off yields at 5.9337% for 91-day, 6.5493% for 182-day, and 6.6900% for 364-day T-bills across ₹23,000 crore face value accepted.",
+      "why_it_matters": "The 364-day yield cut-off at 6.69% establishes a firm floor for corporate commercial paper pricing and short-term debt fund positioning.",
+      "action": null,
       "priority": 7,
       "scores": {
         "ca": 1,
         "business": 6,
         "market": 8,
-        "global": 8
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63876",
+        "published": "2026-10-28T09:33:18.529406+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "d3ccee9c044c",
+      "bucket": "markets",
+      "headline": "RBI opens premature redemption window for SGB 2020-21 Series I as five-year lock-in expires",
+      "what_happened": "RBI issued redemption pricing details for premature exit from Sovereign Gold Bond 2020-21 Series I, effective October 28, 2026.",
+      "why_it_matters": "Provides an explicit exit price benchmark for clients holding physical gold alternatives, offering liquidity management without secondary market discount impact.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 4,
+        "business": 5,
+        "market": 7,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63872",
+        "published": "2026-10-28T09:33:18.529816+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "8b5f62a71c7d",
+      "bucket": "ca_work",
+      "headline": "RBI delegates FEMA compounding powers to regional offices, accelerating cross-border compliance resolution",
+      "what_happened": "RBI delegated the compounding of select contraventions under FEMA 1999 to its Regional Offices via circular A.P. (DIR Series) No. 28.",
+      "why_it_matters": "This decentralization significantly reduces processing timelines for client foreign investment and remittance compounding applications. You can now resolve technical FEMA non-compliance matters directly at regional RBI jurisdictions.",
+      "action": "Review pending client FEMA compounding matters to check eligibility for Regional Office filing.",
+      "priority": 7,
+      "scores": {
+        "ca": 9,
+        "business": 6,
+        "market": 3,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13745&Mode=0",
+        "published": "2026-10-28T09:33:16.436589+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "65a842a08c07",
+      "bucket": "watchlist",
+      "headline": "Gulf Coast energy disruptions from Hurricane Isaias threaten crude supply and risk elevating Indian import costs",
+      "what_happened": "NOAA expects Category 2 Hurricane Isaias to make landfall on the Gulf Coast, triggering energy infrastructure shut-ins across production facilities.",
+      "why_it_matters": "Production shut-ins in the Gulf Coast keep supply disruption risks elevated for crude markets, threatening to push Brent higher. For your macro positioning, sustained crude firmness expands India's trade deficit and puts upward pressure on G-sec yields.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 1,
+        "business": 7,
+        "market": 8,
+        "global": 9
       },
       "confidence": "high",
       "is_update": true,
@@ -88,240 +240,7 @@
         "name": "US EIA (energy)",
         "tier": "data",
         "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
-        "published": "2026-10-27T08:53:04.469522+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "3298a6bee645",
-      "bucket": "global",
-      "headline": "Tightened Eurozone bank lending conditions reinforce ECB monetary transmission and signal softening corporate demand",
-      "what_happened": "The ECB's Survey on the Access to Finance of Enterprises showed that enterprise credit conditions tightened across the euro area.",
-      "why_it_matters": "Restrictive bank lending conditions in Europe affirm slowing economic momentum and reinforce expectations for further ECB rate cuts to prevent credit contraction.",
-      "action": null,
-      "priority": 7,
-      "scores": {
-        "ca": 1,
-        "business": 5,
-        "market": 7,
-        "global": 9
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "ECB",
-        "tier": "primary",
-        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261026~bde7b6d11a.en.html",
-        "published": "2026-10-26T09:00:00+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "3ef775ec92a3",
-      "bucket": "global",
-      "headline": "Japanese service price momentum and CPI metrics maintain focus on Bank of Japan rate normalisation timeline",
-      "what_happened": "The Bank of Japan released September Services Producer Price Index data along with updated core CPI indicators.",
-      "why_it_matters": "Sustained service sector price pressures support the BoJ's thesis of domestic wage-price transmission, keeping further rate hikes on the table and supporting yen valuation.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 1,
-        "business": 4,
-        "market": 7,
-        "global": 8
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Bank of Japan",
-        "tier": "primary",
-        "url": "http://www.boj.or.jp/en/research/research_data/cpi/index.htm",
-        "published": "2026-10-27T05:00:00+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "cb6be6d68d9c",
-      "bucket": "global",
-      "headline": "Anthropic's public listing disclosures bring AI risk factor disclosures to equity valuation models",
-      "what_happened": "Anthropic filed for a public listing, highlighting governance and operational risks ahead of becoming the first pure-play AI company to go public.",
-      "why_it_matters": "Pricing pure-play AI equity risk will set a benchmark for public markets, testing investor appetite for heavy capex AI balance sheets.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 1,
-        "business": 7,
-        "market": 7,
-        "global": 7
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "BBC Business",
-        "tier": "wire",
-        "url": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-10-26T16:27:17+00:00"
-      },
-      "also_reported_by": [
-        "BBC Business"
-      ]
-    },
-    {
-      "id": "b88b0cc5d0fa",
-      "bucket": "india_economy",
-      "headline": "Money market liquidity tightness persisted as RBI 4-day VRR drew ₹1.86 lakh crore in bids against ₹1.5 lakh crore allotted",
-      "what_happened": "RBI allotted ₹1,50,007 crore in its 4-day Variable Rate Repo auction at a cut-off rate of 5.55%, against total bids received of ₹1,86,666 crore.",
-      "why_it_matters": "Demand exceeding the ₹1.5 lakh crore target confirms lingering overnight liquidity deficit in the banking system, keeping short-term money market rates pinned near the upper policy band.",
-      "action": "Track system liquidity deficit and upcoming T-bill and G-sec settlement outflows for money market positioning.",
-      "priority": 8,
-      "scores": {
-        "ca": 3,
-        "business": 6,
-        "market": 8,
-        "global": 4
-      },
-      "confidence": "high",
-      "is_update": true,
-      "update_note": "Continues yesterday's story.",
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63864",
-        "published": "2026-10-27T08:53:04.026435+00:00"
-      },
-      "also_reported_by": [
-        "RBI"
-      ]
-    },
-    {
-      "id": "313abb034980",
-      "bucket": "india_economy",
-      "headline": "Scheduled ₹33,000 crore sovereign bond auction tests primary market demand across the yield curve",
-      "what_happened": "The Government of India announced the re-issue of four dated securities totaling ₹33,000 crore, including ₹9,000 crore of 6.20% GS 2029.",
-      "why_it_matters": "Fresh supply will test duration appetite among institutional investors, potentially putting upward yield pressure on benchmark G-secs unless offset by VRR support or buying interest.",
-      "action": "Monitor bidding yields at the auction to gauge term premium demands on 5-year to 10-year G-sec papers.",
-      "priority": 7,
-      "scores": {
-        "ca": 2,
-        "business": 5,
-        "market": 8,
-        "global": 3
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63868",
-        "published": "2026-10-27T08:53:04.024921+00:00"
-      },
-      "also_reported_by": [
-        "RBI"
-      ]
-    },
-    {
-      "id": "f3486f23b918",
-      "bucket": "india_economy",
-      "headline": "September outward direct investment data tracks Indian corporate capital deployment across foreign subsidiaries",
-      "what_happened": "The RBI released monthly Overseas Direct Investment data for September 2026 covering both automatic and approval routes.",
-      "why_it_matters": "Outward FDI trends show capital allocation by domestic firms into overseas acquisitions and balance sheets, affecting long-term corporate credit profiles and FX outflows.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 4,
-        "business": 6,
-        "market": 5,
-        "global": 4
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63867",
-        "published": "2026-10-27T08:53:04.024973+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "d659e974d2e8",
-      "bucket": "markets",
-      "headline": "SEBI margin waiver post early pay-in reduces working capital lockup for equity cash segment transactions",
-      "what_happened": "SEBI introduced a margin waiver on subsequent buy/sell transactions following Early Pay-In (EPI) in the cash segment.",
-      "why_it_matters": "Releasing margin obligations immediately upon early pay-in lowers capital requirements for high-frequency institutional and proprietary cash segment trading.",
-      "action": "Verify broker margin clearing procedures to ensure automated release of EPI margin credits.",
-      "priority": 6,
-      "scores": {
-        "ca": 6,
-        "business": 6,
-        "market": 7,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/margin-waiver-on-subsequent-buy-sell-transactions-post-early-pay-in-epi-in-cash-segment_105364.html",
-        "published": "2026-10-27T08:53:03.249723+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "2ee6aaf69e35",
-      "bucket": "markets",
-      "headline": "Daily money market volumes show overnight call rates remaining firm at 5.74% weighted average",
-      "what_happened": "RBI money market data for October 26 showed overnight segment volume of ₹6.99 lakh crore with a weighted average rate of 5.74%.",
-      "why_it_matters": "Firm overnight rates near the repo ceiling reflect tight short-term liquidity, keeping short-duration debt yields supported.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 2,
-        "business": 4,
-        "market": 6,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63869",
-        "published": "2026-10-27T08:53:04.024577+00:00"
-      },
-      "also_reported_by": [
-        "RBI"
-      ]
-    },
-    {
-      "id": "8a677215fdaf",
-      "bucket": "ca_work",
-      "headline": "SEBI regulatory review of institutional call recording requirements eases compliance burdens for research entities",
-      "what_happened": "SEBI issued a review of regulatory requirements governing the maintenance of call records of institutional clients by Research Analysts and entities.",
-      "why_it_matters": "Rationalizing institutional call log retention reduces operational overhead and audit compliance friction for SEBI-registered research and advisory operations.",
-      "action": "Review internal compliance policies regarding institutional interaction record-keeping against SEBI's updated mandate.",
-      "priority": 6,
-      "scores": {
-        "ca": 8,
-        "business": 5,
-        "market": 5,
-        "global": 1
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/review-of-regulatory-requirement-for-maintenance-of-call-records-of-institutional-clients-by-research-analysts-or-research-entities_105400.html",
-        "published": "2026-10-27T08:53:03.249323+00:00"
+        "published": "2026-10-28T09:33:18.107783+00:00"
       },
       "also_reported_by": []
     }
