@@ -1,0 +1,302 @@
+{
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T15:21:35.435380+05:30",
+  "scoring": "groq",
+  "stats": {
+    "items": 9,
+    "actions": 3,
+    "candidates": 216,
+    "sources_ok": 24,
+    "sources_failed": 5,
+    "sources_blocked": 10
+  },
+  "five_minutes": [
+    "Fed’s FOMC statement signals a more dovish stance, lowering odds of a September rate hike and easing USD strength, which could reduce pressure on the INR and lift FII inflows.",
+    "RBI’s ₹33,000 cr underwriting auction adds supply to the 10‑year G‑sec market, likely nudging yields up and tightening credit spreads for banks and NBFCs.",
+    "T‑bill auction yields slipped to 5.93%‑6.69%, confirming short‑end rates near 6.7% and supporting the RBI’s target range for repo rates.",
+    "Money‑market data show weighted average overnight rates around 5.6%, a modest rise from yesterday, indicating persistent liquidity tightness that may sustain high short‑term borrowing costs.",
+    "Hurricane Isaias threatens Gulf‑Coast crude output, pushing Brent higher and raising the import bill for Indian oil‑importers, which could weigh on the rupee and energy stocks."
+  ],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "no_signal",
+      "note": ""
+    }
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "global",
+      "label": "Central banks & global macro"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · macro, flows and policy"
+    },
+    {
+      "id": "markets",
+      "label": "Markets · cross-asset context"
+    },
+    {
+      "id": "ca_work",
+      "label": "Tax, audit & compliance"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "2b7c54b49968",
+      "bucket": "global",
+      "headline": "Fed’s dovish tone reduces near‑term rate‑hike odds and eases USD pressure",
+      "what_happened": "The Federal Reserve released its FOMC statement indicating a more cautious stance on tightening.",
+      "why_it_matters": "A softer Fed outlook lowers USD strength, easing pressure on the INR and making Indian equities more attractive to foreign investors, while also reducing the cost of dollar‑denominated debt.",
+      "action": "Monitor FII net‑flow data later this week for response to the USD move.",
+      "priority": 9,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 0,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Federal Reserve",
+        "tier": "primary",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+        "published": "2026-10-28T18:00:00+00:00"
+      },
+      "also_reported_by": [
+        "Federal Reserve · All"
+      ]
+    },
+    {
+      "id": "6972f118b7ab",
+      "bucket": "global",
+      "headline": "SEBI signs MoU with the Bank of England to enhance cooperation on clearing‑house oversight",
+      "what_happened": "SEBI and the BoE agreed to exchange information and coordinate on matters relating to SEBI‑recognised clearing corporations.",
+      "why_it_matters": "Improved cross‑border clearing oversight can reduce settlement risk for foreign investors in Indian equities, supporting smoother FII flows.",
+      "action": null,
+      "priority": 4,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/oct-2026/sebi-signs-mou-with-boe-on-cooperation-and-exchange-of-information-related-to-sebi-recognised-clearing-corporations_105473.html",
+        "published": "2026-10-29T09:50:29.374712+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "0bb936028cb4",
+      "bucket": "india_economy",
+      "headline": "Large ₹33,000 cr underwriting auction adds supply to 10‑year G‑sec market, likely nudging yields up",
+      "what_happened": "The RBI announced an underwriting auction for government securities worth ₹33,000 crore to be held on Oct 30 2026.",
+      "why_it_matters": "Increased supply in the 10‑year segment puts upward pressure on sovereign yields, which can raise borrowing costs for banks, NBFCs and corporates and affect the Nifty valuation.",
+      "action": "Re‑assess duration exposure in the 10‑year G‑sec curve and bank credit spreads.",
+      "priority": 8,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63880",
+        "published": "2026-10-29T09:50:29.792603+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "48e596a0ba99",
+      "bucket": "india_economy",
+      "headline": "T‑bill auction yields settle between 5.93% and 6.69%, confirming short‑end rate stance",
+      "what_happened": "The RBI reported cut‑off yields of 5.9337% (91‑day), 6.5493% (182‑day) and 6.6900% (364‑day) in its latest T‑bill auction.",
+      "why_it_matters": "Short‑term sovereign yields anchor the repo‑rate corridor and influence money‑market funding costs for corporates and banks, affecting liquidity and short‑term credit spreads.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63876",
+        "published": "2026-10-29T09:50:29.793214+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "9ce17ee8ff7d",
+      "bucket": "india_economy",
+      "headline": "RBI’s State Finance Secretaries conference stresses prudent debt management, signalling tighter fiscal discipline",
+      "what_happened": "The 36th conference of State Finance Secretaries focused on quality of expenditure and debt sustainability.",
+      "why_it_matters": "Emphasis on fiscal prudence may curb state borrowing, supporting lower sovereign yields and reducing pressure on the overall credit environment.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 0,
+        "business": 1,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63873",
+        "published": "2026-10-29T09:50:29.793731+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "21b96f14cdc8",
+      "bucket": "markets",
+      "headline": "Overnight money‑market rates hover around 5.6%, indicating continued liquidity tightness",
+      "what_happened": "RBI’s money‑market operations for Oct 28 showed a weighted‑average overnight rate of 5.59% (range 4.00‑5.95%).",
+      "why_it_matters": "Persistently high overnight rates signal tight liquidity, sustaining pressure on short‑term borrowing costs and supporting the RBI’s stance on repo‑rate policy.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63879",
+        "published": "2026-10-29T09:50:29.792970+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "65a842a08c07",
+      "bucket": "markets",
+      "headline": "Hurricane Isaias threatens Gulf‑Coast crude output, pushing Brent higher and raising India’s import bill",
+      "what_happened": "Category‑2 Hurricane Isaias is forecast to make landfall on the Gulf Coast, potentially shutting in oil production.",
+      "why_it_matters": "Supply disruptions lift Brent crude prices, increasing the cost of imported fuel for India, which can pressure the rupee and boost energy‑sector equities.",
+      "action": "Track Brent price movement and monitor oil‑importer earnings updates.",
+      "priority": 5,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-10-29T09:50:30.348998+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "24b3714edac9",
+      "bucket": "markets",
+      "headline": "UK Budget 2026 signals higher fiscal spending on energy support, weighing on GBP and global commodity sentiment",
+      "what_happened": "The UK chancellor outlined the 2026 budget, including measures to support energy bills and modest fiscal expansion.",
+      "why_it_matters": "Increased UK fiscal outlays can lift GBP volatility and add to global demand for energy, influencing commodity prices that affect Indian import costs and equity sentiment.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss",
+        "published": "2026-10-28T16:55:27+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "8b5f62a71c7d",
+      "bucket": "ca_work",
+      "headline": "RBI delegates FEMA compounding powers to regional offices, speeding cross‑border compliance resolution",
+      "what_happened": "The RBI issued a circular delegating the compounding of certain FEMA contraventions to its regional offices.",
+      "why_it_matters": "Faster compounding reduces settlement delays for foreign exchange violations, improving the operational environment for authorised dealers and easing cross‑border transaction risk.",
+      "action": null,
+      "priority": 4,
+      "scores": {
+        "ca": 1,
+        "business": 0,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13745&Mode=0",
+        "published": "2026-10-29T09:50:29.478583+00:00"
+      },
+      "also_reported_by": []
+    }
+  ]
+}
