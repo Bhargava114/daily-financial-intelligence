@@ -1,39 +1,40 @@
 {
   "kind": "weekly",
-  "date": "2026-10-24",
-  "generated_at": "2026-10-24T13:54:56.654156+05:30",
-  "scoring": "gemini",
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T15:26:11.738786+05:30",
+  "scoring": "groq",
   "days_covered": 7,
-  "title": "Systemic banking liquidity squeeze collides with physical energy supply risks",
+  "title": "Liquidity tightness and sovereign supply pressure shape Indian rates",
   "changed": [
-    "Physical energy disruptions set the global tone this week. Hurricane Isaias forced production shut-ins across the US Gulf Coast as a Category 2 storm, compounding tight refined product markets where US refinery run rates exceeded 95%. In the UK, consumer price inflation accelerated to 3.5% on fuel costs, restricting easing room for the Bank of England. While a US sanctions waiver on Russian crude shipments shielded Indian importers from an immediate cost shock, Middle East transit risks from Houthi strikes and the Gulf shut-ins maintained an upward risk premium on Brent crude.",
-    "In India, interbank liquidity moved into an acute deficit. The Reserve Bank of India maintained its daily minimum Cash Reserve Ratio requirement at 90%, shrinking bank cash buffers and driving weighted average overnight money-market rates from 5.64% up to 5.66%. Variable Rate Repo auctions reflected the strain: bids reached ₹1.51 lakh crore early in the week, with repo cut-offs rising from 5.54% to 5.58% before the RBI announced a fresh ₹1.5 lakh crore VRR injection. This squeeze coincided with heavy primary debt issuance, including ₹33,000 crore in dated government securities, ₹23,000 crore in T-bills, and ₹23,300 crore in state bonds following a surge in state overdrafts to ₹58,569 crore.",
-    "The confluence of tight cash conditions and persistent paper issuance tested bond market absorption, keeping 10-year area benchmark yields anchored near 7.40% after a 2.8x bid-to-cover at the 6.94% GS 2036 auction. With the RBI Bulletin highlighting rigid deposit pricing that slows lending rate transmission, policymakers introduced stricter structural boundaries. The central bank finalized Leverage Ratio standards for commercial banks, raised capital adequacy requirements for development institutions like NABARD and SIDBI, and capped non-option derivative limits for Small Finance Banks.",
-    "On regulatory compliance and market operations, SEBI notified the AIF Third Amendment Regulations, adding governance and disclosure requirements for alternative investment fund managers, while removing duplicate margin requirements on post-Early Pay-In trades to release capital for cash equity market desks. The RBI delegated FEMA compounding powers to its Regional Offices to accelerate cross-border dispute settlements, and revised Authorised Dealer frameworks for foreign exchange risk. For corporate audit teams, revised GST return forms take effect November 1, requiring structural alignment between GSTR-1 outward tax supplies and GSTR-3B liability declarations."
+    "Global monetary dynamics stayed firm: the Fed’s dovish remarks tempered expectations of near‑term cuts, while a 3.4% Q3 GDP expansion kept Treasury yields elevated. The ECB left policy unchanged, preserving the euro‑dollar spread, and the BoJ signalled further normalisation. In the UK, the budget’s fiscal consolidation emphasis reinforced gilt yields, creating a broadly higher‑yield backdrop that limited upside for safe‑haven assets such as gold.",
+    "Supply shocks in crude markets emerged as Hurricane Isaias curtailed Gulf Coast output, pushing Brent higher. The tighter oil market raises India’s import bill, adds to inflation pressure and feeds into INR valuation considerations.",
+    "In India, the RBI continued active short‑term liquidity management. A four‑day VRR attracted ₹1.86 lakh crore in bids against a ₹1.5 lakh crore allotment, underscoring persistent overnight funding strain. Concurrently, the central bank and state authorities auctioned roughly ₹53 – ₹55 crore of T‑bills and SDLs, anchoring the 364‑day yield near 6.69% and keeping money‑market rates around 5.6% before a modest decline to 5.51% at week‑end.",
+    "Banking sector fundamentals showed mixed signals: credit and deposit growth remained steady and the weighted rupee loan rate held at 8.96%, supporting corporate profitability. Yet sectoral credit deployment slowed in non‑food segments, particularly real‑estate and MSME, hinting at emerging stress in those exposures.",
+    "Market‑side and regulatory tweaks influenced portfolio dynamics. Gold fell 3.5% as US rate expectations dominated, while SEBI’s margin waiver and call‑recording relief improved capital efficiency for equity traders. The decentralisation of FEMA compounding powers to regional offices streamlined cross‑border compliance, easing FX‑hedge administration for corporate treasuries."
   ],
   "threads": [
     {
-      "name": "Systemic banking liquidity deficit",
-      "note": "Maintained 90% minimum CRR rules and tax outflows drove overnight rates to 5.66% and prompted ₹1.5 lakh crore in VRR injections. Sustained cut-off yields above 5.58% or persistent overbidding will confirm ongoing pressure on bank short-term funding costs."
+      "name": "US monetary stance and yield curve",
+      "note": "Fed’s softer tone is offset by strong GDP, keeping Treasury yields high and limiting dollar weakness, which supports INR and foreign inflows into Indian assets."
     },
     {
-      "name": "Physical crude supply tightness",
-      "note": "Category 2 shut-ins in the Gulf of Mexico combined with US refinery runs above 95% keep upward pressure on Brent crude. Full restoration of US Gulf production and stable Middle East transit corridors are required to ease the landed price premium."
+      "name": "Indian short‑term sovereign supply",
+      "note": "RBI and state auctions added over ₹50 crore of short‑term paper, fixing the 364‑day yield near 6.69% and pressuring money‑market rates upward."
     },
     {
-      "name": "G-sec duration absorption",
-      "note": "A ₹33,000 crore bond auction alongside ₹23,300 crore in state debt tested primary dealer capacity. Bid-to-cover ratios above 2.5x will confirm whether domestic institutional demand can defend the 7.40% yield benchmark under deficit liquidity."
+      "name": "Liquidity provisioning vs market tightness",
+      "note": "VRR oversubscription and overnight rates hovering near 5.6% reveal enduring funding deficits; the RBI’s interventions are holding rates in check but may be approaching a turning point."
     },
     {
-      "name": "Corporate reporting and fund compliance",
-      "note": "SEBI's AIF Third Amendment and the November 1 GSTR-1 to GSTR-3B reconciliation mandate alter fund administration and corporate audit workflows. Regional FEMA compounding speeds resolution of historical cross-border filing defects."
+      "name": "Commodity shock transmission",
+      "note": "Hurricane‑driven Brent spikes raise India’s oil import cost, feeding inflation expectations and adding upside pressure on the rupee."
     }
   ],
   "next_week": [
-    "RBI execution and settlement of the fresh ₹1.5 lakh crore Variable Rate Repo auction",
-    "Implementation of revised GST return forms requiring strict GSTR-1 and GSTR-3B reconciliation on November 1",
-    "Infosys Q2 earnings release and corporate dividend announcement",
-    "Pace of US Gulf Coast crude production restoration following Hurricane Isaias shut-ins",
-    "Absorption of primary sovereign debt auctions against the 7.40% 10-year G-sec yield level"
+    "US CPI release – check for any shift in Fed rate expectations",
+    "Federal Reserve Chair’s press conference and policy decision",
+    "RBI Monetary Policy Committee meeting – watch repo rate guidance",
+    "India’s Q3 GDP data – assess growth momentum and credit demand",
+    "Scheduled State Development Loan (SDL) auction – monitor sovereign yield response"
   ]
 }
