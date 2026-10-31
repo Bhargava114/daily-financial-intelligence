@@ -1,0 +1,300 @@
+{
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T15:02:04.223715+05:30",
+  "scoring": "groq",
+  "stats": {
+    "items": 9,
+    "actions": 0,
+    "candidates": 200,
+    "sources_ok": 24,
+    "sources_failed": 5,
+    "sources_blocked": 10
+  },
+  "five_minutes": [
+    "RBI’s ₹29,900 crn state G‑Sec auction and ₹23 bn Treasury‑Bill sale add supply, likely nudging yields higher and tightening financing for banks.",
+    "Weighted average lending rate on rupee loans held steady at 8.96%, indicating unchanged credit costs for corporates.",
+    "September services exports rose to $39.3 bn, strengthening the current‑account and easing pressure on the rupee.",
+    "SEBI rationalises FPI KYC review periodicity, easing compliance and potentially sustaining foreign inflows into Indian equities and bonds.",
+    "Hurricane Isaias threatens Gulf Coast oil production, raising the odds of Brent crude price spikes and could pressure the INR via a higher import bill."
+  ],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "no_signal",
+      "note": ""
+    }
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "global",
+      "label": "Central banks & global macro"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · macro, flows and policy"
+    },
+    {
+      "id": "markets",
+      "label": "Markets · cross-asset context"
+    },
+    {
+      "id": "ca_work",
+      "label": "Tax, audit & compliance"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "1e8ad6fa6bd9",
+      "bucket": "global",
+      "headline": "SEBI rationalises FPI KYC review periodicity, easing compliance and supporting foreign inflows",
+      "what_happened": "SEBI announced a rationalisation of the frequency of KYC reviews for foreign portfolio investors.",
+      "why_it_matters": "Reduced compliance friction may help sustain FII and FPI inflows into Indian equity and bond markets, aiding market depth.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 1,
+        "market": 0,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/oct-2026/ease-of-compliance-for-fpis-rationalisation-of-kyc-review-periodicity_105522.html",
+        "published": "2026-10-31T09:30:59.229293+00:00"
+      },
+      "also_reported_by": [
+        "SEBI"
+      ]
+    },
+    {
+      "id": "4a08eb1f67da",
+      "bucket": "global",
+      "headline": "SEC grants exemptive relief for inter‑affiliate repo trades, easing Treasury clearing constraints",
+      "what_happened": "The US Securities and Exchange Commission issued exemptive relief for certain inter‑affiliate and non‑U.S. repo transactions involving Treasury securities.",
+      "why_it_matters": "Improved repo market liquidity can support Treasury yields and USD funding conditions, indirectly influencing INR via rate differentials.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 1,
+        "market": 1,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEC",
+        "tier": "primary",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-111-sec-issues-exemptive-relief-treasury-clearing-requirements-certain-inter-affiliate-non-us-repo",
+        "published": "2026-10-30T19:30:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "0d7d5953e491",
+      "bucket": "india_economy",
+      "headline": "State G‑Sec auction of ₹29,900 crn could lift sovereign yields, tightening financing conditions for corporates",
+      "what_happened": "State governments announced an auction to raise ₹29,900 crn of bonds.",
+      "why_it_matters": "Higher yields raise borrowing costs for banks, NBFCs and corporates and may pressure equity valuations in the financial sector.",
+      "action": null,
+      "priority": 9,
+      "scores": {
+        "ca": 0,
+        "business": 1,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63896",
+        "published": "2026-10-31T09:30:59.763152+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "e056b2ff78d8",
+      "bucket": "india_economy",
+      "headline": "RBI auction of ₹23 bn Treasury Bills adds short‑term supply, likely nudging 91‑day yields up",
+      "what_happened": "Reserve Bank of India scheduled auctions of 91‑day, 182‑day and 364‑day Treasury Bills totaling ₹23 bn.",
+      "why_it_matters": "Increased short‑term government borrowing can lift money‑market yields, influencing RBI repo policy and fund‑flow dynamics.",
+      "action": null,
+      "priority": 9,
+      "scores": {
+        "ca": 0,
+        "business": 1,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63895",
+        "published": "2026-10-31T09:30:59.763307+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "98bb3fcd9bc0",
+      "bucket": "india_economy",
+      "headline": "Sectoral credit deployment data show a slowdown in non‑food loan growth YoY",
+      "what_happened": "RBI released September data on sectoral deployment of bank credit, indicating a year‑on‑year slowdown in non‑food loans.",
+      "why_it_matters": "Tighter credit to real estate and MSME segments may weigh on bank earnings and NBFC exposure, signaling potential stress in those sectors.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 1,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63891",
+        "published": "2026-10-31T09:30:59.763696+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "5dc3d74b01b7",
+      "bucket": "india_economy",
+      "headline": "Weighted average lending rate on rupee loans held at 8.96%, indicating unchanged credit cost for borrowers",
+      "what_happened": "RBI reported that the weighted average lending rate for scheduled commercial banks remained unchanged at 8.96% in October.",
+      "why_it_matters": "Stable loan pricing supports corporate profit outlook and leaves banks' net interest margins largely unchanged.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 1,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63894",
+        "published": "2026-10-31T09:30:59.763404+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "642461ea22d2",
+      "bucket": "india_economy",
+      "headline": "September services exports rise to $39.3 bn, reinforcing India’s current‑account strength",
+      "what_happened": "India recorded $39.3 bn of services export receipts in September, up from the previous month.",
+      "why_it_matters": "Higher services earnings improve the current‑account balance, supporting the rupee and may attract foreign portfolio inflows.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 1,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63893",
+        "published": "2026-10-31T09:30:59.763479+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "65a842a08c07",
+      "bucket": "markets",
+      "headline": "Hurricane Isaias threatens Gulf Coast oil output, raising Brent crude supply risk",
+      "what_happened": "US National Weather Service forecasts Hurricane Isaias will make landfall on the Gulf Coast, potentially disrupting energy infrastructure.",
+      "why_it_matters": "Supply‑side concerns could lift Brent crude prices, widening India’s import bill and adding pressure on the INR.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-10-31T09:31:00.605031+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "b575c4cda352",
+      "bucket": "markets",
+      "headline": "Premature redemption option for SGB 2021‑22 Series VII could add supply to the domestic gold market",
+      "what_happened": "The RBI announced that premature redemption of the Sovereign Gold Bond series VII is permissible after the fifth year.",
+      "why_it_matters": "Redemptions may introduce significant gold‑bond supply, putting modest downward pressure on gold prices and affecting gold‑linked portfolios.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63897",
+        "published": "2026-10-31T09:30:59.762790+00:00"
+      },
+      "also_reported_by": []
+    }
+  ]
+}
