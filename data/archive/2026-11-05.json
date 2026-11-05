@@ -1,0 +1,375 @@
+{
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T16:19:23.563455+05:30",
+  "scoring": "gemini",
+  "stats": {
+    "items": 12,
+    "actions": 4,
+    "candidates": 216,
+    "sources_ok": 24,
+    "sources_failed": 5,
+    "sources_blocked": 10
+  },
+  "five_minutes": [
+    "Bank of Japan meeting minutes highlight persistent debate over rate hike timing, keeping global carry-trade unwind risks alive.",
+    "US trade deficit narrowed to $105.0 billion in September on stronger exports, underpinning near-term US dollar stability.",
+    "Hurricane Isaias strengthened to Category 2 near Gulf Coast crude infrastructure, prolonging production shut-ins and supporting oil prices.",
+    "RBI VRRR absorption recovered to ₹7,767 crore at 5.49%, stemming the sharp liquidity buildup seen earlier in the week.",
+    "SEBI simplified KYC processes for non-resident individual investors, easing cross-border capital onboarding into domestic asset management."
+  ],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "no_signal",
+      "note": ""
+    }
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "global",
+      "label": "Central banks & global macro"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · macro, flows and policy"
+    },
+    {
+      "id": "markets",
+      "label": "Markets · cross-asset context"
+    },
+    {
+      "id": "ca_work",
+      "label": "Tax, audit & compliance"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "931528e0d83b",
+      "bucket": "global",
+      "headline": "BoJ policy debate signals ongoing rate normalization, keeping global yen carry trade unwind risks active",
+      "what_happened": "Bank of Japan released minutes from its September 17-18 monetary policy meeting, detailing member discussions on economic recovery, wage growth, and the timing of future policy rate increases.",
+      "why_it_matters": "Sustained hawkish sentiment among BoJ board members preserves upside pressure on Japanese sovereign yields and the yen. Any accelerated rate hike cycle threatens to tighten global liquidity and trigger cross-asset volatility in emerging market portfolio flows.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 0,
+        "business": 6,
+        "market": 9,
+        "global": 10
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Bank of Japan",
+        "tier": "primary",
+        "url": "http://www.boj.or.jp/en/mopo/mpmsche_minu/minu_2026/g260918.pdf",
+        "published": "2026-11-04T23:50:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "babe94a44739",
+      "bucket": "global",
+      "headline": "ECB policy stance reinforces cautious rate path amid persistent wage pressures",
+      "what_happened": "ECB Executive Board member Isabel Schnabel delivered a address detailing monetary policy reflections amidst ongoing macroeconomic inflation risks.",
+      "why_it_matters": "Caution from key ECB officials limits aggressive rate cut pricing in Eurozone money markets. Stable European policy yields keep EUR/USD rangebound, delaying broad US dollar weakening.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 5,
+        "market": 8,
+        "global": 9
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "ECB",
+        "tier": "primary",
+        "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html",
+        "published": "2026-11-05T08:00:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "496ea5132650",
+      "bucket": "global",
+      "headline": "Narrowing US trade deficit to $105.0B provides fundamental support to short-term US dollar stability",
+      "what_happened": "US BEA reported that the September 2026 goods and services trade deficit decreased to $105.0 billion from a revised $105.7 billion in August as export growth outpaced imports.",
+      "why_it_matters": "A smaller trade deficit reduces net drag on US Q3 GDP calculations, supporting dollar strength against major currencies and dampening immediate pressure for Fed monetary easing.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 5,
+        "market": 7,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "US BEA (GDP, PCE)",
+        "tier": "data",
+        "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-september-2026",
+        "published": "2026-11-04T13:30:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "5b9e89fde264",
+      "bucket": "india_economy",
+      "headline": "Banking liquidity absorption stabilized as RBI VRRR acceptance rose to ₹7,767 crore",
+      "what_happened": "RBI conducted a 1-day VRRR auction absorbing ₹7,767 crore at a cut-off rate of 5.49%, recovering from minimal absorption earlier in the week.",
+      "why_it_matters": "Higher absorption prevents overnight call money rates from collapsing below the policy corridor, anchoring short-term money market yields near the repo rate.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 1,
+        "business": 4,
+        "market": 8,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63921",
+        "published": "2026-11-05T10:45:12.761460+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "943963ff9d3d",
+      "bucket": "markets",
+      "headline": "Short-term sovereign yield structure remains anchored as 364-day T-bills clear at 6.6485%",
+      "what_happened": "RBI conducted full treasury bill auctions, setting cut-off yields at 5.8970% for 91-day T-bills and 6.6485% for 364-day paper.",
+      "why_it_matters": "Steady short-term sovereign pricing provides clear benchmark yield guidance for NBFC commercial paper issuances and short-duration debt portfolio strategies.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 4,
+        "market": 8,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63918",
+        "published": "2026-11-05T10:45:12.761789+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "9fc67d42e1f3",
+      "bucket": "markets",
+      "headline": "SEBI working group review of Innovators Growth Platform signals potential listing rule relaxations for tech firms",
+      "what_happened": "SEBI constituted a dedicated working group to review and propose reforms to the Innovators Growth Platform (IGP) listing framework.",
+      "why_it_matters": "Revisions to IGP regulations could improve exit liquidity for early-stage venture investors and lower public capital raising hurdles for Indian technology startups.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 5,
+        "business": 7,
+        "market": 7,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/sebi-constitutes-working-group-to-review-the-innovators-growth-platform-framework_105610.html",
+        "published": "2026-11-05T10:45:12.236769+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "2ec6c8a04166",
+      "bucket": "markets",
+      "headline": "Overnight money market rates remain balanced near 5.53% across ₹7.3 lakh crore segment turnover",
+      "what_happened": "RBI reported total overnight money market operations volume of ₹7.30 lakh crore with a weighted average rate of 5.53%, driven by triparty repo activity.",
+      "why_it_matters": "Stable money market borrowing rates signal smooth short-term funding conditions for institutional Treasury desks and NBFC liquidity management.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 0,
+        "business": 3,
+        "market": 7,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63920",
+        "published": "2026-11-05T10:45:12.761679+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "6f2b8b5e6f65",
+      "bucket": "ca_work",
+      "headline": "RBI amends FEMA trade rules, modifying compliance requirements for export and import transactions",
+      "what_happened": "RBI issued the Foreign Exchange Management (Export and Import of Goods and Services) (Second Amendment) Regulations, 2026.",
+      "why_it_matters": "Updates to FEMA trade documentation and realization rules impact corporate client cross-border trade compliance, audit verification procedures, and banking clearance timelines.",
+      "action": "Review amended FEMA regulation text to update client trade compliance checklists.",
+      "priority": 8,
+      "scores": {
+        "ca": 9,
+        "business": 6,
+        "market": 3,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13750&Mode=0",
+        "published": "2026-11-05T10:45:13.073420+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "60aa5ddd960a",
+      "bucket": "ca_work",
+      "headline": "SEBI streamlines KYC framework for non-resident individual clients to facilitate foreign capital flows",
+      "what_happened": "SEBI issued a circular reviewing and simplifying the Know Your Client (KYC) process for individual Person Resident Outside India (PROI) investors.",
+      "why_it_matters": "Eased documentation mandates reduce operational friction for NRI wealth management accounts and foreign individual portfolio investments into domestic asset structures.",
+      "action": "Update onboarding documentation compliance guides for non-resident client accounts.",
+      "priority": 7,
+      "scores": {
+        "ca": 8,
+        "business": 6,
+        "market": 6,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-know-your-client-process-for-individual-person-resident-outside-india-clients_105603.html",
+        "published": "2026-11-05T10:45:12.236868+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "03632541cd56",
+      "bucket": "ca_work",
+      "headline": "SEBI enforcement order in Axis MF front-running case reinforces compliance scrutiny on asset managers",
+      "what_happened": "SEBI passed an adjudication order penalizing entities involved in the historic front-running of trades at Axis Mutual Fund.",
+      "why_it_matters": "Final regulatory orders emphasize internal dealer surveillance standards and audit compliance requirements for domestic institutional asset managers.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 7,
+        "business": 5,
+        "market": 6,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/enforcement/orders/nov-2026/adjudication-order-in-the-matter-of-front-running-of-the-trades-of-axis-mutual-fund_105574.html",
+        "published": "2026-11-05T10:45:12.236948+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "65a842a08c07",
+      "bucket": "watchlist",
+      "headline": "Crude supply risks elevated as Hurricane Isaias upgrades to Category 2 near Gulf Coast production hub",
+      "what_happened": "US EIA reported Category 2 Hurricane Isaias approaching Gulf Coast landfall, causing energy infrastructure operators to shut in upstream oil production facilities.",
+      "why_it_matters": "Extended shut-ins put upward pressure on Brent crude benchmark prices, directly worsening India's import bill and weighing on domestic inflation and rupee stability.",
+      "action": "Monitor Gulf Coast refinery restart announcements and Brent front-month price action.",
+      "priority": 8,
+      "scores": {
+        "ca": 0,
+        "business": 6,
+        "market": 9,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-11-05T10:45:13.269019+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "6660a74b0394",
+      "bucket": "watchlist",
+      "headline": "Upcoming ₹36,000 crore GoI bond auction tests primary dealer underwriting capacity and 10Y yields",
+      "what_happened": "RBI announced underwriting terms for the November 06 auction of ₹36,000 crore across Government of India dated securities.",
+      "why_it_matters": "Heavy sovereign paper supply tests institutional absorption capacity, risking upward pressure on India 10Y G-sec benchmark yields ahead of auction bidding.",
+      "action": "Track primary dealer underwriting cut-offs and auction bidding tail on Friday.",
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 4,
+        "market": 8,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63923",
+        "published": "2026-11-05T10:45:12.761369+00:00"
+      },
+      "also_reported_by": []
+    }
+  ]
+}
