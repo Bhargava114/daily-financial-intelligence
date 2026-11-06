@@ -1,0 +1,406 @@
+{
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T16:19:11.714308+05:30",
+  "scoring": "gemini",
+  "stats": {
+    "items": 13,
+    "actions": 2,
+    "candidates": 209,
+    "sources_ok": 24,
+    "sources_failed": 5,
+    "sources_blocked": 10
+  },
+  "five_minutes": [
+    "Bank of England raises Bank Rate by 25 bps to 4.0%, tightening global rate policy further.",
+    "Hurricane Isaias threatens Gulf Coast oil production and refining, keeping upward pressure on crude risks.",
+    "SEBI revises currency derivative exposure limits, directly impacting USD/INR trading setups and liquidity.",
+    "RBI VRRR absorption increased to ₹18,133 crore as the central bank maintains tight control over system liquidity surplus.",
+    "RBI formalizes FEMA trade regulations and delegates compounding powers to regional offices, streamlining cross-border compliance."
+  ],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "no_signal",
+      "note": ""
+    }
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "global",
+      "label": "Central banks & global macro"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · macro, flows and policy"
+    },
+    {
+      "id": "markets",
+      "label": "Markets · cross-asset context"
+    },
+    {
+      "id": "ca_work",
+      "label": "Tax, audit & compliance"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "2213a1c08e10",
+      "bucket": "global",
+      "headline": "Bank of England's rate hike to 4.0% tightens global policy settings and shifts cross-currency yield dynamics",
+      "what_happened": "The Bank of England's Monetary Policy Committee increased the Bank Rate by 25 basis points to 4.0% from 3.75%.",
+      "why_it_matters": "This first rate increase in over three years signals persistent inflation concerns in Europe and bolsters global rate expectations. Higher UK yields tighten global financial conditions, contributing to broader FX realignments across G10 and emerging market currencies.",
+      "action": null,
+      "priority": 9,
+      "scores": {
+        "ca": 0,
+        "business": 3,
+        "market": 8,
+        "global": 9
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-05T17:09:55+00:00"
+      },
+      "also_reported_by": [
+        "CNBC · Economy",
+        "CNBC · Markets",
+        "Guardian Business"
+      ]
+    },
+    {
+      "id": "e6ca718173f1",
+      "bucket": "india_economy",
+      "headline": "RBI banking liquidity absorption expanded further to ₹18,133 crore, reinforcing tight short-term rate management",
+      "what_happened": "RBI conducted a 3-day VRRR auction accepting ₹18,133 crore out of ₹25,000 crore notified at a cut-off rate of 5.49%.",
+      "why_it_matters": "Liquidity absorption expanded further from yesterday's ₹7,767 crore absorption. The consistent mop-up keeps overnight money market rates anchored near the policy repo rate and prevents excess systemic liquidity from weakening short-term money market yields.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 1,
+        "business": 3,
+        "market": 8,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63935",
+        "published": "2026-11-06T10:44:56.751909+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "6a7793bbf7ed",
+      "bucket": "markets",
+      "headline": "SEBI's revised currency derivative exposure rules will constrain unhedged FX positions and alter USD/INR market liquidity",
+      "what_happened": "SEBI issued revised limits regarding the requirement of underlying exposure for currency derivatives contracts across exchanges.",
+      "why_it_matters": "Stricter underlying exposure validation restricts speculative and unhedged positioning in exchange-traded FX contracts. Expect a shift in trading volumes toward OTC bank channels, directly affecting short-term hedging strategies for USD/INR exposures.",
+      "action": "Review client currency hedging setups and broker exposure limits against SEBI's revised underlying requirements.",
+      "priority": 8,
+      "scores": {
+        "ca": 7,
+        "business": 6,
+        "market": 9,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/revision-of-limits-relating-to-requirement-of-underlying-exposure-for-currency-derivatives-contracts_105614.html",
+        "published": "2026-11-06T10:44:56.610197+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "7ee167d96ae2",
+      "bucket": "markets",
+      "headline": "SEBI introduces REIT depository receipt framework, opening global equity capital channels for Indian real estate assets",
+      "what_happened": "SEBI notified the operational framework for issuing Depository Receipts (DRs) against units of Real Estate Investment Trusts (REITs).",
+      "why_it_matters": "This allows Indian REIT sponsors to tap offshore equity investors directly through international depository receipt programs. It improves capital access for the domestic real estate sector and provides foreign investors secondary market exposure to Indian commercial property.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 6,
+        "business": 7,
+        "market": 8,
+        "global": 5
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-issuance-of-depository-receipts-on-units-of-reits-_105558.html",
+        "published": "2026-11-06T10:44:56.610567+00:00"
+      },
+      "also_reported_by": [
+        "SEBI"
+      ]
+    },
+    {
+      "id": "380b440c816d",
+      "bucket": "markets",
+      "headline": "Refiners shift yields away from gasoline to distillates, reshaping middle distillate crack spreads and fuel margins",
+      "what_happened": "US EIA data shows refineries decreased gasoline output yields to maximize distillate fuel oil and jet fuel production driven by elevated margins.",
+      "why_it_matters": "The operational pivot adjusts global refined product supply dynamics. While distillate margins normalize with increased supply, tighter gasoline availability could support regional motor fuel prices and impact downstream refining earnings for energy stocks.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 5,
+        "market": 7,
+        "global": 7
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68424",
+        "published": "2026-11-05T14:00:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "1624aab663e4",
+      "bucket": "markets",
+      "headline": "SEBI's Accredited Investor framework review simplifies eligibility verification for high-net-worth capital in AIFs",
+      "what_happened": "SEBI released a comprehensive review of the framework governing Accredited Investors across Indian securities markets.",
+      "why_it_matters": "Relaxing accreditation processes reduces administrative overhead for alternative investment funds (AIFs) and wealth management platforms. It facilitates easier participation of affluent domestic investors in private market funds and structured products.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 6,
+        "business": 6,
+        "market": 7,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-the-framework-for-accredited-investors_105618.html",
+        "published": "2026-11-06T10:44:56.610153+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "16bda392c939",
+      "bucket": "markets",
+      "headline": "SEBI mandates net settlement of funds for mutual funds, freeing up intra-day cash liquidity in cash market clearing",
+      "what_happened": "SEBI issued a framework enabling net settlement of funds for transactions executed by mutual fund schemes in the cash equity segment.",
+      "why_it_matters": "Net settlement eliminates gross fund obligation requirements for mutual funds, reducing intra-day cash buffer drag. Asset managers can optimize working cash balances and deploy liquidity more efficiently into equity markets.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 4,
+        "business": 5,
+        "market": 7,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-net-settlement-of-funds-for-transactions-undertaken-by-mutual-fund-schemes-in-cash-market_105616.html",
+        "published": "2026-11-06T10:44:56.610175+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "60aa5ddd960a",
+      "bucket": "ca_work",
+      "headline": "SEBI's refined PROI KYC process streamlines foreign capital onboarding for non-resident individual accounts",
+      "what_happened": "SEBI published a detailed operational review of the Know Your Client (KYC) framework for individual Persons Resident Outside India (PROI).",
+      "why_it_matters": "Following yesterday's streamlining signal, the detailed norms ease documentation friction for foreign individual capital entering Indian capital markets. This simplifies onboarding processes for NRI and foreign wealth management clients.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 8,
+        "business": 5,
+        "market": 7,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-know-your-client-process-for-individual-person-resident-outside-india-clients_105603.html",
+        "published": "2026-11-06T10:44:56.610350+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "6f2b8b5e6f65",
+      "bucket": "ca_work",
+      "headline": "RBI issues formal FEMA trade regulations amendment, solidifying trade compliance frameworks for exporters and importers",
+      "what_happened": "RBI published the Foreign Exchange Management (Export and Import of Goods and Services) (Second Amendment) Regulations, 2026.",
+      "why_it_matters": "Following yesterday's circular updates, the formal gazette notification establishes legal certainty around modified trade documentation and payment realization rules. Corporate clients engaged in cross-border merchandise trade must align their operating procedures.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 8,
+        "business": 6,
+        "market": 4,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13750&Mode=0",
+        "published": "2026-11-06T10:44:56.317129+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "8b5f62a71c7d",
+      "bucket": "ca_work",
+      "headline": "RBI delegates FEMA compounding powers to regional offices, accelerating settlement timelines for procedural compliance breaches",
+      "what_happened": "RBI delegated compounding powers for select contraventions under FEMA 1999 to its Regional Offices via A.P. (DIR Series) Circular No 28.",
+      "why_it_matters": "This decentralizes the resolution of technical foreign exchange violations. For your CA practice, client non-compliance filings for export/import delay or reporting lapses can now be processed locally, substantially reducing resolution cycles.",
+      "action": "Check pending client FEMA contravention filings to assess eligibility for regional office compounding.",
+      "priority": 6,
+      "scores": {
+        "ca": 8,
+        "business": 4,
+        "market": 2,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13745&Mode=0",
+        "published": "2026-11-06T10:44:56.318232+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "03632541cd56",
+      "bucket": "ca_work",
+      "headline": "SEBI issues final order in Axis MF front-running case, reinforcing institutional governance and trade compliance standard",
+      "what_happened": "SEBI passed a final adjudication order regarding the front-running of trades at Axis Mutual Fund.",
+      "why_it_matters": "The order concludes regulatory proceedings in one of India's prominent asset management integrity breaches. It signals ongoing regulatory vigilance around institutional trade execution oversight and internal audit compliance.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 6,
+        "business": 5,
+        "market": 5,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/enforcement/orders/nov-2026/adjudication-order-in-the-matter-of-front-running-of-the-trades-of-axis-mutual-fund_105574.html",
+        "published": "2026-11-06T10:44:56.610463+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "65a842a08c07",
+      "bucket": "watchlist",
+      "headline": "Hurricane Isaias landfall in Gulf Coast threatens US energy infrastructure, keeping Brent crude supply risks elevated",
+      "what_happened": "Hurricane Isaias upgraded to Category 2 status with landfall expected on the US Gulf Coast, forcing offshore oil production shut-ins.",
+      "why_it_matters": "The threat firmed crude supply risks further for a second straight day. Potential refinery and extraction disruptions near the main US energy hub tighten physical oil market balances and elevate import bill risks for energy importers like India.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 0,
+        "business": 5,
+        "market": 8,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-11-06T10:44:57.188028+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "fc50d923630e",
+      "bucket": "watchlist",
+      "headline": "RBI long-dated auction clears at 7.39% and 7.77%, setting fresh benchmarks for long-end sovereign yields",
+      "what_happened": "RBI auctioned ₹23,000 crore of 7.06% GS 2041 at a cut-off yield of 7.3881% and ₹13,000 crore of 7.43% GS 2076 at 7.7708%.",
+      "why_it_matters": "Strong demand absorption at the long end anchors the sovereign yield curve despite heavy supply. The cut-off yields provide updated pricing anchors for institutional long-duration bond portfolios and corporate bond pricing benchmarks.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 2,
+        "business": 4,
+        "market": 8,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63937",
+        "published": "2026-11-06T10:44:56.751808+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    }
+  ]
+}
