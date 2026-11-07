@@ -1,40 +1,39 @@
 {
   "kind": "weekly",
-  "date": "2026-10-31",
-  "generated_at": "2026-10-31T15:26:11.738786+05:30",
-  "scoring": "groq",
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T16:13:04.781178+05:30",
+  "scoring": "gemini",
   "days_covered": 7,
-  "title": "Liquidity tightness and sovereign supply pressure shape Indian rates",
+  "title": "Central Bank Policy Divergence and Sovereign Issuance Anchor Global Yields",
   "changed": [
-    "Global monetary dynamics stayed firm: the Fed’s dovish remarks tempered expectations of near‑term cuts, while a 3.4% Q3 GDP expansion kept Treasury yields elevated. The ECB left policy unchanged, preserving the euro‑dollar spread, and the BoJ signalled further normalisation. In the UK, the budget’s fiscal consolidation emphasis reinforced gilt yields, creating a broadly higher‑yield backdrop that limited upside for safe‑haven assets such as gold.",
-    "Supply shocks in crude markets emerged as Hurricane Isaias curtailed Gulf Coast output, pushing Brent higher. The tighter oil market raises India’s import bill, adds to inflation pressure and feeds into INR valuation considerations.",
-    "In India, the RBI continued active short‑term liquidity management. A four‑day VRR attracted ₹1.86 lakh crore in bids against a ₹1.5 lakh crore allotment, underscoring persistent overnight funding strain. Concurrently, the central bank and state authorities auctioned roughly ₹53 – ₹55 crore of T‑bills and SDLs, anchoring the 364‑day yield near 6.69% and keeping money‑market rates around 5.6% before a modest decline to 5.51% at week‑end.",
-    "Banking sector fundamentals showed mixed signals: credit and deposit growth remained steady and the weighted rupee loan rate held at 8.96%, supporting corporate profitability. Yet sectoral credit deployment slowed in non‑food segments, particularly real‑estate and MSME, hinting at emerging stress in those exposures.",
-    "Market‑side and regulatory tweaks influenced portfolio dynamics. Gold fell 3.5% as US rate expectations dominated, while SEBI’s margin waiver and call‑recording relief improved capital efficiency for equity traders. The decentralisation of FEMA compounding powers to regional offices streamlined cross‑border compliance, easing FX‑hedge administration for corporate treasuries."
+    "Global central bank paths diverged this week. The Bank of England raised its policy rate to 4.0%, citing persistent inflation concerns, while European Central Bank policy remained steady as 2027 wage growth signals delayed rate cuts. Bank of Japan Governor Ueda signaled a continued ultra-easy stance, which limited yen carry-trade unwind pressure. In the US, a narrowing trade deficit of $105.0 billion supported short-term dollar stability.",
+    "Energy markets absorbed conflicting supply shocks. Sustained threats from Hurricane Isaias along the US Gulf Coast triggered shut-ins and maintained upward pressure on Brent crude. However, a post-Q2 rebound in global refinery throughput of 1.8 million barrels per day capped product margin expansion, while US crude imports from Venezuela surged to 701,000 barrels per day, introducing additional non-OPEC crude supply.",
+    "Indian fixed income absorbed significant sovereign and state paper supply. Government bond auctions set long-end yield benchmarks at 7.39% for the 2041 paper and 7.77% for the 2076 paper, while state development loans cleared near an 8.15% yield. Short-term money market rates hovered around 5.44% to 5.60%, leading the RBI to schedule a 4-day Variable Rate Repo auction of ₹50 billion to manage system liquidity.",
+    "For your practice, regulatory updates streamlined cross-border operations and reporting. The RBI formally delegated FEMA compounding powers to its Regional Offices to resolve technical reporting defaults directly. SEBI eased KYC verification standards for foreign portfolio investors and non-resident individual accounts, introduced a depository receipt framework for Indian REIT units, and updated currency derivative rules to constrain unhedged foreign exchange exposure."
   ],
   "threads": [
     {
-      "name": "US monetary stance and yield curve",
-      "note": "Fed’s softer tone is offset by strong GDP, keeping Treasury yields high and limiting dollar weakness, which supports INR and foreign inflows into Indian assets."
+      "name": "Global Monetary Divergence",
+      "note": "The BoE hiked to 4.0% while the BoJ maintained an ultra-easy policy stance. Accelerated Japanese inflation or persistent European wage growth would disrupt this dynamic."
     },
     {
-      "name": "Indian short‑term sovereign supply",
-      "note": "RBI and state auctions added over ₹50 crore of short‑term paper, fixing the 364‑day yield near 6.69% and pressuring money‑market rates upward."
+      "name": "Gulf Energy Supply vs Non-OPEC Flows",
+      "note": "Hurricane Isaias shut-ins keep Brent crude supply risks elevated. Sustained US imports of Venezuelan crude at 701,000 barrels per day could offset Gulf Coast disruptions."
     },
     {
-      "name": "Liquidity provisioning vs market tightness",
-      "note": "VRR oversubscription and overnight rates hovering near 5.6% reveal enduring funding deficits; the RBI’s interventions are holding rates in check but may be approaching a turning point."
+      "name": "Indian Benchmark Yield Anchoring",
+      "note": "Long-end GoI yields cleared at 7.39% and 7.77% alongside state bond supply at ~8.15%. Heavy T-bill and SDL issuance will test institutional underwriting capacity."
     },
     {
-      "name": "Commodity shock transmission",
-      "note": "Hurricane‑driven Brent spikes raise India’s oil import cost, feeding inflation expectations and adding upside pressure on the rupee."
+      "name": "Cross-Border Compliance Streamlining",
+      "note": "Decentralized FEMA compounding and relaxed SEBI FPI KYC lower operational friction. Complex cross-border trade filings remain subject to updated FEMA trade rules."
     }
   ],
   "next_week": [
-    "US CPI release – check for any shift in Fed rate expectations",
-    "Federal Reserve Chair’s press conference and policy decision",
-    "RBI Monetary Policy Committee meeting – watch repo rate guidance",
-    "India’s Q3 GDP data – assess growth momentum and credit demand",
-    "Scheduled State Development Loan (SDL) auction – monitor sovereign yield response"
+    "RBI 4-day Variable Rate Repo auction of ₹50 billion to balance money market liquidity.",
+    "Damage assessments and output recovery timelines from Hurricane Isaias along the US Gulf Coast.",
+    "Execution of the scheduled ₹23 billion RBI Treasury Bill auction across 91-, 182-, and 364-day tenors.",
+    "Market liquidity adjustments following SEBI's revised currency derivative exposure rules.",
+    "Regional RBI Office implementation of delegated FEMA compounding powers for corporate defaults."
   ]
 }
