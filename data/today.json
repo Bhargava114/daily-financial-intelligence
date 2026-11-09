@@ -1,21 +1,20 @@
 {
-  "date": "2026-11-08",
-  "generated_at": "2026-11-08T15:44:38.748115+05:30",
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T16:56:07.979814+05:30",
   "scoring": "gemini",
   "stats": {
-    "items": 12,
-    "actions": 6,
+    "items": 4,
+    "actions": 2,
     "candidates": 151,
     "sources_ok": 24,
     "sources_failed": 5,
     "sources_blocked": 10
   },
   "five_minutes": [
-    "Hurricane Isaias shut-ins in the Gulf of Mexico escalate physical supply disruption risks, keeping upward pressure on Brent crude and India's import bill.",
-    "RBI has delegated FEMA compounding authority to regional offices, significantly cutting turnaround time for regularising cross-border financing non-compliances.",
-    "Amended FEMA Export-Import Regulations alter cross-border trade documentation and settlement compliance requirements for corporate clients.",
-    "SEBI has notified the 2026 Settlement Regulations, restructuring terms and eligibility for resolving pending administrative and civil securities proceedings.",
-    "Primary dealer underwriting cleared for upcoming sovereign paper as RBI balance sheet data shows state government overdraft borrowing declined ₹611 crore."
+    "Hurricane Isaias nears Gulf Coast landfall, threatening energy infrastructure and escalating crude oil disruption risks.",
+    "RBI allotted ₹50,003 crore in a 4-day VRR auction at a 5.51% cut-off yield to ease short-term banking liquidity tightness.",
+    "RBI scheduled a ₹23,000 crore Treasury Bill auction across three tenors to manage short-term sovereign debt supply.",
+    "RBI released provisional 2025-26 FLA census results detailing cross-border liabilities and foreign direct investment assets."
   ],
   "theses": [
     {
@@ -68,41 +67,41 @@
   ],
   "items": [
     {
-      "id": "5b0ac39b6b91",
-      "bucket": "india_economy",
-      "headline": "State government advances contract ₹611 crore while central government financing remains at zero",
-      "what_happened": "The RBI Weekly Statistical Supplement revealed State Government loans and advances dropped ₹611 crore in the week ended October 30 to ₹20,463 crore, while Central Government advances held flat at zero.",
-      "why_it_matters": "Moderating state advances point to reduced immediate recourse to RBI liquidity facilities, tempering short-term state development loan supply pressure in domestic bond markets.",
-      "action": null,
-      "priority": 6,
+      "id": "65a842a08c07",
+      "bucket": "global",
+      "headline": "Gulf Coast hurricane landfall threatens crude supply and escalates global energy disruption risks",
+      "what_happened": "NOAA projected Hurricane Isaias to make landfall on the US Gulf Coast late Friday or early Saturday as a Category 2 storm, prompting offshore oil and gas production shut-ins across the region.",
+      "why_it_matters": "A prolonged disruption to Gulf Coast energy infrastructure will tighten global crude supply, putting upward pressure on Brent prices and expanding India's oil import bill.",
+      "action": "Track US Gulf Coast refinery operation updates and Brent crude spot prices ahead of weekly US EIA inventory data.",
+      "priority": 8,
       "scores": {
-        "ca": 3,
-        "business": 5,
-        "market": 6,
-        "global": 2
+        "ca": 0,
+        "business": 4,
+        "market": 8,
+        "global": 9
       },
       "confidence": "high",
-      "is_update": false,
-      "update_note": null,
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
       "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63939",
-        "published": "2026-11-08T10:11:22.722514+00:00"
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-11-09T11:22:01.990619+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "e89149cd9f8f",
-      "bucket": "markets",
-      "headline": "Primary dealer underwriting auction clears ahead of absorption of fresh sovereign debt",
-      "what_happened": "The RBI finalized underwriting commission cut-offs for Primary Dealers under the Additional Competitive Underwriting auction across scheduled government stock issuances.",
-      "why_it_matters": "Underwriting commission cut-offs indicate institutional primary dealer risk appetite and fee requirements to backstop incoming long-dated G-sec tranches, anchoring primary yield spreads.",
+      "id": "393e51207021",
+      "bucket": "india_economy",
+      "headline": "RBI infuses ₹50,003 crore via 4-day VRR auction to stabilize short-term money market rates",
+      "what_happened": "The RBI conducted a 4-day Variable Rate Repo auction, receiving ₹62,872 crore in bids against a ₹50,000 crore notified amount and setting the cut-off yield at 5.51%.",
+      "why_it_matters": "The substantial oversubscription demonstrates underlying demand for system liquidity, anchoring overnight call and repo rates near the policy repo rate.",
       "action": null,
-      "priority": 5,
+      "priority": 6,
       "scores": {
-        "ca": 2,
-        "business": 4,
+        "ca": 0,
+        "business": 5,
         "market": 7,
         "global": 2
       },
@@ -112,22 +111,24 @@
       "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63934",
-        "published": "2026-11-08T10:11:22.722822+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63945",
+        "published": "2026-11-09T11:22:01.343812+00:00"
       },
-      "also_reported_by": []
+      "also_reported_by": [
+        "RBI"
+      ]
     },
     {
-      "id": "c12ac20a8963",
-      "bucket": "markets",
-      "headline": "Axis Mutual Fund front-running adjudication order increases scrutiny over institutional broker pipes",
-      "what_happened": "SEBI issued an adjudication order addressing trading activities of a client of Inventure Growth and Securities suspected of front-running trades executed by Axis Mutual Fund.",
-      "why_it_matters": "Enforcement actions on institutional front-running tighten dealer-broker compliance mandates, heightening tracking of order execution latency and mutual fund block transactions.",
-      "action": null,
+      "id": "ea75f8b483a6",
+      "bucket": "india_economy",
+      "headline": "Government to auction ₹23,000 crore of T-bills to absorb short-term sovereign funding needs",
+      "what_happened": "The RBI scheduled an auction of 91-day (₹8,000 crore), 182-day (₹8,000 crore), and 364-day (₹7,000 crore) Treasury Bills for November 11, 2026.",
+      "why_it_matters": "The upcoming paper supply tests institutional investor demand at the short end of the Indian G-sec yield curve amid fluctuating banking system liquidity.",
+      "action": "Monitor cut-off yields at Wednesday's auction for indications of short-duration yield shifting.",
       "priority": 5,
       "scores": {
-        "ca": 6,
-        "business": 5,
+        "ca": 0,
+        "business": 3,
         "market": 6,
         "global": 1
       },
@@ -135,243 +136,35 @@
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "SEBI",
+        "name": "RBI",
         "tier": "primary",
-        "url": "https://www.sebi.gov.in/enforcement/orders/nov-2026/adjudication-order-in-the-matter-of-trading-activities-of-certain-client-of-inventure-growth-and-securities-limited-suspected-to-be-front-running-to-the-trades-of-axis-mutual-fund_105664.html",
-        "published": "2026-11-08T10:11:22.461477+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63942",
+        "published": "2026-11-09T11:22:01.344326+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "56796248010d",
-      "bucket": "markets",
-      "headline": "Special Muhurat trading opens Samvat 2083 with historical tendency toward ceremonial equity gains",
-      "what_happened": "BSE, NSE, and MCX scheduled the special Diwali Muhurat trading session for Samvat 2083 from 2:20 pm to 3:30 pm, where benchmark indices have advanced in eight of the past ten sessions.",
-      "why_it_matters": "While volume and positioning remain thin in ceremonial sessions, historical market participation sets technical momentum and retail sentiment for opening trades in Samvat 2083.",
+      "id": "5e5a0e8fee3c",
+      "bucket": "india_economy",
+      "headline": "RBI FLA census provides updated picture of cross-border corporate liability exposures",
+      "what_happened": "The RBI published provisional results of the 2025-26 Foreign Liabilities and Assets census covering cross-border assets and obligations of Indian direct investment entities.",
+      "why_it_matters": "The census data establishes the baseline for evaluating Indian corporate balance sheet leverage to foreign capital and currency mismatches.",
       "action": null,
       "priority": 5,
       "scores": {
-        "ca": 1,
+        "ca": 2,
         "business": 4,
-        "market": 6,
-        "global": 1
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Mint · Markets",
-        "tier": "paper",
-        "url": "https://www.livemint.com/market/stock-market-news/muhurat-trading-time-2026-nse-bse-to-hold-special-diwali-trading-session-today-check-market-open-timings-11794105055102.html",
-        "published": "2026-11-08T02:58:00+00:00"
-      },
-      "also_reported_by": [
-        "Mint · Markets"
-      ]
-    },
-    {
-      "id": "54ed8d20051a",
-      "bucket": "markets",
-      "headline": "Finolex Cables Q2 profit surges 67.5% on double-digit cable volumes and industrial demand",
-      "what_happened": "Finolex Cables shares climbed 14% after Q2 FY27 net profit rose 67.5% YoY to ₹273 crore, backed by a 65% revenue surge to ₹2,269 crore and doubling EBITDA.",
-      "why_it_matters": "The earnings expansion highlights sustained volume momentum in cables and communications infrastructure, confirming resilient capital expenditure across power and construction verticals.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 4,
-        "business": 7,
-        "market": 6,
-        "global": 1
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Mint · Markets",
-        "tier": "paper",
-        "url": "https://www.livemint.com/market/stock-market-news/finolex-cables-shares-jump-14-in-muhurat-trading-2026-diwali-session-day-heres-why-stock-up-59-ytd-key-levels-11794128644480.html",
-        "published": "2026-11-08T09:22:31+00:00"
-      },
-      "also_reported_by": [
-        "Mint · Markets"
-      ]
-    },
-    {
-      "id": "8b5f62a71c7d",
-      "bucket": "ca_work",
-      "headline": "Decentralised FEMA compounding powers accelerate regulatory remediation for foreign exchange contraventions",
-      "what_happened": "The Reserve Bank of India delegated compounding powers for select Foreign Exchange Management Act (FEMA) contraventions directly to its Regional Offices under A.P. (DIR Series) Circular No. 28.",
-      "why_it_matters": "Your corporate advisory clients with inbound FDI, cross-border loans, or export-import reporting lapses no longer face centralized processing delays in Mumbai, materially shortening regularisation timelines.",
-      "action": "Identify client FEMA contravention cases currently pending submission to route directly through the relevant RBI Regional Office.",
-      "priority": 7,
-      "scores": {
-        "ca": 9,
-        "business": 7,
-        "market": 4,
-        "global": 3
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI Notifications",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13745&Mode=0",
-        "published": "2026-11-08T10:11:22.540726+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "6f2b8b5e6f65",
-      "bucket": "ca_work",
-      "headline": "Amended FEMA trade regulations modify compliance mandates for cross-border export-import settlements",
-      "what_happened": "The RBI published the Foreign Exchange Management (Export and Import of Goods and Services) (Second Amendment) Regulations, 2026, amending existing statutory trade reporting and settlement frameworks.",
-      "why_it_matters": "This alters statutory compliance obligations and documentation standards for Indian import-export entities and Authorised Dealer banks, affecting cross-border trade accounting and foreign exchange audits.",
-      "action": "Review client trade-credit and outward remittance workflows against Notification No. FEMA 23(R)/(2)/2026-RB.",
-      "priority": 7,
-      "scores": {
-        "ca": 8,
-        "business": 7,
-        "market": 4,
+        "market": 5,
         "global": 4
       },
       "confidence": "high",
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "RBI Notifications",
+        "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13750&Mode=0",
-        "published": "2026-11-08T10:11:22.539476+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "e7679cedae05",
-      "bucket": "ca_work",
-      "headline": "Revised SEBI settlement regulations introduce updated parameters for disposing of administrative proceedings",
-      "what_happened": "SEBI notified the commencement of the SEBI (Settlement of Administrative and Civil Proceedings) Regulations, 2026, replacing prior settlement procedural codes.",
-      "why_it_matters": "The framework establishes new settlement calculation terms and procedural gateways for market intermediaries and corporate directors facing regulatory inspection or show-cause notices.",
-      "action": "Assess the new regulations against any active client settlement applications or pending SEBI show-cause responses.",
-      "priority": 7,
-      "scores": {
-        "ca": 8,
-        "business": 6,
-        "market": 6,
-        "global": 1
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "SEBI",
-        "tier": "primary",
-        "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/commencement-of-sebi-settlement-of-administrative-and-civil-proceedings-regulations-2026_105680.html",
-        "published": "2026-11-08T10:11:22.461224+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "2292a61aae2c",
-      "bucket": "ca_work",
-      "headline": "RBI cyber resilience master directions increase tech governance obligations for non-bank payment operators",
-      "what_happened": "The RBI issued comprehensive Master Directions on Cyber Resilience and Digital Payment Security Controls specifically applicable to authorised non-bank Payment System Operators (PSOs).",
-      "why_it_matters": "Non-bank fintech and payment entities face strict digital security controls, mandatory IT audits, and executive-level accountability that will increase compliance overhead and technology capex.",
-      "action": "Flag the cyber resilience compliance checklist for payment operator and fintech audit engagements.",
-      "priority": 6,
-      "scores": {
-        "ca": 8,
-        "business": 6,
-        "market": 3,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI Notifications",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13751&Mode=0",
-        "published": "2026-11-08T10:11:22.539332+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "5ed51d8ee961",
-      "bucket": "ca_work",
-      "headline": "Second amendment directions modify commercial bank regulatory compliance requirements",
-      "what_happened": "The RBI issued the Reserve Bank of India (Commercial Banks – Forthcoming Instructions) Second Amendment Directions, 2026, updating Chapter IV of the master directions.",
-      "why_it_matters": "These changes adjust regulatory instructions for commercial banks, altering internal control procedures and statutory audit scope across commercial lending operations.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 7,
-        "business": 5,
-        "market": 4,
-        "global": 1
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI Notifications",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13744&Mode=0",
-        "published": "2026-11-08T10:11:22.541040+00:00"
-      },
-      "also_reported_by": [
-        "RBI Notifications"
-      ]
-    },
-    {
-      "id": "6e1fdb1b2854",
-      "bucket": "ca_work",
-      "headline": "UNSC Taliban sanctions amendment requires immediate AML database updates across lenders and NBFCs",
-      "what_happened": "The RBI notified all commercial banks, NBFCs, and financial institutions regarding five amended entries in the UNSC 1988 Taliban Sanctions List pursuant to Section 51A of the UAPA.",
-      "why_it_matters": "Regulated entities must immediately update their anti-money laundering (AML) and counter-terrorist financing (CFT) screening lists to prevent asset-freezing compliance failures.",
-      "action": "Ensure banking and NBFC clients run updated sanction lists across their client onboarding and active account databases.",
-      "priority": 5,
-      "scores": {
-        "ca": 7,
-        "business": 4,
-        "market": 2,
-        "global": 3
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI Notifications",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13749&Mode=0",
-        "published": "2026-11-08T10:11:22.539818+00:00"
-      },
-      "also_reported_by": [
-        "RBI Notifications"
-      ]
-    },
-    {
-      "id": "65a842a08c07",
-      "bucket": "watchlist",
-      "headline": "Gulf shut-ins escalate supply disruption risks as Hurricane Isaias approaches landfall",
-      "what_happened": "NOAA reports Hurricane Isaias has intensified into a Category 2 storm approaching the Gulf Coast, triggering oil and gas production shut-ins across offshore platforms.",
-      "why_it_matters": "Active Gulf shut-ins firm Brent crude prices further after yesterday's initial threats, directly elevating India's oil import bill and widening the current account deficit pressure on the rupee.",
-      "action": "Recheck Brent crude positioning and sensitivity thresholds on domestic oil marketing and paint companies.",
-      "priority": 8,
-      "scores": {
-        "ca": 0,
-        "business": 7,
-        "market": 8,
-        "global": 8
-      },
-      "confidence": "high",
-      "is_update": true,
-      "update_note": "Continues yesterday's story.",
-      "source": {
-        "name": "US EIA (energy)",
-        "tier": "data",
-        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
-        "published": "2026-11-08T10:11:22.882331+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63941",
+        "published": "2026-11-09T11:22:01.346208+00:00"
       },
       "also_reported_by": []
     }

@@ -1,0 +1,172 @@
+{
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T16:56:07.979814+05:30",
+  "scoring": "gemini",
+  "stats": {
+    "items": 4,
+    "actions": 2,
+    "candidates": 151,
+    "sources_ok": 24,
+    "sources_failed": 5,
+    "sources_blocked": 10
+  },
+  "five_minutes": [
+    "Hurricane Isaias nears Gulf Coast landfall, threatening energy infrastructure and escalating crude oil disruption risks.",
+    "RBI allotted ₹50,003 crore in a 4-day VRR auction at a 5.51% cut-off yield to ease short-term banking liquidity tightness.",
+    "RBI scheduled a ₹23,000 crore Treasury Bill auction across three tenors to manage short-term sovereign debt supply.",
+    "RBI released provisional 2025-26 FLA census results detailing cross-border liabilities and foreign direct investment assets."
+  ],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "no_signal",
+      "note": ""
+    }
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "global",
+      "label": "Central banks & global macro"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · macro, flows and policy"
+    },
+    {
+      "id": "markets",
+      "label": "Markets · cross-asset context"
+    },
+    {
+      "id": "ca_work",
+      "label": "Tax, audit & compliance"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "65a842a08c07",
+      "bucket": "global",
+      "headline": "Gulf Coast hurricane landfall threatens crude supply and escalates global energy disruption risks",
+      "what_happened": "NOAA projected Hurricane Isaias to make landfall on the US Gulf Coast late Friday or early Saturday as a Category 2 storm, prompting offshore oil and gas production shut-ins across the region.",
+      "why_it_matters": "A prolonged disruption to Gulf Coast energy infrastructure will tighten global crude supply, putting upward pressure on Brent prices and expanding India's oil import bill.",
+      "action": "Track US Gulf Coast refinery operation updates and Brent crude spot prices ahead of weekly US EIA inventory data.",
+      "priority": 8,
+      "scores": {
+        "ca": 0,
+        "business": 4,
+        "market": 8,
+        "global": 9
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-11-09T11:22:01.990619+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "393e51207021",
+      "bucket": "india_economy",
+      "headline": "RBI infuses ₹50,003 crore via 4-day VRR auction to stabilize short-term money market rates",
+      "what_happened": "The RBI conducted a 4-day Variable Rate Repo auction, receiving ₹62,872 crore in bids against a ₹50,000 crore notified amount and setting the cut-off yield at 5.51%.",
+      "why_it_matters": "The substantial oversubscription demonstrates underlying demand for system liquidity, anchoring overnight call and repo rates near the policy repo rate.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 5,
+        "market": 7,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63945",
+        "published": "2026-11-09T11:22:01.343812+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "ea75f8b483a6",
+      "bucket": "india_economy",
+      "headline": "Government to auction ₹23,000 crore of T-bills to absorb short-term sovereign funding needs",
+      "what_happened": "The RBI scheduled an auction of 91-day (₹8,000 crore), 182-day (₹8,000 crore), and 364-day (₹7,000 crore) Treasury Bills for November 11, 2026.",
+      "why_it_matters": "The upcoming paper supply tests institutional investor demand at the short end of the Indian G-sec yield curve amid fluctuating banking system liquidity.",
+      "action": "Monitor cut-off yields at Wednesday's auction for indications of short-duration yield shifting.",
+      "priority": 5,
+      "scores": {
+        "ca": 0,
+        "business": 3,
+        "market": 6,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63942",
+        "published": "2026-11-09T11:22:01.344326+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "5e5a0e8fee3c",
+      "bucket": "india_economy",
+      "headline": "RBI FLA census provides updated picture of cross-border corporate liability exposures",
+      "what_happened": "The RBI published provisional results of the 2025-26 Foreign Liabilities and Assets census covering cross-border assets and obligations of Indian direct investment entities.",
+      "why_it_matters": "The census data establishes the baseline for evaluating Indian corporate balance sheet leverage to foreign capital and currency mismatches.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 2,
+        "business": 4,
+        "market": 5,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63941",
+        "published": "2026-11-09T11:22:01.346208+00:00"
+      },
+      "also_reported_by": []
+    }
+  ]
+}
