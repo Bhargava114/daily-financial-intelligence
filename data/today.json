@@ -1,20 +1,21 @@
 {
-  "date": "2026-11-09",
-  "generated_at": "2026-11-09T16:56:07.979814+05:30",
-  "scoring": "gemini",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T16:32:29.062485+05:30",
+  "scoring": "groq",
   "stats": {
-    "items": 4,
-    "actions": 2,
-    "candidates": 151,
+    "items": 11,
+    "actions": 7,
+    "candidates": 183,
     "sources_ok": 24,
     "sources_failed": 5,
     "sources_blocked": 10
   },
   "five_minutes": [
-    "Hurricane Isaias nears Gulf Coast landfall, threatening energy infrastructure and escalating crude oil disruption risks.",
-    "RBI allotted ₹50,003 crore in a 4-day VRR auction at a 5.51% cut-off yield to ease short-term banking liquidity tightness.",
-    "RBI scheduled a ₹23,000 crore Treasury Bill auction across three tenors to manage short-term sovereign debt supply.",
-    "RBI released provisional 2025-26 FLA census results detailing cross-border liabilities and foreign direct investment assets."
+    "BoJ keeps ultra‑easy stance, leaving JPY cheap and supporting INR‑linked foreign inflows.",
+    "Hurricane Isaias threatens Gulf Coast crude output, likely lifting Brent and India’s import bill.",
+    "RBI’s VRR auction fully subscribed at 5.51% cut‑off, keeping short‑term rates steady and funding conditions stable.",
+    "GoI’s ₹34,000 cr dated‑security auction adds supply, nudging 10‑yr G‑sec yields higher.",
+    "RBI cancels Gandhinagar Leasing NBFC registration, tightening NBFC credit supply and pressuring corporate funding."
   ],
   "theses": [
     {
@@ -67,95 +68,68 @@
   ],
   "items": [
     {
-      "id": "65a842a08c07",
+      "id": "2a4642a6de6c",
       "bucket": "global",
-      "headline": "Gulf Coast hurricane landfall threatens crude supply and escalates global energy disruption risks",
-      "what_happened": "NOAA projected Hurricane Isaias to make landfall on the US Gulf Coast late Friday or early Saturday as a Category 2 storm, prompting offshore oil and gas production shut-ins across the region.",
-      "why_it_matters": "A prolonged disruption to Gulf Coast energy infrastructure will tighten global crude supply, putting upward pressure on Brent prices and expanding India's oil import bill.",
-      "action": "Track US Gulf Coast refinery operation updates and Brent crude spot prices ahead of weekly US EIA inventory data.",
+      "headline": "BoJ sticks to ultra‑easy stance, signalling no rate hikes this year",
+      "what_happened": "The Bank of Japan’s Monetary Policy Meeting concluded with unchanged policy and continued yield‑curve control.",
+      "why_it_matters": "Persistently low Japanese yields keep the JPY cheap, sustaining carry‑trade inflows into higher‑yielding assets like the INR.",
+      "action": null,
       "priority": 8,
       "scores": {
         "ca": 0,
-        "business": 4,
-        "market": 8,
-        "global": 9
-      },
-      "confidence": "high",
-      "is_update": true,
-      "update_note": "Continues yesterday's story.",
-      "source": {
-        "name": "US EIA (energy)",
-        "tier": "data",
-        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
-        "published": "2026-11-09T11:22:01.990619+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "393e51207021",
-      "bucket": "india_economy",
-      "headline": "RBI infuses ₹50,003 crore via 4-day VRR auction to stabilize short-term money market rates",
-      "what_happened": "The RBI conducted a 4-day Variable Rate Repo auction, receiving ₹62,872 crore in bids against a ₹50,000 crore notified amount and setting the cut-off yield at 5.51%.",
-      "why_it_matters": "The substantial oversubscription demonstrates underlying demand for system liquidity, anchoring overnight call and repo rates near the policy repo rate.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 0,
-        "business": 5,
-        "market": 7,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63945",
-        "published": "2026-11-09T11:22:01.343812+00:00"
-      },
-      "also_reported_by": [
-        "RBI"
-      ]
-    },
-    {
-      "id": "ea75f8b483a6",
-      "bucket": "india_economy",
-      "headline": "Government to auction ₹23,000 crore of T-bills to absorb short-term sovereign funding needs",
-      "what_happened": "The RBI scheduled an auction of 91-day (₹8,000 crore), 182-day (₹8,000 crore), and 364-day (₹7,000 crore) Treasury Bills for November 11, 2026.",
-      "why_it_matters": "The upcoming paper supply tests institutional investor demand at the short end of the Indian G-sec yield curve amid fluctuating banking system liquidity.",
-      "action": "Monitor cut-off yields at Wednesday's auction for indications of short-duration yield shifting.",
-      "priority": 5,
-      "scores": {
-        "ca": 0,
-        "business": 3,
-        "market": 6,
+        "business": 0,
+        "market": 0,
         "global": 1
       },
       "confidence": "high",
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "RBI",
+        "name": "Bank of Japan",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63942",
-        "published": "2026-11-09T11:22:01.344326+00:00"
+        "url": "http://www.boj.or.jp/en/mopo/mpmsche_minu/opinion_2026/opi261030.pdf",
+        "published": "2026-11-09T23:50:00+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "5e5a0e8fee3c",
-      "bucket": "india_economy",
-      "headline": "RBI FLA census provides updated picture of cross-border corporate liability exposures",
-      "what_happened": "The RBI published provisional results of the 2025-26 Foreign Liabilities and Assets census covering cross-border assets and obligations of Indian direct investment entities.",
-      "why_it_matters": "The census data establishes the baseline for evaluating Indian corporate balance sheet leverage to foreign capital and currency mismatches.",
-      "action": null,
-      "priority": 5,
+      "id": "65a842a08c07",
+      "bucket": "global",
+      "headline": "Hurricane Isaias approaching Gulf Coast threatens crude output, may lift Brent",
+      "what_happened": "The NOAA expects Hurricane Isaias to make landfall on the Gulf Coast, risking significant energy‑infrastructure disruptions.",
+      "why_it_matters": "Potential production shut‑ins could tighten global oil supply, supporting Brent prices and raising India’s import bill and trade deficit.",
+      "action": "Monitor Brent futures and INR trade‑balance implications.",
+      "priority": 8,
       "scores": {
-        "ca": 2,
-        "business": 4,
-        "market": 5,
-        "global": 4
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-11-10T11:01:35.914203+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "8752e2cdd174",
+      "bucket": "india_economy",
+      "headline": "RBI cancels NBFC Gandhinagar Leasing’s registration, tightening NBFC credit supply",
+      "what_happened": "The RBI revoked the Certificate of Registration of Gandhinagar Leasing and Finance Ltd under Section 45‑IA.",
+      "why_it_matters": "Removal of an NBFC reduces overall non‑bank credit capacity, potentially pressuring SME financing and NBFC‑linked bond valuations.",
+      "action": "Review exposure to NBFC debt in client portfolios.",
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
       },
       "confidence": "high",
       "is_update": false,
@@ -163,8 +137,214 @@
       "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63941",
-        "published": "2026-11-09T11:22:01.346208+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63949",
+        "published": "2026-11-10T11:01:36.053005+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "eeffbf95654b",
+      "bucket": "india_economy",
+      "headline": "RBI supersedes board of Abhyudaya Co‑op Bank for a year over governance lapses",
+      "what_happened": "The RBI extended supersession of the board of Abhyudaya Co‑operative Bank, Mumbai, for 12 months.",
+      "why_it_matters": "Governance intervention may curb the bank’s lending activity, affecting cooperative‑bank sector sentiment and deposit flows.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63951",
+        "published": "2026-11-10T11:01:36.052410+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "5ed51d8ee961",
+      "bucket": "india_economy",
+      "headline": "RBI issues second amendment to commercial‑bank directions, tightening liquidity reporting",
+      "what_happened": "The RBI released second‑amendment directions to commercial banks covering liquidity and risk‑management reporting.",
+      "why_it_matters": "New reporting requirements may affect banks’ balance‑sheet flexibility, influencing Nifty banking stocks and credit growth.",
+      "action": "Re‑assess earnings forecasts for major banks.",
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 1,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13744&Mode=0",
+        "published": "2026-11-10T11:01:36.129294+00:00"
+      },
+      "also_reported_by": [
+        "RBI Notifications"
+      ]
+    },
+    {
+      "id": "01e8871882a2",
+      "bucket": "india_economy",
+      "headline": "RBI reassigns lead‑bank responsibilities for Delhi districts, altering credit oversight",
+      "what_happened": "The RBI issued a notice re‑organising lead‑bank assignments for districts in the National Capital Territory of Delhi.",
+      "why_it_matters": "Changing lead‑bank oversight may shift credit monitoring focus, influencing performance of regional banks operating in Delhi.",
+      "action": null,
+      "priority": 4,
+      "scores": {
+        "ca": 0,
+        "business": 1,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13746&Mode=0",
+        "published": "2026-11-10T11:01:36.128646+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "49c61b7d95d0",
+      "bucket": "markets",
+      "headline": "GoI dated‑security auction of ₹34,000 cr pushes 10‑yr G‑sec supply, could lift yields",
+      "what_happened": "The Government of India announced a re‑issue of a 6.94% dated security (2036) for ₹34,000 cr.",
+      "why_it_matters": "Additional supply puts upward pressure on the 10‑yr G‑sec yield, affecting bond portfolios and corporate financing costs in India.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63952",
+        "published": "2026-11-10T11:01:36.052310+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "393e51207021",
+      "bucket": "markets",
+      "headline": "VRR auction absorbs full ₹50,000 cr at 5.51% cut‑off, stabilising short‑term rates",
+      "what_happened": "The RBI’s 4‑day variable‑rate repo auction on 09 Nov allotted the full ₹50,000 cr at a 5.51% cut‑off rate.",
+      "why_it_matters": "Full allocation confirms RBI’s liquidity stance, keeping call‑money rates near 5.5% and supporting rupee funding conditions for banks and corporates.",
+      "action": "Watch the next VRR auction for any shift in the cut‑off rate.",
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63945",
+        "published": "2026-11-10T11:01:36.053864+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "6f2b8b5e6f65",
+      "bucket": "ca_work",
+      "headline": "FEMA amendment expands export‑import service definitions, affecting FX compliance",
+      "what_happened": "The RBI issued a second amendment to the Foreign Exchange Management (Export and Import of Goods and Services) Regulations.",
+      "why_it_matters": "Broader service definitions may require clients to update foreign‑exchange documentation, increasing audit and compliance workload.",
+      "action": "Notify compliance team to review client FX paperwork.",
+      "priority": 5,
+      "scores": {
+        "ca": 1,
+        "business": 0,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13750&Mode=0",
+        "published": "2026-11-10T11:01:36.127504+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "2292a61aae2c",
+      "bucket": "ca_work",
+      "headline": "RBI mandates cyber‑resilience controls for non‑bank payment operators",
+      "what_happened": "The RBI released master directions on digital‑payment security and cyber‑resilience for non‑bank payment system operators.",
+      "why_it_matters": "Firms must strengthen digital security, raising operational risk considerations for auditors and compliance officers.",
+      "action": "Check client readiness against the new cyber‑resilience standards.",
+      "priority": 5,
+      "scores": {
+        "ca": 1,
+        "business": 0,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13751&Mode=0",
+        "published": "2026-11-10T11:01:36.127312+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "8b5f62a71c7d",
+      "bucket": "ca_work",
+      "headline": "RBI delegates compounding of FEMA contraventions to regional offices",
+      "what_happened": "The RBI issued a circular delegating compounding of certain FEMA violations to its regional offices.",
+      "why_it_matters": "Faster resolution of minor FX breaches lowers enforcement risk for clients, affecting compliance monitoring plans.",
+      "action": "Note the procedural change for future compliance reviews.",
+      "priority": 4,
+      "scores": {
+        "ca": 1,
+        "business": 0,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13745&Mode=0",
+        "published": "2026-11-10T11:01:36.128888+00:00"
       },
       "also_reported_by": []
     }
