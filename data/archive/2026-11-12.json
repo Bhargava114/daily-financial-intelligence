@@ -1,0 +1,430 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T16:27:45.518625+05:30",
+  "scoring": "gemini",
+  "stats": {
+    "items": 14,
+    "actions": 2,
+    "candidates": 188,
+    "sources_ok": 24,
+    "sources_failed": 5,
+    "sources_blocked": 10
+  },
+  "five_minutes": [
+    "UK Q3 GDP growth of 0.7% beat expectations, reducing pressure on the Bank of England to ease rates aggressively and supporting sterling.",
+    "Gulf Coast production shut-ins from Hurricane Isaias threaten to halt Brent crude's recent retreat, sustaining energy import bill risks for India.",
+    "Updated FATCA and CRS reporting requirements under India's Income-Tax Act 2025 require operational compliance updates across intermediary systems.",
+    "RBI's ₹25,000 crore G-sec switch auction aims to smooth sovereign debt redemption profiles and manage curve duration supply.",
+    "Leadership uncertainty at Nvidia introduces key-person risk to broader tech hardware valuations."
+  ],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "no_signal",
+      "note": ""
+    }
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "global",
+      "label": "Central banks & global macro"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · macro, flows and policy"
+    },
+    {
+      "id": "markets",
+      "label": "Markets · cross-asset context"
+    },
+    {
+      "id": "ca_work",
+      "label": "Tax, audit & compliance"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "2b3a3cc663b4",
+      "bucket": "global",
+      "headline": "Faster UK Q3 growth of 0.7% tempers Bank of England rate cut expectations",
+      "what_happened": "Official statistics showed the UK economy grew by 0.7% in the three months to September, marking its fastest quarterly expansion in over two years.",
+      "why_it_matters": "Accelerating UK output reduces the urgency for aggressive monetary easing by the Bank of England, keeping gilt yields firm and providing upward support for sterling across G10 pairs.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 5,
+        "market": 7,
+        "global": 9
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-12T10:35:05+00:00"
+      },
+      "also_reported_by": [
+        "Guardian Business"
+      ]
+    },
+    {
+      "id": "60d56bb2fe30",
+      "bucket": "global",
+      "headline": "BoJ policy signaling underscores lingering risks of global carry trade repricing",
+      "what_happened": "Bank of Japan Board Member Asada delivered a speech in Nagasaki detailing the central bank's outlook on Japanese economic activity, prices, and monetary policy trajectory.",
+      "why_it_matters": "Clues regarding the timing of further BoJ rate normalization directly affect cross-border yen carry trades and global asset allocation flows.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 3,
+        "market": 7,
+        "global": 9
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Bank of Japan",
+        "tier": "primary",
+        "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261112a.htm",
+        "published": "2026-11-12T01:30:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "06a03f318a5d",
+      "bucket": "global",
+      "headline": "Leadership uncertainty at Nvidia heightens key-person risk across AI hardware valuations",
+      "what_happened": "Reports regarding Nvidia CEO Jensen Huang's future have intensified speculation around executive succession at the AI chipmaker.",
+      "why_it_matters": "Continuing from yesterday's governance coverage, unscheduled executive transition risks at the dominant AI supplier threaten broader technology sector multiples and market risk sentiment.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 7,
+        "market": 7,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-12T04:18:33+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "09bd1f23bf6e",
+      "bucket": "global",
+      "headline": "Japan's October Corporate Goods Price Index shows ongoing wholesale inflation pressures",
+      "what_happened": "Bank of Japan released the October Corporate Goods Price Index reflecting producer-level cost trends.",
+      "why_it_matters": "Persistent wholesale price pressures in Japan reinforce the fundamental case for eventual BoJ interest rate hikes, impacting global bond market pricing.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 3,
+        "market": 6,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Bank of Japan",
+        "tier": "primary",
+        "url": "http://www.boj.or.jp/en/statistics/pi/cgpi_release/cgpi2610.pdf",
+        "published": "2026-11-11T23:50:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "6f7cf266abea",
+      "bucket": "india_economy",
+      "headline": "RBI's ₹25,000 crore G-sec switch auction targets debt maturity smoothing along the sovereign curve",
+      "what_happened": "The Reserve Bank of India announced a conversion/switch auction of short-dated source securities for longer destination bonds worth ₹25,000 crore.",
+      "why_it_matters": "Converting near-dated sovereign paper reduces near-term government redemption pressure and optimizes duration supply across the Indian sovereign bond curve.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 2,
+        "business": 4,
+        "market": 8,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63958",
+        "published": "2026-11-12T10:56:30.241728+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "91b5bc2d62b9",
+      "bucket": "india_economy",
+      "headline": "September ECB data highlights corporate reliance on external funding despite global yield levels",
+      "what_happened": "RBI published data covering External Commercial Borrowings, FCCBs, and Rupee Denominated Bonds raised in September 2026.",
+      "why_it_matters": "Tracking corporate offshore borrowing trends provides insight into domestic capital capex demand and currency exposure on Indian balance sheets.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 3,
+        "business": 6,
+        "market": 6,
+        "global": 5
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63961",
+        "published": "2026-11-12T10:56:30.240986+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "65a842a08c07",
+      "bucket": "markets",
+      "headline": "Gulf Coast energy shut-ins from Hurricane Isaias threaten to halt Brent's recent retreat",
+      "what_happened": "EIA reports Category 2 Hurricane Isaias is approaching Gulf Coast landfall, forcing regional energy production shut-ins ahead of the storm.",
+      "why_it_matters": "Extending yesterday's supply threat, Gulf shut-ins put upward pressure on crude prices, risking an expanded oil import bill for India and renewed upside on domestic inflation expectations.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 6,
+        "market": 8,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-11-12T10:56:30.445886+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "cc55c6de31bc",
+      "bucket": "markets",
+      "headline": "Short-end sovereign yields stay anchored as RBI T-bill auction shows consistent bid demand",
+      "what_happened": "RBI's T-bill auction produced cut-off yields of 5.8681% for 91-day, 6.5183% for 182-day, and 6.61% for 364-day paper against notified amounts.",
+      "why_it_matters": "Building on yesterday's auction stability, high bid coverage across short tenors confirms solid institutional liquidity absorbing money market issuance without yield spikes.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 1,
+        "business": 3,
+        "market": 8,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63956",
+        "published": "2026-11-12T10:56:30.241876+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "8816816b169c",
+      "bucket": "markets",
+      "headline": "RBI sets underwriting terms for ₹34,000 crore G-sec auction to gauge primary dealer demand",
+      "what_happened": "RBI announced the underwriting auction details for the re-issue sale of ₹34,000 crore in Government Securities scheduled for November 13.",
+      "why_it_matters": "Primary dealer bidding fee cut-offs will test institutional capacity to absorb heavy government borrowing without putting upward pressure on 10Y yields.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 1,
+        "business": 3,
+        "market": 7,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63963",
+        "published": "2026-11-12T10:56:30.240864+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "5a572baafbcd",
+      "bucket": "markets",
+      "headline": "Kalyan Jewellers' 64% net profit growth underscores strength in domestic discretionary demand",
+      "what_happened": "Kalyan Jewellers posted a 64% increase in Q2 FY27 net profit to ₹427 crore on 32% revenue growth, sending shares to a 52-week high.",
+      "why_it_matters": "Robust earnings expansion reflects strong domestic festive demand, validating earnings support for discretionary retail plays in Indian equities.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 1,
+        "business": 7,
+        "market": 6,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/stock-market-news/kalyan-jewellers-shares-hit-52-week-high-rally-41-in-9-sessions-should-you-buy-after-q2-results-2026-check-target-11794457015532.html",
+        "published": "2026-11-12T04:27:26+00:00"
+      },
+      "also_reported_by": [
+        "Mint · Markets"
+      ]
+    },
+    {
+      "id": "56416cce4220",
+      "bucket": "ca_work",
+      "headline": "Updated FATCA/CRS reporting rules under Income-Tax Act 2025 mandate compliance system updates",
+      "what_happened": "SEBI notified revised reporting requirements for FATCA and CRS under the Income-Tax Act 2025 read with the Income-Tax Rules 2026.",
+      "why_it_matters": "Financial intermediaries must align client classification, due diligence, and automated tax reporting systems with the revised tax rules to prevent compliance defaults.",
+      "action": "Audit reporting workflows and entity classification rules for compliance under the Income-Tax Rules 2026.",
+      "priority": 8,
+      "scores": {
+        "ca": 9,
+        "business": 6,
+        "market": 4,
+        "global": 5
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/reporting-requirement-under-foreign-account-tax-compliance-act-fatca-and-common-reporting-standard-crs-revised-through-income-tax-act-2025-read-with-income-tax-rules-2026_105705.html",
+        "published": "2026-11-12T10:56:29.250690+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "b40235c44384",
+      "bucket": "ca_work",
+      "headline": "RBI updates Domestic Money Transfer Directions to tighten operational controls for payment operators",
+      "what_happened": "RBI issued revised Master Directions on Domestic Money Transfer applicable across commercial banks, co-operative banks, and payment system operators.",
+      "why_it_matters": "Updated compliance protocols alter transaction limits and audit verifications for payment networks and non-bank remittance entities.",
+      "action": "Review client remittance entity procedures against the 2026 Domestic Money Transfer Directions.",
+      "priority": 7,
+      "scores": {
+        "ca": 8,
+        "business": 5,
+        "market": 3,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13752&Mode=0",
+        "published": "2026-11-12T10:56:30.335017+00:00"
+      },
+      "also_reported_by": [
+        "Economic Times",
+        "RBI Notifications"
+      ]
+    },
+    {
+      "id": "2292a61aae2c",
+      "bucket": "ca_work",
+      "headline": "RBI mandates cyber resilience standards for non-bank payment system operators",
+      "what_happened": "RBI released Master Directions on Cyber Resilience and Digital Payment Security Controls specifically targeting authorized non-bank payment system operators.",
+      "why_it_matters": "Non-bank payment processors face formal IT governance, cybersecurity compliance, and periodic audit mandates, increasing operational overhead.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 8,
+        "business": 6,
+        "market": 3,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13751&Mode=0",
+        "published": "2026-11-12T10:56:30.337219+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "c12ac20a8963",
+      "bucket": "ca_work",
+      "headline": "SEBI front-running order against Axis MF trades signals sustained regulatory focus on broker compliance",
+      "what_happened": "SEBI issued an adjudication order regarding client front-running activities associated with Axis Mutual Fund trades through Inventure Growth and Securities.",
+      "why_it_matters": "Enforcement actions against front-running highlight regulatory scrutiny on institutional trade execution, reinforcing internal compliance requirements at brokerages and asset managers.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 7,
+        "business": 5,
+        "market": 5,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/enforcement/orders/nov-2026/adjudication-order-in-the-matter-of-trading-activities-of-certain-client-of-inventure-growth-and-securities-limited-suspected-to-be-front-running-to-the-trades-of-axis-mutual-fund_105664.html",
+        "published": "2026-11-12T10:56:29.251368+00:00"
+      },
+      "also_reported_by": []
+    }
+  ]
+}
