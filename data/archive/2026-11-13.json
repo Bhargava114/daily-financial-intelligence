@@ -1,0 +1,402 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T16:24:27.349335+05:30",
+  "scoring": "gemini",
+  "stats": {
+    "items": 13,
+    "actions": 2,
+    "candidates": 193,
+    "sources_ok": 24,
+    "sources_failed": 5,
+    "sources_blocked": 10
+  },
+  "five_minutes": [
+    "Faster UK Q3 growth of 0.7% firmed further, keeping Bank of England rate cut expectations tempered.",
+    "Gulf Coast hurricane shut-ins continue to floor Brent crude prices near term.",
+    "Strong institutional bidding at a 7.3203% cutoff yield anchored the 10-year G-sec curve in RBI's ₹34,000 crore sovereign auction.",
+    "Executive disruption at Nvidia introduces governance risks into global AI capex and market sentiment.",
+    "RBI delegated compounding powers for select FEMA contraventions to regional offices, streamlining compliance for corporate clients."
+  ],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "no_signal",
+      "note": ""
+    }
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "global",
+      "label": "Central banks & global macro"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · macro, flows and policy"
+    },
+    {
+      "id": "markets",
+      "label": "Markets · cross-asset context"
+    },
+    {
+      "id": "ca_work",
+      "label": "Tax, audit & compliance"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "2b3a3cc663b4",
+      "bucket": "global",
+      "headline": "Faster UK Q3 growth of 0.7% firmed further, reinforcing Bank of England's higher-for-longer rate stance",
+      "what_happened": "Official figures showed the UK economy grew by 0.7% in Q3, marking its fastest pace in over two years.",
+      "why_it_matters": "Sustained UK economic momentum reduces the urgency for BoE rate cuts, anchoring gilt yields higher and supporting sterling.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 5,
+        "market": 7,
+        "global": 9
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-12T11:20:25+00:00"
+      },
+      "also_reported_by": [
+        "Guardian Business"
+      ]
+    },
+    {
+      "id": "2a309027d535",
+      "bucket": "global",
+      "headline": "Congressional summons and executive exit at Nvidia create uncertainty across global tech valuations",
+      "what_happened": "Former Nvidia CEO Jensen Huang resigned amid personal revelations and was summoned to testify before Congress, with CFO Colette Kress taking over as interim CEO.",
+      "why_it_matters": "Leadership instability at the core supplier of AI hardware risks causing valuation swings across tech exporters and semiconductor supply chains.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 1,
+        "business": 8,
+        "market": 8,
+        "global": 9
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-13T03:57:01+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "5ca6d695a7d0",
+      "bucket": "global",
+      "headline": "Forecast 13% expansion in Alaskan crude output by 2027 cushions medium-term non-OPEC supply outlook",
+      "what_happened": "EIA projects Alaska crude oil production to grow 6% in 2026 and 13% in 2027 to 505,000 barrels per day due to North Slope projects.",
+      "why_it_matters": "Sustained supply growth from non-OPEC US basins caps upside risks on global crude benchmarks over the medium horizon.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 5,
+        "market": 6,
+        "global": 7
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68444",
+        "published": "2026-11-12T14:00:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "6cef7c96396d",
+      "bucket": "india_economy",
+      "headline": "Subdued participation in RBI's ₹75,000 crore VRRR points to tightening systemic liquidity",
+      "what_happened": "RBI received and accepted ₹38,592 crore of offers against a ₹75,000 crore notified amount in its 3-day VRRR auction at 5.49%.",
+      "why_it_matters": "Banks parking under half the notified liquidity reflects diminished surplus cash in the banking system, supporting short-term money market rates.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 2,
+        "business": 5,
+        "market": 7,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63968",
+        "published": "2026-11-13T10:51:22.209688+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "e4b77c51fe03",
+      "bucket": "india_economy",
+      "headline": "Scheduled bank position data highlights persistent loan-to-deposit ratio pressures across commercial lenders",
+      "what_happened": "RBI published the fortnightly balance sheet statement of position for scheduled commercial banks as of October 31, 2026.",
+      "why_it_matters": "Deposit growth lagging credit demand continues to constrain bank net interest margins and forces higher reliance on bulk funding.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 4,
+        "business": 6,
+        "market": 6,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63971",
+        "published": "2026-11-13T10:51:22.209459+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "4f2482ce5f12",
+      "bucket": "markets",
+      "headline": "Final redemption of SGB 2018-19 Series-III releases tax-free capital into domestic asset allocation channels",
+      "what_happened": "RBI announced the final 8-year redemption for Sovereign Gold Bond 2018-19 Series-III due on November 13, 2026.",
+      "why_it_matters": "Maturing SGB tranches deliver tax-exempt capital returns to investors, creating immediate re-allocation flows into domestic debt or equity products.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 5,
+        "business": 5,
+        "market": 7,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63964",
+        "published": "2026-11-13T10:51:22.210255+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "56416cce4220",
+      "bucket": "ca_work",
+      "headline": "Revised FATCA/CRS rules firmed further under Income-Tax Act 2025, mandating updated IT reporting frameworks",
+      "what_happened": "SEBI issued revised reporting requirements under FATCA and CRS aligned with the Income-Tax Act, 2025 and Income-Tax Rules, 2026.",
+      "why_it_matters": "Financial intermediaries must adjust client onboarding, tax residency categorization, and annual reporting systems to meet updated compliance mandates.",
+      "action": "Review client reporting systems and tax classification workflows against Income-Tax Rules 2026.",
+      "priority": 8,
+      "scores": {
+        "ca": 9,
+        "business": 6,
+        "market": 4,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/reporting-requirement-under-foreign-account-tax-compliance-act-fatca-and-common-reporting-standard-crs-revised-through-income-tax-act-2025-read-with-income-tax-rules-2026_105705.html",
+        "published": "2026-11-13T10:51:20.447015+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "b40235c44384",
+      "bucket": "ca_work",
+      "headline": "RBI's Domestic Money Transfer Directions firmed further, standardizing operational rules across payment networks",
+      "what_happened": "RBI released the Reserve Bank of India (Domestic Money Transfer) Directions, 2026 applicable to banks and payment system operators.",
+      "why_it_matters": "Tighter operational controls on money transfers increase compliance verification steps for domestic remittance service providers.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 8,
+        "business": 6,
+        "market": 3,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13752&Mode=0",
+        "published": "2026-11-13T10:51:22.795856+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "2292a61aae2c",
+      "bucket": "ca_work",
+      "headline": "RBI's cyber resilience master directions firmed further, elevating security audit standards for non-bank payment operators",
+      "what_happened": "RBI published Master Directions on Cyber Resilience and Digital Payment Security Controls for non-bank Payment System Operators.",
+      "why_it_matters": "Non-bank payment system operators face strict mandatory cybersecurity protocols, raising compliance audit standards and technology overhead.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 8,
+        "business": 6,
+        "market": 3,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13751&Mode=0",
+        "published": "2026-11-13T10:51:22.798004+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "8b5f62a71c7d",
+      "bucket": "ca_work",
+      "headline": "RBI delegates FEMA compounding powers to regional offices, accelerating trade compliance resolution",
+      "what_happened": "RBI circular delegated compounding powers for specified FEMA 1999 contraventions to its Regional Offices.",
+      "why_it_matters": "Decentralizing compounding authority cuts administrative delays for clients seeking to regularize cross-border procedural lapses.",
+      "action": "Assess pending client FEMA compliance lapses to evaluate regional compounding submission.",
+      "priority": 7,
+      "scores": {
+        "ca": 9,
+        "business": 6,
+        "market": 4,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13745&Mode=0",
+        "published": "2026-11-13T10:51:22.799656+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "6f2b8b5e6f65",
+      "bucket": "ca_work",
+      "headline": "Updated FEMA export-import regulations adjust documentation and realization rules for trade finance",
+      "what_happened": "RBI issued the Foreign Exchange Management (Export and Import of Goods and Services) (Second Amendment) Regulations, 2026.",
+      "why_it_matters": "Revised rules alter operational parameters for export realization and import payment monitoring by Authorized Dealer banks.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 8,
+        "business": 5,
+        "market": 3,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13750&Mode=0",
+        "published": "2026-11-13T10:51:22.798177+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "65a842a08c07",
+      "bucket": "watchlist",
+      "headline": "Gulf Coast energy shut-ins firmed further after Hurricane Isaias landfall, maintaining upward pressure on Brent crude",
+      "what_happened": "EIA reported Category 2 Hurricane Isaias approaching landfall on the Gulf Coast, causing energy infrastructure shut-ins.",
+      "why_it_matters": "Supply curtailments in Gulf Coast production reinforce short-term price floors for Brent crude, keeping India's import bill elevated.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 1,
+        "business": 6,
+        "market": 8,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-11-13T10:51:21.781842+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "5789c67e6f91",
+      "bucket": "watchlist",
+      "headline": "Robust bid demand at 7.3203% cutoff yield anchors sovereign curve in ₹34,000 crore G-sec auction",
+      "what_happened": "RBI auctioned 6.94% GS 2036 with ₹34,000 crore notified, receiving ₹73,016.60 crore in bids at a cut-off yield of 7.3203%.",
+      "why_it_matters": "Bid-to-cover of over 2x demonstrates steady institutional appetite at 7.32%, providing yield curve stability for benchmark Indian sovereign paper.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 2,
+        "business": 5,
+        "market": 8,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63970",
+        "published": "2026-11-13T10:51:22.209572+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    }
+  ]
+}
