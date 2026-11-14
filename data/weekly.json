@@ -1,39 +1,40 @@
 {
   "kind": "weekly",
-  "date": "2026-11-07",
-  "generated_at": "2026-11-07T16:13:04.781178+05:30",
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T16:23:45.571630+05:30",
   "scoring": "gemini",
   "days_covered": 7,
-  "title": "Central Bank Policy Divergence and Sovereign Issuance Anchor Global Yields",
+  "title": "Sticky US CPI and Gulf Energy Shut-Ins Firm Global Yields as India's Current Account Deficit Expands",
   "changed": [
-    "Global central bank paths diverged this week. The Bank of England raised its policy rate to 4.0%, citing persistent inflation concerns, while European Central Bank policy remained steady as 2027 wage growth signals delayed rate cuts. Bank of Japan Governor Ueda signaled a continued ultra-easy stance, which limited yen carry-trade unwind pressure. In the US, a narrowing trade deficit of $105.0 billion supported short-term dollar stability.",
-    "Energy markets absorbed conflicting supply shocks. Sustained threats from Hurricane Isaias along the US Gulf Coast triggered shut-ins and maintained upward pressure on Brent crude. However, a post-Q2 rebound in global refinery throughput of 1.8 million barrels per day capped product margin expansion, while US crude imports from Venezuela surged to 701,000 barrels per day, introducing additional non-OPEC crude supply.",
-    "Indian fixed income absorbed significant sovereign and state paper supply. Government bond auctions set long-end yield benchmarks at 7.39% for the 2041 paper and 7.77% for the 2076 paper, while state development loans cleared near an 8.15% yield. Short-term money market rates hovered around 5.44% to 5.60%, leading the RBI to schedule a 4-day Variable Rate Repo auction of ₹50 billion to manage system liquidity.",
-    "For your practice, regulatory updates streamlined cross-border operations and reporting. The RBI formally delegated FEMA compounding powers to its Regional Offices to resolve technical reporting defaults directly. SEBI eased KYC verification standards for foreign portfolio investors and non-resident individual accounts, introduced a depository receipt framework for Indian REIT units, and updated currency derivative rules to constrain unhedged foreign exchange exposure."
+    "A 0.4% monthly US October CPI print slowed expected Federal Reserve rate cuts, pushing US Treasury yields and the dollar higher. In Europe, UK Q3 GDP growth of 0.7% reduced urgency for Bank of England monetary easing, keeping gilt yields firm. The Bank of Japan maintained its ultra-easy monetary stance without rate hikes this year, sustaining yen carry-trade flows into higher-yielding assets, though persistent Japanese wholesale inflation maintains eventual rate normalization risks.",
+    "Energy markets faced supply-side disruptions as Hurricane Isaias forced production shut-ins along the US Gulf Coast, maintaining upward pressure on Brent crude prices. In global technology, an espionage probe and Congressional summons involving Nvidia introduced governance risks across semiconductor supply chains, while Anthropic set a benchmark for AI capex by targeting a $1.3 trillion valuation range.",
+    "India's external balance faced pressure as the September current account deficit expanded to $7.4 billion, increasing domestic vulnerability to elevated crude import costs. In sovereign debt markets, institutional demand absorbed ₹34,000 crore of 10-year G-secs at a 7.3203% cut-off yield with a bid-to-cover ratio above 2x, supported by an RBI debt switch auction of ₹25,000 crore. Systemic liquidity showed signs of tightening, as banks parked under half the notified amount in a ₹75,000 crore VRRR auction before the RBI absorbed ₹38,592 crore at a 5.49% cut-off.",
+    "Indian equities saw the Nifty rebound to 25,358 on renewed foreign institutional buying. Fortnightly banking data showed persistent loan-to-deposit ratio pressure as deposit growth lagged credit demand, constraining net interest margins. Regulatory actions tightened non-bank credit access through the cancellation of Gandhinagar Leasing's registration and the one-year board supersession of Abhyudaya Co-operative Bank.",
+    "For your corporate tax and compliance practice, the RBI delegated FEMA compounding powers to regional offices, reducing processing timelines for cross-border trade lapses alongside updated FEMA export-import documentation rules. Financial intermediaries face mandatory compliance updates under revised FATCA/CRS rules within the Income-Tax Act 2025, tightened Domestic Money Transfer directions, and mandatory cyber resilience standards for non-bank payment operators."
   ],
   "threads": [
     {
-      "name": "Global Monetary Divergence",
-      "note": "The BoE hiked to 4.0% while the BoJ maintained an ultra-easy policy stance. Accelerated Japanese inflation or persistent European wage growth would disrupt this dynamic."
+      "name": "US inflation and Fed rate cut path",
+      "note": "A 0.4% monthly US CPI print limits Fed easing room and keeps US yields firm until inflation data cools."
     },
     {
-      "name": "Gulf Energy Supply vs Non-OPEC Flows",
-      "note": "Hurricane Isaias shut-ins keep Brent crude supply risks elevated. Sustained US imports of Venezuelan crude at 701,000 barrels per day could offset Gulf Coast disruptions."
+      "name": "Brent crude and Indian current account deficit",
+      "note": "Persistent Gulf Coast shut-ins maintain upward crude pressure, widening India's $7.4 billion current account gap unless production recovers."
     },
     {
-      "name": "Indian Benchmark Yield Anchoring",
-      "note": "Long-end GoI yields cleared at 7.39% and 7.77% alongside state bond supply at ~8.15%. Heavy T-bill and SDL issuance will test institutional underwriting capacity."
+      "name": "Indian bank liquidity and deposit lagging credit",
+      "note": "Low VRRR participation highlights tightening banking surplus, forcing reliance on bulk funding as deposit growth lags credit expansion."
     },
     {
-      "name": "Cross-Border Compliance Streamlining",
-      "note": "Decentralized FEMA compounding and relaxed SEBI FPI KYC lower operational friction. Complex cross-border trade filings remain subject to updated FEMA trade rules."
+      "name": "FEMA compounding and tax compliance mandates",
+      "note": "Regional delegation of FEMA compounding accelerates cross-border dispute resolution while revised FATCA/CRS rules enforce IT system upgrades."
     }
   ],
   "next_week": [
-    "RBI 4-day Variable Rate Repo auction of ₹50 billion to balance money market liquidity.",
-    "Damage assessments and output recovery timelines from Hurricane Isaias along the US Gulf Coast.",
-    "Execution of the scheduled ₹23 billion RBI Treasury Bill auction across 91-, 182-, and 364-day tenors.",
-    "Market liquidity adjustments following SEBI's revised currency derivative exposure rules.",
-    "Regional RBI Office implementation of delegated FEMA compounding powers for corporate defaults."
+    "US energy sector recovery progress and Gulf Coast crude production restore rates post-Hurricane Isaias.",
+    "Sustainability of foreign institutional investor inflows following the Nifty 50 rebound to 25,358.",
+    "Institutional bidding demand at upcoming sovereign T-bill auctions given recent VRRR under-subscription.",
+    "Systems preparation for revised FATCA/CRS due diligence and reporting under the Income-Tax Act 2025.",
+    "Compliance deployment for RBI master directions on cyber resilience across non-bank payment operators."
   ]
 }
