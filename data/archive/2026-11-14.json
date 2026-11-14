@@ -1,0 +1,301 @@
+{
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T15:44:28.221388+05:30",
+  "scoring": "gemini",
+  "stats": {
+    "items": 9,
+    "actions": 2,
+    "candidates": 179,
+    "sources_ok": 24,
+    "sources_failed": 5,
+    "sources_blocked": 10
+  },
+  "five_minutes": [
+    "India's September current account deficit widened to $7.4 billion, elevating balance-of-payments pressure and upside risk for USD/INR.",
+    "Political scrutiny over Nvidia's supply chain extended to the US Commerce Department, reinforcing governance and valuation tail-risks across global semiconductor equities.",
+    "US Gulf Coast oil infrastructure shut-ins following Hurricane Isaias sustained supply constraints, holding Brent crude prices elevated.",
+    "The Reserve Bank of India absorbed ₹38,592 crore in 3-day VRRR liquidity at 5.49%, keeping money market yields anchored near the policy ceiling.",
+    "RBI's second amendment to FEMA export-import regulations introduces updated compliance mandates for cross-border trade settlements."
+  ],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "no_signal",
+      "note": ""
+    }
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "global",
+      "label": "Central banks & global macro"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · macro, flows and policy"
+    },
+    {
+      "id": "markets",
+      "label": "Markets · cross-asset context"
+    },
+    {
+      "id": "ca_work",
+      "label": "Tax, audit & compliance"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "ceab1c6b271c",
+      "bucket": "global",
+      "headline": "Political fallout from Nvidia probe threatens US tech policy stability and supply-chain restrictions",
+      "what_happened": "Scrutiny of Nvidia extended to US Commerce Secretary Howard Lutnick after reports revealed government agencies previously favored adding Megaspeed to the entity list, broadening the White House fallout.",
+      "why_it_matters": "Escalating government oversight around semiconductor trade policy adds regulatory uncertainty to global tech supply chains. This extends yesterday's equity valuation pressure across semiconductor suppliers and tech exporters.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 7,
+        "market": 8,
+        "global": 9
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-13T19:53:57+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "e3a2e217dad9",
+      "bucket": "global",
+      "headline": "Project Meridian FX expansion signals progress toward automated cross-border settlement infrastructure",
+      "what_happened": "The Bank of England, Monetary Authority of Singapore, and Bank of Thailand launched Project Meridian FX APAC to test synchronized FX cross-border settlement.",
+      "why_it_matters": "Central bank experimentation with automated cross-border settlement aims to reduce FX counterparty risk and payment friction, altering long-term institutional currency trading rails.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 1,
+        "business": 4,
+        "market": 6,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Bank of England",
+        "tier": "primary",
+        "url": "https://www.bankofengland.co.uk/news/2026/november/the-boe-monetary-authority-of-singapore-and-bank-of-thailand-media-release",
+        "published": "2026-11-13T09:00:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "55d6caa9a315",
+      "bucket": "global",
+      "headline": "SEC proposed disclosure reforms push US listed firms toward principles-based compensation reporting",
+      "what_happened": "The US SEC proposed amendments to executive and director compensation disclosures to make reporting principles-based and materiality-driven.",
+      "why_it_matters": "The shift toward materiality-driven disclosures reduces boilerplate reporting for US equities while altering how global institutional investors evaluate corporate governance metrics.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 4,
+        "business": 5,
+        "market": 5,
+        "global": 6
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEC",
+        "tier": "primary",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-114-sec-proposes-executive-director-compensation-disclosure-reforms",
+        "published": "2026-11-13T16:57:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "b881b54f0aa5",
+      "bucket": "india_economy",
+      "headline": "Widening September current account deficit to $7.4 billion intensifies external balance pressure and rupee weakness risks",
+      "what_happened": "RBI preliminary balance of payments data showed India's net current account deficit widened to $7.4 billion in September 2026 from $5.2 billion in September 2025, taking the April–September cumulative deficit to $25.8 billion.",
+      "why_it_matters": "The expanding current account gap increases India's dependence on capital inflows to balance the foreign exchange bill. For your FX and rates context, this limits RBI's capacity to ease system liquidity without risking INR depreciation.",
+      "action": "Revisit FX risk assumptions and monitor capital flow data for current account deficit coverage.",
+      "priority": 8,
+      "scores": {
+        "ca": 2,
+        "business": 6,
+        "market": 8,
+        "global": 6
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63974",
+        "published": "2026-11-14T10:13:06.340252+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "e4b77c51fe03",
+      "bucket": "india_economy",
+      "headline": "Fortnightly bank balance sheet data reveals credit expansion trends across Indian lenders",
+      "what_happened": "The RBI released its fortnightly statement of position for scheduled commercial banks as of October 31, 2026, detailing deposit and credit aggregates.",
+      "why_it_matters": "Monitoring bank deposit growth against credit expansion indicates system liquidity health and margin trends. For Indian bank coverage, lagging deposit growth keeps funding costs elevated.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 2,
+        "business": 6,
+        "market": 7,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63971",
+        "published": "2026-11-14T10:13:06.340726+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "6cef7c96396d",
+      "bucket": "markets",
+      "headline": "RBI absorbs ₹38,592 crore via VRRR at 5.49% cutoff, keeping short-term money market rates anchored",
+      "what_happened": "The RBI accepted ₹38,592 crore against a notified ₹75,000 crore in its 3-day VRRR auction at a cut-off yield of 5.49%.",
+      "why_it_matters": "Partial uptake at the VRRR facility highlights steady banking system liquidity absorption. This holds short-dated money market yields firm near the floor of the operating corridor.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 4,
+        "market": 7,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63968",
+        "published": "2026-11-14T10:13:06.340828+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "803b2290e299",
+      "bucket": "markets",
+      "headline": "Extended Microsoft cloud outage disrupts global enterprise workflows and software operational metrics",
+      "what_happened": "Microsoft reported ongoing service restoration efforts for Outlook and Teams following a prolonged global cloud infrastructure outage.",
+      "why_it_matters": "Extended downtime across core enterprise software highlights cloud resilience risks, creating potential SLA liabilities and operational friction for enterprise technology users.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 1,
+        "business": 6,
+        "market": 6,
+        "global": 5
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-13T18:36:57+00:00"
+      },
+      "also_reported_by": [
+        "BBC Business",
+        "BusinessLine",
+        "Guardian Business",
+        "Mint · Markets"
+      ]
+    },
+    {
+      "id": "6f2b8b5e6f65",
+      "bucket": "ca_work",
+      "headline": "Updated FEMA regulations modify compliance mandates for foreign trade in goods and services",
+      "what_happened": "The Reserve Bank of India issued the Foreign Exchange Management (Export and Import of Goods and Services) (Second Amendment) Regulations, 2026 under Notification No. FEMA 23(R)/(2)/2026-RB.",
+      "why_it_matters": "Regulatory shifts in FEMA export-import rules alter documentation and timeline requirements for cross-border trade transactions. For your CA advisory work, client trade settlement protocols must be checked against the revised notification.",
+      "action": "Review notification text to update FEMA compliance checklists for import-export clients.",
+      "priority": 6,
+      "scores": {
+        "ca": 8,
+        "business": 4,
+        "market": 3,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13750&Mode=0",
+        "published": "2026-11-14T10:13:05.954749+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "65a842a08c07",
+      "bucket": "watchlist",
+      "headline": "Gulf Coast energy shut-ins persist post-Hurricane Isaias, sustaining near-term crude market tightness",
+      "what_happened": "US EIA reported energy infrastructure shut-ins on the Gulf Coast following Hurricane Isaias landfall, threatening regional oil production and processing capacity.",
+      "why_it_matters": "Persistent supply disruptions maintain upward momentum in crude benchmark prices. For your Brent crude watchlist, sustained high energy import prices broaden India's trade deficit and pressure domestic inflation expectations.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 5,
+        "market": 7,
+        "global": 7
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-11-14T10:13:06.509981+00:00"
+      },
+      "also_reported_by": []
+    }
+  ]
+}
