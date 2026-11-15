@@ -1,0 +1,302 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T16:16:42.673041+05:30",
+  "scoring": "groq",
+  "stats": {
+    "items": 9,
+    "actions": 4,
+    "candidates": 140,
+    "sources_ok": 23,
+    "sources_failed": 6,
+    "sources_blocked": 10
+  },
+  "five_minutes": [
+    "Hurricane Isaias threatens Gulf production, keeping Brent crude firm above $90 and sustaining India's import bill and INR pressure.",
+    "India‑US trade deal near finalisation could boost bilateral trade, improve the current account and support the rupee.",
+    "Strong demand in the latest government‑bond auction holds the 2036 yield at 7.32%, limiting G‑sec yield upside for equity risk‑on bets.",
+    "Battery PLI shortfall signals weaker EV stimulus, dampening outlook for Indian battery makers and related credit exposure.",
+    "Bitcoin slipped to a three‑month low, contradicting the view that crypto is rising as a recession hedge."
+  ],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "challenges",
+      "note": "Bitcoin fell to a three‑month low above $63,000 as leveraged long positions were liquidated."
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "no_signal",
+      "note": ""
+    }
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "global",
+      "label": "Central banks & global macro"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · macro, flows and policy"
+    },
+    {
+      "id": "markets",
+      "label": "Markets · cross-asset context"
+    },
+    {
+      "id": "ca_work",
+      "label": "Tax, audit & compliance"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "65a842a08c07",
+      "bucket": "global",
+      "headline": "Hurricane Isaias threatens Gulf production, keeping Brent crude firm above $90",
+      "what_happened": "National Oceanic and Atmospheric Administration forecasts Hurricane Isaias will make landfall on the Gulf Coast, likely causing production shut‑ins in US oil fields.",
+      "why_it_matters": "Higher Brent prices raise India’s crude import bill, keep rupee under pressure and support inflation, impacting commodity‑linked equities and bond yields.",
+      "action": "Watch Brent price and INR; consider oil‑hedge positioning.",
+      "priority": 9,
+      "scores": {
+        "ca": 0,
+        "business": 2,
+        "market": 8,
+        "global": 10
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-11-15T10:42:47.348811+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "a3bd578787b5",
+      "bucket": "india_economy",
+      "headline": "India‑US trade deal near finalisation could boost bilateral trade and support the rupee",
+      "what_happened": "External Affairs Minister Jaishankar said most issues in the US‑India trade pact have been resolved and the agreement could be sealed soon.",
+      "why_it_matters": "Removal of tariff barriers should lift US‑India export flows, improve the current account and may attract FII inflows, benefiting the rupee and equity markets.",
+      "action": "Monitor final signing and any sector‑specific tariff changes.",
+      "priority": 8,
+      "scores": {
+        "ca": 2,
+        "business": 8,
+        "market": 7,
+        "global": 5
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Economic Times · Economy",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-have-resolved-bulk-of-trade-deal-issues-pact-could-be-sealed-soon-jaishankar/articleshow/135829335.cms",
+        "published": "2026-11-14T09:59:26+00:00"
+      },
+      "also_reported_by": [
+        "BusinessLine"
+      ]
+    },
+    {
+      "id": "c1666f03df22",
+      "bucket": "india_economy",
+      "headline": "Battery PLI scheme underperforms, falling short of 50 GWh target",
+      "what_happened": "The Production‑Linked Incentive scheme for batteries is projected to miss its 50 GWh output goal for the fiscal year.",
+      "why_it_matters": "Weaker stimulus reduces growth prospects for Indian battery manufacturers and EV supply chain, potentially weighing on related equity and credit exposures.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 1,
+        "business": 7,
+        "market": 6,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Economic Times",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/industry/renewables/battery-pli-scheme-achieves-just-1-4-gwh-capacity-against-50-gwh-target-faces-delays-niti-aayog-report/articleshow/135834834.cms",
+        "published": "2026-11-14T13:59:52+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "5789c67e6f91",
+      "bucket": "markets",
+      "headline": "Strong demand in government‑bond auction keeps 2036 yield at 7.32%",
+      "what_happened": "Competitive bids totalling ₹73,016 crore were received for the ₹34,000 crore 2036 bond, with a cut‑off yield of 7.32%.",
+      "why_it_matters": "Robust demand supports G‑sec prices, limiting yield rise and keeping the risk‑free rate low for equities and credit markets.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 2,
+        "market": 8,
+        "global": 5
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63970",
+        "published": "2026-11-15T10:42:47.263938+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "0ea61e00a4ae",
+      "bucket": "markets",
+      "headline": "Asia‑Pacific airlines face cost pressure despite brief dip in crude below $90",
+      "what_happened": "Airlines in the region are seeking government support as operating costs stay high even after crude briefly fell below $90 per barrel.",
+      "why_it_matters": "Persisting cost pressure limits earnings recovery for carriers, affecting airline stocks and may temper demand for Indian airline equities.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 5,
+        "market": 7,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BusinessLine",
+        "tier": "paper",
+        "url": "https://www.thehindubusinessline.com/economy/logistics/asia-pacific-airlines-seek-govt-support-to-mitigate-cost-pressures/article71701715.ece",
+        "published": "2026-11-14T13:19:50+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "ca3be31f80bf",
+      "bucket": "markets",
+      "headline": "Upcoming IPOs to raise over ₹10,000 cr could add fresh equity supply",
+      "what_happened": "Three companies – Crystal Crop Protection, Mahanadi Coalfields and Watrana Rentals – are slated to launch IPOs, collectively targeting more than ₹10,000 cr.",
+      "why_it_matters": "Large new capital may pressure Nifty valuations if demand weak, but also offers allocation opportunities for investors.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 6,
+        "market": 7,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/ipo/rs-10-000-cr-upcoming-ipos-latest-gmp-price-key-dates-crystal-crop-protection-mahanadi-coalfields-watrana-rentals-11794716857818.html",
+        "published": "2026-11-15T05:20:48+00:00"
+      },
+      "also_reported_by": [
+        "Mint · Markets"
+      ]
+    },
+    {
+      "id": "e4bd61712c17",
+      "bucket": "markets",
+      "headline": "Bitcoin falls to three‑month low above $63,000 after leveraged liquidations",
+      "what_happened": "Cryptocurrencies dropped, with Bitcoin slipping to just above $63,000 amid accelerated liquidations of long positions.",
+      "why_it_matters": "The decline challenges the view that crypto is rising as a recession hedge and may affect crypto‑exposed portfolios.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 0,
+        "business": 1,
+        "market": 6,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/bitcoin-tumbles-to-three-month-low-as-liquidations-accelerate-11794702675152.html",
+        "published": "2026-11-15T00:31:14+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "2b70a2d7f3b7",
+      "bucket": "ca_work",
+      "headline": "RBI imposes ₹9 lakh penalty on One Mobikwik for prepaid instrument non‑compliance",
+      "what_happened": "RBI fined One Mobikwik Systems Limited ₹9 lakh for violations of prepaid payment instrument regulations.",
+      "why_it_matters": "Regulatory enforcement raises compliance risk for fintechs, possibly affecting valuations and credit assessments.",
+      "action": "Check fintech clients for updated compliance status.",
+      "priority": 5,
+      "scores": {
+        "ca": 5,
+        "business": 3,
+        "market": 2,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63973",
+        "published": "2026-11-15T10:42:47.263326+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "8b5f62a71c7d",
+      "bucket": "ca_work",
+      "headline": "FEMA compounding authority delegated to RBI regional offices",
+      "what_happened": "The RBI notified that certain FEMA contraventions can now be compounded by its regional offices.",
+      "why_it_matters": "Firms with foreign exchange violations may face quicker settlement, affecting cash flow and audit planning.",
+      "action": "Review pending FEMA matters for clients.",
+      "priority": 4,
+      "scores": {
+        "ca": 7,
+        "business": 2,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13745&Mode=0",
+        "published": "2026-11-15T10:42:46.516108+00:00"
+      },
+      "also_reported_by": []
+    }
+  ]
+}

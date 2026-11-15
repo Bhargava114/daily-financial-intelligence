@@ -1,27 +1,27 @@
 {
-  "date": "2026-11-14",
-  "generated_at": "2026-11-14T15:44:28.221388+05:30",
-  "scoring": "gemini",
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T16:16:42.673041+05:30",
+  "scoring": "groq",
   "stats": {
     "items": 9,
-    "actions": 2,
-    "candidates": 179,
-    "sources_ok": 24,
-    "sources_failed": 5,
+    "actions": 4,
+    "candidates": 140,
+    "sources_ok": 23,
+    "sources_failed": 6,
     "sources_blocked": 10
   },
   "five_minutes": [
-    "India's September current account deficit widened to $7.4 billion, elevating balance-of-payments pressure and upside risk for USD/INR.",
-    "Political scrutiny over Nvidia's supply chain extended to the US Commerce Department, reinforcing governance and valuation tail-risks across global semiconductor equities.",
-    "US Gulf Coast oil infrastructure shut-ins following Hurricane Isaias sustained supply constraints, holding Brent crude prices elevated.",
-    "The Reserve Bank of India absorbed ₹38,592 crore in 3-day VRRR liquidity at 5.49%, keeping money market yields anchored near the policy ceiling.",
-    "RBI's second amendment to FEMA export-import regulations introduces updated compliance mandates for cross-border trade settlements."
+    "Hurricane Isaias threatens Gulf production, keeping Brent crude firm above $90 and sustaining India's import bill and INR pressure.",
+    "India‑US trade deal near finalisation could boost bilateral trade, improve the current account and support the rupee.",
+    "Strong demand in the latest government‑bond auction holds the 2036 yield at 7.32%, limiting G‑sec yield upside for equity risk‑on bets.",
+    "Battery PLI shortfall signals weaker EV stimulus, dampening outlook for Indian battery makers and related credit exposure.",
+    "Bitcoin slipped to a three‑month low, contradicting the view that crypto is rising as a recession hedge."
   ],
   "theses": [
     {
       "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
-      "verdict": "no_signal",
-      "note": ""
+      "verdict": "challenges",
+      "note": "Bitcoin fell to a three‑month low above $63,000 as leveraged long positions were liquidated."
     },
     {
       "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
@@ -68,232 +68,233 @@
   ],
   "items": [
     {
-      "id": "ceab1c6b271c",
+      "id": "65a842a08c07",
       "bucket": "global",
-      "headline": "Political fallout from Nvidia probe threatens US tech policy stability and supply-chain restrictions",
-      "what_happened": "Scrutiny of Nvidia extended to US Commerce Secretary Howard Lutnick after reports revealed government agencies previously favored adding Megaspeed to the entity list, broadening the White House fallout.",
-      "why_it_matters": "Escalating government oversight around semiconductor trade policy adds regulatory uncertainty to global tech supply chains. This extends yesterday's equity valuation pressure across semiconductor suppliers and tech exporters.",
-      "action": null,
-      "priority": 7,
+      "headline": "Hurricane Isaias threatens Gulf production, keeping Brent crude firm above $90",
+      "what_happened": "National Oceanic and Atmospheric Administration forecasts Hurricane Isaias will make landfall on the Gulf Coast, likely causing production shut‑ins in US oil fields.",
+      "why_it_matters": "Higher Brent prices raise India’s crude import bill, keep rupee under pressure and support inflation, impacting commodity‑linked equities and bond yields.",
+      "action": "Watch Brent price and INR; consider oil‑hedge positioning.",
+      "priority": 9,
       "scores": {
         "ca": 0,
-        "business": 7,
+        "business": 2,
         "market": 8,
-        "global": 9
+        "global": 10
       },
       "confidence": "high",
       "is_update": true,
-      "update_note": "Continues yesterday's story.",
+      "update_note": "Carried over from yesterday with new reporting.",
       "source": {
-        "name": "BBC Business",
-        "tier": "wire",
-        "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-13T19:53:57+00:00"
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-11-15T10:42:47.348811+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "e3a2e217dad9",
-      "bucket": "global",
-      "headline": "Project Meridian FX expansion signals progress toward automated cross-border settlement infrastructure",
-      "what_happened": "The Bank of England, Monetary Authority of Singapore, and Bank of Thailand launched Project Meridian FX APAC to test synchronized FX cross-border settlement.",
-      "why_it_matters": "Central bank experimentation with automated cross-border settlement aims to reduce FX counterparty risk and payment friction, altering long-term institutional currency trading rails.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 1,
-        "business": 4,
-        "market": 6,
-        "global": 8
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Bank of England",
-        "tier": "primary",
-        "url": "https://www.bankofengland.co.uk/news/2026/november/the-boe-monetary-authority-of-singapore-and-bank-of-thailand-media-release",
-        "published": "2026-11-13T09:00:00+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "55d6caa9a315",
-      "bucket": "global",
-      "headline": "SEC proposed disclosure reforms push US listed firms toward principles-based compensation reporting",
-      "what_happened": "The US SEC proposed amendments to executive and director compensation disclosures to make reporting principles-based and materiality-driven.",
-      "why_it_matters": "The shift toward materiality-driven disclosures reduces boilerplate reporting for US equities while altering how global institutional investors evaluate corporate governance metrics.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 4,
-        "business": 5,
-        "market": 5,
-        "global": 6
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "SEC",
-        "tier": "primary",
-        "url": "https://www.sec.gov/newsroom/press-releases/2026-114-sec-proposes-executive-director-compensation-disclosure-reforms",
-        "published": "2026-11-13T16:57:00+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "b881b54f0aa5",
+      "id": "a3bd578787b5",
       "bucket": "india_economy",
-      "headline": "Widening September current account deficit to $7.4 billion intensifies external balance pressure and rupee weakness risks",
-      "what_happened": "RBI preliminary balance of payments data showed India's net current account deficit widened to $7.4 billion in September 2026 from $5.2 billion in September 2025, taking the April–September cumulative deficit to $25.8 billion.",
-      "why_it_matters": "The expanding current account gap increases India's dependence on capital inflows to balance the foreign exchange bill. For your FX and rates context, this limits RBI's capacity to ease system liquidity without risking INR depreciation.",
-      "action": "Revisit FX risk assumptions and monitor capital flow data for current account deficit coverage.",
+      "headline": "India‑US trade deal near finalisation could boost bilateral trade and support the rupee",
+      "what_happened": "External Affairs Minister Jaishankar said most issues in the US‑India trade pact have been resolved and the agreement could be sealed soon.",
+      "why_it_matters": "Removal of tariff barriers should lift US‑India export flows, improve the current account and may attract FII inflows, benefiting the rupee and equity markets.",
+      "action": "Monitor final signing and any sector‑specific tariff changes.",
       "priority": 8,
       "scores": {
         "ca": 2,
-        "business": 6,
-        "market": 8,
-        "global": 6
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63974",
-        "published": "2026-11-14T10:13:06.340252+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "e4b77c51fe03",
-      "bucket": "india_economy",
-      "headline": "Fortnightly bank balance sheet data reveals credit expansion trends across Indian lenders",
-      "what_happened": "The RBI released its fortnightly statement of position for scheduled commercial banks as of October 31, 2026, detailing deposit and credit aggregates.",
-      "why_it_matters": "Monitoring bank deposit growth against credit expansion indicates system liquidity health and margin trends. For Indian bank coverage, lagging deposit growth keeps funding costs elevated.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 2,
-        "business": 6,
+        "business": 8,
         "market": 7,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63971",
-        "published": "2026-11-14T10:13:06.340726+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "6cef7c96396d",
-      "bucket": "markets",
-      "headline": "RBI absorbs ₹38,592 crore via VRRR at 5.49% cutoff, keeping short-term money market rates anchored",
-      "what_happened": "The RBI accepted ₹38,592 crore against a notified ₹75,000 crore in its 3-day VRRR auction at a cut-off yield of 5.49%.",
-      "why_it_matters": "Partial uptake at the VRRR facility highlights steady banking system liquidity absorption. This holds short-dated money market yields firm near the floor of the operating corridor.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 0,
-        "business": 4,
-        "market": 7,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63968",
-        "published": "2026-11-14T10:13:06.340828+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "803b2290e299",
-      "bucket": "markets",
-      "headline": "Extended Microsoft cloud outage disrupts global enterprise workflows and software operational metrics",
-      "what_happened": "Microsoft reported ongoing service restoration efforts for Outlook and Teams following a prolonged global cloud infrastructure outage.",
-      "why_it_matters": "Extended downtime across core enterprise software highlights cloud resilience risks, creating potential SLA liabilities and operational friction for enterprise technology users.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 1,
-        "business": 6,
-        "market": 6,
         "global": 5
       },
       "confidence": "high",
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "BBC Business",
-        "tier": "wire",
-        "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-13T18:36:57+00:00"
+        "name": "Economic Times · Economy",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-us-have-resolved-bulk-of-trade-deal-issues-pact-could-be-sealed-soon-jaishankar/articleshow/135829335.cms",
+        "published": "2026-11-14T09:59:26+00:00"
       },
       "also_reported_by": [
-        "BBC Business",
-        "BusinessLine",
-        "Guardian Business",
-        "Mint · Markets"
+        "BusinessLine"
       ]
     },
     {
-      "id": "6f2b8b5e6f65",
-      "bucket": "ca_work",
-      "headline": "Updated FEMA regulations modify compliance mandates for foreign trade in goods and services",
-      "what_happened": "The Reserve Bank of India issued the Foreign Exchange Management (Export and Import of Goods and Services) (Second Amendment) Regulations, 2026 under Notification No. FEMA 23(R)/(2)/2026-RB.",
-      "why_it_matters": "Regulatory shifts in FEMA export-import rules alter documentation and timeline requirements for cross-border trade transactions. For your CA advisory work, client trade settlement protocols must be checked against the revised notification.",
-      "action": "Review notification text to update FEMA compliance checklists for import-export clients.",
-      "priority": 6,
+      "id": "c1666f03df22",
+      "bucket": "india_economy",
+      "headline": "Battery PLI scheme underperforms, falling short of 50 GWh target",
+      "what_happened": "The Production‑Linked Incentive scheme for batteries is projected to miss its 50 GWh output goal for the fiscal year.",
+      "why_it_matters": "Weaker stimulus reduces growth prospects for Indian battery manufacturers and EV supply chain, potentially weighing on related equity and credit exposures.",
+      "action": null,
+      "priority": 7,
       "scores": {
-        "ca": 8,
-        "business": 4,
-        "market": 3,
-        "global": 2
+        "ca": 1,
+        "business": 7,
+        "market": 6,
+        "global": 3
       },
       "confidence": "high",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
+      "is_update": false,
+      "update_note": null,
       "source": {
-        "name": "RBI Notifications",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13750&Mode=0",
-        "published": "2026-11-14T10:13:05.954749+00:00"
+        "name": "Economic Times",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/industry/renewables/battery-pli-scheme-achieves-just-1-4-gwh-capacity-against-50-gwh-target-faces-delays-niti-aayog-report/articleshow/135834834.cms",
+        "published": "2026-11-14T13:59:52+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "65a842a08c07",
-      "bucket": "watchlist",
-      "headline": "Gulf Coast energy shut-ins persist post-Hurricane Isaias, sustaining near-term crude market tightness",
-      "what_happened": "US EIA reported energy infrastructure shut-ins on the Gulf Coast following Hurricane Isaias landfall, threatening regional oil production and processing capacity.",
-      "why_it_matters": "Persistent supply disruptions maintain upward momentum in crude benchmark prices. For your Brent crude watchlist, sustained high energy import prices broaden India's trade deficit and pressure domestic inflation expectations.",
+      "id": "5789c67e6f91",
+      "bucket": "markets",
+      "headline": "Strong demand in government‑bond auction keeps 2036 yield at 7.32%",
+      "what_happened": "Competitive bids totalling ₹73,016 crore were received for the ₹34,000 crore 2036 bond, with a cut‑off yield of 7.32%.",
+      "why_it_matters": "Robust demand supports G‑sec prices, limiting yield rise and keeping the risk‑free rate low for equities and credit markets.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 2,
+        "market": 8,
+        "global": 5
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63970",
+        "published": "2026-11-15T10:42:47.263938+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "0ea61e00a4ae",
+      "bucket": "markets",
+      "headline": "Asia‑Pacific airlines face cost pressure despite brief dip in crude below $90",
+      "what_happened": "Airlines in the region are seeking government support as operating costs stay high even after crude briefly fell below $90 per barrel.",
+      "why_it_matters": "Persisting cost pressure limits earnings recovery for carriers, affecting airline stocks and may temper demand for Indian airline equities.",
       "action": null,
       "priority": 6,
       "scores": {
         "ca": 0,
         "business": 5,
         "market": 7,
-        "global": 7
+        "global": 4
       },
       "confidence": "high",
-      "is_update": true,
-      "update_note": "Continues yesterday's story.",
+      "is_update": false,
+      "update_note": null,
       "source": {
-        "name": "US EIA (energy)",
-        "tier": "data",
-        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
-        "published": "2026-11-14T10:13:06.509981+00:00"
+        "name": "BusinessLine",
+        "tier": "paper",
+        "url": "https://www.thehindubusinessline.com/economy/logistics/asia-pacific-airlines-seek-govt-support-to-mitigate-cost-pressures/article71701715.ece",
+        "published": "2026-11-14T13:19:50+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "ca3be31f80bf",
+      "bucket": "markets",
+      "headline": "Upcoming IPOs to raise over ₹10,000 cr could add fresh equity supply",
+      "what_happened": "Three companies – Crystal Crop Protection, Mahanadi Coalfields and Watrana Rentals – are slated to launch IPOs, collectively targeting more than ₹10,000 cr.",
+      "why_it_matters": "Large new capital may pressure Nifty valuations if demand weak, but also offers allocation opportunities for investors.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 6,
+        "market": 7,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/ipo/rs-10-000-cr-upcoming-ipos-latest-gmp-price-key-dates-crystal-crop-protection-mahanadi-coalfields-watrana-rentals-11794716857818.html",
+        "published": "2026-11-15T05:20:48+00:00"
+      },
+      "also_reported_by": [
+        "Mint · Markets"
+      ]
+    },
+    {
+      "id": "e4bd61712c17",
+      "bucket": "markets",
+      "headline": "Bitcoin falls to three‑month low above $63,000 after leveraged liquidations",
+      "what_happened": "Cryptocurrencies dropped, with Bitcoin slipping to just above $63,000 amid accelerated liquidations of long positions.",
+      "why_it_matters": "The decline challenges the view that crypto is rising as a recession hedge and may affect crypto‑exposed portfolios.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 0,
+        "business": 1,
+        "market": 6,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/bitcoin-tumbles-to-three-month-low-as-liquidations-accelerate-11794702675152.html",
+        "published": "2026-11-15T00:31:14+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "2b70a2d7f3b7",
+      "bucket": "ca_work",
+      "headline": "RBI imposes ₹9 lakh penalty on One Mobikwik for prepaid instrument non‑compliance",
+      "what_happened": "RBI fined One Mobikwik Systems Limited ₹9 lakh for violations of prepaid payment instrument regulations.",
+      "why_it_matters": "Regulatory enforcement raises compliance risk for fintechs, possibly affecting valuations and credit assessments.",
+      "action": "Check fintech clients for updated compliance status.",
+      "priority": 5,
+      "scores": {
+        "ca": 5,
+        "business": 3,
+        "market": 2,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63973",
+        "published": "2026-11-15T10:42:47.263326+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "8b5f62a71c7d",
+      "bucket": "ca_work",
+      "headline": "FEMA compounding authority delegated to RBI regional offices",
+      "what_happened": "The RBI notified that certain FEMA contraventions can now be compounded by its regional offices.",
+      "why_it_matters": "Firms with foreign exchange violations may face quicker settlement, affecting cash flow and audit planning.",
+      "action": "Review pending FEMA matters for clients.",
+      "priority": 4,
+      "scores": {
+        "ca": 7,
+        "business": 2,
+        "market": 1,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13745&Mode=0",
+        "published": "2026-11-15T10:42:46.516108+00:00"
       },
       "also_reported_by": []
     }
