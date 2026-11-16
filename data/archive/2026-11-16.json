@@ -1,0 +1,406 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T16:35:22.096975+05:30",
+  "scoring": "gemini",
+  "stats": {
+    "items": 13,
+    "actions": 2,
+    "candidates": 175,
+    "sources_ok": 23,
+    "sources_failed": 6,
+    "sources_blocked": 10
+  },
+  "five_minutes": [
+    "India's WPI inflation accelerated to 12.29% in October, dampening expectations for RBI interest rate cuts as input cost pressures re-emerge.",
+    "India's current account deficit widened to $7.4 billion in September, adding structural pressure on the rupee and increasing reliance on capital inflows.",
+    "CBDT is evaluating LTCG and STT tax modifications ahead of the Union Budget, which could alter equity trading and portfolio tax planning.",
+    "Category 2 Hurricane Isaias forced energy infrastructure shut-ins along the US Gulf Coast, keeping Brent crude elevated above $90.",
+    "Softening iron ore and copper prices in Australia highlight ongoing weakness in Chinese industrial commodity demand."
+  ],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "no_signal",
+      "note": ""
+    }
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "global",
+      "label": "Central banks & global macro"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · macro, flows and policy"
+    },
+    {
+      "id": "markets",
+      "label": "Markets · cross-asset context"
+    },
+    {
+      "id": "ca_work",
+      "label": "Tax, audit & compliance"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "65a842a08c07",
+      "bucket": "global",
+      "headline": "Production shut-ins as Hurricane Isaias nears Gulf Coast landfall bolster crude supply risk and keep Brent elevated",
+      "what_happened": "The Energy Information Administration reported that Category 2 Hurricane Isaias is nearing Gulf Coast landfall, forcing energy infrastructure shut-ins ahead of impact.",
+      "why_it_matters": "Disruptions to US Gulf Coast oil infrastructure tighten global crude availability, maintaining upward pressure on Brent crude above $90 and expanding India's import bill.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 1,
+        "business": 6,
+        "market": 8,
+        "global": 9
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-11-16T11:01:14.686137+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "fd9f795e74f3",
+      "bucket": "global",
+      "headline": "Weakening industrial metal prices signal softening China commodity demand and weigh on resource equities",
+      "what_happened": "Australian equity benchmarks fell to a near one-week low as tumbling copper and iron ore prices dragged down mining heavyweights.",
+      "why_it_matters": "Softening bulk commodity prices reflect sluggish Chinese real estate and industrial activity, mitigating global input inflation while signalling persistent weakness in Asian economic momentum.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 1,
+        "business": 5,
+        "market": 7,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/australian-shares-slip-to-near-one-week-low-as-weaker-copper-iron-ore-weigh-on-miners-11794789357824.html",
+        "published": "2026-11-16T00:35:57+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "4a024f6cbfbb",
+      "bucket": "global",
+      "headline": "Upcoming Xi-Trump-Putin summit creates headline risks for trade policy and global energy flows",
+      "what_happened": "China officially confirmed preparations for a trilateral summit featuring Xi Jinping, Donald Trump, and Vladimir Putin.",
+      "why_it_matters": "Trilateral engagement among major global powers introduces tail risks for tariff policy, sanctions enforcement, and global energy market supply agreements.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 1,
+        "business": 5,
+        "market": 5,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Economic Times",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/news/international/world-news/historic-xi-trump-putin-trilateral-summit-scheduled-for-november-19-in-shenzhen-china/articleshow/135871473.cms",
+        "published": "2026-11-16T03:34:16+00:00"
+      },
+      "also_reported_by": [
+        "Economic Times"
+      ]
+    },
+    {
+      "id": "fca4e181353e",
+      "bucket": "india_economy",
+      "headline": "Accelerated WPI inflation to 12.29% signals persistent input cost pressure across Indian manufacturing",
+      "what_happened": "India's wholesale price inflation accelerated to 12.29% year-on-year in October, exceeding market expectations.",
+      "why_it_matters": "High wholesale price pressure threatens corporate margin compression across industrial and consumer sectors, reducing room for RBI monetary easing despite slowing growth.",
+      "action": null,
+      "priority": 9,
+      "scores": {
+        "ca": 2,
+        "business": 8,
+        "market": 9,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BusinessLine",
+        "tier": "paper",
+        "url": "https://www.thehindubusinessline.com/economy/indias-wholesale-price-rise-accelerates-to-1229-in-october/article71707029.ece",
+        "published": "2026-11-16T07:09:36+00:00"
+      },
+      "also_reported_by": [
+        "BusinessLine"
+      ]
+    },
+    {
+      "id": "b881b54f0aa5",
+      "bucket": "india_economy",
+      "headline": "Expanding current account deficit to $7.4 billion intensifies underlying depreciation pressure on the rupee",
+      "what_happened": "RBI data shows India's current account deficit widened to $7.4 billion in September 2026 from $5.2 billion a year earlier, driving the H1 deficit up to $25.8 billion.",
+      "why_it_matters": "A widening trade and current account deficit increases India's reliance on capital flows, leaving the rupee vulnerable to foreign portfolio outflows and compelling ongoing RBI reserve intervention.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 3,
+        "business": 7,
+        "market": 8,
+        "global": 6
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63974",
+        "published": "2026-11-16T11:01:15.749832+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "5fe36075e91d",
+      "bucket": "india_economy",
+      "headline": "Cancellation of 49 NBFC registrations highlights RBI's continued regulatory purge of non-compliant shadow banks",
+      "what_happened": "The RBI cancelled the Certificate of Registration of 49 Non-Banking Financial Companies under Section 45-IA(6) of the RBI Act.",
+      "why_it_matters": "Continued regulatory housecleaning reinforces strict capital and governance norms across the NBFC space, filtering out inactive entities while raising compliance standards for operating non-bank lenders.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 6,
+        "business": 6,
+        "market": 5,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63979",
+        "published": "2026-11-16T11:01:15.748727+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "fb671ce8ec9d",
+      "bucket": "markets",
+      "headline": "RBI successfully switches ₹21,000 crore of short-dated debt to push maturities out to 2034-2062",
+      "what_happened": "The RBI conducted a switch auction converting short-term Government of India securities maturing between 2027 and 2029 into longer-dated paper maturing between 2034 and 2062.",
+      "why_it_matters": "Active debt management reduces near-term redemption pressure for the sovereign, smoothing the government bond supply profile and supporting long-end G-sec yields.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 2,
+        "business": 4,
+        "market": 8,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63982",
+        "published": "2026-11-16T11:01:15.747533+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "9102c7ea77bf",
+      "bucket": "markets",
+      "headline": "Electronics manufacturing sell-off highlights margin vulnerabilities across Indian EMS and component suppliers",
+      "what_happened": "Amber Enterprises fell 8.4% after peer Kaynes Technology reported weaker-than-expected Q2 financial results, dragging down sentiment across the sector.",
+      "why_it_matters": "Softness in component and EMS earnings challenges high growth valuations in the domestic electronics manufacturing theme, underscoring rising input costs and client destocking.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 2,
+        "business": 7,
+        "market": 7,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/stock-market-news/amber-enterprises-shares-resume-losing-run-tank-over-8-after-weak-q2-from-peer-kaynes-technology-is-more-fall-ahead-11794813833370.html",
+        "published": "2026-11-16T07:41:17+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "da1cbd9bf7ac",
+      "bucket": "markets",
+      "headline": "Global aerospace supply chain diversification drives sharp outperformance in Indian precision component suppliers",
+      "what_happened": "Ten Indian aerospace suppliers, including Sansera Engineering and Aequs, have surged an average of 123% this year as Airbus and Boeing shift sourcing to India.",
+      "why_it_matters": "Structural OEM supply chain diversification away from traditional hubs provides multi-year revenue visibility for specialized Indian engineering exporters, bucking the broader 3% decline in the Nifty 50.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 1,
+        "business": 8,
+        "market": 7,
+        "global": 5
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BusinessLine",
+        "tier": "paper",
+        "url": "https://www.thehindubusinessline.com/markets/stock-markets/airbus-boeing-supply-chain-shift-boosts-indias-aerospace-stocks/article71706736.ece",
+        "published": "2026-11-16T04:29:01+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "d8e71f2bcdcd",
+      "bucket": "markets",
+      "headline": "Upcoming ₹23,000 crore T-Bill issuance tests short-end liquidity amid tight banking system conditions",
+      "what_happened": "The RBI scheduled auctions for 91-day, 182-day, and 364-day Treasury Bills totalling ₹23,000 crore on November 18.",
+      "why_it_matters": "Regular T-bill supply absorbs short-term institutional cash, setting benchmark yields for commercial paper and short-term corporate debt instruments.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 1,
+        "business": 3,
+        "market": 6,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63975",
+        "published": "2026-11-16T11:01:15.749682+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "34069b253442",
+      "bucket": "ca_work",
+      "headline": "Potential LTCG and STT revisions in the upcoming Budget could reshape capital gains tax burdens for equity investors",
+      "what_happened": "CBDT Chairman Ravi Agrawal confirmed the government is examining industry proposals to modify long-term capital gains (LTCG) and Securities Transaction Tax (STT) ahead of the Union Budget.",
+      "why_it_matters": "Any changes to equity capital gains taxation or transaction taxes directly impact net portfolio returns and require you to re-evaluate tax-harvesting strategies for domestic equity clients.",
+      "action": "Review client capital gains harvesting options ahead of Union Budget proposals.",
+      "priority": 8,
+      "scores": {
+        "ca": 9,
+        "business": 6,
+        "market": 8,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Economic Times · Economy",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/news/economy/policy/ltcg-tax-relief-on-the-cards-cbdt-chairman-says-govt-examining-proposals-for-equity-capital-gains-tax-changes-before-union-budget/articleshow/135883403.cms",
+        "published": "2026-11-16T10:25:11+00:00"
+      },
+      "also_reported_by": [
+        "BusinessLine"
+      ]
+    },
+    {
+      "id": "8b5f62a71c7d",
+      "bucket": "ca_work",
+      "headline": "Decentralised FEMA compounding delegated to RBI regional offices speeds up cross-border compliance resolution",
+      "what_happened": "The RBI delegated compounding powers for select contraventions under the Foreign Exchange Management Act (FEMA), 1999, to its regional offices.",
+      "why_it_matters": "Localised compounding authority reduces turnaround times for resolving technical FEMA non-compliance, simplifying cross-border corporate reporting and advisory workflows for CAs.",
+      "action": "Check client FDI and ODI compounding applications pending with RBI to route or re-submit via regional offices if eligible.",
+      "priority": 7,
+      "scores": {
+        "ca": 9,
+        "business": 5,
+        "market": 3,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13745&Mode=0",
+        "published": "2026-11-16T11:01:13.348695+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "91921eef0b0a",
+      "bucket": "ca_work",
+      "headline": "Tax authority concerns over inverted duty structures stall GST rate cuts on air purifiers and filtration equipment",
+      "what_happened": "Tax officials rejected lowering GST rates on air purifiers and HEPA filters, citing concerns that lower output duties relative to input taxes would create inverted duty structure claims.",
+      "why_it_matters": "Demonstrates the GST Council's policy constraint where inverted tax structures create refund liabilities, keeping effective tax rates elevated on consumer health hardware.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 7,
+        "business": 5,
+        "market": 3,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BusinessLine",
+        "tier": "paper",
+        "url": "https://www.thehindubusinessline.com/economy/air-purifier-still-waiting-for-fresh-air-of-rate-cut-despite-nudge-from-parliamentary-panel-court/article71704481.ece",
+        "published": "2026-11-15T12:55:12+00:00"
+      },
+      "also_reported_by": []
+    }
+  ]
+}
