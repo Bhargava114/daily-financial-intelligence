@@ -1,21 +1,21 @@
 {
-  "date": "2026-11-16",
-  "generated_at": "2026-11-16T16:35:22.096975+05:30",
-  "scoring": "gemini",
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T17:13:57.929449+05:30",
+  "scoring": "groq",
   "stats": {
-    "items": 13,
-    "actions": 2,
-    "candidates": 175,
+    "items": 14,
+    "actions": 0,
+    "candidates": 177,
     "sources_ok": 23,
     "sources_failed": 6,
     "sources_blocked": 10
   },
   "five_minutes": [
-    "India's WPI inflation accelerated to 12.29% in October, dampening expectations for RBI interest rate cuts as input cost pressures re-emerge.",
-    "India's current account deficit widened to $7.4 billion in September, adding structural pressure on the rupee and increasing reliance on capital inflows.",
-    "CBDT is evaluating LTCG and STT tax modifications ahead of the Union Budget, which could alter equity trading and portfolio tax planning.",
-    "Category 2 Hurricane Isaias forced energy infrastructure shut-ins along the US Gulf Coast, keeping Brent crude elevated above $90.",
-    "Softening iron ore and copper prices in Australia highlight ongoing weakness in Chinese industrial commodity demand."
+    "BOJ loan data shows household borrowing easing, keeping USD‑JPY low and limiting upside for the INR.",
+    "WTO reports a surge in new tariffs, raising trade friction risk and potential pressure on India's current‑account.",
+    "Hurricane Isaias threatens Gulf crude output, keeping Brent above $80 and sustaining India's oil import bill.",
+    "Gold and silver have slipped to multi‑year lows as a strong dollar and higher US yields erode safe‑haven demand.",
+    "The CBDT is reviewing LTCG and STT tax changes ahead of the 2027‑28 budget, which could lift equity after‑tax returns."
   ],
   "theses": [
     {
@@ -30,8 +30,8 @@
     },
     {
       "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
-      "verdict": "no_signal",
-      "note": ""
+      "verdict": "supports",
+      "note": "Gold and silver have fallen sharply, confirming they are not rising further despite market stress."
     },
     {
       "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
@@ -68,68 +68,97 @@
   ],
   "items": [
     {
-      "id": "65a842a08c07",
+      "id": "ca2370868e26",
       "bucket": "global",
-      "headline": "Production shut-ins as Hurricane Isaias nears Gulf Coast landfall bolster crude supply risk and keep Brent elevated",
-      "what_happened": "The Energy Information Administration reported that Category 2 Hurricane Isaias is nearing Gulf Coast landfall, forcing energy infrastructure shut-ins ahead of impact.",
-      "why_it_matters": "Disruptions to US Gulf Coast oil infrastructure tighten global crude availability, maintaining upward pressure on Brent crude above $90 and expanding India's import bill.",
+      "headline": "BOJ household loan growth eases, suggesting continued ultra‑easy stance and limited USD‑JPY upside",
+      "what_happened": "The Bank of Japan released data showing a slowdown in loans and bills discounted to households for the latest month.",
+      "why_it_matters": "Slower loan growth indicates the BOJ will likely maintain low rates, keeping USD‑JPY subdued and reducing USD strength that could otherwise support the INR.",
       "action": null,
-      "priority": 8,
+      "priority": 9,
       "scores": {
-        "ca": 1,
-        "business": 6,
-        "market": 8,
-        "global": 9
-      },
-      "confidence": "high",
-      "is_update": true,
-      "update_note": "Continues yesterday's story.",
-      "source": {
-        "name": "US EIA (energy)",
-        "tier": "data",
-        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
-        "published": "2026-11-16T11:01:14.686137+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "fd9f795e74f3",
-      "bucket": "global",
-      "headline": "Weakening industrial metal prices signal softening China commodity demand and weigh on resource equities",
-      "what_happened": "Australian equity benchmarks fell to a near one-week low as tumbling copper and iron ore prices dragged down mining heavyweights.",
-      "why_it_matters": "Softening bulk commodity prices reflect sluggish Chinese real estate and industrial activity, mitigating global input inflation while signalling persistent weakness in Asian economic momentum.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 1,
-        "business": 5,
-        "market": 7,
-        "global": 8
+        "ca": 0,
+        "business": 0,
+        "market": 2,
+        "global": 5
       },
       "confidence": "high",
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "Mint · Markets",
-        "tier": "paper",
-        "url": "https://www.livemint.com/market/australian-shares-slip-to-near-one-week-low-as-weaker-copper-iron-ore-weigh-on-miners-11794789357824.html",
-        "published": "2026-11-16T00:35:57+00:00"
+        "name": "Bank of Japan",
+        "tier": "primary",
+        "url": "http://www.boj.or.jp/en/statistics/outline/notice_2026/not261117a.htm",
+        "published": "2026-11-16T23:50:00+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "4a024f6cbfbb",
+      "id": "296469a36169",
       "bucket": "global",
-      "headline": "Upcoming Xi-Trump-Putin summit creates headline risks for trade policy and global energy flows",
-      "what_happened": "China officially confirmed preparations for a trilateral summit featuring Xi Jinping, Donald Trump, and Vladimir Putin.",
-      "why_it_matters": "Trilateral engagement among major global powers introduces tail risks for tariff policy, sanctions enforcement, and global energy market supply agreements.",
+      "headline": "WTO reports record rise in new tariffs, heightening global trade friction and commodity price risk",
+      "what_happened": "The WTO’s annual overview shows a sharp increase in newly‑introduced tariffs and non‑facilitating measures in the first half of 2026.",
+      "why_it_matters": "Surge in protectionism can curb demand for commodities, impacting Indian export earnings and potentially weakening the rupee via trade‑balance stress.",
       "action": null,
-      "priority": 5,
+      "priority": 8,
       "scores": {
-        "ca": 1,
-        "business": 5,
-        "market": 5,
-        "global": 8
+        "ca": 0,
+        "business": 0,
+        "market": 2,
+        "global": 5
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "WTO",
+        "tier": "primary",
+        "url": "https://www.wto.org/english/news_e/news26_e/tmwto_17nov26_552_e.htm",
+        "published": "2026-11-17T00:00:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "1ee8c6b48525",
+      "bucket": "india_economy",
+      "headline": "Finance Minister launches pre‑budget talks, signalling upcoming fiscal measures that could affect corporate tax and infrastructure spending",
+      "what_happened": "FM Sitharaman chaired the first pre‑budget consultation with top economists, kicking off preparations for the 2027‑28 Union Budget.",
+      "why_it_matters": "Early signals of budget priorities help anticipate changes in corporate tax rates and capex incentives, influencing equity valuations in banks, IT and infrastructure sectors.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 2,
+        "business": 4,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Economy",
+        "tier": "paper",
+        "url": "https://www.livemint.com/economy/fm-sitharaman-kicks-off-budget-2027-28-preparations-holds-first-consultation-with-top-economists-11794828331406.html",
+        "published": "2026-11-16T12:12:41+00:00"
+      },
+      "also_reported_by": [
+        "Economic Times",
+        "Economic Times · Economy",
+        "Mint · Economy"
+      ]
+    },
+    {
+      "id": "37d03fce0d58",
+      "bucket": "india_economy",
+      "headline": "Analysts project India’s current‑account deficit could hit 1.2% of GDP in FY27, intensifying INR depreciation risk",
+      "what_happened": "A recent Economic Times piece forecasts the current‑account deficit to reach 1.2% of GDP in FY27.",
+      "why_it_matters": "A widening deficit raises external vulnerability, likely prompting capital outflows and upward pressure on yields, affecting both FX and bond markets.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 0,
+        "business": 4,
+        "market": 3,
+        "global": 0
       },
       "confidence": "high",
       "is_update": false,
@@ -137,26 +166,80 @@
       "source": {
         "name": "Economic Times",
         "tier": "paper",
-        "url": "https://economictimes.indiatimes.com/news/international/world-news/historic-xi-trump-putin-trilateral-summit-scheduled-for-november-19-in-shenzhen-china/articleshow/135871473.cms",
-        "published": "2026-11-16T03:34:16+00:00"
+        "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-cad-may-touch-1-2-of-gdp-in-fy27-as-oil-gold-demand-pose-risks-ubi/articleshow/135914575.cms",
+        "published": "2026-11-17T06:58:34+00:00"
       },
       "also_reported_by": [
-        "Economic Times"
+        "Economic Times · Economy"
       ]
     },
     {
-      "id": "fca4e181353e",
+      "id": "a6af7b7ba0f8",
       "bucket": "india_economy",
-      "headline": "Accelerated WPI inflation to 12.29% signals persistent input cost pressure across Indian manufacturing",
-      "what_happened": "India's wholesale price inflation accelerated to 12.29% year-on-year in October, exceeding market expectations.",
-      "why_it_matters": "High wholesale price pressure threatens corporate margin compression across industrial and consumer sectors, reducing room for RBI monetary easing despite slowing growth.",
+      "headline": "Wholesale inflation expected to hit ~11% in FY27 as fuel, food and metals prices surge",
+      "what_happened": "A report projects India's wholesale inflation to reach around 11% in FY27, driven by energy, food and metal price pressures.",
+      "why_it_matters": "Elevated wholesale inflation foreshadows higher consumer inflation, pressuring RBI to keep policy rates high, which impacts bond yields and equity valuations.",
       "action": null,
-      "priority": 9,
+      "priority": 8,
       "scores": {
-        "ca": 2,
-        "business": 8,
-        "market": 9,
-        "global": 4
+        "ca": 0,
+        "business": 5,
+        "market": 2,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Economic Times · Economy",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/news/economy/indicators/wholesale-inflation-faces-a-triple-squeeze-from-fuel-food-and-metals-in-fy27-report/articleshow/135909049.cms",
+        "published": "2026-11-17T03:39:19+00:00"
+      },
+      "also_reported_by": [
+        "BusinessLine"
+      ]
+    },
+    {
+      "id": "6d4b7996d217",
+      "bucket": "india_economy",
+      "headline": "India’s edible‑oil import bill jumps 24% to record Rs 2 lakh cr, pushing commodity import costs higher",
+      "what_happened": "Edible‑oil imports in the 2025‑26 oil year rose to a record Rs 2 lakh crore, a 24% increase from the previous year.",
+      "why_it_matters": "Higher import spend widens the current‑account deficit, adds rupee pressure and benefits domestic oil‑seed producers; it also feeds into food‑price inflation outlook.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 4,
+        "market": 2,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Economic Times · Economy",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-2025-26-edible-oil-import-bill-up-24-pc-to-record-rs-2-lakh-cr-crude-palm-oil-buying-surges/articleshow/135888763.cms",
+        "published": "2026-11-16T12:11:53+00:00"
+      },
+      "also_reported_by": [
+        "BusinessLine"
+      ]
+    },
+    {
+      "id": "3aa97cd381b0",
+      "bucket": "india_economy",
+      "headline": "Govt to seek feedback on Sustainable Aviation Fuel policy, aiming to cut fuel import bill",
+      "what_happened": "The government will invite public comments on its Sustainable Aviation Fuel (SAF) policy within the next one to two weeks.",
+      "why_it_matters": "Adoption of SAF could lower aviation fuel imports, supporting the current‑account and offering ESG investment opportunities in the airline sector.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 3,
+        "market": 2,
+        "global": 0
       },
       "confidence": "high",
       "is_update": false,
@@ -164,105 +247,51 @@
       "source": {
         "name": "BusinessLine",
         "tier": "paper",
-        "url": "https://www.thehindubusinessline.com/economy/indias-wholesale-price-rise-accelerates-to-1229-in-october/article71707029.ece",
-        "published": "2026-11-16T07:09:36+00:00"
+        "url": "https://www.thehindubusinessline.com/economy/logistics/govt-to-seek-public-comments-on-saf-policy-in-one-to-two-weeks-k-rammohan-naidu/article71710710.ece",
+        "published": "2026-11-17T07:36:32+00:00"
       },
       "also_reported_by": [
         "BusinessLine"
       ]
     },
     {
-      "id": "b881b54f0aa5",
-      "bucket": "india_economy",
-      "headline": "Expanding current account deficit to $7.4 billion intensifies underlying depreciation pressure on the rupee",
-      "what_happened": "RBI data shows India's current account deficit widened to $7.4 billion in September 2026 from $5.2 billion a year earlier, driving the H1 deficit up to $25.8 billion.",
-      "why_it_matters": "A widening trade and current account deficit increases India's reliance on capital flows, leaving the rupee vulnerable to foreign portfolio outflows and compelling ongoing RBI reserve intervention.",
+      "id": "65a842a08c07",
+      "bucket": "markets",
+      "headline": "Hurricane Isaias threatens Gulf crude output, keeping Brent above $80 and sustaining India’s oil import bill",
+      "what_happened": "The approaching Hurricane Isaias is expected to cause production shut‑ins on the Gulf Coast, potentially disrupting energy infrastructure.",
+      "why_it_matters": "Potential supply disruption lifts crude prices, raising India’s import costs, supporting INR pressure and boosting energy‑sector equities.",
       "action": null,
-      "priority": 8,
+      "priority": 7,
       "scores": {
-        "ca": 3,
-        "business": 7,
-        "market": 8,
-        "global": 6
+        "ca": 0,
+        "business": 0,
+        "market": 5,
+        "global": 2
       },
       "confidence": "high",
-      "is_update": false,
-      "update_note": null,
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
       "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63974",
-        "published": "2026-11-16T11:01:15.749832+00:00"
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-11-17T11:42:41.345682+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "5fe36075e91d",
-      "bucket": "india_economy",
-      "headline": "Cancellation of 49 NBFC registrations highlights RBI's continued regulatory purge of non-compliant shadow banks",
-      "what_happened": "The RBI cancelled the Certificate of Registration of 49 Non-Banking Financial Companies under Section 45-IA(6) of the RBI Act.",
-      "why_it_matters": "Continued regulatory housecleaning reinforces strict capital and governance norms across the NBFC space, filtering out inactive entities while raising compliance standards for operating non-bank lenders.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 6,
-        "business": 6,
-        "market": 5,
-        "global": 1
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63979",
-        "published": "2026-11-16T11:01:15.748727+00:00"
-      },
-      "also_reported_by": [
-        "RBI"
-      ]
-    },
-    {
-      "id": "fb671ce8ec9d",
+      "id": "5ec6bd56f700",
       "bucket": "markets",
-      "headline": "RBI successfully switches ₹21,000 crore of short-dated debt to push maturities out to 2034-2062",
-      "what_happened": "The RBI conducted a switch auction converting short-term Government of India securities maturing between 2027 and 2029 into longer-dated paper maturing between 2034 and 2062.",
-      "why_it_matters": "Active debt management reduces near-term redemption pressure for the sovereign, smoothing the government bond supply profile and supporting long-end G-sec yields.",
+      "headline": "Silver plunges 60% from Jan high as strong dollar and higher US yields erode metal’s safe‑haven appeal",
+      "what_happened": "Silver prices have fallen nearly 60% from their January record, driven by a stronger US dollar, expectations of higher interest rates and profit‑booking.",
+      "why_it_matters": "The sharp decline reduces silver’s upside as a hedge, affecting portfolio allocation to precious metals and related mining stocks.",
       "action": null,
       "priority": 7,
       "scores": {
-        "ca": 2,
-        "business": 4,
-        "market": 8,
-        "global": 3
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63982",
-        "published": "2026-11-16T11:01:15.747533+00:00"
-      },
-      "also_reported_by": [
-        "RBI"
-      ]
-    },
-    {
-      "id": "9102c7ea77bf",
-      "bucket": "markets",
-      "headline": "Electronics manufacturing sell-off highlights margin vulnerabilities across Indian EMS and component suppliers",
-      "what_happened": "Amber Enterprises fell 8.4% after peer Kaynes Technology reported weaker-than-expected Q2 financial results, dragging down sentiment across the sector.",
-      "why_it_matters": "Softness in component and EMS earnings challenges high growth valuations in the domestic electronics manufacturing theme, underscoring rising input costs and client destocking.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 2,
-        "business": 7,
-        "market": 7,
-        "global": 2
+        "ca": 0,
+        "business": 0,
+        "market": 5,
+        "global": 0
       },
       "confidence": "high",
       "is_update": false,
@@ -270,48 +299,52 @@
       "source": {
         "name": "Mint · Markets",
         "tier": "paper",
-        "url": "https://www.livemint.com/market/stock-market-news/amber-enterprises-shares-resume-losing-run-tank-over-8-after-weak-q2-from-peer-kaynes-technology-is-more-fall-ahead-11794813833370.html",
-        "published": "2026-11-16T07:41:17+00:00"
+        "url": "https://www.livemint.com/market/commodities/why-silver-rates-crashed-from-record-high-of-rs-4-lakh-per-kg-price-to-below-rs-1-75-lakh-experts-explain-3-key-reasons-11794890469861.html",
+        "published": "2026-11-17T05:33:17+00:00"
       },
-      "also_reported_by": []
+      "also_reported_by": [
+        "Mint · Markets"
+      ]
     },
     {
-      "id": "da1cbd9bf7ac",
+      "id": "38ba809bfe16",
       "bucket": "markets",
-      "headline": "Global aerospace supply chain diversification drives sharp outperformance in Indian precision component suppliers",
-      "what_happened": "Ten Indian aerospace suppliers, including Sansera Engineering and Aequs, have surged an average of 123% this year as Airbus and Boeing shift sourcing to India.",
-      "why_it_matters": "Structural OEM supply chain diversification away from traditional hubs provides multi-year revenue visibility for specialized Indian engineering exporters, bucking the broader 3% decline in the Nifty 50.",
+      "headline": "Gold slides to near one‑year low as dollar strength and rising Treasury yields pressure safe‑haven demand",
+      "what_happened": "Gold prices edged higher after a sharp sell‑off but remained near multi‑year lows amid a strong US dollar and rising Treasury yields.",
+      "why_it_matters": "A weaker gold price diminishes its role as an inflation hedge, impacting fund allocations and Indian jewellery sector earnings.",
       "action": null,
-      "priority": 6,
+      "priority": 7,
       "scores": {
-        "ca": 1,
-        "business": 8,
-        "market": 7,
-        "global": 5
+        "ca": 0,
+        "business": 0,
+        "market": 5,
+        "global": 0
       },
       "confidence": "high",
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "BusinessLine",
+        "name": "Mint · Markets",
         "tier": "paper",
-        "url": "https://www.thehindubusinessline.com/markets/stock-markets/airbus-boeing-supply-chain-shift-boosts-indias-aerospace-stocks/article71706736.ece",
-        "published": "2026-11-16T04:29:01+00:00"
+        "url": "https://www.livemint.com/market/stock-market-news/gold-prices-near-1-year-low-silver-slides-as-dollar-hits-19-month-high-should-you-buy-before-wedding-season-or-wait-11794882191547.html",
+        "published": "2026-11-17T03:08:20+00:00"
       },
-      "also_reported_by": []
+      "also_reported_by": [
+        "Mint · Markets"
+      ]
     },
     {
-      "id": "d8e71f2bcdcd",
+      "id": "b8c688c4aeb3",
       "bucket": "markets",
-      "headline": "Upcoming ₹23,000 crore T-Bill issuance tests short-end liquidity amid tight banking system conditions",
-      "what_happened": "The RBI scheduled auctions for 91-day, 182-day, and 364-day Treasury Bills totalling ₹23,000 crore on November 18.",
-      "why_it_matters": "Regular T-bill supply absorbs short-term institutional cash, setting benchmark yields for commercial paper and short-term corporate debt instruments.",
+      "headline": "RBI’s overnight repo rate stays near 5.6%, signaling tight liquidity and anchoring short‑term G‑sec yields",
+      "what_happened": "RBI reported money‑market volumes of ₹8.46 trn and a weighted‑average overnight repo rate of 5.58% on 16 Nov 2026.",
+      "why_it_matters": "The repo rate sets the floor for short‑term borrowing; a rate near 5.6% keeps G‑sec yields elevated and limits cheap funding for corporates, affecting bond valuations and equity financing costs.",
       "action": null,
-      "priority": 5,
+      "priority": 6,
       "scores": {
-        "ca": 1,
-        "business": 3,
-        "market": 6,
+        "ca": 0,
+        "business": 0,
+        "market": 4,
         "global": 2
       },
       "confidence": "high",
@@ -320,28 +353,84 @@
       "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63975",
-        "published": "2026-11-16T11:01:15.749682+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63985",
+        "published": "2026-11-17T11:42:41.475870+00:00"
       },
-      "also_reported_by": []
+      "also_reported_by": [
+        "RBI"
+      ]
     },
     {
-      "id": "34069b253442",
-      "bucket": "ca_work",
-      "headline": "Potential LTCG and STT revisions in the upcoming Budget could reshape capital gains tax burdens for equity investors",
-      "what_happened": "CBDT Chairman Ravi Agrawal confirmed the government is examining industry proposals to modify long-term capital gains (LTCG) and Securities Transaction Tax (STT) ahead of the Union Budget.",
-      "why_it_matters": "Any changes to equity capital gains taxation or transaction taxes directly impact net portfolio returns and require you to re-evaluate tax-harvesting strategies for domestic equity clients.",
-      "action": "Review client capital gains harvesting options ahead of Union Budget proposals.",
-      "priority": 8,
+      "id": "cbbe2a63f2b5",
+      "bucket": "markets",
+      "headline": "Low demand in RBI’s 2‑day reverse repo auction caps short‑term rates at 5.49%",
+      "what_happened": "The 2‑day variable‑rate reverse repo auction on 17 Nov 2026 received offers of ₹7,627 cr and was fully subscribed at a cut‑off rate of 5.49%.",
+      "why_it_matters": "Weak participation signals excess liquidity, keeping short‑term rates low and supporting equity market funding; it also reduces pressure on the INR by narrowing the yield differential with the US.",
+      "action": null,
+      "priority": 6,
       "scores": {
-        "ca": 9,
-        "business": 6,
-        "market": 8,
-        "global": 1
+        "ca": 0,
+        "business": 0,
+        "market": 4,
+        "global": 0
       },
       "confidence": "high",
       "is_update": false,
       "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63986",
+        "published": "2026-11-17T11:42:41.475605+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "ebd1ef26ee67",
+      "bucket": "markets",
+      "headline": "State government bond auction sees modest oversubscription, keeping SG‑sec yields steady",
+      "what_happened": "The RBI reported that the recent auction of state government securities attracted limited excess demand, with offers close to the notified amount.",
+      "why_it_matters": "Limited demand suggests investors favor central‑government bonds, keeping state‑bond yields higher relative to the 10‑yr G‑sec and influencing municipal finance costs.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 0,
+        "business": 2,
+        "market": 2,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63989",
+        "published": "2026-11-17T11:42:41.475353+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "34069b253442",
+      "bucket": "ca_work",
+      "headline": "CBDT chair signals possible LTCG and STT tax cuts before budget, could boost equity‑investment returns",
+      "what_happened": "CBDT Chairman Ravi Agrawal said the government is evaluating proposals to amend long‑term capital gains and securities transaction tax before the Union Budget.",
+      "why_it_matters": "Reducing capital gains tax would enhance after‑tax returns for equity investors, likely attracting FII inflows and supporting the Nifty.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 5,
+        "business": 3,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
       "source": {
         "name": "Economic Times · Economy",
         "tier": "paper",
@@ -351,56 +440,6 @@
       "also_reported_by": [
         "BusinessLine"
       ]
-    },
-    {
-      "id": "8b5f62a71c7d",
-      "bucket": "ca_work",
-      "headline": "Decentralised FEMA compounding delegated to RBI regional offices speeds up cross-border compliance resolution",
-      "what_happened": "The RBI delegated compounding powers for select contraventions under the Foreign Exchange Management Act (FEMA), 1999, to its regional offices.",
-      "why_it_matters": "Localised compounding authority reduces turnaround times for resolving technical FEMA non-compliance, simplifying cross-border corporate reporting and advisory workflows for CAs.",
-      "action": "Check client FDI and ODI compounding applications pending with RBI to route or re-submit via regional offices if eligible.",
-      "priority": 7,
-      "scores": {
-        "ca": 9,
-        "business": 5,
-        "market": 3,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
-      "source": {
-        "name": "RBI Notifications",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13745&Mode=0",
-        "published": "2026-11-16T11:01:13.348695+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "91921eef0b0a",
-      "bucket": "ca_work",
-      "headline": "Tax authority concerns over inverted duty structures stall GST rate cuts on air purifiers and filtration equipment",
-      "what_happened": "Tax officials rejected lowering GST rates on air purifiers and HEPA filters, citing concerns that lower output duties relative to input taxes would create inverted duty structure claims.",
-      "why_it_matters": "Demonstrates the GST Council's policy constraint where inverted tax structures create refund liabilities, keeping effective tax rates elevated on consumer health hardware.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 7,
-        "business": 5,
-        "market": 3,
-        "global": 1
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "BusinessLine",
-        "tier": "paper",
-        "url": "https://www.thehindubusinessline.com/economy/air-purifier-still-waiting-for-fresh-air-of-rate-cut-despite-nudge-from-parliamentary-panel-court/article71704481.ece",
-        "published": "2026-11-15T12:55:12+00:00"
-      },
-      "also_reported_by": []
     }
   ]
 }
