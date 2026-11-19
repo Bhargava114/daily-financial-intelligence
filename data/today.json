@@ -1,21 +1,21 @@
 {
-  "date": "2026-11-18",
-  "generated_at": "2026-11-18T17:02:24.084673+05:30",
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T17:02:03.806698+05:30",
   "scoring": "gemini",
   "stats": {
-    "items": 12,
-    "actions": 2,
-    "candidates": 195,
+    "items": 11,
+    "actions": 3,
+    "candidates": 187,
     "sources_ok": 23,
     "sources_failed": 6,
     "sources_blocked": 10
   },
   "five_minutes": [
-    "ECB warns that stretched AI stock valuations and sovereign debt imbalances threaten global financial stability.",
-    "Expanding US chip export restrictions to Southeast Asia tightens the technology squeeze on China's AI ecosystem.",
-    "EAC-PM projects India's FY27 GDP growth at 7.3%, citing resilient export momentum and foreign capital inflows.",
-    "Indian benchmarks reached multi-month highs on strong FII inflows, pressuring short equity positions.",
-    "Pre-budget tax momentum builds as FICCI joins calls for restoring LTCG tax exemptions on listed securities."
+    "FOMC minutes publication provides critical guidance on the Federal Reserve's rate path and quantitative tightening trajectory.",
+    "UK October CPI accelerated to 3.6% YoY on fuel costs, dampening near-term Bank of England rate cut prospects.",
+    "Gulf Coast oil shut-ins firmed as Hurricane Isaias approached landfall, sustaining upward pressure on Brent crude prices.",
+    "Anthropic's $81 billion market debut tests public equity appetite for mega-cap AI capex valuations.",
+    "RBI delegated certain FEMA compounding powers to its Regional Offices, decentralizing cross-border compliance for Indian corporates."
   ],
   "theses": [
     {
@@ -35,8 +35,8 @@
     },
     {
       "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
-      "verdict": "challenges",
-      "note": "Indian benchmark indices rose to their highest levels since late February on strong FII inflows and lower crude."
+      "verdict": "supports",
+      "note": "Nifty 50 dropped 159 points to test support near 25,000, advancing downward price momentum."
     }
   ],
   "markets": [],
@@ -68,93 +68,179 @@
   ],
   "items": [
     {
-      "id": "db2e9ca68d6d",
+      "id": "174c0f036bd1",
       "bucket": "global",
-      "headline": "ECB warns stretched AI valuations and sovereign fiscal stress threaten global financial stability",
-      "what_happened": "The European Central Bank highlighted growing financial stability risks stemming from high AI asset valuations, sovereign fiscal imbalances, and geoeconomic tensions in its latest review.",
-      "why_it_matters": "If high AI valuations unwind abruptly, it could trigger global equity de-risking and volatile capital flows across emerging markets. Sovereign fiscal pressures in developed markets also risk pushing global bond yields higher.",
-      "action": null,
+      "headline": "FOMC minutes release clarifies Fed rate path expectations and balance sheet runoff stance",
+      "what_happened": "The Federal Reserve published the minutes of its Federal Open Market Committee meeting held on October 27-28, 2026.",
+      "why_it_matters": "You need to evaluate the committee's stance on inflation risks and rate trajectory to benchmark global liquidity conditions. Shifts in Fed policy tone directly drive US Treasury yields and dictate foreign capital allocations across emerging market assets.",
+      "action": "Review FOMC minutes for member consensus on benchmark rate guidance and balance sheet runoff parameters.",
       "priority": 8,
       "scores": {
         "ca": 1,
-        "business": 7,
+        "business": 8,
         "market": 9,
+        "global": 10
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Federal Reserve",
+        "tier": "primary",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+        "published": "2026-11-18T19:00:00+00:00"
+      },
+      "also_reported_by": [
+        "Federal Reserve · All"
+      ]
+    },
+    {
+      "id": "965e7158e41a",
+      "bucket": "global",
+      "headline": "Higher fuel costs push UK October CPI to 3.6%, pushing back BoE rate cut timing",
+      "what_happened": "UK annual inflation rose to 3.6% in October, driven primarily by higher petrol and diesel prices, while typical household energy bills are forecast to jump 26% from January.",
+      "why_it_matters": "Resilient inflation reinforces the higher-for-longer interest rate narrative among European central banks. This maintains upward pressure on sovereign Gilt yields and limits room for global rate easing.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 7,
+        "market": 8,
         "global": 9
       },
       "confidence": "high",
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "ECB",
-        "tier": "primary",
-        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
-        "published": "2026-11-18T09:00:00+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "3f23771a81a2",
-      "bucket": "global",
-      "headline": "Tighter US export rules on Southeast Asia threaten China's access to AI computing power",
-      "what_happened": "New US chip restrictions aim to restrict chip exports and access to computing power in Southeast Asia, targeting routes China relies on for advanced tech.",
-      "why_it_matters": "Extending export controls outside China disrupts supply chains for semiconductor equipment and AI infrastructure globally, keeping geopolitical risk premiums high for technology hardware.",
-      "action": null,
-      "priority": 7,
-      "scores": {
-        "ca": 0,
-        "business": 8,
-        "market": 7,
-        "global": 8
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
         "name": "BBC Business",
         "tier": "wire",
-        "url": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-17T14:25:45+00:00"
+        "url": "https://www.bbc.co.uk/news/videos/cxp80q5pv4q5o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-18T19:37:27+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "65a842a08c07",
+      "id": "86c8fb8d61bc",
       "bucket": "global",
-      "headline": "Gulf Coast hurricane shut-ins threaten near-term crude supply and could firm Brent prices",
-      "what_happened": "Hurricane Isaias forced energy production shut-ins along the US Gulf Coast ahead of its expected landfall.",
-      "why_it_matters": "Supply interruptions on the Gulf Coast support Brent crude prices, which directly elevates India's oil import bill and places pressure on the current account deficit and rupee.",
+      "headline": "Trump-Xi-Putin Shenzhen summit highlights shifting geopolitical alignment and trade policy dynamics",
+      "what_happened": "US President Donald Trump arrived in Shenzhen for the APEC summit to hold high-stakes discussions with Chinese President Xi Jinping and Russian President Vladimir Putin.",
+      "why_it_matters": "High-level bilateral engagements between major economic powers set expectations for global trade tariffs, supply chain restructuring, and commodity demand dynamics.",
       "action": null,
       "priority": 7,
       "scores": {
         "ca": 0,
         "business": 7,
-        "market": 8,
-        "global": 8
+        "market": 7,
+        "global": 9
       },
       "confidence": "high",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
+      "is_update": false,
+      "update_note": null,
       "source": {
-        "name": "US EIA (energy)",
-        "tier": "data",
-        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
-        "published": "2026-11-18T11:30:31.579131+00:00"
+        "name": "Mint · Economy",
+        "tier": "paper",
+        "url": "https://www.livemint.com/economy/trump-xi-putin-unite-1-48-trillion-military-might-at-shenzhen-will-nukes-be-on-the-table-why-it-matters-11794843240626.html",
+        "published": "2026-11-18T12:49:51+00:00"
       },
-      "also_reported_by": []
+      "also_reported_by": [
+        "CNBC · Markets",
+        "Economic Times"
+      ]
     },
     {
-      "id": "f5b7f91869d4",
-      "bucket": "global",
-      "headline": "Nvidia's surging quarterly sales confirm AI capex cycle remains intact",
-      "what_happened": "Nvidia reported strong quarterly revenue growth following the exit of former CEO Jensen Huang, underscoring continued high demand for AI hardware.",
-      "why_it_matters": "Robust chip sales confirm that global technology capital expenditure is holding up, providing earnings visibility for suppliers across the tech value chain.",
+      "id": "0d306354bee6",
+      "bucket": "india_economy",
+      "headline": "Commerce Ministry's $1 trillion export target projection signals resilience in Indian trade volumes",
+      "what_happened": "Commerce Secretary Rajesh Agrawal stated that India remains on track to achieve $1 trillion in total exports this fiscal year despite global trade uncertainty.",
+      "why_it_matters": "Meeting export projections helps narrow India's current account deficit against rising crude import costs, providing fundamental support to the rupee and external balance sheet stability.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 1,
+        "business": 7,
+        "market": 6,
+        "global": 6
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BusinessLine",
+        "tier": "paper",
+        "url": "https://www.thehindubusinessline.com/economy/india-on-track-to-hit-1-trillion-exports-this-year-comm-secy/article71715484.ece",
+        "published": "2026-11-18T12:19:39+00:00"
+      },
+      "also_reported_by": [
+        "Economic Times · Economy"
+      ]
+    },
+    {
+      "id": "8da380f5af03",
+      "bucket": "india_economy",
+      "headline": "Low VRRR auction demand of ₹11,682 crore highlights tight short-term banking liquidity",
+      "what_happened": "RBI accepted ₹11,682 crore of bids in its 1-day VRRR auction against a notified amount of ₹50,000 crore at a weighted average rate of 5.49%.",
+      "why_it_matters": "Weak bank participation in RBI liquidity absorption confirms persistent underlying tightness in systemic liquidity, holding short-term money market rates near the top of the policy corridor.",
       "action": null,
       "priority": 6,
       "scores": {
         "ca": 0,
-        "business": 8,
+        "business": 5,
         "market": 7,
-        "global": 7
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64000",
+        "published": "2026-11-19T11:29:36.691719+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "3d491923c581",
+      "bucket": "india_economy",
+      "headline": "Delayed FCNR deposit inflows temper immediate foreign currency liquidity relief for Indian banks",
+      "what_happened": "Banking sector data indicates that expected dollar inflows and balance sheet benefits from Foreign Currency Non-Resident (FCNR) deposits have yet to play out.",
+      "why_it_matters": "Slower FCNR accretion prevents commercial banks from easing domestic wholesale funding dependencies, keeping bank net interest margins constrained amid tight domestic liquidity conditions.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 2,
+        "business": 7,
+        "market": 7,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Economic Times",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/news/economy/finance/fcnr-related-costs-and-benefits-yet-to-fully-play-out-for-banks-report/articleshow/135981194.cms",
+        "published": "2026-11-19T07:56:15+00:00"
+      },
+      "also_reported_by": [
+        "Economic Times · Economy"
+      ]
+    },
+    {
+      "id": "dda6ed9a4270",
+      "bucket": "markets",
+      "headline": "Anthropic's $81bn public debut tests public equity market appetite for mega-cap AI valuations",
+      "what_happened": "AI startup Anthropic completed its stock market debut at an $81 billion valuation, placing it among the most valuable public companies in the US.",
+      "why_it_matters": "The listing acts as a primary valuation anchor for global AI capital expenditure and tech equity risk premiums. Smooth market absorption confirms public investor willingness to fund capital-intensive AI infrastructure.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 9,
+        "market": 9,
+        "global": 8
       },
       "confidence": "high",
       "is_update": false,
@@ -162,49 +248,23 @@
       "source": {
         "name": "BBC Business",
         "tier": "wire",
-        "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-18T01:18:18+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "288c0884ffcd",
-      "bucket": "india_economy",
-      "headline": "EAC-PM projects India's FY27 GDP growth at 7.3% on sustained export momentum",
-      "what_happened": "EAC-PM Chairman S Mahendra Dev projected annual GDP growth of 7.3% for FY27, with September quarter growth expected at 7.6% on strong foreign investment and exports.",
-      "why_it_matters": "Strong domestic growth projections confirm underlying economic momentum, allowing the RBI room to prioritize inflation control without urgent growth-supportive rate cuts.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 2,
-        "business": 8,
-        "market": 8,
-        "global": 5
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Economic Times · Economy",
-        "tier": "paper",
-        "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-gdp-growth-pegged-at-7-3-in-fy26-27-may-touch-7-7-next-quarter-eac-pm-chairman/articleshow/135923170.cms",
-        "published": "2026-11-17T11:22:19+00:00"
+        "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-19T10:48:04+00:00"
       },
       "also_reported_by": [
-        "BusinessLine",
-        "Economic Times"
+        "Guardian Business"
       ]
     },
     {
-      "id": "8e752023d202",
+      "id": "cb1ec05dd11e",
       "bucket": "markets",
-      "headline": "FII inflows and lower oil push Indian benchmark indices to multi-month highs",
-      "what_happened": "Indian benchmark indices reached their highest levels since late February, supported by foreign institutional investment, earnings growth, and manageable crude prices.",
-      "why_it_matters": "Strong FII flows provide upward momentum for Nifty 50 and support domestic equity valuations, challenging short market positions.",
+      "headline": "Nifty 50 drops 159 points on profit booking, testing key 25,000 technical support",
+      "what_happened": "Domestic equity benchmark Nifty 50 fell 159 points while the Sensex dropped 500 points, ending a two-day winning streak as technical profit-taking emerged near 25,000–24,900.",
+      "why_it_matters": "The sell-off near 25,000 highlights short-term exhaustion in equity momentum, testing whether domestic institutional flows can absorb foreign institutional selling at key technical support levels.",
       "action": null,
       "priority": 7,
       "scores": {
-        "ca": 1,
+        "ca": 0,
         "business": 7,
         "market": 9,
         "global": 4
@@ -215,52 +275,23 @@
       "source": {
         "name": "Mint · Markets",
         "tier": "paper",
-        "url": "https://www.livemint.com/market/stock-market-news/reliance-ultratech-hyundai-motor-shares-top-3-stocks-to-buy-check-ratings-target-price-stop-loss-by-jay-thakkar-11794931314865.html",
-        "published": "2026-11-18T00:34:21+00:00"
-      },
-      "also_reported_by": [
-        "Guardian Business",
-        "MarketWatch",
-        "Mint · Markets"
-      ]
-    },
-    {
-      "id": "2c175c859588",
-      "bucket": "markets",
-      "headline": "SEBI regulatory proposals trigger sell-off in domestic exchange operator stocks",
-      "what_happened": "Shares of BSE, NSE, and related entities tumbled following the disclosure of a new regulatory plan by SEBI.",
-      "why_it_matters": "Tighter regulatory standards or fee structures on exchange infrastructure could directly impact trading volumes and fee income for market infrastructure institutions.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 4,
-        "business": 7,
-        "market": 8,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Economic Times",
-        "tier": "paper",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-considering-proposal-linking-mtf-to-free-float-angel-one-bse-groww-fall-7-from-days-high/articleshow/135952945.cms",
-        "published": "2026-11-18T07:00:09+00:00"
+        "url": "https://www.livemint.com/market/stock-market-news/gmr-airports-iifl-finance-shares-top-2-stocks-to-buy-in-near-term-check-target-price-stop-loss-by-nagaraj-shetti-11795014291243.html",
+        "published": "2026-11-19T00:32:55+00:00"
       },
       "also_reported_by": [
         "Mint · Markets"
       ]
     },
     {
-      "id": "b1453fb59701",
+      "id": "09d4ee0c8f56",
       "bucket": "markets",
-      "headline": "RBI T-bill auction cut-offs anchor short-term yield curve around 6.63% for 364-day paper",
-      "what_happened": "The RBI auctioned ₹23,000 crore of T-bills across 91-day (5.86%), 182-day (6.53%), and 364-day (6.63%) maturities.",
-      "why_it_matters": "Establishes short-term risk-free rates for money market instruments and corporate short-term borrowing pricing.",
-      "action": null,
+      "headline": "RBI sets ₹33,000 crore sovereign bond auction to test institutional duration appetite",
+      "what_happened": "The Government of India announced the re-issue sale of ₹33,000 crore in Government Securities on November 20, 2026, supported by standard underwriting commitments.",
+      "why_it_matters": "Primary auction bidding yields and underwriting tail metrics will demonstrate institutional demand for Indian sovereign debt, directly impacting the India 10Y G-sec yield trajectory.",
+      "action": "Track Friday's auction cut-off yields to gauge domestic institutional demand for long-duration paper.",
       "priority": 6,
       "scores": {
-        "ca": 1,
+        "ca": 0,
         "business": 5,
         "market": 8,
         "global": 3
@@ -271,112 +302,58 @@
       "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63995",
-        "published": "2026-11-18T11:30:34.428745+00:00"
-      },
-      "also_reported_by": [
-        "RBI"
-      ]
-    },
-    {
-      "id": "715603d34b24",
-      "bucket": "markets",
-      "headline": "RBI sets premature redemption price for SGB 2020-21 Series VIII",
-      "what_happened": "The RBI announced the premature redemption terms and price for Sovereign Gold Bond 2020-21 Series VIII due on November 18, 2026.",
-      "why_it_matters": "Enables clients holding 5-year-old gold bonds to evaluate premature exit liquidity against prevailing spot prices and asset allocation targets.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 3,
-        "business": 4,
-        "market": 8,
-        "global": 3
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63990",
-        "published": "2026-11-18T11:30:34.429128+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "647949bfcd8c",
-      "bucket": "ca_work",
-      "headline": "FICCI pushes for LTCG exemption on listed equities ahead of Budget, firming tax reform hopes",
-      "what_happened": "FICCI recommended restoring long-term capital gains tax exemptions on listed securities and proposed calibrated changes to Securities Transaction Tax in its pre-budget submission.",
-      "why_it_matters": "Follows pre-budget signals from government officials regarding tax tweaks; if enacted, restoring LTCG exemptions would directly increase net returns on domestic capital market investments.",
-      "action": "Track pre-budget policy representations to update capital gains tax assumptions for portfolio planning.",
-      "priority": 7,
-      "scores": {
-        "ca": 8,
-        "business": 7,
-        "market": 7,
-        "global": 2
-      },
-      "confidence": "high",
-      "is_update": true,
-      "update_note": "Continues yesterday's story.",
-      "source": {
-        "name": "Mint · Economy",
-        "tier": "paper",
-        "url": "https://www.livemint.com/economy/union-budget-2027-28-ficci-seeks-graded-ltcg-taxation-100-lakh-crore-in-credit-for-manufacturing-growth-11794914791123.html",
-        "published": "2026-11-17T11:59:00+00:00"
-      },
-      "also_reported_by": [
-        "BusinessLine"
-      ]
-    },
-    {
-      "id": "6f2b8b5e6f65",
-      "bucket": "ca_work",
-      "headline": "RBI amends FEMA export-import regulations, updating international trade compliance rules",
-      "what_happened": "The Reserve Bank of India issued the Foreign Exchange Management (Export and Import of Goods and Services) (Second Amendment) Regulations, 2026.",
-      "why_it_matters": "Requires CA tax and compliance practitioners to review updated procedural rules for clients engaged in foreign trade documentation and settlement.",
-      "action": "Check RBI notification details for revised FEMA trade compliance norms affecting cross-border clients.",
-      "priority": 6,
-      "scores": {
-        "ca": 8,
-        "business": 5,
-        "market": 3,
-        "global": 3
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "RBI Notifications",
-        "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13750&Mode=0",
-        "published": "2026-11-18T11:30:32.689382+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63999",
+        "published": "2026-11-19T11:29:36.691770+00:00"
       },
       "also_reported_by": []
     },
     {
       "id": "8b5f62a71c7d",
       "bucket": "ca_work",
-      "headline": "RBI delegates FEMA compounding powers to regional offices to expedite contravention clearance",
-      "what_happened": "The RBI issued a circular delegating authority to compound specific FEMA contraventions to its regional offices.",
-      "why_it_matters": "Simplifies client advisory on regulatory non-compliance by allowing faster compounding resolution at local RBI offices rather than central processing.",
-      "action": null,
-      "priority": 5,
+      "headline": "RBI delegates FEMA compounding powers to Regional Offices, accelerating cross-border contravention resolution",
+      "what_happened": "The RBI issued a circular delegating the compounding of specified contraventions under the Foreign Exchange Management Act (FEMA), 1999 to its Regional Offices.",
+      "why_it_matters": "This regulatory delegation decentralizes foreign exchange compliance proceedings, significantly reducing processing timelines for client FEMA compounding applications previously handled at the central office level.",
+      "action": "Audit pending client FEMA non-compliance cases to evaluate whether compounding applications can now be submitted directly to regional RBI offices.",
+      "priority": 8,
       "scores": {
-        "ca": 7,
-        "business": 5,
-        "market": 2,
+        "ca": 10,
+        "business": 6,
+        "market": 3,
         "global": 2
       },
       "confidence": "high",
-      "is_update": false,
-      "update_note": null,
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
       "source": {
         "name": "RBI Notifications",
         "tier": "primary",
         "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13745&Mode=0",
-        "published": "2026-11-18T11:30:32.690249+00:00"
+        "published": "2026-11-19T11:29:36.598966+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "65a842a08c07",
+      "bucket": "watchlist",
+      "headline": "Gulf Coast crude supply shut-ins firmed further as Hurricane Isaias nears landfall",
+      "what_happened": "Hurricane Isaias strengthened to a Category 2 storm as it approached the Gulf Coast, causing energy infrastructure shut-ins and production disruptions.",
+      "why_it_matters": "Sustained US Gulf Coast production outages firm near-term supply constraints, maintaining upward pressure on Brent crude prices and expanding India's oil import bill.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 0,
+        "business": 8,
+        "market": 9,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-11-19T11:29:37.463607+00:00"
       },
       "also_reported_by": []
     }
