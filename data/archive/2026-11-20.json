@@ -1,0 +1,328 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T16:56:43.224901+05:30",
+  "scoring": "gemini",
+  "stats": {
+    "items": 10,
+    "actions": 1,
+    "candidates": 199,
+    "sources_ok": 24,
+    "sources_failed": 5,
+    "sources_blocked": 10
+  },
+  "five_minutes": [
+    "Anthropic completed its record $81bn stock market debut, setting a live valuation benchmark for global AI capex.",
+    "California's probe into Nvidia's China sales introduces new regulatory headwinds for AI hardware earnings.",
+    "A 19% Q3 increase in Middle East oil chokepoint shipments helps offset near-term US Gulf Coast hurricane shut-ins.",
+    "Heavy oversubscription at RBI's ₹25,000 crore VRR auction highlights tight short-term liquidity in the Indian banking system.",
+    "SEBI's review of ICDR regulations points toward simplified compliance frameworks for Indian equity capital raises."
+  ],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "no_signal",
+      "note": ""
+    }
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "global",
+      "label": "Central banks & global macro"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · macro, flows and policy"
+    },
+    {
+      "id": "markets",
+      "label": "Markets · cross-asset context"
+    },
+    {
+      "id": "ca_work",
+      "label": "Tax, audit & compliance"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "11c44807f146",
+      "bucket": "global",
+      "headline": "California probe into Nvidia's China sales threatens AI hardware earnings visibility",
+      "what_happened": "California state authorities launched an investigation into Nvidia regarding its China AI chip business following the departure of former CEO Jensen Huang.",
+      "why_it_matters": "State-level regulatory scrutiny adds operational and trade compliance friction for leading US AI exporters, threatening revenue guidance across semiconductor equities and global tech capex value chains.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 3,
+        "business": 8,
+        "market": 9,
+        "global": 9
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-19T23:04:30+00:00"
+      },
+      "also_reported_by": [
+        "Economic Times"
+      ]
+    },
+    {
+      "id": "dda6ed9a4270",
+      "bucket": "global",
+      "headline": "Anthropic completes $81bn market debut, solidifying mega-cap AI valuation benchmarks",
+      "what_happened": "Anthropic raised $81 billion in its stock market listing, making it the first pure-play AI company to go public at a top-tier global market valuation.",
+      "why_it_matters": "The successful listing provides a public equity valuation anchor for AI infrastructure, lifting global technology market sentiment while setting high earnings delivery requirements for public AI investments.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 2,
+        "business": 8,
+        "market": 8,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-19T15:58:58+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "77a21754b45f",
+      "bucket": "global",
+      "headline": "Surge in Middle East crude transit buffers global oil markets against supply shocks",
+      "what_happened": "EIA data shows crude shipments through key Middle East chokepoints increased by 19% in Q3 2026.",
+      "why_it_matters": "Higher physical transit volumes improve global crude availability, mitigating upside pressure on Brent crude futures and providing downside relief for India's oil import bill.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 1,
+        "business": 7,
+        "market": 8,
+        "global": 9
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=",
+        "published": "2026-11-19T14:00:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "65a842a08c07",
+      "bucket": "global",
+      "headline": "Hurricane Isaias nears Gulf Coast landfall, extending US crude production shut-ins",
+      "what_happened": "NOAA expects Category 2 Hurricane Isaias to make landfall on the US Gulf Coast, forcing ongoing offshore oil production shut-ins and infrastructure disruptions.",
+      "why_it_matters": "Sustained US offshore shut-ins restrict near-term Atlantic crude supply, supporting prompt Brent prices despite broader Middle Eastern volume expansions.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 1,
+        "business": 6,
+        "market": 8,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-11-20T11:25:04.896195+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "abc7c59f4101",
+      "bucket": "global",
+      "headline": "ECB's Lagarde stresses timely policy action to anchor Eurozone rate expectations",
+      "what_happened": "ECB President Christine Lagarde delivered remarks emphasizing the necessity of acting in time to manage monetary policy transmission and inflation dynamics.",
+      "why_it_matters": "Signals proactive policy calibration by the ECB, anchoring Eurozone sovereign yield curves and stabilizing EUR cross-currency rate differential expectations.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 1,
+        "business": 5,
+        "market": 7,
+        "global": 9
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "ECB",
+        "tier": "primary",
+        "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html",
+        "published": "2026-11-20T08:30:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "849f4b93dce1",
+      "bucket": "india_economy",
+      "headline": "Banking liquidity tightness drives 1.9x oversubscription at RBI's 3-day VRR auction",
+      "what_happened": "RBI's 3-day Variable Rate Repo auction saw bids of ₹48,040 crore against a notified ₹25,000 crore, setting a cut-off yield of 5.58% and weighted average rate of 5.61%.",
+      "why_it_matters": "Strong demand for central bank liquidity underscores prevailing short-term funding pressures across commercial banks, holding short-end money market yields firm.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 2,
+        "business": 6,
+        "market": 8,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64010",
+        "published": "2026-11-20T11:25:04.435475+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "329c455198a8",
+      "bucket": "markets",
+      "headline": "SEBI margin framework review prepares recalibration of risk limits in commodity derivatives",
+      "what_happened": "SEBI initiated a comprehensive review of the margin framework governing the domestic commodity derivatives segment.",
+      "why_it_matters": "Modifications to baseline margin requirements will adjust trading leverage and working capital efficiency for institutional participants in domestic commodity markets.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 4,
+        "business": 6,
+        "market": 8,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-margin-framework-for-commodity-derivatives-segment_105799.html",
+        "published": "2026-11-20T11:25:03.990567+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "888e49bde677",
+      "bucket": "markets",
+      "headline": "SEC charges fake crypto platforms in $37m fraud, reinforcing global regulatory crackdown",
+      "what_happened": "The US SEC charged eight entities for operating fraudulent cryptocurrency trading platforms that stole over $37 million from investors.",
+      "why_it_matters": "Persistent regulatory actions against fraudulent crypto venues reinforce counterparty risk concerns and regulatory enforcement barriers across global digital asset ecosystems.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 3,
+        "business": 5,
+        "market": 6,
+        "global": 6
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEC",
+        "tier": "primary",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors",
+        "published": "2026-11-19T14:39:02+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "d0681d0015bd",
+      "bucket": "ca_work",
+      "headline": "SEBI panel review of ICDR regulations targets lower compliance friction for capital raises",
+      "what_happened": "SEBI constituted a sub-group under the Primary Market Advisory Committee to review specific provisions of the SEBI (ICDR) Regulations, 2018.",
+      "why_it_matters": "Potential revisions to public issue and disclosure norms will streamline equity issuance processes and alter audit compliance requirements for Indian corporate fundraises.",
+      "action": "Track PMAC sub-group recommendations for changes to client IPO and rights issue disclosure requirements.",
+      "priority": 6,
+      "scores": {
+        "ca": 8,
+        "business": 7,
+        "market": 6,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/sebi-constitutes-a-sub-group-of-pmac-to-review-specified-provisions-of-the-sebi-icdr-regulations-2018_105790.html",
+        "published": "2026-11-20T11:25:03.990918+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "b40235c44384",
+      "bucket": "ca_work",
+      "headline": "RBI updates Domestic Money Transfer Directions tightening payment security controls",
+      "what_happened": "RBI issued updated Master Directions on Domestic Money Transfers for 2026 applicable to commercial banks, cooperative banks, and payment system operators.",
+      "why_it_matters": "Establishes stricter operational and reporting standards for domestic remittance channels, requiring financial institutions to review internal control and audit systems.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 7,
+        "business": 6,
+        "market": 4,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13752&Mode=0",
+        "published": "2026-11-20T11:25:03.950298+00:00"
+      },
+      "also_reported_by": [
+        "RBI",
+        "RBI Notifications"
+      ]
+    }
+  ]
+}
