@@ -1,0 +1,304 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T16:43:57.550326+05:30",
+  "scoring": "gemini",
+  "stats": {
+    "items": 9,
+    "actions": 2,
+    "candidates": 132,
+    "sources_ok": 23,
+    "sources_failed": 6,
+    "sources_blocked": 10
+  },
+  "five_minutes": [
+    "Gold dropped to a 14-month low of $3,539/oz, easing India's import bill pressure as non-yielding asset hedges unwind.",
+    "Hurricane Isaias production shut-ins on the US Gulf Coast threaten short-term supply tightening for Brent crude.",
+    "Bitcoin crashed to a two-year low as ETF outflows and broad liquidations signal systemic deleveraging in speculative assets.",
+    "India's 10-year G-sec yield cut off at 7.11% in the latest ₹33,000 crore auction, reflecting persistent sovereign supply pressure.",
+    "RBI delegated FEMA contravention compounding powers to regional offices, accelerating compliance timelines for cross-border corporate filings."
+  ],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "challenges",
+      "note": "Bitcoin and Ether crashed to two-year lows amid ETF outflows and liquidations, directly contradicting the premise that crypto is rising as a recession hedge."
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "supports",
+      "note": "International gold extended its decline to a 14-month low of $3,539/oz, confirming that bullion prices are falling rather than advancing toward new highs."
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "no_signal",
+      "note": ""
+    }
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "global",
+      "label": "Central banks & global macro"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · macro, flows and policy"
+    },
+    {
+      "id": "markets",
+      "label": "Markets · cross-asset context"
+    },
+    {
+      "id": "ca_work",
+      "label": "Tax, audit & compliance"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "7511b21b1696",
+      "bucket": "india_economy",
+      "headline": "Yield curve pricing stays elevated at G-sec auction as 10-year paper cuts off at 7.11%",
+      "what_happened": "RBI set cut-off yields at 7.1116% for the 6.53% GS 2031 and 7.8083% for the 7.71% GS 2066 in its ₹33,000 crore auction.",
+      "why_it_matters": "Solid bid-to-cover ratios show steady domestic institutional absorption, but cut-off yields at 7.11% reflect persistent supply absorption pressure on sovereign bond portfolios.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 7,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64012",
+        "published": "2026-11-22T11:09:41.727772+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "38e6801b4bd4",
+      "bucket": "india_economy",
+      "headline": "RBI injects ₹50,000 crore short-term liquidity to anchor money market rates near policy repo",
+      "what_happened": "RBI announced a 4-day Variable Rate Repo (VRR) auction of ₹50,000 crore under the Liquidity Adjustment Facility for November 23.",
+      "why_it_matters": "The short-term liquidity injection addresses frictional deficits in the banking system, preventing money market rates and overnight call rates from drifting above the repo rate corridor.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 6,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64016",
+        "published": "2026-11-22T11:09:41.727155+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "9bba5c37a91f",
+      "bucket": "india_economy",
+      "headline": "CII advocates NBFC funding ease and corporate bond market reforms to boost credit transmission",
+      "what_happened": "The Confederation of Indian Industry submitted 15 priority reform recommendations to the High-Level Committee on Banking for Viksit Bharat.",
+      "why_it_matters": "If adopted, recommendations targeting NBFC funding and bond market liquidity would improve credit transmission and balance sheet flexibility across non-bank lenders.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 2,
+        "business": 5,
+        "market": 5,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BusinessLine",
+        "tier": "paper",
+        "url": "https://www.thehindubusinessline.com/economy/cii-proposes-15-priority-reforms-inputs-for-high-level-committee-on-banking-for-viksit-bharat/article71730587.ece",
+        "published": "2026-11-22T03:57:10+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "b3d062181b6e",
+      "bucket": "markets",
+      "headline": "Sharp crypto selloff to two-year lows highlights broad risk asset deleveraging",
+      "what_happened": "Bitcoin crashed to its lowest level in two years as ETF outflows, forced liquidations, and equity market competition drove broad digital asset selling.",
+      "why_it_matters": "The steep decline shows crypto trading squarely as a high-beta risk asset rather than a safe-haven macro hedge, reflecting broader margin unwinds across speculative asset classes.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 8,
+        "global": 7
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/cryptocurrency/bitcoin-price-crash-falls-to-lowest-level-in-two-years-what-s-behind-plunge-of-world-s-largest-cryptocurrency-11795267687216.html",
+        "published": "2026-11-21T14:46:56+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "85504336ce1c",
+      "bucket": "markets",
+      "headline": "92% plunge in Mahanadi Coalfields GMP signals weakening primary market appetite for PSU issuances",
+      "what_happened": "The ₹8,981 crore IPO of Mahanadi Coalfields remained undersubscribed on day two, while its grey market premium collapsed 92% to ₹0.70.",
+      "why_it_matters": "Subdued HNI and retail bidding for a cash-generative state miner highlights muted risk appetite and tighter secondary market liquidity in domestic equities.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 5,
+        "market": 7,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-gmp-check-down-92-from-rs-9-25-to-rs-0-7-issue-struggles-to-attract-bids-subscribe-or-avoid-11795252154826.html",
+        "published": "2026-11-21T10:26:10+00:00"
+      },
+      "also_reported_by": [
+        "Mint · Economy"
+      ]
+    },
+    {
+      "id": "8b5f62a71c7d",
+      "bucket": "ca_work",
+      "headline": "RBI delegates FEMA compounding powers to regional offices, speeding up cross-border compliance resolution",
+      "what_happened": "RBI issued circular A.P. (DIR Series) No 28 delegating compounding of specified FEMA contraventions to its Regional Offices.",
+      "why_it_matters": "Decentralizing compounding applications cuts procedural delays for corporate clients resolving technical foreign exchange non-compliances.",
+      "action": "Review pending client FEMA compounding applications to assess if filings should be routed directly to regional RBI offices.",
+      "priority": 6,
+      "scores": {
+        "ca": 8,
+        "business": 4,
+        "market": 2,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13745&Mode=0",
+        "published": "2026-11-22T11:09:41.368518+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "dcf6223f771b",
+      "bucket": "ca_work",
+      "headline": "GST Network adds metro rail to e-way bill portal, requiring transport mode updates for urban logistics",
+      "what_happened": "GSTN introduced metro rail as a fifth transport mode option in the e-way bill system following government notification.",
+      "why_it_matters": "CA practice teams must update client ERP mapping and dispatch documentation workflows for goods transported via urban metro networks.",
+      "action": "Advise logistics and trading clients to update e-way bill generation templates for metro rail transport.",
+      "priority": 6,
+      "scores": {
+        "ca": 7,
+        "business": 3,
+        "market": 1,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Economic Times · Economy",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/news/economy/policy/gst-network-adds-metro-rail-as-fifth-mode-of-transport-in-e-way-bill-system/articleshow/136050476.cms",
+        "published": "2026-11-21T09:40:22+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "de80d473eded",
+      "bucket": "watchlist",
+      "headline": "Gold's slide to 14-month lows relieves Indian import bill pressure and reduces non-yielding asset demand",
+      "what_happened": "MCX gold fell to a 14-month low of ₹1,21,949 per 10 grams while international spot gold dropped to $3,539/oz.",
+      "why_it_matters": "Bullion extended its retreat for a second session to hit multi-month lows as rate expectations adjust. This eases India's current account deficit pressure while signaling that global portfolios are reducing non-yielding hedges.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 9,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/commodities/gold-rate-today-in-india-at-14-month-low-will-it-hit-rs-1-lakh-experts-list-out-3-reasons-for-gold-price-drop-in-2026-11795283484060.html",
+        "published": "2026-11-21T23:34:51+00:00"
+      },
+      "also_reported_by": [
+        "Economic Times"
+      ]
+    },
+    {
+      "id": "65a842a08c07",
+      "bucket": "watchlist",
+      "headline": "Gulf Coast hurricane shut-ins threaten temporary supply tightening for Brent crude",
+      "what_happened": "Category 2 Hurricane Isaias approached Gulf Coast landfall, forcing energy infrastructure halts and offshore crude production shut-ins.",
+      "why_it_matters": "Physical crude disruptions in the US Gulf could cap downside on Brent near term, posing a tactical headwind for India's oil import bill and G-sec yields if shut-ins persist.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 7,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-11-22T11:09:42.155974+00:00"
+      },
+      "also_reported_by": []
+    }
+  ]
+}

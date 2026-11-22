@@ -1,27 +1,27 @@
 {
-  "date": "2026-11-21",
-  "generated_at": "2026-11-21T16:25:05.601539+05:30",
-  "scoring": "groq",
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T16:43:57.550326+05:30",
+  "scoring": "gemini",
   "stats": {
-    "items": 10,
-    "actions": 0,
-    "candidates": 188,
+    "items": 9,
+    "actions": 2,
+    "candidates": 132,
     "sources_ok": 23,
     "sources_failed": 6,
     "sources_blocked": 10
   },
   "five_minutes": [
-    "Hawkish Fed pushes gold to its worst week since March, tightening USD and pressuring INR and Indian gold demand.",
-    "Hurricane Isaias may tighten global oil supply, lifting Brent and raising India’s import bill.",
-    "SEBI proposes dropping extra FPI disclosure, likely easing foreign inflows into Indian equities.",
-    "AI‑related sell‑off drives US investors into value stocks, signaling broader risk aversion that could hit Indian IT exporters.",
-    "RBI clarifies forex reporting thresholds for service trade, tightening compliance and modestly affecting FX flows."
+    "Gold dropped to a 14-month low of $3,539/oz, easing India's import bill pressure as non-yielding asset hedges unwind.",
+    "Hurricane Isaias production shut-ins on the US Gulf Coast threaten short-term supply tightening for Brent crude.",
+    "Bitcoin crashed to a two-year low as ETF outflows and broad liquidations signal systemic deleveraging in speculative assets.",
+    "India's 10-year G-sec yield cut off at 7.11% in the latest ₹33,000 crore auction, reflecting persistent sovereign supply pressure.",
+    "RBI delegated FEMA contravention compounding powers to regional offices, accelerating compliance timelines for cross-border corporate filings."
   ],
   "theses": [
     {
       "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
-      "verdict": "no_signal",
-      "note": ""
+      "verdict": "challenges",
+      "note": "Bitcoin and Ether crashed to two-year lows amid ETF outflows and liquidations, directly contradicting the premise that crypto is rising as a recession hedge."
     },
     {
       "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
@@ -31,7 +31,7 @@
     {
       "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
       "verdict": "supports",
-      "note": "Gold slid for a fifth day, marking its worst week since March as a hawkish Fed lifted rate‑rise expectations."
+      "note": "International gold extended its decline to a 14-month low of $3,539/oz, confirming that bullion prices are falling rather than advancing toward new highs."
     },
     {
       "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
@@ -68,257 +68,72 @@
   ],
   "items": [
     {
-      "id": "9329aa172e04",
-      "bucket": "global",
-      "headline": "Gold slides for a fifth day, marking its worst week since March as a hawkish Fed fuels rate‑rise expectations",
-      "what_happened": "Gold fell for a fifth consecutive session, posting its biggest weekly decline since March after the Federal Reserve signaled further interest‑rate hikes and AI‑stock sell‑off.",
-      "why_it_matters": "A hawkish Fed lifts the dollar, pressures gold and may curb Indian investors’ allocation to the metal, while a stronger USD can weigh on the INR.",
-      "action": null,
-      "priority": 9,
-      "scores": {
-        "ca": 0,
-        "business": 0,
-        "market": 1,
-        "global": 1
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Mint · Markets",
-        "tier": "paper",
-        "url": "https://www.livemint.com/market/gold-logs-worst-week-since-march-on-hawkish-fed-ai-selloff-11795214360197.html",
-        "published": "2026-11-20T22:39:19+00:00"
-      },
-      "also_reported_by": [
-        "MarketWatch"
-      ]
-    },
-    {
-      "id": "65a842a08c07",
-      "bucket": "global",
-      "headline": "Hurricane Isaias threatens Gulf Coast production, prompting US crude shut‑ins and tightening global oil supply",
-      "what_happened": "Approaching landfall, Hurricane Isaias is expected to cause significant production shut‑ins on the US Gulf Coast, reducing output.",
-      "why_it_matters": "Supply constraints can push Brent crude higher, raising India's import bill and adding pressure on the INR through a widening trade deficit.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 0,
-        "business": 0,
-        "market": 1,
-        "global": 1
-      },
-      "confidence": "high",
-      "is_update": true,
-      "update_note": "Carried over from yesterday with new reporting.",
-      "source": {
-        "name": "US EIA (energy)",
-        "tier": "data",
-        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
-        "published": "2026-11-21T10:53:51.544730+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "f685cf3b2b3a",
-      "bucket": "global",
-      "headline": "President Trump signals possible ban on US firms building AI data centres abroad, raising policy risk for overseas AI capex",
-      "what_happened": "Trump hinted at a potential restriction on U.S. companies constructing AI data centres outside the United States, though details remain limited.",
-      "why_it_matters": "Restrictive policy could curb U.S. AI spending overseas, limiting export opportunities for Indian AI‑related service providers and dampening sector sentiment.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 0,
-        "business": 0,
-        "market": 0,
-        "global": 1
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "BBC Business",
-        "tier": "wire",
-        "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-20T20:54:12+00:00"
-      },
-      "also_reported_by": [
-        "Economic Times",
-        "Guardian Business"
-      ]
-    },
-    {
-      "id": "02f3c9f9d971",
+      "id": "7511b21b1696",
       "bucket": "india_economy",
-      "headline": "SEBI proposes scrapping extra FPI disclosure requirements to align with global practice and attract more foreign inflows",
-      "what_happened": "SEBI released a proposal to remove additional reporting mandates for foreign portfolio investors, arguing they are out of step with international norms.",
-      "why_it_matters": "Easing disclosure could lower compliance costs for overseas funds, encouraging higher FPI participation in Indian equities and supporting market depth.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 0,
-        "business": 1,
-        "market": 0,
-        "global": 0
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Mint · Markets",
-        "tier": "paper",
-        "url": "https://www.livemint.com/market/sebi-proposes-easing-disclosure-rules-for-foreign-funds-11795183389431.html",
-        "published": "2026-11-20T14:45:39+00:00"
-      },
-      "also_reported_by": [
-        "Mint · Markets"
-      ]
-    },
-    {
-      "id": "078a87a846d7",
-      "bucket": "india_economy",
-      "headline": "AI‑shy foreign capital rotation could boost Indian blue‑chip equities as investors seek non‑AI exposure",
-      "what_happened": "Analysts note that foreign investors growing wary of AI‑heavy US stocks may redirect capital toward Indian large‑cap equities that are less AI‑exposed.",
-      "why_it_matters": "A shift of foreign money into Indian blue‑chips can strengthen the Nifty, improve liquidity and support the INR through higher FPI inflows.",
+      "headline": "Yield curve pricing stays elevated at G-sec auction as 10-year paper cuts off at 7.11%",
+      "what_happened": "RBI set cut-off yields at 7.1116% for the 6.53% GS 2031 and 7.8083% for the 7.71% GS 2066 in its ₹33,000 crore auction.",
+      "why_it_matters": "Solid bid-to-cover ratios show steady domestic institutional absorption, but cut-off yields at 7.11% reflect persistent supply absorption pressure on sovereign bond portfolios.",
       "action": null,
       "priority": 7,
       "scores": {
         "ca": 0,
         "business": 0,
-        "market": 1,
-        "global": 0
+        "market": 7,
+        "global": 3
       },
       "confidence": "high",
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "Mint · Markets",
-        "tier": "paper",
-        "url": "https://www.livemint.com/market/stock-market-news/ai-trade-rethink-will-indian-largecaps-get-first-dibs-on-fpi-flows-11795149045459.html",
-        "published": "2026-11-20T09:48:42+00:00"
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64012",
+        "published": "2026-11-22T11:09:41.727772+00:00"
       },
-      "also_reported_by": []
+      "also_reported_by": [
+        "RBI"
+      ]
     },
     {
-      "id": "da54e6cebb87",
+      "id": "38e6801b4bd4",
       "bucket": "india_economy",
-      "headline": "India’s capital‑goods market projected to reach up to $1.2 trillion by 2047, driven by data‑centre and chip investments",
-      "what_happened": "A CII‑BCG report estimates the Indian capital‑goods market could expand to $1‑1.2 trillion by 2047, led by data‑centre, semiconductor and clean‑energy spending.",
-      "why_it_matters": "Long‑term capex growth signals sustained demand for corporate financing, benefiting banks and NBFCs that fund large‑scale projects.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 0,
-        "business": 1,
-        "market": 0,
-        "global": 0
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Economic Times · Economy",
-        "tier": "paper",
-        "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-capital-goods-market-could-reach-1-2-trillion-by-2047-driven-by-data-centres-chips-report/articleshow/136021509.cms",
-        "published": "2026-11-20T09:43:53+00:00"
-      },
-      "also_reported_by": [
-        "BusinessLine"
-      ]
-    },
-    {
-      "id": "b5d6af08aa43",
-      "bucket": "markets",
-      "headline": "SoftBank shares tumble 14.5% as AI‑related stock rout and concerns over rising interest rates hit Japanese tech exposure",
-      "what_happened": "SoftBank’s share price fell 14.5% following a broader AI‑stock sell‑off and worries that higher rates could dampen growth prospects.",
-      "why_it_matters": "The AI sell‑off signals risk aversion in high‑growth tech, which can spill over to Indian IT exporters and influence foreign fund sentiment toward emerging‑market equities.",
-      "action": null,
-      "priority": 7,
-      "scores": {
-        "ca": 0,
-        "business": 0,
-        "market": 1,
-        "global": 0
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Mint · Markets",
-        "tier": "paper",
-        "url": "https://www.livemint.com/market/stock-market-news/softbank-shares-crash-14-5-biggest-1-day-fall-in-2-years-why-anthropics-strong-ipo-debut-failed-to-revive-ai-trade-11795173623939.html",
-        "published": "2026-11-20T12:54:13+00:00"
-      },
-      "also_reported_by": [
-        "Mint · Markets"
-      ]
-    },
-    {
-      "id": "448af8d3bddd",
-      "bucket": "markets",
-      "headline": "US investors shift into value stocks as AI‑driven tech rally collapses, widening sector rotation",
-      "what_happened": "Following a sharp decline in AI‑focused equities, US investors moved heavily into traditional value stocks, broadening the market rotation.",
-      "why_it_matters": "The rotation away from growth to value indicates reduced risk appetite, which may curb foreign fund inflows into Indian growth‑oriented equities, including IT and biotech.",
+      "headline": "RBI injects ₹50,000 crore short-term liquidity to anchor money market rates near policy repo",
+      "what_happened": "RBI announced a 4-day Variable Rate Repo (VRR) auction of ₹50,000 crore under the Liquidity Adjustment Facility for November 23.",
+      "why_it_matters": "The short-term liquidity injection addresses frictional deficits in the banking system, preventing money market rates and overnight call rates from drifting above the repo rate corridor.",
       "action": null,
       "priority": 6,
       "scores": {
         "ca": 0,
         "business": 0,
-        "market": 1,
-        "global": 0
+        "market": 6,
+        "global": 2
       },
       "confidence": "high",
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "Mint · Markets",
-        "tier": "paper",
-        "url": "https://www.livemint.com/market/ai-tech-rout-prompts-us-investors-to-rush-into-value-stocks-11795205292642.html",
-        "published": "2026-11-20T20:08:12+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "2a0fe9c96756",
-      "bucket": "markets",
-      "headline": "Tech stocks tumble as Anthropic’s IPO slump drags US markets into correction territory",
-      "what_happened": "The decline in Anthropic’s share price contributed to broader tech‑stock weakness, pushing the S&P 500 and Dow into correction ranges.",
-      "why_it_matters": "A tech‑sector pullback raises risk aversion, which can affect sentiment toward Indian IT exporters and broader equity allocations by foreign investors.",
-      "action": null,
-      "priority": 5,
-      "scores": {
-        "ca": 0,
-        "business": 0,
-        "market": 1,
-        "global": 0
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "BBC Business",
-        "tier": "wire",
-        "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-20T22:42:47+00:00"
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64016",
+        "published": "2026-11-22T11:09:41.727155+00:00"
       },
       "also_reported_by": [
-        "Guardian Business",
-        "Mint · Markets"
+        "RBI"
       ]
     },
     {
-      "id": "3ea13464c0fa",
-      "bucket": "ca_work",
-      "headline": "RBI clarifies forex reporting thresholds for service imports and exports, tightening compliance for remittances",
-      "what_happened": "Effective Oct 1, new RBI rules detail thresholds and filing duties for service‑trade remittances, aiming to standardise reporting.",
-      "why_it_matters": "Stricter reporting may increase compliance costs for exporters and affect the volume of foreign‑exchange transactions, modestly influencing INR volatility.",
+      "id": "9bba5c37a91f",
+      "bucket": "india_economy",
+      "headline": "CII advocates NBFC funding ease and corporate bond market reforms to boost credit transmission",
+      "what_happened": "The Confederation of Indian Industry submitted 15 priority reform recommendations to the High-Level Committee on Banking for Viksit Bharat.",
+      "why_it_matters": "If adopted, recommendations targeting NBFC funding and bond market liquidity would improve credit transmission and balance sheet flexibility across non-bank lenders.",
       "action": null,
       "priority": 5,
       "scores": {
-        "ca": 1,
-        "business": 0,
-        "market": 0,
-        "global": 0
+        "ca": 2,
+        "business": 5,
+        "market": 5,
+        "global": 2
       },
       "confidence": "high",
       "is_update": false,
@@ -326,13 +141,164 @@
       "source": {
         "name": "BusinessLine",
         "tier": "paper",
-        "url": "https://www.thehindubusinessline.com/money-and-banking/rbi-clarifies-forex-reporting-rules-for-service-imports-exports/article71723850.ece",
-        "published": "2026-11-20T09:52:28+00:00"
+        "url": "https://www.thehindubusinessline.com/economy/cii-proposes-15-priority-reforms-inputs-for-high-level-committee-on-banking-for-viksit-bharat/article71730587.ece",
+        "published": "2026-11-22T03:57:10+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "b3d062181b6e",
+      "bucket": "markets",
+      "headline": "Sharp crypto selloff to two-year lows highlights broad risk asset deleveraging",
+      "what_happened": "Bitcoin crashed to its lowest level in two years as ETF outflows, forced liquidations, and equity market competition drove broad digital asset selling.",
+      "why_it_matters": "The steep decline shows crypto trading squarely as a high-beta risk asset rather than a safe-haven macro hedge, reflecting broader margin unwinds across speculative asset classes.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 8,
+        "global": 7
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/cryptocurrency/bitcoin-price-crash-falls-to-lowest-level-in-two-years-what-s-behind-plunge-of-world-s-largest-cryptocurrency-11795267687216.html",
+        "published": "2026-11-21T14:46:56+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "85504336ce1c",
+      "bucket": "markets",
+      "headline": "92% plunge in Mahanadi Coalfields GMP signals weakening primary market appetite for PSU issuances",
+      "what_happened": "The ₹8,981 crore IPO of Mahanadi Coalfields remained undersubscribed on day two, while its grey market premium collapsed 92% to ₹0.70.",
+      "why_it_matters": "Subdued HNI and retail bidding for a cash-generative state miner highlights muted risk appetite and tighter secondary market liquidity in domestic equities.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 5,
+        "market": 7,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-gmp-check-down-92-from-rs-9-25-to-rs-0-7-issue-struggles-to-attract-bids-subscribe-or-avoid-11795252154826.html",
+        "published": "2026-11-21T10:26:10+00:00"
       },
       "also_reported_by": [
-        "BusinessLine",
         "Mint · Economy"
       ]
+    },
+    {
+      "id": "8b5f62a71c7d",
+      "bucket": "ca_work",
+      "headline": "RBI delegates FEMA compounding powers to regional offices, speeding up cross-border compliance resolution",
+      "what_happened": "RBI issued circular A.P. (DIR Series) No 28 delegating compounding of specified FEMA contraventions to its Regional Offices.",
+      "why_it_matters": "Decentralizing compounding applications cuts procedural delays for corporate clients resolving technical foreign exchange non-compliances.",
+      "action": "Review pending client FEMA compounding applications to assess if filings should be routed directly to regional RBI offices.",
+      "priority": 6,
+      "scores": {
+        "ca": 8,
+        "business": 4,
+        "market": 2,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13745&Mode=0",
+        "published": "2026-11-22T11:09:41.368518+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "dcf6223f771b",
+      "bucket": "ca_work",
+      "headline": "GST Network adds metro rail to e-way bill portal, requiring transport mode updates for urban logistics",
+      "what_happened": "GSTN introduced metro rail as a fifth transport mode option in the e-way bill system following government notification.",
+      "why_it_matters": "CA practice teams must update client ERP mapping and dispatch documentation workflows for goods transported via urban metro networks.",
+      "action": "Advise logistics and trading clients to update e-way bill generation templates for metro rail transport.",
+      "priority": 6,
+      "scores": {
+        "ca": 7,
+        "business": 3,
+        "market": 1,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Economic Times · Economy",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/news/economy/policy/gst-network-adds-metro-rail-as-fifth-mode-of-transport-in-e-way-bill-system/articleshow/136050476.cms",
+        "published": "2026-11-21T09:40:22+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "de80d473eded",
+      "bucket": "watchlist",
+      "headline": "Gold's slide to 14-month lows relieves Indian import bill pressure and reduces non-yielding asset demand",
+      "what_happened": "MCX gold fell to a 14-month low of ₹1,21,949 per 10 grams while international spot gold dropped to $3,539/oz.",
+      "why_it_matters": "Bullion extended its retreat for a second session to hit multi-month lows as rate expectations adjust. This eases India's current account deficit pressure while signaling that global portfolios are reducing non-yielding hedges.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 9,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/commodities/gold-rate-today-in-india-at-14-month-low-will-it-hit-rs-1-lakh-experts-list-out-3-reasons-for-gold-price-drop-in-2026-11795283484060.html",
+        "published": "2026-11-21T23:34:51+00:00"
+      },
+      "also_reported_by": [
+        "Economic Times"
+      ]
+    },
+    {
+      "id": "65a842a08c07",
+      "bucket": "watchlist",
+      "headline": "Gulf Coast hurricane shut-ins threaten temporary supply tightening for Brent crude",
+      "what_happened": "Category 2 Hurricane Isaias approached Gulf Coast landfall, forcing energy infrastructure halts and offshore crude production shut-ins.",
+      "why_it_matters": "Physical crude disruptions in the US Gulf could cap downside on Brent near term, posing a tactical headwind for India's oil import bill and G-sec yields if shut-ins persist.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 7,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-11-22T11:09:42.155974+00:00"
+      },
+      "also_reported_by": []
     }
   ]
 }
