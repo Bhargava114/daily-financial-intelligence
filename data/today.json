@@ -1,21 +1,21 @@
 {
-  "date": "2026-11-23",
-  "generated_at": "2026-11-23T17:52:16.691444+05:30",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T19:03:59.993709+05:30",
   "scoring": "groq",
   "stats": {
-    "items": 14,
+    "items": 12,
     "actions": 0,
-    "candidates": 160,
-    "sources_ok": 23,
-    "sources_failed": 6,
+    "candidates": 185,
+    "sources_ok": 22,
+    "sources_failed": 7,
     "sources_blocked": 10
   },
   "five_minutes": [
-    "Hurricane Isaias threatens Gulf Coast output, likely tightening Brent crude and nudging INR higher via a higher import bill.",
-    "ECB now accepts DLT assets as collateral, easing euro‑zone funding pressures and marginally easing USD/INR upside risk.",
-    "RBI’s new D‑SIB list adds extra CET1 buffers for SBI, HDFC and ICICI, tightening capital for the three largest banks.",
-    "India’s PMI shows manufacturing at a nine‑month high while services soften, supporting modest GDP growth but keeping inflation watchful.",
-    "Gold imports fell 40% YoY, cutting the import bill and easing pressure on the rupee and non‑yielding assets."
+    "GOI dated‑security auction of ₹33 trn likely lifts 10‑yr G‑sec yields, pressuring equity valuations.",
+    "RBI’s overnight Variable Rate Repo auction adds ₹50 bn liquidity, could temper short‑term rate spikes.",
+    "Gold price rebounds from a 14‑month low, reviving interest in sovereign gold bonds and hedges.",
+    "Nvidia’s $1 tn market‑cap gain after Jensen Huang’s return fuels AI‑related stock rally, supporting Indian IT exporters.",
+    "India‑EU free‑trade pact slated for Dec 16 promises duty‑free access for 93% of exports, bolstering export‑oriented sectors."
   ],
   "theses": [
     {
@@ -30,8 +30,8 @@
     },
     {
       "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
-      "verdict": "supports",
-      "note": "Gold imports plunged 40% and Titan’s share fell as bullion prices corrected, indicating continued weakness in gold."
+      "verdict": "challenges",
+      "note": "Gold prices rebounded from a 14‑month low, indicating further upside potential."
     },
     {
       "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
@@ -68,68 +68,18 @@
   ],
   "items": [
     {
-      "id": "65a842a08c07",
+      "id": "812d2a85a0ba",
       "bucket": "global",
-      "headline": "Hurricane Isaias threatens Gulf Coast output, tightening Brent crude and pressuring INR",
-      "what_happened": "The U.S. National Oceanic and Atmospheric Administration expects Hurricane Isaias to make landfall on the Gulf Coast, risking production shut‑ins at key oil facilities.",
-      "why_it_matters": "Reduced Gulf‑Coast supply can lift Brent crude prices, raising India’s import bill, supporting the rupee and adding headroom for FII inflows.",
+      "headline": "Nvidia adds ~$1 tn market cap after Jensen Huang’s return, lifting AI‑related equities worldwide",
+      "what_happened": "Nvidia shares surged nearly $1 tn in market value following the reinstatement of CEO Jensen Huang, driving a 6.5% gain in the Nasdaq.",
+      "why_it_matters": "The rally energises AI‑focused stocks, benefiting Indian IT exporters and semiconductor‑related companies that track global AI demand.",
       "action": null,
-      "priority": 9,
+      "priority": 8,
       "scores": {
         "ca": 0,
-        "business": 0,
-        "market": 1,
-        "global": 1
-      },
-      "confidence": "high",
-      "is_update": true,
-      "update_note": "Continues yesterday's story.",
-      "source": {
-        "name": "US EIA (energy)",
-        "tier": "data",
-        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
-        "published": "2026-11-23T12:18:52.958425+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "b5ba451bacf7",
-      "bucket": "global",
-      "headline": "ECB widens eligible collateral to include DLT‑based assets, easing euro‑zone funding pressures",
-      "what_happened": "The European Central Bank announced that distributed‑ledger‑technology assets can now be used as eligible Eurosystem collateral.",
-      "why_it_matters": "Broader collateral eligibility reduces funding strain in the euro area, which may lessen euro‑dollar carry differentials and modestly curb USD strength against INR.",
-      "action": null,
-      "priority": 7,
-      "scores": {
-        "ca": 0,
-        "business": 0,
-        "market": 0,
-        "global": 1
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "ECB",
-        "tier": "primary",
-        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html",
-        "published": "2026-11-23T10:00:00+00:00"
-      },
-      "also_reported_by": []
-    },
-    {
-      "id": "4a58effbc03e",
-      "bucket": "global",
-      "headline": "AI boom in San Francisco raises concerns of an overheated sector and possible cap‑ex slowdown",
-      "what_happened": "Employees at leading AI firms in San Francisco voiced worries that the rapid expansion of AI spending could be unsustainable.",
-      "why_it_matters": "A slowdown in AI cap‑ex could temper demand for high‑performance chips and cloud services, affecting global tech valuations and Indian IT exporters.",
-      "action": null,
-      "priority": 6,
-      "scores": {
-        "ca": 0,
-        "business": 1,
-        "market": 0,
-        "global": 1
+        "business": 3,
+        "market": 9,
+        "global": 2
       },
       "confidence": "high",
       "is_update": false,
@@ -137,158 +87,50 @@
       "source": {
         "name": "BBC Business",
         "tier": "wire",
-        "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-23T00:08:00+00:00"
+        "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-23T21:23:42+00:00"
+      },
+      "also_reported_by": [
+        "Mint · Markets"
+      ]
+    },
+    {
+      "id": "4beff4689dc7",
+      "bucket": "global",
+      "headline": "AI trade resurgence lifts Taiwanese index 9%, reinforcing momentum in semiconductor and AI stocks",
+      "what_happened": "Taiwan’s stock index rose 9% after Nvidia’s board reinstated Jensen Huang, reviving investor appetite for AI‑related semiconductor exposure.",
+      "why_it_matters": "Strong performance in Taiwan’s AI sector signals robust global demand, supporting export‑oriented Indian tech firms and influencing sector allocation.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 2,
+        "market": 8,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/ai-trade-resurgence-drives-9-rally-in-taiwanese-stock-index-11795484279756.html",
+        "published": "2026-11-24T01:37:59+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "ff5adce7e63c",
+      "id": "f4744999efba",
       "bucket": "india_economy",
-      "headline": "S&P forecasts 7% FY27 GDP for India but flags El Niño‑driven food‑price inflation",
-      "what_happened": "S&P Global Ratings projects robust 7% growth for India in FY27 while warning that El Niño could lift food prices and inflation.",
-      "why_it_matters": "Strong growth supports equities and credit, but higher food inflation could keep RBI cautious on rate cuts, influencing G‑sec yields and the rupee.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 0,
-        "business": 0,
-        "market": 1,
-        "global": 0
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Economic Times · Economy",
-        "tier": "paper",
-        "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-to-be-one-of-apac-champions-with-7-gdp-forecast-for-fy27-but-el-nino-will-prove-costly-sp/articleshow/136095806.cms",
-        "published": "2026-11-23T09:11:16+00:00"
-      },
-      "also_reported_by": [
-        "Economic Times"
-      ]
-    },
-    {
-      "id": "667cf9ae0352",
-      "bucket": "india_economy",
-      "headline": "RBI deputy governor unveils revised CPI methodology to better capture household spending patterns",
-      "what_happened": "The RBI announced an updated inflation framework that changes consumption weights, expands housing coverage and refines price collection to narrow the gap between measured and perceived inflation.",
-      "why_it_matters": "A more accurate CPI could sharpen RBI’s policy reaction function, influencing rate expectations, G‑sec yields and the rupee’s trajectory.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 0,
-        "business": 0,
-        "market": 1,
-        "global": 0
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "BusinessLine",
-        "tier": "paper",
-        "url": "https://www.thehindubusinessline.com/economy/new-cpi-series-to-narrow-gap-between-measured-and-perceived-inflation-rbi-deputy-governor/article71733936.ece",
-        "published": "2026-11-23T09:46:27+00:00"
-      },
-      "also_reported_by": [
-        "Mint · Economy"
-      ]
-    },
-    {
-      "id": "55d0a36a69d2",
-      "bucket": "india_economy",
-      "headline": "India‑EU free‑trade agreement slated for signing on Dec 16, unlocking duty‑free access for 93% of Indian exports",
-      "what_happened": "Negotiations indicate the India‑EU FTA will be signed on Dec 16, granting Indian exporters near‑complete duty‑free access to the EU market.",
-      "why_it_matters": "The deal can boost export earnings, improve the trade balance and support rupee fundamentals, while also influencing sectoral exposure for Indian exporters.",
-      "action": null,
-      "priority": 8,
-      "scores": {
-        "ca": 0,
-        "business": 1,
-        "market": 1,
-        "global": 0
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Economic Times · Economy",
-        "tier": "paper",
-        "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-eu-trade-deal-likely-to-be-signed-on-december-16/articleshow/136082167.cms",
-        "published": "2026-11-22T18:42:58+00:00"
-      },
-      "also_reported_by": [
-        "BusinessLine"
-      ]
-    },
-    {
-      "id": "15a504efde16",
-      "bucket": "india_economy",
-      "headline": "India’s PMI shows manufacturing at nine‑month high, offsetting softer services growth",
-      "what_happened": "The HSBC Flash India Composite PMI rose slightly in November, driven by a strong manufacturing reading while services slowed.",
-      "why_it_matters": "Manufacturing strength sustains the growth outlook and supports RBI’s growth‑friendly stance, but weaker services keep inflation monitoring active.",
+      "headline": "RBI to run a ₹50 bn overnight Variable Rate Repo auction on 25 Nov, offering short‑term liquidity",
+      "what_happened": "The Reserve Bank announced a Variable Rate Repo auction of ₹50 bn for one‑day tenor, to be conducted on 25 Nov.",
+      "why_it_matters": "Injecting short‑term liquidity can curb spikes in overnight rates, supporting money‑market stability and influencing short‑term G‑sec yields.",
       "action": null,
       "priority": 7,
       "scores": {
         "ca": 0,
-        "business": 0,
-        "market": 1,
-        "global": 0
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Economic Times · Economy",
-        "tier": "paper",
-        "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-factory-demand-offsets-weaker-services-growth-in-november-pmi-shows/articleshow/136091559.cms",
-        "published": "2026-11-23T06:21:39+00:00"
-      },
-      "also_reported_by": [
-        "Mint · Economy"
-      ]
-    },
-    {
-      "id": "07c0c121a4e9",
-      "bucket": "india_economy",
-      "headline": "Finance Minister holds 10th pre‑budget meeting with health and social‑sector stakeholders",
-      "what_happened": "Union Finance Minister Nirmala Sitharaman chaired a consultation with health and social‑sector groups as part of the preparation for the FY 2027‑28 Union Budget.",
-      "why_it_matters": "Stakeholder input may shape fiscal allocations, impacting health‑related expenditure, social spending and overall fiscal deficit outlook.",
-      "action": null,
-      "priority": 7,
-      "scores": {
-        "ca": 0,
-        "business": 0,
-        "market": 0,
-        "global": 0
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Economic Times · Economy",
-        "tier": "paper",
-        "url": "https://economictimes.indiatimes.com/news/economy/policy/budget-2027-fm-sitharaman-holds-10th-pre-budget-meeting-with-health-social-sector-stakeholders/articleshow/136096719.cms",
-        "published": "2026-11-23T09:30:43+00:00"
-      },
-      "also_reported_by": [
-        "Economic Times · Economy"
-      ]
-    },
-    {
-      "id": "01357306ec10",
-      "bucket": "india_economy",
-      "headline": "RBI publishes 2026 list of Domestic Systemically Important Banks, adding CET1 buffers for SBI, HDFC and ICICI",
-      "what_happened": "The Reserve Bank of India released the updated D‑SIB list, confirming that State Bank of India, HDFC Bank and ICICI Bank remain systemically important and will carry an extra Common Equity Tier 1 buffer.",
-      "why_it_matters": "Higher capital buffers tighten funding for the three largest banks, potentially curbing credit growth and impacting bank stock valuations.",
-      "action": null,
-      "priority": 7,
-      "scores": {
-        "ca": 0,
-        "business": 1,
-        "market": 1,
+        "business": 2,
+        "market": 7,
         "global": 0
       },
       "confidence": "high",
@@ -297,131 +139,73 @@
       "source": {
         "name": "RBI",
         "tier": "primary",
-        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64025",
-        "published": "2026-11-23T12:18:51.994419+00:00"
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64033",
+        "published": "2026-11-24T13:33:06.827567+00:00"
       },
       "also_reported_by": []
     },
     {
-      "id": "0c2081d195b9",
-      "bucket": "markets",
-      "headline": "Gold imports into India plunge 40% YoY, easing the import bill and non‑yielding asset demand",
-      "what_happened": "Data show a 40% decline in gold imports for the April‑October period compared with the previous year.",
-      "why_it_matters": "Lower gold imports reduce the current‑account drag and lessen demand for non‑yielding assets, supporting the rupee and freeing capital for yield‑bearing investments.",
+      "id": "01357306ec10",
+      "bucket": "india_economy",
+      "headline": "RBI re‑affirms D‑SIB list, adding CET1 buffer for SBI, HDFC and ICICI, tightening capital for top banks",
+      "what_happened": "Reserve Bank of India released the 2026 list of Domestic Systemically Important Banks, keeping SBI, HDFC Bank and ICICI Bank as D‑SIBs with an extra CET1 requirement.",
+      "why_it_matters": "Higher capital buffers raise funding costs for the three biggest banks, potentially affecting their earnings and weight in bank‑focused funds.",
       "action": null,
-      "priority": 8,
+      "priority": 6,
       "scores": {
         "ca": 0,
-        "business": 0,
-        "market": 1,
+        "business": 6,
+        "market": 5,
         "global": 0
       },
       "confidence": "high",
       "is_update": true,
-      "update_note": "Continues yesterday's story.",
+      "update_note": "Carried over from yesterday with new reporting.",
       "source": {
-        "name": "Economic Times",
-        "tier": "paper",
-        "url": "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/gold-imports-into-india-decline-40-in-april-october-cti/articleshow/136097529.cms",
-        "published": "2026-11-23T10:09:58+00:00"
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64025",
+        "published": "2026-11-24T13:33:06.829538+00:00"
       },
-      "also_reported_by": [
-        "BusinessLine"
-      ]
+      "also_reported_by": []
     },
     {
-      "id": "4e6ccc790133",
-      "bucket": "markets",
-      "headline": "Financials drag Sensex and Nifty lower as profit‑taking hits the rally",
-      "what_happened": "The Nifty 50 fell 1.75% to 25,349.65 and the Sensex dropped 1.77% amid profit‑taking in financial stocks after a four‑week rally.",
-      "why_it_matters": "Weakness in the financial sector pressures index levels and may signal a short‑term rotation away from banks, affecting portfolio beta and liquidity.",
-      "action": null,
-      "priority": 7,
-      "scores": {
-        "ca": 0,
-        "business": 1,
-        "market": 1,
-        "global": 0
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Mint · Markets",
-        "tier": "paper",
-        "url": "https://www.livemint.com/market/indian-shares-set-to-open-higher-on-foreign-inflows-as-ai-selloff-persists-11795402774674.html",
-        "published": "2026-11-23T03:00:28+00:00"
-      },
-      "also_reported_by": [
-        "Mint · Markets"
-      ]
-    },
-    {
-      "id": "804c18fc31ad",
-      "bucket": "markets",
-      "headline": "Tata Steel shares drop 5% after announcing ₹15,511 cr acquisition of APL Apollo stake",
-      "what_happened": "Tata Steel disclosed plans to acquire a 26.38% stake in APL Apollo Tubes for about ₹15,511 cr and to make an open offer for another 26%, prompting a 5% share decline.",
-      "why_it_matters": "The sizeable deal raises capital allocation questions for Tata Steel and may pressure steel‑sector valuations, while the financing requirement could affect debt markets.",
-      "action": null,
-      "priority": 7,
-      "scores": {
-        "ca": 0,
-        "business": 1,
-        "market": 1,
-        "global": 0
-      },
-      "confidence": "high",
-      "is_update": false,
-      "update_note": null,
-      "source": {
-        "name": "Mint · Markets",
-        "tier": "paper",
-        "url": "https://www.livemint.com/market/stock-market-news/tata-steel-shares-fall-5-as-investors-weigh-rs-32-000-cr-apl-apollo-acquisition-plan-should-you-buy-check-key-levels-11795406091656.html",
-        "published": "2026-11-23T04:27:02+00:00"
-      },
-      "also_reported_by": [
-        "Mint · Markets"
-      ]
-    },
-    {
-      "id": "d86fac539909",
-      "bucket": "markets",
-      "headline": "Titan’s share slides as falling gold prices erode post‑results gains",
-      "what_happened": "Titan’s stock declined after a sharp correction in bullion prices, though jewellery margins remain stable.",
-      "why_it_matters": "Gold‑price weakness directly impacts Titan’s revenue outlook and reflects broader pressure on Indian jewellery stocks and consumer sentiment.",
+      "id": "6f2b8b5e6f65",
+      "bucket": "india_economy",
+      "headline": "FEMA amendment expands export‑import categories, easing compliance for exporters and may modestly support INR",
+      "what_happened": "RBI issued the Second Amendment to the Foreign Exchange Management (Export and Import of Goods and Services) Regulations, adding new categories and clarifying procedures.",
+      "why_it_matters": "Simplified FX rules can reduce transaction frictions for exporters, supporting export flows and potentially tempering INR pressure from trade‑related outflows.",
       "action": null,
       "priority": 6,
       "scores": {
         "ca": 0,
-        "business": 1,
-        "market": 1,
+        "business": 4,
+        "market": 3,
         "global": 0
       },
       "confidence": "high",
       "is_update": false,
       "update_note": null,
       "source": {
-        "name": "Mint · Markets",
-        "tier": "paper",
-        "url": "https://www.livemint.com/market/mark-to-market/titan-share-price-fall-gold-price-correction-impact-on-jewellery-margins-11795407212708.html",
-        "published": "2026-11-23T05:19:48+00:00"
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13750&Mode=0",
+        "published": "2026-11-24T13:33:06.266828+00:00"
       },
-      "also_reported_by": [
-        "Economic Times"
-      ]
+      "also_reported_by": []
     },
     {
-      "id": "655bb064416b",
-      "bucket": "markets",
-      "headline": "Auto retail hits record 5.525 million units in festive season, EV sales surge 53%",
-      "what_happened": "The Federation of Automobile Dealers Associations reported total vehicle sales of 5,525,490 units during the 42‑day festive period, with electric‑vehicle sales up 53% year‑on‑year.",
-      "why_it_matters": "Record retail volumes boost automotive earnings outlook and the EV surge signals a shift in demand that could benefit related suppliers and infrastructure firms.",
+      "id": "3d9afbf74a8d",
+      "bucket": "india_economy",
+      "headline": "Private investment project announcements jump 58.5% YoY to ₹26.6 lakh cr in H1 FY27, indicating a strengthening pipeline",
+      "what_happened": "The Confederation of Indian Industry reported a 58.5% rise in announced private‑investment projects, totaling ₹26.6 lakh cr in the first half of FY27.",
+      "why_it_matters": "Higher private‑sector investment signals confidence in growth, potentially boosting construction, infrastructure and related equities.",
       "action": null,
       "priority": 6,
       "scores": {
         "ca": 0,
-        "business": 1,
-        "market": 1,
+        "business": 6,
+        "market": 5,
         "global": 0
       },
       "confidence": "high",
@@ -430,12 +214,172 @@
       "source": {
         "name": "BusinessLine",
         "tier": "paper",
-        "url": "https://www.thehindubusinessline.com/economy/auto-retail-hits-record-5525-lakh-units-during-42-day-festive-season-ev-sales-suge-53-fada/article71733423.ece",
-        "published": "2026-11-23T05:11:56+00:00"
+        "url": "https://www.thehindubusinessline.com/economy/private-investment-project-announcements-surge-585-to-266-lakh-cr-in-h1-fy27-cii/article71737486.ece",
+        "published": "2026-11-24T07:08:03+00:00"
       },
       "also_reported_by": [
         "BusinessLine"
       ]
+    },
+    {
+      "id": "a87b0221b7a4",
+      "bucket": "india_economy",
+      "headline": "RBI Governor’s meeting with NBFCs signals tighter credit monitoring, could constrain NBFC funding",
+      "what_happened": "The RBI Governor met CEOs of selected NBFCs and housing finance companies in Mumbai on 23 Nov to discuss sector health and regulatory expectations.",
+      "why_it_matters": "Heightened supervisory focus may lead to stricter loan‑to‑value norms or liquidity caps, affecting NBFC funding costs and credit supply to SMEs and housing.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 0,
+        "business": 5,
+        "market": 4,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64032",
+        "published": "2026-11-24T13:33:06.827675+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "89734e74e0b0",
+      "bucket": "india_economy",
+      "headline": "India‑Canada trade pact near finalisation, likely to open new market avenues for exporters",
+      "what_happened": "Officials said India and Canada are ‘very close’ to concluding negotiations on a comprehensive trade agreement, after the sixth round of talks.",
+      "why_it_matters": "The pact could reduce tariffs and non‑tariff barriers, benefitting sectors such as agri‑food, IT services and renewable energy, and may improve the trade balance.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 0,
+        "business": 5,
+        "market": 4,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BusinessLine",
+        "tier": "paper",
+        "url": "https://www.thehindubusinessline.com/economy/india-canada-very-close-to-conclude-trade-pact-negotiations-official/article71737591.ece",
+        "published": "2026-11-24T07:40:15+00:00"
+      },
+      "also_reported_by": [
+        "Economic Times · Economy"
+      ]
+    },
+    {
+      "id": "de84de3911ee",
+      "bucket": "india_economy",
+      "headline": "India‑EU free‑trade agreement expected to sign Dec 16, granting duty‑free access for 93% of Indian exports",
+      "what_happened": "German state leader announced that negotiations for the India‑EU FTA concluded in January and the signing is slated for 16 December.",
+      "why_it_matters": "Duty‑free access will lower costs for Indian exporters in sectors like textiles, pharmaceuticals and IT services, supporting export‑linked earnings and potentially strengthening the rupee.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 0,
+        "business": 5,
+        "market": 4,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BusinessLine",
+        "tier": "paper",
+        "url": "https://www.thehindubusinessline.com/economy/india-eu-free-trade-pact-to-open-new-opportunities-for-trade-investment-german-state-leader/article71737396.ece",
+        "published": "2026-11-24T06:28:58+00:00"
+      },
+      "also_reported_by": [
+        "Economic Times · Economy"
+      ]
+    },
+    {
+      "id": "702da5e67234",
+      "bucket": "markets",
+      "headline": "GOI dated‑security auction of ₹33 trn adds supply, likely nudging 10‑yr G‑sec yields higher",
+      "what_happened": "Government of India announced re‑issue of four dated securities totaling ₹33 trn, with the first tranche (₹9 trn 6.20% 2029) auctioned on 17 Nov.",
+      "why_it_matters": "Higher bond supply can push yields up, lowering bond prices and raising equity discount rates; the added supply also influences RBI’s liquidity management.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 8,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64029",
+        "published": "2026-11-24T13:33:06.828399+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "a02c186ede19",
+      "bucket": "markets",
+      "headline": "Gold price rebounds from 14‑month low, MCX gold at ₹1.26 lakh/10 gm, reviving interest in gold as a hedge",
+      "what_happened": "The MCX gold rate closed at ₹1,26,021 per 10 gm on 24 Nov, while the international USD price sits around $3,635 per ounce, marking a bounce from a 14‑month trough.",
+      "why_it_matters": "Higher gold prices improve the appeal of sovereign gold bonds and can draw capital into safe‑haven assets, influencing portfolio allocations across equities and fixed income.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 8,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/commodities/gold-rate-today-24-november-2026-gold-price-rebounds-from-14-month-low-is-it-the-right-time-to-buy-experts-explain-11795498644088.html",
+        "published": "2026-11-24T06:54:34+00:00"
+      },
+      "also_reported_by": [
+        "Mint · Markets"
+      ]
+    },
+    {
+      "id": "39782741694d",
+      "bucket": "markets",
+      "headline": "Premature redemption option for SGB 2021‑22 Series I may boost demand for sovereign gold bonds",
+      "what_happened": "The government announced that premature redemption of the Sovereign Gold Bond 2021‑22 Series I is permissible after the fifth year, with redemption price set at the prevailing market price on the redemption date.",
+      "why_it_matters": "Liquidity provision can make SGBs more attractive to investors seeking gold exposure, potentially supporting gold prices and offering a low‑cost hedge for portfolios.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 2,
+        "market": 7,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64030",
+        "published": "2026-11-24T13:33:06.827837+00:00"
+      },
+      "also_reported_by": []
     }
   ]
 }
