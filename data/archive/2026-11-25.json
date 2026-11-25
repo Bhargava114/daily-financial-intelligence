@@ -1,0 +1,388 @@
+{
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T18:13:43.864675+05:30",
+  "scoring": "gemini",
+  "stats": {
+    "items": 12,
+    "actions": 2,
+    "candidates": 173,
+    "sources_ok": 23,
+    "sources_failed": 6,
+    "sources_blocked": 10
+  },
+  "five_minutes": [
+    "Planned US tariffs targeting China and the EU risk reigniting global cost-push inflation and complicating central bank rate-cut trajectories.",
+    "RBI allotted ₹50,007 crore via overnight VRR to relieve tight short-term liquidity in Indian money markets.",
+    "India's economic activity expanded 9% YoY in October, propelled by festive demand and strong industrial credit growth.",
+    "Nvidia equity momentum slowed as US political scrutiny over executive appointments stirred market uncertainty.",
+    "Nifty dropped 1.75% to test 25,300 before GIFT futures signaled a modest short-term rebound."
+  ],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "supports",
+      "note": "New planned tariffs targeting major trading partners like China and the EU threaten to raise domestic import costs and disrupt global trade flows."
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "mixed",
+      "note": "Heavy profit-taking dragged Nifty down 1.75% to 25,349, though GIFT Nifty futures indicate short-term support returning near 25,738."
+    }
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "global",
+      "label": "Central banks & global macro"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · macro, flows and policy"
+    },
+    {
+      "id": "markets",
+      "label": "Markets · cross-asset context"
+    },
+    {
+      "id": "ca_work",
+      "label": "Tax, audit & compliance"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "de88e83a996c",
+      "bucket": "global",
+      "headline": "Planned US tariffs on EU and China risk rekindling global inflation and trade friction",
+      "what_happened": "The US administration is preparing a new tariff framework targeting major trading partners, including China and the European Union.",
+      "why_it_matters": "Broad levies risk disrupting global supply chains and re-igniting imported cost pressures. This could slow the pace of rate cuts from the Fed and ECB while keeping the US dollar firm against emerging market currencies.",
+      "action": null,
+      "priority": 9,
+      "scores": {
+        "ca": 2,
+        "business": 7,
+        "market": 9,
+        "global": 10
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-25T00:38:01+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "9c30b79cef44",
+      "bucket": "global",
+      "headline": "Political scrutiny over Nvidia executive decisions caps global tech equity momentum",
+      "what_happened": "Lawmakers demanded details regarding White House involvement in Jensen Huang's reinstatement, driving a 7% decline in Nvidia shares.",
+      "why_it_matters": "Following yesterday's market cap rally, fresh regulatory uncertainty in Washington threatens to introduce volatility into semiconductor supply chains and global AI capex trades.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 1,
+        "business": 8,
+        "market": 8,
+        "global": 9
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-24T10:53:37+00:00"
+      },
+      "also_reported_by": [
+        "BBC Business",
+        "CNBC · Markets",
+        "Guardian Business",
+        "MarketWatch"
+      ]
+    },
+    {
+      "id": "65a842a08c07",
+      "bucket": "global",
+      "headline": "Gulf Coast hurricane threats risk short-term crude supply shut-ins and price spikes",
+      "what_happened": "Hurricane Isaias is projected to hit the US Gulf Coast, forcing preventative shut-ins across regional offshore oil and gas production facilities.",
+      "why_it_matters": "Supply disruptions in the Gulf Coast can push Brent crude prices higher in the near term, threatening to widen India's current account deficit and put upward pressure on domestic fuel input costs.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 1,
+        "business": 6,
+        "market": 8,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-11-25T12:41:59.806702+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "c7ae09332844",
+      "bucket": "global",
+      "headline": "UK regulators loosen securitisation rules to support bank capital deployment",
+      "what_happened": "The Prudential Regulation Authority and FCA published updated securitisation rules designed to boost credit availability and economic growth in the UK.",
+      "why_it_matters": "Targeted regulatory easing reduces capital charges for structured credit issuance, reflecting broader central bank efforts to support economic expansion without direct rate cuts.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 4,
+        "business": 5,
+        "market": 6,
+        "global": 7
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Bank of England",
+        "tier": "primary",
+        "url": "https://www.bankofengland.co.uk/news/2026/november/regulators-implement-growth-friendly-securitisation-reforms",
+        "published": "2026-11-25T10:00:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "caf56029bc98",
+      "bucket": "india_economy",
+      "headline": "RBI injects ₹50,007 crore via VRR to relieve short-term money market pressure",
+      "what_happened": "RBI fully allotted its ₹50,000 crore 1-day VRR auction at a cut-off rate of 5.68%, receiving ₹75,246 crore in total bids.",
+      "why_it_matters": "Following yesterday's auction announcement, heavy oversubscription shows banking system liquidity remains tight. This keeps short-term money market rates pinned near the repo corridor ceiling.",
+      "action": "Track short-term CP rates and overnight call money spreads for your banking and NBFC exposures.",
+      "priority": 7,
+      "scores": {
+        "ca": 4,
+        "business": 6,
+        "market": 8,
+        "global": 3
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Continues yesterday's story.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64038",
+        "published": "2026-11-25T12:41:59.105007+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "6cfa276e3f32",
+      "bucket": "india_economy",
+      "headline": "India's 9% October activity expansion highlights industrial strength despite soft rural demand",
+      "what_happened": "Jefferies reported that Indian economic activity grew 9% YoY in October, propelled by festive manufacturing and bank credit growth reaching a near 12-year high.",
+      "why_it_matters": "Robust corporate credit expansion reinforces earnings visibility for Indian lenders. However, subdued rural indicators suggest consumer spending recovery remains uneven across income brackets.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 3,
+        "business": 8,
+        "market": 7,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Economic Times · Economy",
+        "tier": "paper",
+        "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-economic-activity-growth-hits-four-year-high-of-9-in-october-jefferies/articleshow/136129512.cms",
+        "published": "2026-11-24T11:50:09+00:00"
+      },
+      "also_reported_by": [
+        "BusinessLine"
+      ]
+    },
+    {
+      "id": "ff04662dc008",
+      "bucket": "india_economy",
+      "headline": "RBI Bulletin highlights imported inflation risks from geopolitical conflicts and steady NBFC metrics",
+      "what_happened": "The RBI released its November Bulletin featuring analyses on imported inflation drivers and asset quality across non-banking financial companies.",
+      "why_it_matters": "The central bank's focus on imported price pressures underscores its reluctance to pivot quickly toward rate cuts while geopolitical trade risks persist.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 3,
+        "business": 6,
+        "market": 6,
+        "global": 5
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64041",
+        "published": "2026-11-25T12:41:59.104787+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "4cf37e62a0ee",
+      "bucket": "markets",
+      "headline": "Nifty 1.75% sell-off tests key 25,000 support before GIFT futures signal modest bounce",
+      "what_happened": "The Nifty 50 dropped 1.75% to close at 25,349.65 amid heavy profit-booking, while GIFT Nifty futures subsequently recovered toward 25,738.",
+      "why_it_matters": "FII profit-taking highlights market sensitivity to global macro shifts. Holding the 25,000 technical level remains critical to preventing further systematic position unwinding in domestic equities.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 1,
+        "business": 6,
+        "market": 9,
+        "global": 5
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-25-nov-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-cues-11795566965791.html",
+        "published": "2026-11-25T01:10:55+00:00"
+      },
+      "also_reported_by": [
+        "Mint · Markets"
+      ]
+    },
+    {
+      "id": "baf912188bae",
+      "bucket": "markets",
+      "headline": "HDFC Bank 4% surge provides buffer for banking index amid broad market decline",
+      "what_happened": "HDFC Bank shares rose 3.7% to ₹848.95, lifting the Nifty Bank index over 2% despite sharp drops across broader market benchmarks.",
+      "why_it_matters": "Institutional resilience in private banking heavyweights cushions portfolio drawdowns, though overall sector margins face pressure from elevated deposit costs.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 1,
+        "business": 7,
+        "market": 7,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/stock-market-news/top-nifty-bank-gainer-today-hdfc-bank-shares-jump-4-as-index-soars-2-should-you-buy-or-book-profit-experts-advice-11795580304968.html",
+        "published": "2026-11-25T05:00:12+00:00"
+      },
+      "also_reported_by": [
+        "Mint · Markets"
+      ]
+    },
+    {
+      "id": "730040c8dc18",
+      "bucket": "ca_work",
+      "headline": "RBI updates securitisation directions for AIFIs to align credit enhancement standards",
+      "what_happened": "The Reserve Bank issued amended securitisation directions for All India Financial Institutions under its updated 2026 regulatory framework.",
+      "why_it_matters": "Non-bank lenders and financial institution clients must review their asset securitisation pools and loss-absorption structures to ensure full audit compliance with the amended RBI norms.",
+      "action": "Audit securitisation pool structures and credit enhancement disclosures for financial institution clients.",
+      "priority": 6,
+      "scores": {
+        "ca": 8,
+        "business": 5,
+        "market": 4,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13756&Mode=0",
+        "published": "2026-11-25T12:41:58.283516+00:00"
+      },
+      "also_reported_by": [
+        "RBI Notifications"
+      ]
+    },
+    {
+      "id": "d825743f273c",
+      "bucket": "ca_work",
+      "headline": "India-UK Scotch whisky classification dispute creates customs duty uncertainty for importers",
+      "what_happened": "Indian authorities and UK trade representatives disagree on whether bulk spirit imports should be classified as finished whisky or industrial manufacturing inputs.",
+      "why_it_matters": "Classification decisions affect applicable customs duty rates, input tax credit eligibility, and transfer pricing models for liquor importers operating in India.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 7,
+        "business": 5,
+        "market": 3,
+        "global": 4
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BusinessLine",
+        "tier": "paper",
+        "url": "https://www.thehindubusinessline.com/economy/one-scotch-whisky-different-tariff-codes-what-is-behind-the-india-uk-duty-dispute/article71738116.ece",
+        "published": "2026-11-24T12:48:39+00:00"
+      },
+      "also_reported_by": [
+        "Mint · Economy"
+      ]
+    },
+    {
+      "id": "3bfedcea5368",
+      "bucket": "watchlist",
+      "headline": "RBI T-bill yields cap at 6.64% for 1-year paper amid steady institutional demand",
+      "what_happened": "RBI auctioned 91-day, 182-day, and 364-day T-bills with cut-off yields setting at 5.88%, 6.53%, and 6.64% respectively.",
+      "why_it_matters": "Short-end sovereign yield levels establish the benchmark floor for corporate commercial paper pricing and short-term funding costs across Indian NBFCs.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 2,
+        "business": 4,
+        "market": 7,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64039",
+        "published": "2026-11-25T12:41:59.104954+00:00"
+      },
+      "also_reported_by": []
+    }
+  ]
+}
