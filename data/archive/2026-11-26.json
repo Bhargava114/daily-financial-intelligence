@@ -1,0 +1,381 @@
+{
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T17:48:08.436766+05:30",
+  "scoring": "groq",
+  "stats": {
+    "items": 12,
+    "actions": 0,
+    "candidates": 212,
+    "sources_ok": 23,
+    "sources_failed": 6,
+    "sources_blocked": 10
+  },
+  "five_minutes": [
+    "US Q3 GDP revised up to 4.3% annualised, lifting Fed cut expectations and sustaining USD strength.",
+    "BoJ board member Tamura reaffirmed ultra‑easy policy, keeping Japanese yields low and supporting carry into emerging markets like India.",
+    "RBI’s VRR auction cleared at a 5.51% cut‑off, indicating ample liquidity and anchoring short‑term money‑market rates near 5.6%.",
+    "Indian 91‑day Treasury‑Bill auction yields slipped to 5.88%, reinforcing a low short‑term risk‑free rate for the market.",
+    "Hurricane Isaias threatens Gulf Coast crude output, which could lift Brent prices and raise India’s import bill."
+  ],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "no_signal",
+      "note": ""
+    }
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "global",
+      "label": "Central banks & global macro"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · macro, flows and policy"
+    },
+    {
+      "id": "markets",
+      "label": "Markets · cross-asset context"
+    },
+    {
+      "id": "ca_work",
+      "label": "Tax, audit & compliance"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "894b31391cfe",
+      "bucket": "global",
+      "headline": "US Q3 GDP revised up to 4.3% annualised, keeping Fed rate‑cut odds high and supporting a strong USD",
+      "what_happened": "The BEA released the second estimate showing GDP grew 4.3% year‑over‑year in Q3, up from the advance estimate.",
+      "why_it_matters": "Higher‑than‑expected growth leaves the Fed more likely to delay cuts, which can keep the dollar firm and pressure INR, affecting FII inflows and Indian equity valuations.",
+      "action": null,
+      "priority": 9,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "US BEA (GDP, PCE)",
+        "tier": "data",
+        "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
+        "published": "2026-11-25T13:30:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "8d943872aaa7",
+      "bucket": "global",
+      "headline": "BoJ board member Tamura reaffirms ultra‑easy policy, leaving Japanese yields low and supporting carry into emerging markets",
+      "what_happened": "In a speech in Yamanashi, Tamura emphasized that monetary policy will remain accommodative, with no immediate tightening.",
+      "why_it_matters": "Persistently low JPY yields make the yen a funding currency, encouraging investors to seek higher returns in India, which can bolster INR and equity inflows.",
+      "action": null,
+      "priority": 8,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Bank of Japan",
+        "tier": "primary",
+        "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261126a.htm",
+        "published": "2026-11-26T01:00:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "a3e03f410608",
+      "bucket": "global",
+      "headline": "US consumer‑credit rule thresholds raise compliance costs, could dampen credit growth and temper Fed’s inflation outlook",
+      "what_happened": "Federal agencies announced new dollar thresholds for truth‑in‑lending and lease rules affecting consumer credit.",
+      "why_it_matters": "Tighter credit standards may slow US consumer spending, easing inflation pressures and influencing Fed rate‑cut timing, which in turn can affect USD and capital flows to India.",
+      "action": null,
+      "priority": 7,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Federal Reserve · All",
+        "tier": "primary",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm",
+        "published": "2026-11-25T20:00:00+00:00"
+      },
+      "also_reported_by": [
+        "Federal Reserve · All"
+      ]
+    },
+    {
+      "id": "cf5adb374525",
+      "bucket": "global",
+      "headline": "US personal income rises 0.7% month‑over‑month, boosting disposable income and sustaining consumption",
+      "what_happened": "BEA data show personal income increased $201.8 bn (0.7% monthly) in October, with disposable income up 0.8%.",
+      "why_it_matters": "Stronger consumer income supports US consumption, keeping inflation concerns alive and maintaining pressure on the Fed to stay cautious, which can sustain a firm USD and affect capital flows to India.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "US BEA (GDP, PCE)",
+        "tier": "data",
+        "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+        "published": "2026-11-25T13:30:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "337b49684ff1",
+      "bucket": "india_economy",
+      "headline": "RBI’s VRR auction cleared at 5.51% cut‑off, signalling abundant liquidity and anchoring short‑term rates near 5.6%",
+      "what_happened": "The 1‑day overnight repo auction received ₹45,731 cr bids and allotted the full amount at a cut‑off rate of 5.51%, weighted average 5.65%.",
+      "why_it_matters": "Ample liquidity keeps money‑market rates low, supporting G‑sec yields and reducing pressure on the INR from short‑term funding stresses.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64047",
+        "published": "2026-11-26T12:16:32.359717+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "059d05ed006d",
+      "bucket": "india_economy",
+      "headline": "Indian 91‑day T‑Bill auction yields fall to 5.88%, reinforcing a low short‑term risk‑free rate",
+      "what_happened": "The auction saw competitive bids of ₹17.35 trn, with a cut‑off price yielding 5.8846% for the 91‑day bill.",
+      "why_it_matters": "A lower risk‑free rate sets the floor for short‑term borrowing costs, influencing banks’ net interest margins and shaping FII appetite for higher‑yielding Indian assets.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64040",
+        "published": "2026-11-26T12:16:32.360661+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "b63bcc34f41e",
+      "bucket": "india_economy",
+      "headline": "Money‑market volumes rise to ₹7.79 trn with weighted avg rate 5.72%, indicating steady liquidity conditions",
+      "what_happened": "Overnight segment volume reached ₹7.79 trn, with rates between 4.30%‑5.94% and a weighted average of 5.72%.",
+      "why_it_matters": "Robust money‑market activity and stable rates underpin short‑term funding for banks and corporates, helping to keep G‑sec yields anchored.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64044",
+        "published": "2026-11-26T12:16:32.360211+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "ff04662dc008",
+      "bucket": "india_economy",
+      "headline": "RBI Bulletin flags West Asia conflict as a key driver of imported inflation, warning of upward pressure on CPI",
+      "what_happened": "The November RBI Bulletin highlighted shifting drivers of imported inflation from COVID‑19 to the West Asia conflict.",
+      "why_it_matters": "Higher imported price pressures could compel the RBI to maintain tighter policy, supporting a stronger INR and influencing FII flows into Indian bonds.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64041",
+        "published": "2026-11-26T12:16:32.360562+00:00"
+      },
+      "also_reported_by": [
+        "Mint · Economy"
+      ]
+    },
+    {
+      "id": "6f2b8b5e6f65",
+      "bucket": "india_economy",
+      "headline": "FEMA amendment eases export‑import documentation, potentially smoothing trade flows and supporting INR stability",
+      "what_happened": "The RBI issued a second amendment to Foreign Exchange Management regulations governing export and import of goods and services.",
+      "why_it_matters": "Reduced procedural friction can improve trade‑related cash flows, lessening foreign‑exchange volatility and supporting the rupee.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI Notifications",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13750&Mode=0",
+        "published": "2026-11-26T12:16:31.312607+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "7059d21964df",
+      "bucket": "markets",
+      "headline": "First SDL switch auction yields cluster around 8.0%, setting a new benchmark for state‑bond pricing",
+      "what_happened": "The auction of Madhya Pradesh SDLs 2027 and 2028 resulted in yields of 7.55% and 8.05% respectively.",
+      "why_it_matters": "Higher SDL yields raise the cost of state borrowing and can lift yields on comparable Indian sovereign bonds, affecting G‑sec pricing and portfolio duration.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "RBI",
+        "tier": "primary",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64049",
+        "published": "2026-11-26T12:16:32.359538+00:00"
+      },
+      "also_reported_by": [
+        "RBI"
+      ]
+    },
+    {
+      "id": "3b64c375aa7f",
+      "bucket": "markets",
+      "headline": "SEBI’s half‑yearly index review may reshape Nifty composition, affecting sector weightings and fund tracking",
+      "what_happened": "SEBI released its review of Significant Indices under its 2024 regulations.",
+      "why_it_matters": "Changes to index constituents can trigger rebalancing by passive funds, moving capital between sectors like banks and IT, and influencing Nifty performance.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/half-yearly-review-of-significant-indices-under-sebi-index-providers-regulations-2024_105853.html",
+        "published": "2026-11-26T12:16:31.775901+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "65a842a08c07",
+      "bucket": "markets",
+      "headline": "Hurricane Isaias threatens Gulf Coast production, likely lifting Brent crude and raising India’s import bill",
+      "what_happened": "Forecasts show Isaias may make landfall on the Gulf Coast, risking energy infrastructure shut‑ins.",
+      "why_it_matters": "Supply disruptions can push Brent prices higher, increasing the cost of India’s oil imports and adding upward pressure on the trade deficit and INR.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 0,
+        "business": 0,
+        "market": 0,
+        "global": 0
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-11-26T12:16:32.249238+00:00"
+      },
+      "also_reported_by": []
+    }
+  ]
+}
