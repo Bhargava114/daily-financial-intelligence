@@ -1,0 +1,351 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T17:37:47.438333+05:30",
+  "scoring": "gemini",
+  "stats": {
+    "items": 11,
+    "actions": 4,
+    "candidates": 191,
+    "sources_ok": 21,
+    "sources_failed": 6,
+    "sources_blocked": 12
+  },
+  "five_minutes": [
+    "India and the US are nearing a trade agreement that could shield Indian exporters from proposed 17% US tariffs.",
+    "ECB policy deliberations and consumer surveys point to persistent inflation risks, constraining aggressive rate cuts in Europe.",
+    "US Gulf Coast hurricane disruptions threaten oil production infrastructure, posing upside risks to crude prices.",
+    "SEBI simplified KYC registration guidelines while warning investors against unregulated grey market premiums in IPOs.",
+    "Gold prices rebounded from a more-than-one-year low, providing short-term relief to Indian retail jewellery stocks."
+  ],
+  "theses": [
+    {
+      "thesis": "Crypto is rising because markets expect a global recession (crypto trading as the recession hedge)",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "US policy decisions under Trump are pushing the US economy toward decline, contrary to the stated growth narrative",
+      "verdict": "no_signal",
+      "note": ""
+    },
+    {
+      "thesis": "Gold and silver will NOT rise further even in a recession, because they are already at all-time highs",
+      "verdict": "challenges",
+      "note": "MCX gold rebounded from a more-than-one-year low, showing price recovery from depressed levels rather than trading at all-time highs."
+    },
+    {
+      "thesis": "Nifty 29-Sep futures will fall below 23,000 before expiry",
+      "verdict": "no_signal",
+      "note": ""
+    }
+  ],
+  "markets": [],
+  "buckets": [
+    {
+      "id": "must_know",
+      "label": "What you need to know today"
+    },
+    {
+      "id": "global",
+      "label": "Central banks & global macro"
+    },
+    {
+      "id": "india_economy",
+      "label": "India · macro, flows and policy"
+    },
+    {
+      "id": "markets",
+      "label": "Markets · cross-asset context"
+    },
+    {
+      "id": "ca_work",
+      "label": "Tax, audit & compliance"
+    },
+    {
+      "id": "watchlist",
+      "label": "Worth monitoring, not yet urgent"
+    }
+  ],
+  "items": [
+    {
+      "id": "65a842a08c07",
+      "bucket": "global",
+      "headline": "US Gulf Coast hurricane shut-ins threaten near-term crude supply tightening",
+      "what_happened": "Hurricane Isaias is approaching the US Gulf Coast, prompting offshore oil production shut-ins and energy infrastructure disruption risks.",
+      "why_it_matters": "Potential output losses in the Gulf Coast threaten upward pressure on Brent crude, directly expanding India's import bill and pressuring domestic G-sec yields.",
+      "action": "Monitor US EIA supply updates and storm tracking over the weekend for crude price impact.",
+      "priority": 7,
+      "scores": {
+        "ca": 1,
+        "business": 6,
+        "market": 7,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "US EIA (energy)",
+        "tier": "data",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+        "published": "2026-11-27T12:03:33.737362+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "3f36a6739057",
+      "bucket": "global",
+      "headline": "ECB policy stance remains constrained by sticky euro-area inflation expectations",
+      "what_happened": "The ECB's October Consumer Expectations Survey and meeting records signal lingering concerns over inflation persistence despite weak economic growth across member states.",
+      "why_it_matters": "Persistent inflation limits the ECB's flexibility to ease monetary policy rapidly, supporting European yields and keeping global rate-cut expectations measured.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 1,
+        "business": 5,
+        "market": 6,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "ECB",
+        "tier": "primary",
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261127~2e53af695e.en.html",
+        "published": "2026-11-27T09:00:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "0d3b670d943e",
+      "bucket": "global",
+      "headline": "Global supply chain rerouting buffers trade flows against proposed US tariffs",
+      "what_happened": "Analysis shows international trading partners are adapting to US tariff threats by rerouting supply chains and building trade linkages independent of US policy shifts.",
+      "why_it_matters": "Structural adaptation by global exporters mitigates systemic stagflationary shocks, reducing the secondary trade deficit drag on emerging market economies.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 1,
+        "business": 6,
+        "market": 5,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-26T19:55:58+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "ab7997f9952e",
+      "bucket": "global",
+      "headline": "BoE Financial Policy Committee flags non-bank financial risks to market resilience",
+      "what_happened": "The Bank of England's FPC record highlighted vulnerabilities in shadow banking and private market valuations that could disrupt overall financial system stability.",
+      "why_it_matters": "Tightening international regulatory oversight of private leverage could increase refinancing costs and liquidity friction for corporate borrowers globally.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 3,
+        "business": 5,
+        "market": 6,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Bank of England",
+        "tier": "primary",
+        "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/november-2026",
+        "published": "2026-11-26T10:30:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "df7ec2e40f10",
+      "bucket": "global",
+      "headline": "BoJ analysis of JGB market-making points to liquidity friction ahead of rate normalization",
+      "what_happened": "The Bank of Japan published a review examining market-making activities by securities firms in the JGB market, highlighting capacity constraints during volatility.",
+      "why_it_matters": "Secondary market illiquidity in sovereign Japanese debt raises the risk of yield spikes during monetary tightening, with carry trade unwinding implications for emerging markets.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 1,
+        "business": 4,
+        "market": 6,
+        "global": 8
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Bank of Japan",
+        "tier": "primary",
+        "url": "http://www.boj.or.jp/en/research/wps_rev/rev_2026/rev26e14.htm",
+        "published": "2026-11-27T05:00:00+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "b2117c77c5df",
+      "bucket": "india_economy",
+      "headline": "Imminent India-US trade deal could shield Indian exporters from sweeping tariff hikes",
+      "what_happened": "Commerce Minister Piyush Goyal announced that the India-US trade deal is near completion, while domestic export bodies urged fast-tracking to capture a 17% tariff advantage.",
+      "why_it_matters": "A completed trade deal protects key Indian export sectors from prospective US tariff increases, supporting foreign exchange earnings and exporter equity valuations.",
+      "action": "Track Commerce Ministry releases for specific sectoral tariff concessions and effective execution timelines.",
+      "priority": 8,
+      "scores": {
+        "ca": 3,
+        "business": 8,
+        "market": 7,
+        "global": 7
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BusinessLine",
+        "tier": "paper",
+        "url": "https://www.thehindubusinessline.com/economy/india-us-trade-deal-is-close-to-culmination-goyal/article71749552.ece",
+        "published": "2026-11-27T05:51:10+00:00"
+      },
+      "also_reported_by": [
+        "BusinessLine"
+      ]
+    },
+    {
+      "id": "af80b20e8182",
+      "bucket": "markets",
+      "headline": "Gold recovery off multi-month lows offers temporary relief to retail jewellery equities",
+      "what_happened": "MCX gold prices rebounded from a more-than-one-year low, driving intraday gains of up to 4% across major Indian jewellery stocks including Titan and Kalyan Jewellers.",
+      "why_it_matters": "Short-term bullion price rebounds support inventory holding values, though sustained commodity volatility creates margin uncertainty for discretionary retail names.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 2,
+        "business": 7,
+        "market": 7,
+        "global": 5
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "Mint · Markets",
+        "tier": "paper",
+        "url": "https://www.livemint.com/market/stock-market-news/mcx-gold-price-impact-on-jewellery-stocks-why-titan-pc-jeweller-kalyan-jewellers-shares-are-shining-up-to-4-today-11795753148273.html",
+        "published": "2026-11-27T04:29:57+00:00"
+      },
+      "also_reported_by": [
+        "Economic Times",
+        "Mint · Markets"
+      ]
+    },
+    {
+      "id": "25574e7bc198",
+      "bucket": "markets",
+      "headline": "Asian hardware stock swings highlight high market sensitivity to AI infrastructure capex",
+      "what_happened": "Asian technology stocks experienced significant price volatility following executive commentary on Nvidia's product pipeline and supply commitments.",
+      "why_it_matters": "Extremely high valuation multiples across AI hardware supply chains expose global equity portfolios to sharp drawdowns on any perceived moderation in capex growth.",
+      "action": null,
+      "priority": 6,
+      "scores": {
+        "ca": 1,
+        "business": 6,
+        "market": 7,
+        "global": 7
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "BBC Business",
+        "tier": "wire",
+        "url": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-26T23:08:12+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "d8a40cb8e5cb",
+      "bucket": "ca_work",
+      "headline": "SEBI rationalises KRA framework to reduce client onboarding and compliance friction",
+      "what_happened": "SEBI issued simplified client onboarding guidelines and rationalised risk management frameworks across KYC Registration Agencies.",
+      "why_it_matters": "The operational changes reduce onboarding turnaround times and compliance overhead for portfolio management entities and institutional brokerages.",
+      "action": "Review firm client-onboarding documentation against SEBI's updated KRA guidelines.",
+      "priority": 7,
+      "scores": {
+        "ca": 8,
+        "business": 6,
+        "market": 5,
+        "global": 2
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/simplification-of-client-on-boarding-and-rationalisation-of-risk-management-framework-at-kyc-registration-agencies_105839.html",
+        "published": "2026-11-27T12:03:33.601975+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "e2e31b92302b",
+      "bucket": "ca_work",
+      "headline": "SEBI advisory against grey market premiums signals heightened scrutiny on IPO trading",
+      "what_happened": "SEBI issued a public advisory cautioning investors against relying on unregulated Grey Market Premiums (GMP) for upcoming IPOs.",
+      "why_it_matters": "Increased regulatory focus on unofficial IPO channels requires wealth advisors and compliance teams to ensure clear risk disclosures in primary market client communications.",
+      "action": "Ensure advisory communications explicitly disclaim unregulated grey market indicators for upcoming primary issues.",
+      "priority": 6,
+      "scores": {
+        "ca": 7,
+        "business": 6,
+        "market": 6,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": false,
+      "update_note": null,
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/advisory-regarding-unregulated-pre-listing-premium-often-called-as-grey-market-premium-gmp-for-upcoming-initial-public-offers-ipos-_105942.html",
+        "published": "2026-11-27T12:03:33.602039+00:00"
+      },
+      "also_reported_by": []
+    },
+    {
+      "id": "3b64c375aa7f",
+      "bucket": "ca_work",
+      "headline": "SEBI index review updates significant benchmark classifications for capital markets",
+      "what_happened": "SEBI concluded its half-yearly review of 'Significant Indices' under the Index Providers Regulations, 2024.",
+      "why_it_matters": "Designation of significant indices ensures strict administrative standards and transparency for benchmark indices underlying domestic passive funds and derivative products.",
+      "action": null,
+      "priority": 5,
+      "scores": {
+        "ca": 6,
+        "business": 4,
+        "market": 6,
+        "global": 1
+      },
+      "confidence": "high",
+      "is_update": true,
+      "update_note": "Carried over from yesterday with new reporting.",
+      "source": {
+        "name": "SEBI",
+        "tier": "primary",
+        "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/half-yearly-review-of-significant-indices-under-sebi-index-providers-regulations-2024_105853.html",
+        "published": "2026-11-27T12:03:33.601944+00:00"
+      },
+      "also_reported_by": []
+    }
+  ]
+}
