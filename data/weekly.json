@@ -1,40 +1,40 @@
 {
   "kind": "weekly",
-  "date": "2026-11-21",
-  "generated_at": "2026-11-21T17:17:24.590530+05:30",
-  "scoring": "groq",
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T17:51:50.568226+05:30",
+  "scoring": "gemini",
   "days_covered": 7,
-  "title": "Fed hawkishness and oil supply shocks drive USD, gold and INR pressure",
+  "title": "US Growth Acceleration, Central Bank Liquidity Anchors, and Expanding Trade Treaties",
   "changed": [
-    "The Fed minutes confirmed a hawkish bias and a continuation of balance‑sheet runoff, keeping the dollar on the rise. A stronger dollar pushed gold to a one‑year low and added pressure on the rupee, while the RBI’s repo rate stayed near 5.6%, anchoring short‑term G‑sec yields.",
-    "Hurricane Isaias caused repeated shut‑ins of Gulf Coast crude production, holding Brent crude above $90 a barrel. The elevated Brent price lifted India’s oil import bill, fed INR depreciation risk and buoyed energy‑related equities.",
-    "FII inflows lifted the Nifty 50 to multi‑month highs, but profit‑booking and a broader AI‑related equity rotation pulled the index down from the 25,000 technical level. SEBI’s proposal to drop extra FPI disclosure requirements could lower compliance costs and revive foreign inflows.",
-    "RBI’s liquidity operations showed tight short‑term funding: a 1.9‑times oversubscribed 3‑day VRR auction and low participation in the reverse repo auction kept short‑end yields around 6.6%. The central bank also switched ₹21,000 cr of short‑dated debt into longer maturities, smoothing the sovereign supply curve.",
-    "Regulatory signals surfaced on the tax front: the budget is expected to address LTCG and STT rates, while FEMA compounding powers were delegated to RBI regional offices, shortening compliance resolution for cross‑border transactions. Both could affect net returns on equity portfolios and corporate FX exposure."
+    "US Q3 GDP was revised up to 4.3% annualised alongside a 0.7% month-over-month rise in personal income, reinforcing US dollar strength and maintaining elevated US Treasury yields. Globally, monetary policy paths diverged further: BoJ board member Tamura reaffirmed an ultra-easy stance, while the ECB remained constrained by sticky euro-area inflation expectations. Global trade policy saw parallel shifts as proposed US tariffs on China and the EU prompted supply chain rerouting, while India advanced bilateral trade architecture with an imminent US trade deal and the scheduled December 16 signing of the India-EU free-trade agreement covering 93% of Indian exports.",
+    "Physical commodity markets reflected concentrated supply and demand shifts. Brent crude faced persistent upside pressure from US Gulf Coast hurricane shut-ins, threatening India's current account bill. Gold recovered off 14-month lows to reach ₹1.26 lakh per 10 grams on the MCX following a 40% year-over-year drop in domestic gold imports. In global equities, Nvidia added approximately $1 trillion in market capitalization before Washington political scrutiny introduced volatility across AI hardware supply chains, directly affecting valuation multiples for technology exporters.",
+    "In India, systemic liquidity tightness prompted repeated RBI intervention, including multiple ₹50,000 crore VRR injections that anchored short-term money market rates near 5.72% and pulled 91-day T-bill yields down to 5.88%. Persistent sovereign debt supply kept 10-year G-sec cut-offs at 7.11% and SDL switch auction yields near 8.0%, while Deutsche Bank projected India's FY28 fiscal deficit flat at 4.3%. Meanwhile, domestic activity indicators stayed strong: October expansion hit 9%, H1 FY27 private investment announcements jumped 58.5% year-over-year to ₹26.6 lakh crore, and festive auto retail reached a record 5.525 million units.",
+    "Domestic equity markets de-risked as a four-week Nifty rally paused ahead of upcoming Q2 GDP data, despite single-stock buffers like HDFC Bank's 4% surge. Primary market sentiment split cleanly between strong real demand and fading speculative froth: organized jewellery stocks rallied up to 244% year-to-date despite a 30% pullback in physical gold, while PSU issuances faced pressure as Mahanadi Coalfields' grey market premium dropped 92%. SEBI opened the domestic commodity derivatives (ETCD) market to FPIs and issued advisories targeting unregulated IPO grey market premiums.",
+    "For your compliance and audit workflows, the RBI delegated FEMA compounding powers to regional offices and simplified export-import documentation categories. Bank client engagements require operational updates after the RBI mandated standardized SOPs for freezing suspected money mule accounts and reaffirmed higher CET1 buffers for SBI, HDFC Bank, and ICICI Bank. Additionally, SEBI streamlined the KRA risk framework to reduce client onboarding turnaround times across portfolio management entities and institutional brokerages."
   ],
   "threads": [
     {
-      "name": "US dollar strength",
-      "note": "Fed minutes keep the dollar firm, pulling gold lower and adding depreciation pressure on the rupee; short‑term yields stay elevated."
+      "name": "RBI Money Market Interventions",
+      "note": "Repeated ₹50,000 crore VRR injections maintain money market rates near the 6.50% repo rate, but persistent domestic supply and imported inflation risks will determine whether short-end yields can stay anchored."
     },
     {
-      "name": "Brent crude supply constraint",
-      "note": "Hurricane Isaias keeps Brent above $90, raising India’s import bill and supporting energy‑sector equities while weighing on the INR."
+      "name": "Energy Import Costs and Brent Crude",
+      "note": "US Gulf Coast hurricane output shut-ins keep Brent crude elevated, which directly impacts India's import bill and rupee stability unless physical production normalizes quickly."
     },
     {
-      "name": "Indian equity flows and AI rotation",
-      "note": "FII buying lifted the Nifty, but profit‑taking and a global pullback from AI‑heavy stocks triggered a sell‑off; SEBI’s pending FPI‑disclosure easing could offset outflows."
+      "name": "Primary Market Regulation and Grey Markets",
+      "note": "SEBI advisories against informal IPO grey market premiums and the 92% GMP collapse in Mahanadi Coalfields mark a regulatory tightening that will reduce speculative flipping in retail and HNI tranches."
     },
     {
-      "name": "RBI liquidity management",
-      "note": "Oversubscribed VRR auction and a long‑dated bond switch reduce near‑term funding stress, anchoring short‑end yields and supporting sovereign financing."
+      "name": "Global Tech Capex and Semiconductor Volatility",
+      "note": "Nvidia's $1 trillion market cap swing and subsequent political scrutiny expose high-beta Indian IT exporters and hardware stocks to pullbacks if tech capex expectations moderate."
     }
   ],
   "next_week": [
-    "Federal Reserve policy meeting – watch for any rate guidance or balance‑sheet comments.",
-    "European Central Bank statement – monitor rate expectations and euro‑dollar dynamics.",
-    "Union Budget announcements – focus on LTCG, STT and corporate tax changes.",
-    "SEBI decision on extra FPI disclosure requirements – assess impact on foreign inflows.",
-    "RBI's next VRR or T‑bill auction – gauge short‑term liquidity conditions and yield trajectory."
+    "India Q2 GDP data release following the pre-data equity market de-risking.",
+    "RBI Variable Rate Repo (VRR) auction cut-off yields and systemic liquidity balance updates.",
+    "Movements in Brent crude physical spot pricing amid Gulf Coast supply shut-ins.",
+    "Implementation of SEBI's updated KRA framework across brokerage and portfolio management client onboarding workflows.",
+    "Preparatory trade flow data ahead of the December 16 India-EU free-trade agreement signing."
   ]
 }
